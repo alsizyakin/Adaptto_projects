@@ -1,0 +1,6 @@
+slprj/
+*.lib
+*.slxc
+*.mexa64
+*.mexw64
+*.origonal
