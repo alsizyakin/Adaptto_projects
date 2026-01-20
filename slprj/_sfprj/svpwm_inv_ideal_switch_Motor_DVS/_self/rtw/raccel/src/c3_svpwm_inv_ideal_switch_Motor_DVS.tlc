@@ -1,0 +1,88 @@
+%implements "chartSource" "C"
+%function ChartConfig(block, system) void
+  %createrecord chartConfiguration { ...
+          executeAtInitialization  0 ...
+  }
+  %return chartConfiguration
+%endfunction
+%function ChartDataMap(block, system) void
+  %createrecord ChartDataElements {\
+    NumChartData   10 \
+    ChartDataDefaults {\
+      RecordType   "ChartData"\
+      Dimensions   []\
+      IsTestPoint  0\
+    }\
+    ChartData {\
+      Name         "sfEvent"\
+      Description  "ActiveChartEvent"\
+      SFName       ""\
+      Path         ""\
+      SrcLocation  ""\
+    }\
+    ChartData {\
+      Name         "doneDoubleBufferReInit"\
+      Description  "DoubleBufferInitCheck"\
+      SFName       ""\
+      Path         ""\
+      SrcLocation  ""\
+    }\
+    ChartData {\
+      Name         "Ta_old"\
+      Description  "EmlPersistent"\
+      SFName       ""\
+      Path         ""\
+      SrcLocation  "svpwm_inv_ideal_switch_Motor_DVS:1453:222-228"\
+    }\
+    ChartData {\
+      Name         "Ta_old_not_empty"\
+      Description  "EmlPersistentSentinel"\
+      SFName       ""\
+      Path         ""\
+      SrcLocation  "svpwm_inv_ideal_switch_Motor_DVS:1453:222-228"\
+    }\
+    ChartData {\
+      Name         "Tb_old"\
+      Description  "EmlPersistent"\
+      SFName       ""\
+      Path         ""\
+      SrcLocation  "svpwm_inv_ideal_switch_Motor_DVS:1453:241-247"\
+    }\
+    ChartData {\
+      Name         "Tb_old_not_empty"\
+      Description  "EmlPersistentSentinel"\
+      SFName       ""\
+      Path         ""\
+      SrcLocation  "svpwm_inv_ideal_switch_Motor_DVS:1453:241-247"\
+    }\
+    ChartData {\
+      Name         "Tc_old"\
+      Description  "EmlPersistent"\
+      SFName       ""\
+      Path         ""\
+      SrcLocation  "svpwm_inv_ideal_switch_Motor_DVS:1453:260-266"\
+    }\
+    ChartData {\
+      Name         "Tc_old_not_empty"\
+      Description  "EmlPersistentSentinel"\
+      SFName       ""\
+      Path         ""\
+      SrcLocation  "svpwm_inv_ideal_switch_Motor_DVS:1453:260-266"\
+    }\
+    ChartData {\
+      Name         "interruptCnt"\
+      Description  "EmlPersistent"\
+      SFName       ""\
+      Path         ""\
+      SrcLocation  "svpwm_inv_ideal_switch_Motor_DVS:1453:393-405"\
+    }\
+    ChartData {\
+      Name         "interruptCnt_not_empty"\
+      Description  "EmlPersistentSentinel"\
+      SFName       ""\
+      Path         ""\
+      SrcLocation  "svpwm_inv_ideal_switch_Motor_DVS:1453:393-405"\
+    }\
+  }
+  %return ChartDataElements
+%endfunction
