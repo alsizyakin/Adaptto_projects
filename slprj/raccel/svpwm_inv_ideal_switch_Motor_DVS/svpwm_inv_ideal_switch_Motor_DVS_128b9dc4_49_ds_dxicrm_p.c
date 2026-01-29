@@ -7,7 +7,7 @@
 #include "ssc_ml_fun.h"
 int32_T svpwm_inv_ideal_switch_Motor_DVS_128b9dc4_49_ds_dxicrm_p ( const
 NeDynamicSystem * sys , const NeDynamicSystemInput * t1 , NeDsMethodOutput *
-out ) { ( void ) t1 ; out -> mDXICRM_P . mNumCol = 35UL ; out -> mDXICRM_P .
+out ) { ( void ) t1 ; out -> mDXICRM_P . mNumCol = 36UL ; out -> mDXICRM_P .
 mNumRow = 0UL ; out -> mDXICRM_P . mJc [ 0 ] = 0 ; out -> mDXICRM_P . mJc [ 1
 ] = 0 ; out -> mDXICRM_P . mJc [ 2 ] = 0 ; out -> mDXICRM_P . mJc [ 3 ] = 0 ;
 out -> mDXICRM_P . mJc [ 4 ] = 0 ; out -> mDXICRM_P . mJc [ 5 ] = 0 ; out ->
@@ -25,5 +25,5 @@ mDXICRM_P . mJc [ 26 ] = 0 ; out -> mDXICRM_P . mJc [ 27 ] = 0 ; out ->
 mDXICRM_P . mJc [ 28 ] = 0 ; out -> mDXICRM_P . mJc [ 29 ] = 0 ; out ->
 mDXICRM_P . mJc [ 30 ] = 0 ; out -> mDXICRM_P . mJc [ 31 ] = 0 ; out ->
 mDXICRM_P . mJc [ 32 ] = 0 ; out -> mDXICRM_P . mJc [ 33 ] = 0 ; out ->
-mDXICRM_P . mJc [ 34 ] = 0 ; out -> mDXICRM_P . mJc [ 35 ] = 0 ; ( void ) sys
-; ( void ) out ; return 0 ; }
+mDXICRM_P . mJc [ 34 ] = 0 ; out -> mDXICRM_P . mJc [ 35 ] = 0 ; out ->
+mDXICRM_P . mJc [ 36 ] = 0 ; ( void ) sys ; ( void ) out ; return 0 ; }

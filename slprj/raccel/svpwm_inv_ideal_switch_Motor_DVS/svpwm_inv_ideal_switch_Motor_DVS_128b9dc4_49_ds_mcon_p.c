@@ -7,14 +7,14 @@
 #include "ssc_ml_fun.h"
 int32_T svpwm_inv_ideal_switch_Motor_DVS_128b9dc4_49_ds_mcon_p ( const
 NeDynamicSystem * sys , const NeDynamicSystemInput * t1 , NeDsMethodOutput *
-out ) { static int32_T _cg_const_1 [ 36 ] = { 0 , 1 , 2 , 3 , 4 , 5 , 6 , 6 ,
-6 , 6 , 6 , 6 , 6 , 6 , 6 , 6 , 6 , 6 , 6 , 6 , 6 , 6 , 6 , 6 , 6 , 6 , 6 , 6
-, 6 , 6 , 6 , 6 , 6 , 6 , 6 , 6 } ; static int32_T _cg_const_2 [ 6 ] = { 0 ,
-2 , 1 , 3 , 4 , 5 } ; ( void ) t1 ; out -> mMCON_P . mNumCol = 35UL ; out ->
-mMCON_P . mNumRow = 35UL ; out -> mMCON_P . mJc [ 0 ] = _cg_const_1 [ 0 ] ;
-out -> mMCON_P . mJc [ 1 ] = _cg_const_1 [ 1 ] ; out -> mMCON_P . mJc [ 2 ] =
-_cg_const_1 [ 2 ] ; out -> mMCON_P . mJc [ 3 ] = _cg_const_1 [ 3 ] ; out ->
-mMCON_P . mJc [ 4 ] = _cg_const_1 [ 4 ] ; out -> mMCON_P . mJc [ 5 ] =
+out ) { static int32_T _cg_const_1 [ 37 ] = { 0 , 1 , 2 , 3 , 4 , 5 , 6 , 7 ,
+7 , 7 , 7 , 7 , 7 , 7 , 7 , 7 , 7 , 7 , 7 , 7 , 7 , 7 , 7 , 7 , 7 , 7 , 7 , 7
+, 7 , 7 , 7 , 7 , 7 , 7 , 7 , 7 , 7 } ; static int32_T _cg_const_2 [ 7 ] = {
+0 , 2 , 3 , 1 , 4 , 5 , 6 } ; ( void ) t1 ; out -> mMCON_P . mNumCol = 36UL ;
+out -> mMCON_P . mNumRow = 36UL ; out -> mMCON_P . mJc [ 0 ] = _cg_const_1 [
+0 ] ; out -> mMCON_P . mJc [ 1 ] = _cg_const_1 [ 1 ] ; out -> mMCON_P . mJc [
+2 ] = _cg_const_1 [ 2 ] ; out -> mMCON_P . mJc [ 3 ] = _cg_const_1 [ 3 ] ;
+out -> mMCON_P . mJc [ 4 ] = _cg_const_1 [ 4 ] ; out -> mMCON_P . mJc [ 5 ] =
 _cg_const_1 [ 5 ] ; out -> mMCON_P . mJc [ 6 ] = _cg_const_1 [ 6 ] ; out ->
 mMCON_P . mJc [ 7 ] = _cg_const_1 [ 7 ] ; out -> mMCON_P . mJc [ 8 ] =
 _cg_const_1 [ 8 ] ; out -> mMCON_P . mJc [ 9 ] = _cg_const_1 [ 9 ] ; out ->
@@ -35,8 +35,10 @@ _cg_const_1 [ 29 ] ; out -> mMCON_P . mJc [ 30 ] = _cg_const_1 [ 30 ] ; out
 -> mMCON_P . mJc [ 31 ] = _cg_const_1 [ 31 ] ; out -> mMCON_P . mJc [ 32 ] =
 _cg_const_1 [ 32 ] ; out -> mMCON_P . mJc [ 33 ] = _cg_const_1 [ 33 ] ; out
 -> mMCON_P . mJc [ 34 ] = _cg_const_1 [ 34 ] ; out -> mMCON_P . mJc [ 35 ] =
-_cg_const_1 [ 35 ] ; out -> mMCON_P . mIr [ 0 ] = _cg_const_2 [ 0 ] ; out ->
-mMCON_P . mIr [ 1 ] = _cg_const_2 [ 1 ] ; out -> mMCON_P . mIr [ 2 ] =
-_cg_const_2 [ 2 ] ; out -> mMCON_P . mIr [ 3 ] = _cg_const_2 [ 3 ] ; out ->
-mMCON_P . mIr [ 4 ] = _cg_const_2 [ 4 ] ; out -> mMCON_P . mIr [ 5 ] =
-_cg_const_2 [ 5 ] ; ( void ) sys ; ( void ) out ; return 0 ; }
+_cg_const_1 [ 35 ] ; out -> mMCON_P . mJc [ 36 ] = _cg_const_1 [ 36 ] ; out
+-> mMCON_P . mIr [ 0 ] = _cg_const_2 [ 0 ] ; out -> mMCON_P . mIr [ 1 ] =
+_cg_const_2 [ 1 ] ; out -> mMCON_P . mIr [ 2 ] = _cg_const_2 [ 2 ] ; out ->
+mMCON_P . mIr [ 3 ] = _cg_const_2 [ 3 ] ; out -> mMCON_P . mIr [ 4 ] =
+_cg_const_2 [ 4 ] ; out -> mMCON_P . mIr [ 5 ] = _cg_const_2 [ 5 ] ; out ->
+mMCON_P . mIr [ 6 ] = _cg_const_2 [ 6 ] ; ( void ) sys ; ( void ) out ;
+return 0 ; }

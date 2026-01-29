@@ -1,0 +1,1278 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MF0 version="1.1" packageUris="http://schema.mathworks.com/mf0/slsa_mm_param_rtp/R2023a">
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="56af3c50-14c4-4d3a-9c8f-a8e5687859d4">
+    <blockPath>svpwm_inv_ideal_switch_Motor_DVS_new_param/RMS/RMS /Fourier1/cos(wt)</blockPath>
+    <name>Frequency</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="0e8dfb66-0582-4f18-bc2e-de148fd8bb4a"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="0e8dfb66-0582-4f18-bc2e-de148fd8bb4a">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="56af3c50-14c4-4d3a-9c8f-a8e5687859d4"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="6d17410e-8664-4595-a435-f4e9cbba23a7"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="988d6bc9-42c2-4b39-926c-e9a292334709">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="ba43d5e9-a3d7-4f4c-bcd8-0c39e038eede"/>
+    <segmentIndex>7</segmentIndex>
+    <valueIndices>17</valueIndices>
+    <valueIndices>17</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="3afa5627-0dd5-4467-8007-3112d766c34e">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="71c17e95-7e5f-4c53-bd73-271c377e7f5e"/>
+    <segmentIndex>7</segmentIndex>
+    <valueIndices>15</valueIndices>
+    <valueIndices>15</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="d2cb0d36-efe9-4921-815f-f9f977a47c0a">
+    <blockPath>svpwm_inv_ideal_switch_Motor_DVS_new_param/RMS/RMS /Fourier1/sin(wt)</blockPath>
+    <name>Frequency</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="71c17e95-7e5f-4c53-bd73-271c377e7f5e"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="cde851da-dd04-4148-9962-a60ac47928a1">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="3f4ead64-b2c1-4db0-a691-6a94244c02c5"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="3fafe5ac-89c9-440a-9282-37d33174c436"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="69f6f510-48d5-4fa5-be73-c3f5932a82b3">
+    <blockPath>svpwm_inv_ideal_switch_Motor_DVS_new_param/CurrentsMuxFilter/Mean1/Model/K1</blockPath>
+    <name>Value</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="338683bc-3577-4768-97f9-94eca09331b3"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="62b2b9f9-d264-4949-b7d7-fa7617928aca">
+    <blockPath>svpwm_inv_ideal_switch_Motor_DVS_new_param/CurrentsMuxFilter/Mean1/Model/Transport Delay</blockPath>
+    <name>DelayTime</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="0e4d1450-bfb3-452d-a299-511c262113f3"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="40cc005f-34f6-4439-a800-58ad0315fe0a">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="4782b776-dec3-4b5d-8b45-716028f8b1c8"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="af9aa829-2d3c-4c3b-9877-da7862d089d1"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="30a38bd8-f4ef-40a2-a2e6-630adfbb8098">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="2aea35ce-7781-4065-b6ab-77d82c166826"/>
+    <valueIndices>4193</valueIndices>
+    <valueIndices>4193</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="13a7e80b-bd19-43fa-a4eb-6fdc87f8ab63">
+    <blockPath>svpwm_inv_ideal_switch_Motor_DVS_new_param/CurrentsMuxFilter/Mean2/Model/K1</blockPath>
+    <name>Value</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="2aea35ce-7781-4065-b6ab-77d82c166826"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="1d49f4e5-7389-4a8b-838b-d1467efc42dd">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="ceb792ad-387a-419d-a8b9-e36df2fcc777"/>
+    <valueIndices>4191</valueIndices>
+    <valueIndices>4191</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="424caee8-3de6-4a5f-90df-3593c360e01c">
+    <blockPath>svpwm_inv_ideal_switch_Motor_DVS_new_param/CurrentsMuxFilter/Mean2/Model/Transport Delay</blockPath>
+    <name>DelayTime</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="ceb792ad-387a-419d-a8b9-e36df2fcc777"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="ceb792ad-387a-419d-a8b9-e36df2fcc777">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="424caee8-3de6-4a5f-90df-3593c360e01c"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="1d49f4e5-7389-4a8b-838b-d1467efc42dd"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="3d379f4f-b959-49cc-b1be-4e7fa165db1f">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="5383f670-0fe4-47c7-8655-c71ee3dbfba8"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="f247c08f-907f-4c36-a9b6-19b3007144c4"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="f6809c62-bc5e-48ff-be22-dd2ab988e4cc">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="4657ca95-3e19-462b-9931-10dbd32117b2"/>
+    <valueIndices>4188</valueIndices>
+    <valueIndices>4188</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="a71742ea-2d41-4fbc-bf62-11aa452906e2">
+    <blockPath>svpwm_inv_ideal_switch_Motor_DVS_new_param/Park Transform1/Variant/mcb/Park Transform/Sine Cosine/Sine-Cosine Lookup/Sine-Cosine Lookup/WrapUp/convert_pu</blockPath>
+    <name>Gain</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="4657ca95-3e19-462b-9931-10dbd32117b2"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="c3719b2f-a290-48a0-a688-7d110e401adf">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="4929cecc-9629-4780-b431-4644bc14dd7a"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="daa2b555-eb02-48bd-afd9-4da26bee5419"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="4b165cae-fdd9-4ceb-a416-a48db8161c23">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="97be1577-f052-4861-bbb8-57f8ae2c0325"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="946b1d28-38f4-402b-b3b8-74007d2bb273"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.VariableId type="slsa.mm.param.rtp.VariableId" uuid="f8f82dcc-2691-4255-81f6-8b7eb013081f">
+    <workspaceName>svpwm_inv_ideal_switch_Motor_DVS_new_param</workspaceName>
+    <name>Psi</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="02e45ced-f441-4cb4-9b43-75e6201c4e0b"/>
+  </slsa.mm.param.rtp.VariableId>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="ecf987ba-5175-4b7f-a07d-d37da617c16c">
+    <blockPath>svpwm_inv_ideal_switch_Motor_DVS_new_param/RMS/RMS /Fourier1/Mean value1/Model/K1</blockPath>
+    <name>Value</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="1b90299f-9716-4250-a04b-f11e83403e19"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="d7b0f35c-119a-4a8a-a76b-38b5456198ac">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="cecf5e9c-7dee-44ed-a21a-a3a7d77743fb"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="3b5afa86-d93b-42f4-88e0-d0de4868881f"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="3b5afa86-d93b-42f4-88e0-d0de4868881f">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="d7b0f35c-119a-4a8a-a76b-38b5456198ac"/>
+    <valueIndices>3179</valueIndices>
+    <valueIndices>3179</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="30d16901-992d-4a3c-81be-317782ee9ea9">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="25dddeba-9c6b-4f28-9595-7971c44c7d72"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="bffffc62-17d8-4f3a-acfb-88cb2866b8c8"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="2ea9e13e-bd29-449e-9650-83de32f3b365">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="ea3bf955-49b6-43e8-a074-b2b8a907e13b"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="22fc5e64-11c5-4879-89cc-24f5c092d859"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="9d35c583-cfb5-4fb1-8d0c-a084c8f3d4c7">
+    <blockPath>svpwm_inv_ideal_switch_Motor_DVS_new_param/CurrentsMuxFilter1/Mean2/Model/Memory</blockPath>
+    <name>InitialCondition</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="f78e7d7b-23e7-4a70-971a-a8cbdea239ca"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="8b85d7a9-fd0a-4105-960c-d364fa22f28f">
+    <blockPath>svpwm_inv_ideal_switch_Motor_DVS_new_param/Park Transform/Variant/mcb/Park Transform/Three inputs/Two inputs CRL/Switch_Axis/Offset</blockPath>
+    <name>Value</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="b1778c91-8684-4447-90dc-91dc569ff698"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="c01015a7-357d-4115-b229-08013ec3b25f">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="98eb6a46-a186-4534-8ee4-66e752d85dcc"/>
+    <valueIndices>3180</valueIndices>
+    <valueIndices>3180</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="2aea35ce-7781-4065-b6ab-77d82c166826">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="13a7e80b-bd19-43fa-a4eb-6fdc87f8ab63"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="30a38bd8-f4ef-40a2-a2e6-630adfbb8098"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="22fc5e64-11c5-4879-89cc-24f5c092d859">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="2ea9e13e-bd29-449e-9650-83de32f3b365"/>
+    <valueIndices>2177</valueIndices>
+    <valueIndices>3178</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="a1cf7459-8d75-4b13-8f94-2256cea1511f">
+    <blockPath>svpwm_inv_ideal_switch_Motor_DVS_new_param/Park Transform1/Variant/mcb/Park Transform/Sine Cosine/Sine-Cosine Lookup/Sine-Cosine Lookup/offset</blockPath>
+    <name>Value</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="d996149f-06ef-4a88-9544-f1c228422e5a"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="5383f670-0fe4-47c7-8655-c71ee3dbfba8">
+    <blockPath>svpwm_inv_ideal_switch_Motor_DVS_new_param/Mean1/Model/Memory</blockPath>
+    <name>InitialCondition</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="3d379f4f-b959-49cc-b1be-4e7fa165db1f"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="41c3b108-8ee5-4080-8713-9f13d07c0a88">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="5daf159c-2d78-4b84-8e60-82a071aa6ec4"/>
+    <valueIndices>2167</valueIndices>
+    <valueIndices>2167</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="87f5d417-bf28-45da-ad02-6446d60af25e">
+    <blockPath>svpwm_inv_ideal_switch_Motor_DVS_new_param/Mean1/Model/K1</blockPath>
+    <name>Value</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="5daf159c-2d78-4b84-8e60-82a071aa6ec4"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="722681ff-9cd3-4f96-930a-cf14185b5e41">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="9a0f5a11-1285-41d6-ba28-156b895fcce0"/>
+    <segmentIndex>5</segmentIndex>
+    <valueIndices>9</valueIndices>
+    <valueIndices>9</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="569f4438-5da3-49b5-8c05-8c22cf05d4fd">
+    <blockPath>svpwm_inv_ideal_switch_Motor_DVS_new_param/Mean/Model/Memory</blockPath>
+    <name>InitialCondition</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="202714fd-c941-419c-a3bc-dc9d0d2f1ade"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="338683bc-3577-4768-97f9-94eca09331b3">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="69f6f510-48d5-4fa5-be73-c3f5932a82b3"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="ed90e2c0-b8b8-4e08-a056-47b82196aeae"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="3b1f8826-77c9-438a-aaa5-f2b95c4cf119">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="83c2f4ff-e14c-44e3-a00f-d1a328a1d7eb"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="2c37603d-812e-477f-90ab-4b8dcbcf06b2"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="202714fd-c941-419c-a3bc-dc9d0d2f1ade">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="569f4438-5da3-49b5-8c05-8c22cf05d4fd"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="ed124f86-a860-4b5e-af2d-93d9ebb8e92c"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="61de8b3e-c147-47f4-9663-a2ba74cc02db">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="5a950ad4-46fc-4779-b2cf-cb82a9c33634"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="28bd9238-f77f-47d2-b74f-8190229a3b39"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="296d2533-7d8e-4f4f-b24e-d08d5edb8ba6">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="db109a25-d66a-4276-8641-96cfcb926b62"/>
+    <segmentIndex>7</segmentIndex>
+    <valueIndices>11</valueIndices>
+    <valueIndices>11</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="7976a783-348b-4d70-a93f-8dd6d2fb7928">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="aec399d5-1ba3-4c2e-8e40-5a81629b1c67"/>
+    <valueIndices>2156</valueIndices>
+    <valueIndices>2156</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="8f1a869f-2d69-44b7-aa2d-cd729f7e7e62">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="d0eb586c-ff8f-4e12-a0fb-17f909e5de5e"/>
+    <valueIndices>45</valueIndices>
+    <valueIndices>45</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="8d04c399-052c-4aae-bedc-685394ecac32">
+    <blockPath>svpwm_inv_ideal_switch_Motor_DVS_new_param/Mean/Model/Transport Delay</blockPath>
+    <name>DelayTime</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="aec399d5-1ba3-4c2e-8e40-5a81629b1c67"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="f247c08f-907f-4c36-a9b6-19b3007144c4">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="3d379f4f-b959-49cc-b1be-4e7fa165db1f"/>
+    <valueIndices>2168</valueIndices>
+    <valueIndices>2168</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="e9dd6624-476c-4ffd-a718-8484e9b3e8c3">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="0575c639-3513-44da-99a7-51fe879f9d2d"/>
+    <valueIndices>2071</valueIndices>
+    <valueIndices>2071</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="c0a04bd2-83b1-4b3b-8ff0-04dbe60f0a50">
+    <blockPath>svpwm_inv_ideal_switch_Motor_DVS_new_param/RMS/RMS /Fourier1/Mean/Model/Memory</blockPath>
+    <name>InitialCondition</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="cd72dbd4-e307-4a7d-8409-c1f307c6660d"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="f8a56ce7-c74a-47e0-a203-99cdfe8fb759">
+    <blockPath>svpwm_inv_ideal_switch_Motor_DVS_new_param/Subsystem1/Inverse Park Transform1/Variant/mcb/Inverse Park Transform/Sine Cosine/Sine-Cosine Lookup/WrapUp/convert_pu</blockPath>
+    <name>Gain</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="26e9ff7b-a25e-4a03-a2cb-d81775f42c25"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.VariableId type="slsa.mm.param.rtp.VariableId" uuid="b871e9d3-2477-4ffb-8245-5f7e4403a0b4">
+    <workspaceName>svpwm_inv_ideal_switch_Motor_DVS_new_param</workspaceName>
+    <name>Lq</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="96dd4eaa-044f-4a3d-b1d2-54cbd3183b70"/>
+  </slsa.mm.param.rtp.VariableId>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="b5c0116e-2aff-4514-9bee-1bd686d26a69">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="34a1aa50-ad92-4d8f-85f5-43e4d2dae503"/>
+    <segmentIndex>5</segmentIndex>
+    <valueIndices>6</valueIndices>
+    <valueIndices>6</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="74dece87-846b-4781-a5d0-bf1942e95d76">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="a241d4c7-690c-498a-ba25-a013457b3271"/>
+    <segmentIndex>2</segmentIndex>
+    <valueIndices>4</valueIndices>
+    <valueIndices>4</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="04d18610-34a2-4eca-b7af-ee01c5a94b4f">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="ab7b1d16-0230-4651-bb82-42e6c0cb7dbb"/>
+    <valueIndices>1068</valueIndices>
+    <valueIndices>2069</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="03b06791-e8d6-4646-9fff-66ef0522590c">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="d580cf52-7c88-46ab-8280-22a32c347234"/>
+    <valueIndices>42</valueIndices>
+    <valueIndices>42</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="bffffc62-17d8-4f3a-acfb-88cb2866b8c8">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="30d16901-992d-4a3c-81be-317782ee9ea9"/>
+    <valueIndices>4206</valueIndices>
+    <valueIndices>4206</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="e453111f-c748-4c9f-9eb1-1a66674891e9">
+    <blockPath>svpwm_inv_ideal_switch_Motor_DVS_new_param/RMS1/RMS /Fourier1/Mean/Model/Gain</blockPath>
+    <name>Gain</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="455c587f-8882-4584-861e-56d45c03d93a"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="83c2f4ff-e14c-44e3-a00f-d1a328a1d7eb">
+    <blockPath>svpwm_inv_ideal_switch_Motor_DVS_new_param/Park Transform1/Variant/mcb/Park Transform/Sine Cosine/Sine-Cosine Lookup/Sine-Cosine Lookup/indexing</blockPath>
+    <name>Gain</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="3b1f8826-77c9-438a-aaa5-f2b95c4cf119"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="ab7b1d16-0230-4651-bb82-42e6c0cb7dbb">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="1942aaad-a95b-48bc-9780-03dbcc60b104"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="04d18610-34a2-4eca-b7af-ee01c5a94b4f"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="336f0d62-42ea-4641-8748-944588848a8a">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="37482875-4598-46d8-8c95-ebcb4d4833a8"/>
+    <valueIndices>1059</valueIndices>
+    <valueIndices>1059</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="4ba4115b-b9c4-4be6-84ee-e4ad4a5f9436">
+    <blockPath>svpwm_inv_ideal_switch_Motor_DVS_new_param/PWM Generator1/Carrier counter/Integrator with Wrapped State (Discrete or Continuous)</blockPath>
+    <name>x0</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="d580cf52-7c88-46ab-8280-22a32c347234"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="f796ed09-999a-48d3-a364-0f85eb7f48b3">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="5ea67725-b582-4424-967a-d7d1e30dbcb1"/>
+    <valueIndices>43</valueIndices>
+    <valueIndices>43</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="9e17f68f-ce1a-4784-af9d-3677cc475d27">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="6cfe4965-2aed-4c42-8837-b6011651c314"/>
+    <valueIndices>7</valueIndices>
+    <valueIndices>7</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="ca6695f4-d711-4ab1-a327-ff79884e15f8">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="1b90299f-9716-4250-a04b-f11e83403e19"/>
+    <segmentIndex>7</segmentIndex>
+    <valueIndices>6</valueIndices>
+    <valueIndices>6</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="0e4d1450-bfb3-452d-a299-511c262113f3">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="62b2b9f9-d264-4949-b7d7-fa7617928aca"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="72cf618a-5b3c-4506-92bb-e374c7ae69c3"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="9d875246-1b8d-41b6-acdd-6255464c801a">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="218864c8-c7df-4333-9347-77701ec2eb28"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="d2aad7f5-0a18-412f-9e6f-97f884f1cb76"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="0575c639-3513-44da-99a7-51fe879f9d2d">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="c240101d-a40c-464c-8ddd-51d74b1f6515"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="e9dd6624-476c-4ffd-a718-8484e9b3e8c3"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="a2b58306-bcf8-4acf-afb3-56849c98edcd">
+    <blockPath>svpwm_inv_ideal_switch_Motor_DVS_new_param/RMS/TrueRMS /Mean value/Model/K1</blockPath>
+    <name>Value</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="de1c4b8d-7a1e-42bb-b1b0-85c17cc8c5a4"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="97be1577-f052-4861-bbb8-57f8ae2c0325">
+    <blockPath>svpwm_inv_ideal_switch_Motor_DVS_new_param/Park Transform1/Variant/mcb/Park Transform/Sine Cosine/Sine-Cosine Lookup/Sine-Cosine Lookup/sine_table_values</blockPath>
+    <name>Value</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="4b165cae-fdd9-4ceb-a416-a48db8161c23"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="99a649ab-db81-4a80-894a-1a5563febaa9">
+    <blockPath>svpwm_inv_ideal_switch_Motor_DVS_new_param/CurrentsMuxFilter/Mean1/Model/Gain</blockPath>
+    <name>Gain</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="d0eb586c-ff8f-4e12-a0fb-17f909e5de5e"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.VariableId type="slsa.mm.param.rtp.VariableId" uuid="0238c71f-bb0c-4d8b-95b1-ef60b3d5a290">
+    <workspaceName>svpwm_inv_ideal_switch_Motor_DVS_new_param</workspaceName>
+    <name>piBandwidth</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="4aef7d78-6a0d-4f59-8b52-cc5e2aba31d8"/>
+  </slsa.mm.param.rtp.VariableId>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="37482875-4598-46d8-8c95-ebcb4d4833a8">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="891b1cc7-7422-4ecf-81cd-bfe6a47f7096"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="336f0d62-42ea-4641-8748-944588848a8a"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="bea52f89-0213-4f3f-a6fd-dd758aab3100">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="b9edeeb0-d245-41a1-b5f8-a60e97fa46c1"/>
+    <segmentIndex>5</segmentIndex>
+    <valueIndices>4</valueIndices>
+    <valueIndices>4</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="f2451f2b-713c-4b83-bc1c-68441c5a2052">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="4aef7d78-6a0d-4f59-8b52-cc5e2aba31d8"/>
+    <valueIndices>8</valueIndices>
+    <valueIndices>8</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="98eb6a46-a186-4534-8ee4-66e752d85dcc">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="bf1d56a1-955e-4226-bd43-95f59a92f80c"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="c01015a7-357d-4115-b229-08013ec3b25f"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.VariableId type="slsa.mm.param.rtp.VariableId" uuid="f2c92061-1b7c-4e25-abe7-892473d98cd0">
+    <workspaceName>svpwm_inv_ideal_switch_Motor_DVS_new_param</workspaceName>
+    <name>compensate_pwm</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="6cfe4965-2aed-4c42-8837-b6011651c314"/>
+  </slsa.mm.param.rtp.VariableId>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="2be10f3e-5cf2-4218-a31a-050f8b12ce2d">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="a6fe39fd-5b4e-47d9-bcd1-e11decf406c7"/>
+    <segmentIndex>6</segmentIndex>
+    <valueIndices>0</valueIndices>
+    <valueIndices>0</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="d39c1a8b-48a4-4ffb-b7da-31e0d3fce5e3">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="02e45ced-f441-4cb4-9b43-75e6201c4e0b"/>
+    <valueIndices>5</valueIndices>
+    <valueIndices>5</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="564134ee-0e04-4af1-982f-55c0ca0a1123">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="6aeadb56-a596-435b-bc35-97a05666cf55"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="b81b5def-953f-47a1-bf5d-6ff763982d6c"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="e91ddac6-3884-467e-b430-e03795fcde22">
+    <blockPath>svpwm_inv_ideal_switch_Motor_DVS_new_param/Subsystem1/Park Transform/Variant/mcb/Park Transform/Sine Cosine/Sine-Cosine Lookup/Sine-Cosine Lookup/WrapUp/convert_pu</blockPath>
+    <name>Gain</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="55fedb5d-3b5b-4681-82cf-15f37bbb70f9"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="75964b23-8fba-43c4-88d1-8202c5ee7908">
+    <id type="slsa.mm.param.rtp.VariableId" uuid="75707ff7-dd4b-4f74-9e49-756acc17efb9"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="00716066-5baf-4a12-a9af-b1c4f1eb7251"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="6d17410e-8664-4595-a435-f4e9cbba23a7">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="0e8dfb66-0582-4f18-bc2e-de148fd8bb4a"/>
+    <segmentIndex>7</segmentIndex>
+    <valueIndices>19</valueIndices>
+    <valueIndices>19</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="c240101d-a40c-464c-8ddd-51d74b1f6515">
+    <blockPath>svpwm_inv_ideal_switch_Motor_DVS_new_param/Subsystem1/Inverse Park Transform1/Variant/mcb/Inverse Park Transform/Sine Cosine/Sine-Cosine Lookup/indexing</blockPath>
+    <name>Gain</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="0575c639-3513-44da-99a7-51fe879f9d2d"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="3e5d7ebf-2cd6-4eab-9337-45e4372c2bfc">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="6601d21f-3320-4786-814e-1082a32a4931"/>
+    <segmentIndex>5</segmentIndex>
+    <valueIndices>7</valueIndices>
+    <valueIndices>7</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="c2095a02-1ead-456e-9b3b-e296158d3c16">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="5b2fc6aa-d1ba-4cfb-b1b6-a3df37984cc3"/>
+    <valueIndices>4</valueIndices>
+    <valueIndices>4</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="fbe0cee0-d4a4-4e2e-b0d1-e17d8718eb26">
+    <blockPath>svpwm_inv_ideal_switch_Motor_DVS_new_param/Mean1/Model/Transport Delay</blockPath>
+    <name>DelayTime</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="8673b244-2e0f-4f77-a477-64bd0d377810"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.ModelMetadata type="slsa.mm.param.rtp.ModelMetadata" uuid="2d4fd24d-12a3-483e-90c1-27cfd523a6d8">
+    <modelName>svpwm_inv_ideal_switch_Motor_DVS_new_param</modelName>
+  </slsa.mm.param.rtp.ModelMetadata>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="cb43bce1-14c8-4472-b1d3-29098b279179">
+    <id type="slsa.mm.param.rtp.VariableId" uuid="47159db3-5d3b-426c-bae2-93a4f68a3a6c"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="bf442f51-4b17-46a6-bed4-987434ee41d8"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="f78e7d7b-23e7-4a70-971a-a8cbdea239ca">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="9d35c583-cfb5-4fb1-8d0c-a084c8f3d4c7"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="4bfef7bb-0c60-4a09-a41e-638eaeb200f5"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="da09018d-63cd-4d46-94dc-52fe5bf0a7cd">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="da750a72-3505-4795-bc11-fe1fb7f953a7"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="8e343418-6174-43f3-bb9b-b389c0fd3ec3"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.VariableId type="slsa.mm.param.rtp.VariableId" uuid="07db5559-49a9-4cea-a48a-899559b7a4b0">
+    <workspaceName>svpwm_inv_ideal_switch_Motor_DVS_new_param</workspaceName>
+    <name>Rs</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="eef33d46-3bab-4d5c-87bc-fbed37c9e676"/>
+  </slsa.mm.param.rtp.VariableId>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="ed124f86-a860-4b5e-af2d-93d9ebb8e92c">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="202714fd-c941-419c-a3bc-dc9d0d2f1ade"/>
+    <valueIndices>2159</valueIndices>
+    <valueIndices>2159</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="8d8cd533-0ba1-49dc-be98-fe6bc1fa5c9e">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="1f3f01ee-33f1-46ae-a10d-daab9671b918"/>
+    <valueIndices>47</valueIndices>
+    <valueIndices>47</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="55fedb5d-3b5b-4681-82cf-15f37bbb70f9">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="e91ddac6-3884-467e-b430-e03795fcde22"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="2976d04b-6bd3-4300-b103-83b2b795d45d"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.VariableId type="slsa.mm.param.rtp.VariableId" uuid="75707ff7-dd4b-4f74-9e49-756acc17efb9">
+    <workspaceName>svpwm_inv_ideal_switch_Motor_DVS_new_param</workspaceName>
+    <name>Is_max</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="75964b23-8fba-43c4-88d1-8202c5ee7908"/>
+  </slsa.mm.param.rtp.VariableId>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="9c85d021-4d89-43d3-a5c9-32ad517628df">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="c1555d04-8fd0-4b11-a321-78bbe443149a"/>
+    <segmentIndex>6</segmentIndex>
+    <valueIndices>3</valueIndices>
+    <valueIndices>3</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.VariableId type="slsa.mm.param.rtp.VariableId" uuid="47159db3-5d3b-426c-bae2-93a4f68a3a6c">
+    <workspaceName>svpwm_inv_ideal_switch_Motor_DVS_new_param</workspaceName>
+    <name>FocDiscrTime</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="cb43bce1-14c8-4472-b1d3-29098b279179"/>
+  </slsa.mm.param.rtp.VariableId>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="72cf618a-5b3c-4506-92bb-e374c7ae69c3">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="0e4d1450-bfb3-452d-a299-511c262113f3"/>
+    <valueIndices>4196</valueIndices>
+    <valueIndices>4196</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="d4d49a15-70f1-455c-a0a6-360bb5452865">
+    <blockPath>svpwm_inv_ideal_switch_Motor_DVS_new_param/Park Transform1/Variant/mcb/Park Transform/Three inputs/Two inputs CRL/Switch_Axis/Offset</blockPath>
+    <name>Value</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="df06600c-f4bf-4417-ab45-b60bf1066de6"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="4aef7d78-6a0d-4f59-8b52-cc5e2aba31d8">
+    <id type="slsa.mm.param.rtp.VariableId" uuid="0238c71f-bb0c-4d8b-95b1-ef60b3d5a290"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="f2451f2b-713c-4b83-bc1c-68441c5a2052"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="9773983e-1205-441b-bf36-e3669c99c70f">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="3dec6361-7ba1-431d-a4b2-9bae19696219"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="3fb2a847-0a4c-4cea-a6bd-e14e82c0ecc5"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="4657ca95-3e19-462b-9931-10dbd32117b2">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="a71742ea-2d41-4fbc-bf62-11aa452906e2"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="f6809c62-bc5e-48ff-be22-dd2ab988e4cc"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="8e343418-6174-43f3-bb9b-b389c0fd3ec3">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="da09018d-63cd-4d46-94dc-52fe5bf0a7cd"/>
+    <segmentIndex>5</segmentIndex>
+    <valueIndices>13</valueIndices>
+    <valueIndices>13</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="f5529024-d871-4001-9a10-b56e061d1617">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="53721188-cefe-4cf0-a2f9-7d2e7bafa7ac"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="07614dde-5797-4e2b-bd36-a80c1c363ae7"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="bf442f51-4b17-46a6-bed4-987434ee41d8">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="cb43bce1-14c8-4472-b1d3-29098b279179"/>
+    <valueIndices>0</valueIndices>
+    <valueIndices>0</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="8b2f1f4f-b99f-4a63-a691-27e5297e753c">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="96dd4eaa-044f-4a3d-b1d2-54cbd3183b70"/>
+    <valueIndices>3</valueIndices>
+    <valueIndices>3</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="a1f1c430-9ac1-4030-a6a9-f575c16945c1">
+    <blockPath>svpwm_inv_ideal_switch_Motor_DVS_new_param/RMS1/RMS /Fourier1/Mean value1/Model/Gain</blockPath>
+    <name>Gain</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="4ddcd0ba-e545-424c-895a-643971950f1c"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="073a70b1-804d-4ac1-b8cc-1975640bc890">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="ed416aff-c234-4425-99c5-3b1b262fb06d"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="3a115f0c-bd7f-472f-8f7a-20338bb39b65"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="00716066-5baf-4a12-a9af-b1c4f1eb7251">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="75964b23-8fba-43c4-88d1-8202c5ee7908"/>
+    <valueIndices>1</valueIndices>
+    <valueIndices>1</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="891b1cc7-7422-4ecf-81cd-bfe6a47f7096">
+    <blockPath>svpwm_inv_ideal_switch_Motor_DVS_new_param/Subsystem1/Park Transform/Variant/mcb/Park Transform/Sine Cosine/Sine-Cosine Lookup/Sine-Cosine Lookup/indexing</blockPath>
+    <name>Gain</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="37482875-4598-46d8-8c95-ebcb4d4833a8"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="179a4e18-f93a-4c17-bbaa-ed3a279126f8">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="5c98bb96-27d4-4f4e-800e-3cbc72f7beb9"/>
+    <valueIndices>2</valueIndices>
+    <valueIndices>2</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="af9aa829-2d3c-4c3b-9877-da7862d089d1">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="40cc005f-34f6-4439-a800-58ad0315fe0a"/>
+    <valueIndices>4194</valueIndices>
+    <valueIndices>4194</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="13c4b055-75e8-41e4-8334-eeecbde52c98">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="6e686222-304f-4488-bd85-7cc80cafc220"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="016d3bca-dfb0-47b3-a8fc-b4fa300d29bf"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="0f83c8ca-1c8a-4dd5-8476-d0f285dd932e">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="0cb5de7e-9b14-4953-85eb-1440a371176d"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="39eeb8c4-1d3a-4642-a58a-9b9f24556738"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="2c37603d-812e-477f-90ab-4b8dcbcf06b2">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="3b1f8826-77c9-438a-aaa5-f2b95c4cf119"/>
+    <valueIndices>4189</valueIndices>
+    <valueIndices>4189</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="5daf159c-2d78-4b84-8e60-82a071aa6ec4">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="87f5d417-bf28-45da-ad02-6446d60af25e"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="41c3b108-8ee5-4080-8713-9f13d07c0a88"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="3f4ead64-b2c1-4db0-a691-6a94244c02c5">
+    <blockPath>svpwm_inv_ideal_switch_Motor_DVS_new_param/CurrentsMuxFilter1/Mean2/Model/Gain</blockPath>
+    <name>Gain</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="cde851da-dd04-4148-9962-a60ac47928a1"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="293ca5a9-dec6-4566-a3a0-9ed457e55af0">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="eef33d46-3bab-4d5c-87bc-fbed37c9e676"/>
+    <valueIndices>6</valueIndices>
+    <valueIndices>6</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="32bd8e57-2420-4d84-ad30-985c3c8d9edc">
+    <blockPath>svpwm_inv_ideal_switch_Motor_DVS_new_param/Subsystem1/Inverse Park Transform1/Variant/mcb/Inverse Park Transform/Sine Cosine/Sine-Cosine Lookup/offset</blockPath>
+    <name>Value</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="ff314ea3-d5fb-442a-88f6-d4d90485a528"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="5ea67725-b582-4424-967a-d7d1e30dbcb1">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="6644f094-0045-4e80-8897-efc862e9737e"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="f796ed09-999a-48d3-a364-0f85eb7f48b3"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="6644f094-0045-4e80-8897-efc862e9737e">
+    <blockPath>svpwm_inv_ideal_switch_Motor_DVS_new_param/PWM Generator2/Carrier counter/Integrator with Wrapped State (Discrete or Continuous)</blockPath>
+    <name>x0</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="5ea67725-b582-4424-967a-d7d1e30dbcb1"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="ed416aff-c234-4425-99c5-3b1b262fb06d">
+    <blockPath>svpwm_inv_ideal_switch_Motor_DVS_new_param/PWM Generator/Carrier counter/Integrator with Wrapped State (Discrete or Continuous)</blockPath>
+    <name>x0</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="073a70b1-804d-4ac1-b8cc-1975640bc890"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="d580cf52-7c88-46ab-8280-22a32c347234">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="4ba4115b-b9c4-4be6-84ee-e4ad4a5f9436"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="03b06791-e8d6-4646-9fff-66ef0522590c"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="3fafe5ac-89c9-440a-9282-37d33174c436">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="cde851da-dd04-4148-9962-a60ac47928a1"/>
+    <valueIndices>48</valueIndices>
+    <valueIndices>48</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="273ecbbf-1464-491c-9c40-b8d227bccb8a">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="b9f032bb-9f9f-4a28-864b-812f1a486524"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="18bc05f0-8f72-4583-beda-2be11d23cc75"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="1942aaad-a95b-48bc-9780-03dbcc60b104">
+    <blockPath>svpwm_inv_ideal_switch_Motor_DVS_new_param/Subsystem1/Inverse Park Transform1/Variant/mcb/Inverse Park Transform/Sine Cosine/Sine-Cosine Lookup/sine_table_values</blockPath>
+    <name>Value</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="ab7b1d16-0230-4651-bb82-42e6c0cb7dbb"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="3a115f0c-bd7f-472f-8f7a-20338bb39b65">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="073a70b1-804d-4ac1-b8cc-1975640bc890"/>
+    <valueIndices>44</valueIndices>
+    <valueIndices>44</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="1f3f01ee-33f1-46ae-a10d-daab9671b918">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="96589051-794d-4881-8f3c-5c6880c4938d"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="8d8cd533-0ba1-49dc-be98-fe6bc1fa5c9e"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="745e1acd-ebb0-4b1a-8f7e-fbea589804da">
+    <blockPath>svpwm_inv_ideal_switch_Motor_DVS_new_param/Subsystem1/Inverse Park Transform1/Variant/mcb/Inverse Park Transform/Two inputs CRL/Switch_Axis/Offset</blockPath>
+    <name>Value</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="a241d4c7-690c-498a-ba25-a013457b3271"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="222f2e7a-03f3-4831-8a6f-a9eb582893d8">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="4ddcd0ba-e545-424c-895a-643971950f1c"/>
+    <segmentIndex>5</segmentIndex>
+    <valueIndices>1</valueIndices>
+    <valueIndices>1</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="cecf5e9c-7dee-44ed-a21a-a3a7d77743fb">
+    <blockPath>svpwm_inv_ideal_switch_Motor_DVS_new_param/Park Transform/Variant/mcb/Park Transform/Sine Cosine/Sine-Cosine Lookup/Sine-Cosine Lookup/WrapUp/convert_pu</blockPath>
+    <name>Gain</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="d7b0f35c-119a-4a8a-a76b-38b5456198ac"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="a5cf134f-6c0f-4b9a-8f83-adbb94d88a23">
+    <blockPath>svpwm_inv_ideal_switch_Motor_DVS_new_param/RMS/RMS /Fourier1/Mean/Model/Gain</blockPath>
+    <name>Gain</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="46ed3744-f480-4a8a-80f6-808c9540655f"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="d0eb586c-ff8f-4e12-a0fb-17f909e5de5e">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="99a649ab-db81-4a80-894a-1a5563febaa9"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="8f1a869f-2d69-44b7-aa2d-cd729f7e7e62"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="8c35e5fc-d55d-4438-8d76-718e39dd520a">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="9d58ae01-9f1c-4c05-a9df-5fd12b5e7e2f"/>
+    <valueIndices>4203</valueIndices>
+    <valueIndices>4203</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="ed90e2c0-b8b8-4e08-a056-47b82196aeae">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="338683bc-3577-4768-97f9-94eca09331b3"/>
+    <valueIndices>4198</valueIndices>
+    <valueIndices>4198</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="85e8f0a7-b0b7-40f7-a8d0-813e57dc0b13">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="888ed832-9cac-498e-875f-ba03690fae08"/>
+    <valueIndices>49</valueIndices>
+    <valueIndices>49</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="22a67f31-09c2-4711-954e-3edc43be05bc">
+    <blockPath>svpwm_inv_ideal_switch_Motor_DVS_new_param/CurrentsMuxFilter/Mean2/Model/Gain</blockPath>
+    <name>Gain</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="19d1dad8-d12d-459f-b479-91b3546320b5"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="75b5343c-e373-441e-bf8b-a7873f321337">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="19d1dad8-d12d-459f-b479-91b3546320b5"/>
+    <valueIndices>46</valueIndices>
+    <valueIndices>46</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="96589051-794d-4881-8f3c-5c6880c4938d">
+    <blockPath>svpwm_inv_ideal_switch_Motor_DVS_new_param/CurrentsMuxFilter/Mean3/Model/Gain</blockPath>
+    <name>Gain</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="1f3f01ee-33f1-46ae-a10d-daab9671b918"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="d078535c-cc50-4ca7-a922-431fc033dfd1">
+    <blockPath>svpwm_inv_ideal_switch_Motor_DVS_new_param/RMS1/RMS /Fourier1/sin(wt)</blockPath>
+    <name>Frequency</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="7ce63482-b61d-4074-993b-7438de357a32"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="68ec4ef7-188e-4130-a885-59295c896179">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="7ce63482-b61d-4074-993b-7438de357a32"/>
+    <segmentIndex>5</segmentIndex>
+    <valueIndices>15</valueIndices>
+    <valueIndices>15</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="b9f032bb-9f9f-4a28-864b-812f1a486524">
+    <blockPath>svpwm_inv_ideal_switch_Motor_DVS_new_param/Subsystem1/Park Transform/Variant/mcb/Park Transform/Sine Cosine/Sine-Cosine Lookup/Sine-Cosine Lookup/sine_table_values</blockPath>
+    <name>Value</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="273ecbbf-1464-491c-9c40-b8d227bccb8a"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="76376ffb-04fd-4b84-8054-3150e7b7c03b">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="26e9ff7b-a25e-4a03-a2cb-d81775f42c25"/>
+    <valueIndices>2070</valueIndices>
+    <valueIndices>2070</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="de1c4b8d-7a1e-42bb-b1b0-85c17cc8c5a4">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="a2b58306-bcf8-4acf-afb3-56849c98edcd"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="581961fb-c0ce-41f0-b524-7a95fe39e377"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="d2aad7f5-0a18-412f-9e6f-97f884f1cb76">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="9d875246-1b8d-41b6-acdd-6255464c801a"/>
+    <valueIndices>4199</valueIndices>
+    <valueIndices>4199</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="fc083c73-adbd-4dec-9282-50e4af14fd29">
+    <blockPath>svpwm_inv_ideal_switch_Motor_DVS_new_param/Subsystem1/Park Transform/Variant/mcb/Park Transform/Sine Cosine/Sine-Cosine Lookup/Sine-Cosine Lookup/offset</blockPath>
+    <name>Value</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="52def7a5-9d9d-4421-b9d3-58bd7ed080e0"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="88ec7006-05b6-4d95-990b-710e6603f247">
+    <blockPath>svpwm_inv_ideal_switch_Motor_DVS_new_param/RMS1/TrueRMS /Mean value/Model/K1</blockPath>
+    <name>Value</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="73fdb6d9-3ab3-4219-b68a-631afc76d0a4"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="26e9ff7b-a25e-4a03-a2cb-d81775f42c25">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="f8a56ce7-c74a-47e0-a203-99cdfe8fb759"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="76376ffb-04fd-4b84-8054-3150e7b7c03b"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="28bd9238-f77f-47d2-b74f-8190229a3b39">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="61de8b3e-c147-47f4-9663-a2ba74cc02db"/>
+    <valueIndices>2158</valueIndices>
+    <valueIndices>2158</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="18bc05f0-8f72-4583-beda-2be11d23cc75">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="273ecbbf-1464-491c-9c40-b8d227bccb8a"/>
+    <valueIndices>56</valueIndices>
+    <valueIndices>1057</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="e0cc812c-5b77-4e49-a912-2af4fe8f3e00">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="573eedff-2f47-45b6-98e0-6583ac212cb0"/>
+    <segmentIndex>7</segmentIndex>
+    <valueIndices>13</valueIndices>
+    <valueIndices>13</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="9fe0d3fc-2adf-44de-b7de-c41abab01338">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="550750d3-f399-49f6-80b5-f578438f5b23"/>
+    <segmentIndex>5</segmentIndex>
+    <valueIndices>11</valueIndices>
+    <valueIndices>11</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="eef33d46-3bab-4d5c-87bc-fbed37c9e676">
+    <id type="slsa.mm.param.rtp.VariableId" uuid="07db5559-49a9-4cea-a48a-899559b7a4b0"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="293ca5a9-dec6-4566-a3a0-9ed457e55af0"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="4929cecc-9629-4780-b431-4644bc14dd7a">
+    <blockPath>svpwm_inv_ideal_switch_Motor_DVS_new_param/CurrentsMuxFilter/Mean3/Model/Transport Delay</blockPath>
+    <name>DelayTime</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="c3719b2f-a290-48a0-a688-7d110e401adf"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="daa2b555-eb02-48bd-afd9-4da26bee5419">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="c3719b2f-a290-48a0-a688-7d110e401adf"/>
+    <valueIndices>4201</valueIndices>
+    <valueIndices>4201</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="6aeadb56-a596-435b-bc35-97a05666cf55">
+    <blockPath>svpwm_inv_ideal_switch_Motor_DVS_new_param/Mean1/Model/Gain</blockPath>
+    <name>Gain</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="564134ee-0e04-4af1-982f-55c0ca0a1123"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="9d58ae01-9f1c-4c05-a9df-5fd12b5e7e2f">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="53b53e32-9ea1-4bd6-ab36-784e3fded56d"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="8c35e5fc-d55d-4438-8d76-718e39dd520a"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="e51b144b-703c-4551-8079-4d489dceac98">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="b1778c91-8684-4447-90dc-91dc569ff698"/>
+    <segmentIndex>2</segmentIndex>
+    <valueIndices>0</valueIndices>
+    <valueIndices>0</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="53b53e32-9ea1-4bd6-ab36-784e3fded56d">
+    <blockPath>svpwm_inv_ideal_switch_Motor_DVS_new_param/CurrentsMuxFilter/Mean3/Model/K1</blockPath>
+    <name>Value</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="9d58ae01-9f1c-4c05-a9df-5fd12b5e7e2f"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="6dc2fdf1-32f6-44f8-b1d5-e1f8afadd71c">
+    <blockPath>svpwm_inv_ideal_switch_Motor_DVS_new_param/RMS1/RMS /Fourier1/Mean/Model/Transport Delay</blockPath>
+    <name>DelayTime</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="9a0f5a11-1285-41d6-ba28-156b895fcce0"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="4ddcd0ba-e545-424c-895a-643971950f1c">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="a1f1c430-9ac1-4030-a6a9-f575c16945c1"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="222f2e7a-03f3-4831-8a6f-a9eb582893d8"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="91e71491-999d-4555-9181-2465cd8c02ab">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="6361af0c-2db8-48d8-b145-e12388216435"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="b13ad232-e8b0-4f90-8680-b0a24dc56c75"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="6361af0c-2db8-48d8-b145-e12388216435">
+    <blockPath>svpwm_inv_ideal_switch_Motor_DVS_new_param/CurrentsMuxFilter/Mean3/Model/Memory</blockPath>
+    <name>InitialCondition</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="91e71491-999d-4555-9181-2465cd8c02ab"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="b13ad232-e8b0-4f90-8680-b0a24dc56c75">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="91e71491-999d-4555-9181-2465cd8c02ab"/>
+    <valueIndices>4204</valueIndices>
+    <valueIndices>4204</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="a6186a5b-a413-4e6e-852f-01e029c71f44">
+    <blockPath>svpwm_inv_ideal_switch_Motor_DVS_new_param/RMS/TrueRMS /Mean value/Model/Gain</blockPath>
+    <name>Gain</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="a6fe39fd-5b4e-47d9-bcd1-e11decf406c7"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="885c0f33-f9a7-4c72-8bd3-8000bf393676">
+    <blockPath>svpwm_inv_ideal_switch_Motor_DVS_new_param/RMS/RMS /Fourier1/cos(wt)</blockPath>
+    <name>Amplitude</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="ba43d5e9-a3d7-4f4c-bcd8-0c39e038eede"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="13052882-5d3c-4a4b-be33-d5775f9b52b5">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="fbf5e90e-4b19-4fe7-8dd1-5ad6c53bbfd8"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="fe35be7f-5efd-4fd5-8058-2473b20a61a9"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="fe35be7f-5efd-4fd5-8058-2473b20a61a9">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="13052882-5d3c-4a4b-be33-d5775f9b52b5"/>
+    <valueIndices>4208</valueIndices>
+    <valueIndices>4208</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="bf1d56a1-955e-4226-bd43-95f59a92f80c">
+    <blockPath>svpwm_inv_ideal_switch_Motor_DVS_new_param/Park Transform/Variant/mcb/Park Transform/Sine Cosine/Sine-Cosine Lookup/Sine-Cosine Lookup/indexing</blockPath>
+    <name>Gain</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="98eb6a46-a186-4534-8ee4-66e752d85dcc"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="6e686222-304f-4488-bd85-7cc80cafc220">
+    <blockPath>svpwm_inv_ideal_switch_Motor_DVS_new_param/RMS1/RMS /Fourier1/cos(wt)</blockPath>
+    <name>Amplitude</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="13c4b055-75e8-41e4-8334-eeecbde52c98"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="4bfef7bb-0c60-4a09-a41e-638eaeb200f5">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="f78e7d7b-23e7-4a70-971a-a8cbdea239ca"/>
+    <valueIndices>4209</valueIndices>
+    <valueIndices>4209</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="bfc79a16-c24f-43e9-a6a8-5c5a69536d2b">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="cd72dbd4-e307-4a7d-8409-c1f307c6660d"/>
+    <segmentIndex>7</segmentIndex>
+    <valueIndices>12</valueIndices>
+    <valueIndices>12</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="3fb2a847-0a4c-4cea-a6bd-e14e82c0ecc5">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="9773983e-1205-441b-bf36-e3669c99c70f"/>
+    <segmentIndex>2</segmentIndex>
+    <valueIndices>6</valueIndices>
+    <valueIndices>6</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="b2275d0c-f83f-4764-ace4-ea18965e6aff">
+    <blockPath>svpwm_inv_ideal_switch_Motor_DVS_new_param/RMS1/RMS /Fourier1/Mean/Model/Memory</blockPath>
+    <name>InitialCondition</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="dc9266f5-e147-46d9-a3b2-5b82d578bde9"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="db109a25-d66a-4276-8641-96cfcb926b62">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="0edb3261-4f46-480f-a120-bc8ec5a7939d"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="296d2533-7d8e-4f4f-b24e-d08d5edb8ba6"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="2976d04b-6bd3-4300-b103-83b2b795d45d">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="55fedb5d-3b5b-4681-82cf-15f37bbb70f9"/>
+    <valueIndices>1058</valueIndices>
+    <valueIndices>1058</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="52def7a5-9d9d-4421-b9d3-58bd7ed080e0">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="fc083c73-adbd-4dec-9282-50e4af14fd29"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="b16cdcd8-ca42-44f9-9e1c-fc5b968f22b7"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="581961fb-c0ce-41f0-b524-7a95fe39e377">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="de1c4b8d-7a1e-42bb-b1b0-85c17cc8c5a4"/>
+    <segmentIndex>6</segmentIndex>
+    <valueIndices>5</valueIndices>
+    <valueIndices>5</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="b16cdcd8-ca42-44f9-9e1c-fc5b968f22b7">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="52def7a5-9d9d-4421-b9d3-58bd7ed080e0"/>
+    <segmentIndex>1</segmentIndex>
+    <valueIndices>0</valueIndices>
+    <valueIndices>3</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="ff314ea3-d5fb-442a-88f6-d4d90485a528">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="32bd8e57-2420-4d84-ad30-985c3c8d9edc"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="337e2acd-6e74-4466-9122-6977a66b911b"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="337e2acd-6e74-4466-9122-6977a66b911b">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="ff314ea3-d5fb-442a-88f6-d4d90485a528"/>
+    <segmentIndex>1</segmentIndex>
+    <valueIndices>4</valueIndices>
+    <valueIndices>7</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="6601d21f-3320-4786-814e-1082a32a4931">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="a4762d71-1bbd-4f98-a2cf-39cd3146906f"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="3e5d7ebf-2cd6-4eab-9337-45e4372c2bfc"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="9b84ed55-3bbd-473c-9a03-7f17355794c0">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="22b07e6d-eb30-4f6c-81c9-06b5f53ed21e"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="91f59753-1a7f-493d-82d0-f07f4089dca7"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="ba43d5e9-a3d7-4f4c-bcd8-0c39e038eede">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="885c0f33-f9a7-4c72-8bd3-8000bf393676"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="988d6bc9-42c2-4b39-926c-e9a292334709"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="22b07e6d-eb30-4f6c-81c9-06b5f53ed21e">
+    <blockPath>svpwm_inv_ideal_switch_Motor_DVS_new_param/Park Transform/Variant/mcb/Park Transform/Sine Cosine/Sine-Cosine Lookup/Sine-Cosine Lookup/offset</blockPath>
+    <name>Value</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="9b84ed55-3bbd-473c-9a03-7f17355794c0"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="25dddeba-9c6b-4f28-9595-7971c44c7d72">
+    <blockPath>svpwm_inv_ideal_switch_Motor_DVS_new_param/CurrentsMuxFilter1/Mean2/Model/Transport Delay</blockPath>
+    <name>DelayTime</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="30d16901-992d-4a3c-81be-317782ee9ea9"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="5f77c30a-033b-428a-975d-f10f3b0664d8">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="b24198f2-69d2-411c-80f1-fe076ab6e5d6"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="ea0af674-667a-40b8-bafb-f8452d1617a6"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="19d1dad8-d12d-459f-b479-91b3546320b5">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="22a67f31-09c2-4711-954e-3edc43be05bc"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="75b5343c-e373-441e-bf8b-a7873f321337"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="91f59753-1a7f-493d-82d0-f07f4089dca7">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="9b84ed55-3bbd-473c-9a03-7f17355794c0"/>
+    <segmentIndex>1</segmentIndex>
+    <valueIndices>8</valueIndices>
+    <valueIndices>11</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="4b45f304-2db6-40e0-a92e-04d7fc1b0579">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="d996149f-06ef-4a88-9544-f1c228422e5a"/>
+    <segmentIndex>1</segmentIndex>
+    <valueIndices>12</valueIndices>
+    <valueIndices>15</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="9a0f5a11-1285-41d6-ba28-156b895fcce0">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="6dc2fdf1-32f6-44f8-b1d5-e1f8afadd71c"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="722681ff-9cd3-4f96-930a-cf14185b5e41"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="aec399d5-1ba3-4c2e-8e40-5a81629b1c67">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="8d04c399-052c-4aae-bedc-685394ecac32"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="7976a783-348b-4d70-a93f-8dd6d2fb7928"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="b1778c91-8684-4447-90dc-91dc569ff698">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="8b85d7a9-fd0a-4105-960c-d364fa22f28f"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="e51b144b-703c-4551-8079-4d489dceac98"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="913ea32e-33a0-486d-aece-e60a85a30b2c">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="ea1876bb-4e82-4111-a70a-42a3602097fa"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="40515509-a233-4d7e-9e22-023bad8ec011"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="a73f801d-4dc6-4c9d-99e7-da00d52ab9ec">
+    <blockPath>svpwm_inv_ideal_switch_Motor_DVS_new_param/Mean/Model/Gain</blockPath>
+    <name>Gain</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="888ed832-9cac-498e-875f-ba03690fae08"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="78a86daa-8312-4212-911f-f4104f943002">
+    <blockPath>svpwm_inv_ideal_switch_Motor_DVS_new_param/RMS1/TrueRMS /Mean value/Model/Gain</blockPath>
+    <name>Gain</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="3f4a3a21-b03f-4114-966f-cda01c006296"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="a6fe39fd-5b4e-47d9-bcd1-e11decf406c7">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="a6186a5b-a413-4e6e-852f-01e029c71f44"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="2be10f3e-5cf2-4218-a31a-050f8b12ce2d"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="0cb5de7e-9b14-4953-85eb-1440a371176d">
+    <blockPath>svpwm_inv_ideal_switch_Motor_DVS_new_param/RMS/RMS /Fourier1/Mean value1/Model/Memory</blockPath>
+    <name>InitialCondition</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="0f83c8ca-1c8a-4dd5-8476-d0f285dd932e"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="df06600c-f4bf-4417-ab45-b60bf1066de6">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="d4d49a15-70f1-455c-a0a6-360bb5452865"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="2a24377f-d777-4391-be12-0b6bd79feb51"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="9cfa66f6-9e95-4fde-b73a-413855e4c7b9">
+    <blockPath>svpwm_inv_ideal_switch_Motor_DVS_new_param/RMS/RMS /Fourier1/sin(wt)</blockPath>
+    <name>Amplitude</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="573eedff-2f47-45b6-98e0-6583ac212cb0"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="2a24377f-d777-4391-be12-0b6bd79feb51">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="df06600c-f4bf-4417-ab45-b60bf1066de6"/>
+    <segmentIndex>2</segmentIndex>
+    <valueIndices>2</valueIndices>
+    <valueIndices>2</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="7ce63482-b61d-4074-993b-7438de357a32">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="d078535c-cc50-4ca7-a922-431fc033dfd1"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="68ec4ef7-188e-4130-a885-59295c896179"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="a241d4c7-690c-498a-ba25-a013457b3271">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="745e1acd-ebb0-4b1a-8f7e-fbea589804da"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="74dece87-846b-4781-a5d0-bf1942e95d76"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="9be3b569-b5ea-4187-8927-08574425b1af">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="62d63ceb-2654-4952-a470-5e1cd2aa78f8"/>
+    <segmentIndex>4</segmentIndex>
+    <valueIndices>3</valueIndices>
+    <valueIndices>3</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="db360e3c-8aca-46fa-b818-356a235e8535">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="8673b244-2e0f-4f77-a477-64bd0d377810"/>
+    <valueIndices>2165</valueIndices>
+    <valueIndices>2165</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="455c587f-8882-4584-861e-56d45c03d93a">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="e453111f-c748-4c9f-9eb1-1a66674891e9"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="715a1996-5ac7-40fc-8c3b-b906aba62bdd"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="3dec6361-7ba1-431d-a4b2-9bae19696219">
+    <blockPath>svpwm_inv_ideal_switch_Motor_DVS_new_param/Subsystem1/Park Transform/Variant/mcb/Park Transform/Two inputs CRL/Switch_Axis/Offset</blockPath>
+    <name>Value</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="9773983e-1205-441b-bf36-e3669c99c70f"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="3f4a3a21-b03f-4114-966f-cda01c006296">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="78a86daa-8312-4212-911f-f4104f943002"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="6045cf62-ecfa-4386-938a-61148837b9fb"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="3b2d2f56-8b3d-4ded-86c5-1d90a522a1fa">
+    <blockPath>svpwm_inv_ideal_switch_Motor_DVS_new_param/RMS1/RMS /Fourier1/Mean value1/Model/Transport Delay</blockPath>
+    <name>DelayTime</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="b9edeeb0-d245-41a1-b5f8-a60e97fa46c1"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="6045cf62-ecfa-4386-938a-61148837b9fb">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="3f4a3a21-b03f-4114-966f-cda01c006296"/>
+    <segmentIndex>4</segmentIndex>
+    <valueIndices>0</valueIndices>
+    <valueIndices>0</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="b9edeeb0-d245-41a1-b5f8-a60e97fa46c1">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="3b2d2f56-8b3d-4ded-86c5-1d90a522a1fa"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="bea52f89-0213-4f3f-a6fd-dd758aab3100"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="5c98bb96-27d4-4f4e-800e-3cbc72f7beb9">
+    <id type="slsa.mm.param.rtp.VariableId" uuid="8f4c6de6-a9bd-4b14-b1aa-78879140716a"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="179a4e18-f93a-4c17-bbaa-ed3a279126f8"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="4782b776-dec3-4b5d-8b45-716028f8b1c8">
+    <blockPath>svpwm_inv_ideal_switch_Motor_DVS_new_param/CurrentsMuxFilter/Mean2/Model/Memory</blockPath>
+    <name>InitialCondition</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="40cc005f-34f6-4439-a800-58ad0315fe0a"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="62d63ceb-2654-4952-a470-5e1cd2aa78f8">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="b17a8277-5694-4566-a157-d775ec463aaf"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="9be3b569-b5ea-4187-8927-08574425b1af"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="b81b5def-953f-47a1-bf5d-6ff763982d6c">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="564134ee-0e04-4af1-982f-55c0ca0a1123"/>
+    <valueIndices>50</valueIndices>
+    <valueIndices>50</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="73fdb6d9-3ab3-4219-b68a-631afc76d0a4">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="88ec7006-05b6-4d95-990b-710e6603f247"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="cc6cc87d-4a8d-4454-9c44-8b8658355f92"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="cc6cc87d-4a8d-4454-9c44-8b8658355f92">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="73fdb6d9-3ab3-4219-b68a-631afc76d0a4"/>
+    <segmentIndex>4</segmentIndex>
+    <valueIndices>5</valueIndices>
+    <valueIndices>5</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="ea1876bb-4e82-4111-a70a-42a3602097fa">
+    <blockPath>svpwm_inv_ideal_switch_Motor_DVS_new_param/RMS1/TrueRMS /Mean value/Model/Memory</blockPath>
+    <name>InitialCondition</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="913ea32e-33a0-486d-aece-e60a85a30b2c"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="1b90299f-9716-4250-a04b-f11e83403e19">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="ecf987ba-5175-4b7f-a07d-d37da617c16c"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="ca6695f4-d711-4ab1-a327-ff79884e15f8"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="550750d3-f399-49f6-80b5-f578438f5b23">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="ede1a535-a010-4ca3-b8b4-d9282ed5601e"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="9fe0d3fc-2adf-44de-b7de-c41abab01338"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="715a1996-5ac7-40fc-8c3b-b906aba62bdd">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="455c587f-8882-4584-861e-56d45c03d93a"/>
+    <segmentIndex>5</segmentIndex>
+    <valueIndices>0</valueIndices>
+    <valueIndices>0</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="02e45ced-f441-4cb4-9b43-75e6201c4e0b">
+    <id type="slsa.mm.param.rtp.VariableId" uuid="f8f82dcc-2691-4255-81f6-8b7eb013081f"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="d39c1a8b-48a4-4ffb-b7da-31e0d3fce5e3"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="34a1aa50-ad92-4d8f-85f5-43e4d2dae503">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="c8bd5d3b-e794-41d3-b165-dd0edc4cdaf0"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="b5c0116e-2aff-4514-9bee-1bd686d26a69"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="c8bd5d3b-e794-41d3-b165-dd0edc4cdaf0">
+    <blockPath>svpwm_inv_ideal_switch_Motor_DVS_new_param/RMS1/RMS /Fourier1/Mean value1/Model/K1</blockPath>
+    <name>Value</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="34a1aa50-ad92-4d8f-85f5-43e4d2dae503"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.VariableId type="slsa.mm.param.rtp.VariableId" uuid="8f4c6de6-a9bd-4b14-b1aa-78879140716a">
+    <workspaceName>svpwm_inv_ideal_switch_Motor_DVS_new_param</workspaceName>
+    <name>Ld</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="5c98bb96-27d4-4f4e-800e-3cbc72f7beb9"/>
+  </slsa.mm.param.rtp.VariableId>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="40515509-a233-4d7e-9e22-023bad8ec011">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="913ea32e-33a0-486d-aece-e60a85a30b2c"/>
+    <segmentIndex>4</segmentIndex>
+    <valueIndices>6</valueIndices>
+    <valueIndices>6</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="a4762d71-1bbd-4f98-a2cf-39cd3146906f">
+    <blockPath>svpwm_inv_ideal_switch_Motor_DVS_new_param/RMS1/RMS /Fourier1/Mean value1/Model/Memory</blockPath>
+    <name>InitialCondition</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="6601d21f-3320-4786-814e-1082a32a4931"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="96dd4eaa-044f-4a3d-b1d2-54cbd3183b70">
+    <id type="slsa.mm.param.rtp.VariableId" uuid="b871e9d3-2477-4ffb-8245-5f7e4403a0b4"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="8b2f1f4f-b99f-4a63-a691-27e5297e753c"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="ede1a535-a010-4ca3-b8b4-d9282ed5601e">
+    <blockPath>svpwm_inv_ideal_switch_Motor_DVS_new_param/RMS1/RMS /Fourier1/Mean/Model/K1</blockPath>
+    <name>Value</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="550750d3-f399-49f6-80b5-f578438f5b23"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="dc9266f5-e147-46d9-a3b2-5b82d578bde9">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="b2275d0c-f83f-4764-ace4-ea18965e6aff"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="5e363fea-52e0-4dd9-b499-4f64f37a92b9"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="5e363fea-52e0-4dd9-b499-4f64f37a92b9">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="dc9266f5-e147-46d9-a3b2-5b82d578bde9"/>
+    <segmentIndex>5</segmentIndex>
+    <valueIndices>12</valueIndices>
+    <valueIndices>12</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="da750a72-3505-4795-bc11-fe1fb7f953a7">
+    <blockPath>svpwm_inv_ideal_switch_Motor_DVS_new_param/RMS1/RMS /Fourier1/sin(wt)</blockPath>
+    <name>Amplitude</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="da09018d-63cd-4d46-94dc-52fe5bf0a7cd"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="016d3bca-dfb0-47b3-a8fc-b4fa300d29bf">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="13c4b055-75e8-41e4-8334-eeecbde52c98"/>
+    <segmentIndex>5</segmentIndex>
+    <valueIndices>17</valueIndices>
+    <valueIndices>17</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="888ed832-9cac-498e-875f-ba03690fae08">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="a73f801d-4dc6-4c9d-99e7-da00d52ab9ec"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="85e8f0a7-b0b7-40f7-a8d0-813e57dc0b13"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="b888be65-f720-41ea-8d7e-9f5a7b058d83">
+    <blockPath>svpwm_inv_ideal_switch_Motor_DVS_new_param/RMS1/RMS /Fourier1/cos(wt)</blockPath>
+    <name>Frequency</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="a347c3e0-cc8f-480a-8ffd-84cec41c2ad9"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="8673b244-2e0f-4f77-a477-64bd0d377810">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="fbe0cee0-d4a4-4e2e-b0d1-e17d8718eb26"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="db360e3c-8aca-46fa-b818-356a235e8535"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="fbf5e90e-4b19-4fe7-8dd1-5ad6c53bbfd8">
+    <blockPath>svpwm_inv_ideal_switch_Motor_DVS_new_param/CurrentsMuxFilter1/Mean2/Model/K1</blockPath>
+    <name>Value</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="13052882-5d3c-4a4b-be33-d5775f9b52b5"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="a36eec08-c8c7-4395-927b-4a69940d888e">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="a347c3e0-cc8f-480a-8ffd-84cec41c2ad9"/>
+    <segmentIndex>5</segmentIndex>
+    <valueIndices>19</valueIndices>
+    <valueIndices>19</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="c1555d04-8fd0-4b11-a321-78bbe443149a">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="91c9df4f-ee62-4020-bde7-4f3e1ecda94d"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="9c85d021-4d89-43d3-a5c9-32ad517628df"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="91c9df4f-ee62-4020-bde7-4f3e1ecda94d">
+    <blockPath>svpwm_inv_ideal_switch_Motor_DVS_new_param/RMS/TrueRMS /Mean value/Model/Transport Delay</blockPath>
+    <name>DelayTime</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="c1555d04-8fd0-4b11-a321-78bbe443149a"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="117ce612-ca6d-43d7-aded-b817cae96c72">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="3ae75a06-0fe8-44ad-9eb7-a0f8b7e74e2b"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="4ae62a7a-70be-4cc1-83cb-7ed3928dd945"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="d996149f-06ef-4a88-9544-f1c228422e5a">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="a1cf7459-8d75-4b13-8f94-2256cea1511f"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="4b45f304-2db6-40e0-a92e-04d7fc1b0579"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="3ae75a06-0fe8-44ad-9eb7-a0f8b7e74e2b">
+    <blockPath>svpwm_inv_ideal_switch_Motor_DVS_new_param/RMS/TrueRMS /Mean value/Model/Memory</blockPath>
+    <name>InitialCondition</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="117ce612-ca6d-43d7-aded-b817cae96c72"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="4ae62a7a-70be-4cc1-83cb-7ed3928dd945">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="117ce612-ca6d-43d7-aded-b817cae96c72"/>
+    <segmentIndex>6</segmentIndex>
+    <valueIndices>6</valueIndices>
+    <valueIndices>6</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="46ed3744-f480-4a8a-80f6-808c9540655f">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="a5cf134f-6c0f-4b9a-8f83-adbb94d88a23"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="a0f953a1-a634-436e-a89a-c3106926444c"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="a0f953a1-a634-436e-a89a-c3106926444c">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="46ed3744-f480-4a8a-80f6-808c9540655f"/>
+    <segmentIndex>7</segmentIndex>
+    <valueIndices>0</valueIndices>
+    <valueIndices>0</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="5b2fc6aa-d1ba-4cfb-b1b6-a3df37984cc3">
+    <id type="slsa.mm.param.rtp.VariableId" uuid="c2a8fb9d-24cd-487d-8eef-13ae028479d8"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="c2095a02-1ead-456e-9b3b-e296158d3c16"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="b24198f2-69d2-411c-80f1-fe076ab6e5d6">
+    <blockPath>svpwm_inv_ideal_switch_Motor_DVS_new_param/RMS/RMS /Fourier1/Mean value1/Model/Gain</blockPath>
+    <name>Gain</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="5f77c30a-033b-428a-975d-f10f3b0664d8"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="ea0af674-667a-40b8-bafb-f8452d1617a6">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="5f77c30a-033b-428a-975d-f10f3b0664d8"/>
+    <segmentIndex>7</segmentIndex>
+    <valueIndices>1</valueIndices>
+    <valueIndices>1</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.VariableId type="slsa.mm.param.rtp.VariableId" uuid="c2a8fb9d-24cd-487d-8eef-13ae028479d8">
+    <workspaceName>svpwm_inv_ideal_switch_Motor_DVS_new_param</workspaceName>
+    <name>PolePairs</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="5b2fc6aa-d1ba-4cfb-b1b6-a3df37984cc3"/>
+  </slsa.mm.param.rtp.VariableId>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="b17a8277-5694-4566-a157-d775ec463aaf">
+    <blockPath>svpwm_inv_ideal_switch_Motor_DVS_new_param/RMS1/TrueRMS /Mean value/Model/Transport Delay</blockPath>
+    <name>DelayTime</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="62d63ceb-2654-4952-a470-5e1cd2aa78f8"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="a347c3e0-cc8f-480a-8ffd-84cec41c2ad9">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="b888be65-f720-41ea-8d7e-9f5a7b058d83"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="a36eec08-c8c7-4395-927b-4a69940d888e"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="fc93be0e-b5a4-4327-bc0f-e2d65c23d2d3">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="be0a24f9-0a62-4b2a-ac66-b81659a0e538"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="e125c1a3-a263-43f2-b635-a0bc0b598cb4"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="e125c1a3-a263-43f2-b635-a0bc0b598cb4">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="fc93be0e-b5a4-4327-bc0f-e2d65c23d2d3"/>
+    <segmentIndex>7</segmentIndex>
+    <valueIndices>4</valueIndices>
+    <valueIndices>4</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="39eeb8c4-1d3a-4642-a58a-9b9f24556738">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="0f83c8ca-1c8a-4dd5-8476-d0f285dd932e"/>
+    <segmentIndex>7</segmentIndex>
+    <valueIndices>7</valueIndices>
+    <valueIndices>7</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="be0a24f9-0a62-4b2a-ac66-b81659a0e538">
+    <blockPath>svpwm_inv_ideal_switch_Motor_DVS_new_param/RMS/RMS /Fourier1/Mean value1/Model/Transport Delay</blockPath>
+    <name>DelayTime</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="fc93be0e-b5a4-4327-bc0f-e2d65c23d2d3"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="53721188-cefe-4cf0-a2f9-7d2e7bafa7ac">
+    <blockPath>svpwm_inv_ideal_switch_Motor_DVS_new_param/RMS/RMS /Fourier1/Mean/Model/Transport Delay</blockPath>
+    <name>DelayTime</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="f5529024-d871-4001-9a10-b56e061d1617"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="ea3bf955-49b6-43e8-a074-b2b8a907e13b">
+    <blockPath>svpwm_inv_ideal_switch_Motor_DVS_new_param/Park Transform/Variant/mcb/Park Transform/Sine Cosine/Sine-Cosine Lookup/Sine-Cosine Lookup/sine_table_values</blockPath>
+    <name>Value</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="2ea9e13e-bd29-449e-9650-83de32f3b365"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="07614dde-5797-4e2b-bd36-a80c1c363ae7">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="f5529024-d871-4001-9a10-b56e061d1617"/>
+    <segmentIndex>7</segmentIndex>
+    <valueIndices>9</valueIndices>
+    <valueIndices>9</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="0edb3261-4f46-480f-a120-bc8ec5a7939d">
+    <blockPath>svpwm_inv_ideal_switch_Motor_DVS_new_param/RMS/RMS /Fourier1/Mean/Model/K1</blockPath>
+    <name>Value</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="db109a25-d66a-4276-8641-96cfcb926b62"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="218864c8-c7df-4333-9347-77701ec2eb28">
+    <blockPath>svpwm_inv_ideal_switch_Motor_DVS_new_param/CurrentsMuxFilter/Mean1/Model/Memory</blockPath>
+    <name>InitialCondition</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="9d875246-1b8d-41b6-acdd-6255464c801a"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="946b1d28-38f4-402b-b3b8-74007d2bb273">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="4b165cae-fdd9-4ceb-a416-a48db8161c23"/>
+    <valueIndices>3186</valueIndices>
+    <valueIndices>4187</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="5a950ad4-46fc-4779-b2cf-cb82a9c33634">
+    <blockPath>svpwm_inv_ideal_switch_Motor_DVS_new_param/Mean/Model/K1</blockPath>
+    <name>Value</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="61de8b3e-c147-47f4-9663-a2ba74cc02db"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="cd72dbd4-e307-4a7d-8409-c1f307c6660d">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="c0a04bd2-83b1-4b3b-8ff0-04dbe60f0a50"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="bfc79a16-c24f-43e9-a6a8-5c5a69536d2b"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="573eedff-2f47-45b6-98e0-6583ac212cb0">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="9cfa66f6-9e95-4fde-b73a-413855e4c7b9"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="e0cc812c-5b77-4e49-a912-2af4fe8f3e00"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="6cfe4965-2aed-4c42-8837-b6011651c314">
+    <id type="slsa.mm.param.rtp.VariableId" uuid="f2c92061-1b7c-4e25-abe7-892473d98cd0"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="9e17f68f-ce1a-4784-af9d-3677cc475d27"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="71c17e95-7e5f-4c53-bd73-271c377e7f5e">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="d2cb0d36-efe9-4921-815f-f9f977a47c0a"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="3afa5627-0dd5-4467-8007-3112d766c34e"/>
+  </slsa.mm.param.rtp.Parameter>
+</MF0>

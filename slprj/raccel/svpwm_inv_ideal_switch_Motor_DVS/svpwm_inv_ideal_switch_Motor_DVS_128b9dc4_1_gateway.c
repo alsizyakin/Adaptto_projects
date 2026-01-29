@@ -9,7 +9,7 @@
 void svpwm_inv_ideal_switch_Motor_DVS_128b9dc4_1_gateway ( void ) {
 NeModelParameters modelparams = { ( enum NeSolverTypeTag ) 0 , 0.001 , 0.001
 , 0.001 , TRUE , FALSE , ( enum NeModifyAbsTolTag ) 1 , 0.001 , 0.0 , FALSE ,
-FALSE , FALSE , ( enum SscLoggingSettingTag ) 0 , 690826504.0 , FALSE , FALSE
+FALSE , FALSE , ( enum SscLoggingSettingTag ) 0 , 691061097.0 , FALSE , FALSE
 , FALSE } ; NeSolverParameters solverparams = { TRUE , TRUE , FALSE , FALSE ,
 FALSE , FALSE , TRUE , FALSE , FALSE , 0.001 , 0.001 , 1e-09 , FALSE , FALSE
 , 100U , FALSE , 1U , ( enum NeConsistencySolverTag ) 2 , ( enum
@@ -22,5 +22,8 @@ NeIndexReductionMethodTag ) 1 , FALSE , 1e-09 , ( enum NeToleranceSourceTag )
 NeOutputParameters * outputparameters = NULL ; NeDae * dae ; size_t
 numOutputs = 0 ; int rtpDaes [ 1 ] = { 0 } ; int * rtwLogDaes = NULL ; int *
 solverHitDaes = NULL ; { static const NeOutputParameters
-outputparameters_init [ ] = { { 0U , 0U } , { 0U , 1U } , } ;
-outputparameters = outputparameters_init ; numOutputs = sizeof ( outputparameters_init ) / sizeof ( outputparameters_init [ 0 ] ) ; } svpwm_inv_ideal_switch_Motor_DVS_128b9dc4_49_dae ( & dae , & modelparams , & solverparams ) ; nesl_register_simulator_group ( "svpwm_inv_ideal_switch_Motor_DVS/Solver Configuration1_1" , 1 , & dae , & solverparams , & modelparams , numOutputs , outputparameters , 1 , rtpDaes , 0 , rtwLogDaes , 0 , solverHitDaes ) ; }
+outputparameters_init [ ] = { { 0U , 0U } , } ; outputparameters =
+outputparameters_init ; numOutputs = sizeof ( outputparameters_init ) /
+sizeof ( outputparameters_init [ 0 ] ) ; }
+svpwm_inv_ideal_switch_Motor_DVS_128b9dc4_49_dae ( & dae , & modelparams , &
+solverparams ) ; nesl_register_simulator_group ( "svpwm_inv_ideal_switch_Motor_DVS/Solver Configuration1_1" , 1 , & dae , & solverparams , & modelparams , numOutputs , outputparameters , 1 , rtpDaes , 0 , rtwLogDaes , 0 , solverHitDaes ) ; }

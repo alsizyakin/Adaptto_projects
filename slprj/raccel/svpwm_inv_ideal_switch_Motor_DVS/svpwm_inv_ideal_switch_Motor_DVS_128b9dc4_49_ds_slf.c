@@ -7,12 +7,12 @@
 #include "ssc_ml_fun.h"
 int32_T svpwm_inv_ideal_switch_Motor_DVS_128b9dc4_49_ds_slf ( const
 NeDynamicSystem * sys , const NeDynamicSystemInput * t1 , NeDsMethodOutput *
-out ) { static boolean_T _cg_const_1 [ 35 ] = { false , false , false , false
-, false , false , true , true , true , true , true , true , false , false ,
+out ) { static boolean_T _cg_const_1 [ 36 ] = { false , false , false , false
+, false , false , false , true , true , true , true , true , true , false ,
 false , false , false , false , false , false , false , false , false , false
 , false , false , false , false , false , false , false , false , false ,
-false , false } ; ( void ) t1 ; out -> mSLF . mX [ 0 ] = _cg_const_1 [ 0 ] ;
-out -> mSLF . mX [ 1 ] = _cg_const_1 [ 1 ] ; out -> mSLF . mX [ 2 ] =
+false , false , false } ; ( void ) t1 ; out -> mSLF . mX [ 0 ] = _cg_const_1
+[ 0 ] ; out -> mSLF . mX [ 1 ] = _cg_const_1 [ 1 ] ; out -> mSLF . mX [ 2 ] =
 _cg_const_1 [ 2 ] ; out -> mSLF . mX [ 3 ] = _cg_const_1 [ 3 ] ; out -> mSLF
 . mX [ 4 ] = _cg_const_1 [ 4 ] ; out -> mSLF . mX [ 5 ] = _cg_const_1 [ 5 ] ;
 out -> mSLF . mX [ 6 ] = _cg_const_1 [ 6 ] ; out -> mSLF . mX [ 7 ] =
@@ -32,5 +32,6 @@ mSLF . mX [ 22 ] = _cg_const_1 [ 22 ] ; out -> mSLF . mX [ 23 ] = _cg_const_1
 _cg_const_1 [ 28 ] ; out -> mSLF . mX [ 29 ] = _cg_const_1 [ 29 ] ; out ->
 mSLF . mX [ 30 ] = _cg_const_1 [ 30 ] ; out -> mSLF . mX [ 31 ] = _cg_const_1
 [ 31 ] ; out -> mSLF . mX [ 32 ] = _cg_const_1 [ 32 ] ; out -> mSLF . mX [ 33
-] = _cg_const_1 [ 33 ] ; out -> mSLF . mX [ 34 ] = _cg_const_1 [ 34 ] ; ( void
-) sys ; ( void ) out ; return 0 ; }
+] = _cg_const_1 [ 33 ] ; out -> mSLF . mX [ 34 ] = _cg_const_1 [ 34 ] ; out
+-> mSLF . mX [ 35 ] = _cg_const_1 [ 35 ] ; ( void ) sys ; ( void ) out ;
+return 0 ; }

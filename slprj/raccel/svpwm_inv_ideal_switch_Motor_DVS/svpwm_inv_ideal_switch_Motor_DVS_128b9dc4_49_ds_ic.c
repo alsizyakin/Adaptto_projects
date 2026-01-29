@@ -8,10 +8,10 @@
 int32_T svpwm_inv_ideal_switch_Motor_DVS_128b9dc4_49_ds_ic ( const
 NeDynamicSystem * sys , const NeDynamicSystemInput * t1 , NeDsMethodOutput *
 out ) { out -> mIC . mX [ 0UL ] = t1 -> mP_R . mX [ 0UL ] ; out -> mIC . mX [
-1UL ] = 0.0 ; out -> mIC . mX [ 2UL ] = 0.0 ; out -> mIC . mX [ 3UL ] = t1 ->
-mP_R . mX [ 1UL ] * 0.017453292519943295 ; out -> mIC . mX [ 4UL ] = t1 ->
-mP_R . mX [ 2UL ] ; out -> mIC . mX [ 5UL ] = t1 -> mP_R . mX [ 3UL ] ; out
--> mIC . mX [ 6UL ] = 0.0 ; out -> mIC . mX [ 7UL ] = 0.0 ; out -> mIC . mX [
+1UL ] = 0.0 ; out -> mIC . mX [ 2UL ] = 0.0 ; out -> mIC . mX [ 3UL ] = 0.0 ;
+out -> mIC . mX [ 4UL ] = t1 -> mP_R . mX [ 2UL ] * 0.017453292519943295 ;
+out -> mIC . mX [ 5UL ] = t1 -> mP_R . mX [ 3UL ] ; out -> mIC . mX [ 6UL ] =
+t1 -> mP_R . mX [ 4UL ] ; out -> mIC . mX [ 7UL ] = 0.0 ; out -> mIC . mX [
 8UL ] = 0.0 ; out -> mIC . mX [ 9UL ] = 0.0 ; out -> mIC . mX [ 10UL ] = 0.0
 ; out -> mIC . mX [ 11UL ] = 0.0 ; out -> mIC . mX [ 12UL ] = 0.0 ; out ->
 mIC . mX [ 13UL ] = 0.0 ; out -> mIC . mX [ 14UL ] = 0.0 ; out -> mIC . mX [
@@ -23,4 +23,5 @@ mIC . mX [ 13UL ] = 0.0 ; out -> mIC . mX [ 14UL ] = 0.0 ; out -> mIC . mX [
 -> mIC . mX [ 27UL ] = 0.0 ; out -> mIC . mX [ 28UL ] = 0.0 ; out -> mIC . mX
 [ 29UL ] = 0.0 ; out -> mIC . mX [ 30UL ] = 0.0 ; out -> mIC . mX [ 31UL ] =
 0.0 ; out -> mIC . mX [ 32UL ] = 0.0 ; out -> mIC . mX [ 33UL ] = 0.0 ; out
--> mIC . mX [ 34UL ] = 0.0 ; ( void ) sys ; ( void ) out ; return 0 ; }
+-> mIC . mX [ 34UL ] = 0.0 ; out -> mIC . mX [ 35UL ] = t1 -> mP_R . mX [ 1UL
+] ; ( void ) sys ; ( void ) out ; return 0 ; }
