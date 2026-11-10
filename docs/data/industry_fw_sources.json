@@ -1,0 +1,113 @@
+{
+  "reviewed_on": "2026-11-10",
+  "illustrations": "Original diagrams and equation-based illustrations; no vendor page reproductions; no corrected-controller simulation.",
+  "sources": [
+    {
+      "id": "S1",
+      "organization": "VESC / Benjamin Vedder",
+      "kind": "open_source_firmware",
+      "revision": "3ebf8d1fe8cc485ad588e4272a761785c9cf0c5d",
+      "urls": [
+        "https://github.com/vedderb/bldc/blob/3ebf8d1fe8cc485ad588e4272a761785c9cf0c5d/motor/mcpwm_foc.c",
+        "https://github.com/vedderb/bldc/blob/3ebf8d1fe8cc485ad588e4272a761785c9cf0c5d/motor/foc_math.c",
+        "https://github.com/vedderb/bldc/blob/3ebf8d1fe8cc485ad588e4272a761785c9cf0c5d/motor/mcconf_default.h"
+      ],
+      "locators": [
+        "control_current voltage saturation",
+        "mcpwm_foc_adc_int_handler current references",
+        "foc_run_fw",
+        "MCCONF_FOC_MAG_VD_MAX",
+        "MCCONF_FOC_FW_CURRENT_MAX"
+      ]
+    },
+    {
+      "id": "S2",
+      "organization": "BorgWarner Portland / Cascadia Motion",
+      "kind": "production_product_manual",
+      "revision": "0A-0163-04",
+      "url": "https://www.cascadiamotion.com/_files/ugd/b5e2cb_e731a297509a4b2786cea7ef36199b7f.pdf",
+      "locators": [
+        "6.1, printed page 35",
+        "6.2, printed pages 37–38"
+      ]
+    },
+    {
+      "id": "S3",
+      "organization": "Kollmorgen",
+      "kind": "production_product_manual",
+      "product": "AKD2G",
+      "url": "https://webhelp.kollmorgen.com/kas/content/AKD2G_User_Manual/Field_Weakening.htm",
+      "additional_url": "https://webhelp.kollmorgen.com/kas/Content/AKD2G_User_Manual/Field_Weakening_View.htm"
+    },
+    {
+      "id": "S4",
+      "organization": "Beckhoff",
+      "kind": "production_product_manual",
+      "product": "AX5000",
+      "url": "https://infosys.beckhoff.com/content/1033/ax5000_function_doku_hw2/10492589579.html"
+    },
+    {
+      "id": "S5",
+      "organization": "ABB",
+      "kind": "production_control_platform",
+      "urls": [
+        "https://www.abb.com/gb/en/areas/motion/drives/expertise-technology/direct-torque-control",
+        "https://library.e.abb.com/public/cff2602d11b16162c125785c00461fd1/EN_ACS800_PermMagSynchSupplStd_C.pdf"
+      ],
+      "locators": [
+        "DTC description",
+        "ACS800 PMSM supplement, chapter 4"
+      ]
+    },
+    {
+      "id": "S6",
+      "organization": "Texas Instruments",
+      "kind": "hardware_reference_design",
+      "product": "TIDM-02017",
+      "revision": "TIDUF56, January 2024",
+      "url": "https://www.ti.com/lit/ug/tiduf56/tiduf56.pdf?ts=1780283501979",
+      "locators": [
+        "3.2, printed pages 15–16, Figures 3-10 and 3-11"
+      ]
+    },
+    {
+      "id": "S7",
+      "organization": "Microchip",
+      "kind": "application_note",
+      "product": "AN2520",
+      "url": "https://onlinedocs.microchip.com/oxy/GUID-AAAF8F97-D139-4A93-A154-AA3C6EE6BB22-en-US-1/GUID-007091E0-0021-4359-A50B-127AF65C0B1C.html",
+      "locators": [
+        "4 Equation-based Flux Weakening",
+        "Figure 4-1"
+      ]
+    },
+    {
+      "id": "S8",
+      "organization": "Infineon",
+      "kind": "demonstration_software_manual",
+      "revision": "Z8F80651251, 1.01, 2024-12-12",
+      "url": "https://www.infineon.com/assets/row/public/documents/10/96/infineon-z8f80651251-um-generic-power-boards-software-software-en.pdf?fileId=8ac78c8c9625080601963e663fa340c8",
+      "locators": [
+        "Table 3, printed page 16"
+      ]
+    },
+    {
+      "id": "S9",
+      "organization": "NXP",
+      "kind": "automotive_mcu_reference_design",
+      "revision": "AN12235 Rev. 1, 06/2020",
+      "url": "https://www.nxp.com/docs/en/application-note/AN12235.pdf",
+      "locators": [
+        "4.3.4, printed pages 41–42"
+      ]
+    },
+    {
+      "id": "S10",
+      "organization": "IR / Infineon",
+      "kind": "control_ic_application_note",
+      "revision": "AN-1090, IRMCF3xx Series Controller Dynamics and Tuning, Eddy Ho",
+      "url": "https://www.infineon.com/assets/row/public/documents/60/42/infineon-irmcf3xx-series-controller-dynamics-and-tuning-an-en.pdf?fileId=5546d462533600a401535595acd1103c",
+      "locators": ["Printed pages 10–11, Figures 14–17"]
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+digraph G {
+
+      graph [bgcolor="white",pad="0.25",nodesep="0.35",ranksep="0.45",dpi=145];
+      node [shape=box,style="rounded,filled",fillcolor="#eef4fa",color="#526777",
+            fontname="DejaVu Sans",fontsize=12,margin="0.16,0.11"];
+      edge [color="#526777",fontname="DejaVu Sans",fontsize=10,arrowsize=0.75];
+    
+      rankdir=LR; newrank=true;
+      subgraph cluster_ir {
+        label="IR / Infineon AN-1090 — функциональная схема";fontname="DejaVu Sans";color="#cbd5df";
+        i0 [label="Dv, Qv\nмодуляция"];
+        i1 [label="Ошибка к FwkLvl\nусиление с поправкой по скорости"];
+        i2 [label="Интегратор и предел\nFwk_Id → внутренний контур"];
+        i0 -> i1 -> i2;
+      }
+      subgraph cluster_ti {
+        label="TI TIDM-02017 — функциональная схема";fontname="DejaVu Sans";color="#cbd5df";
+        t0 [label="Vd, Vq → Vs\nцель из Vbus"];
+        t1 [label="FW PI → угол\nвыбор вместе с MTPA"];
+        t2 [label="Is и угол\nсовместная пара Id / Iq"];
+        t0 -> t1 -> t2;
+      }
+      subgraph cluster_cm {
+        label="Cascadia: Internal PM DC Link FW — описание функции";fontname="DejaVu Sans";color="#cbd5df";
+        c0 [label="Ограничение\nмодуляции"];
+        c1 [label="Коррекция эффективного Vdc\nдля внутренних таблиц"];
+        c2 [label="Таблицы Id / Iq\nновая пара заданий"];
+        c0 -> c1 -> c2;
+      }
+      {rank=same;i0;t0;c0;} {rank=same;i1;t1;c1;} {rank=same;i2;t2;c2;}
+    
+}

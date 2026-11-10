@@ -1,0 +1,36 @@
+digraph G {
+
+      graph [bgcolor="white", pad="0.28", nodesep="0.38", ranksep="0.5", dpi=140];
+      node [shape=box, style="rounded,filled", fillcolor="#eef4fa", color="#526777",
+            fontname="DejaVu Sans", fontsize=12, margin="0.16,0.12"];
+      edge [color="#526777", fontname="DejaVu Sans", fontsize=10, arrowsize=0.75];
+    
+      rankdir=TB;
+      refs [label="Idreq, Iqreq\nиз верхнего уровня"];
+      ed [label="ed = Idreq − Id\nSum", group=d];
+      eq [label="eq = Iqreq − Iq\nSum1", group=q];
+      pd [label="PID Controller3\nPI_d + clamping\nпределы: ±Vmax − Uff,d"];
+      pq [label="PID Controller4\nPI_q + clamping\nпределы: ±UqLim − Uff,q"];
+      ud [label="Sum6: Ud = PI_d + Uff,d\nUff,d = −ωe · Lq_est · Iq", fillcolor="#e9e5f3", group=d];
+      uq [label="Sum5: Uq = PI_q + Uff,q\nUff,q = ωe · (Psi_est + Ld · Id)", fillcolor="#e9e5f3", group=q];
+      qlim [label="UqLimiter\n√max(0,001; Vmax² − Ud²)", fillcolor="#fff0dc"];
+      vmax [label="Gain: Vmax\n0,995 · Vdc_filt / √3"];
+      act [label="Обратный Park → SVPWM → машина"];
+      fb [label="iabc → Clarke → Park(θe)\nизмеренные Id, Iq", fillcolor="#e6f4ea"];
+      refs -> ed; refs -> eq;
+      ed -> pd -> ud [weight=8];
+      eq -> pq -> uq [weight=8];
+      ud -> qlim [label="d выделяется первой"];
+      qlim -> pq [label="пределы q", constraint=false, color="#a87334"];
+      vmax -> pd [label="пределы d"];
+      ud -> act; uq -> act;
+      act -> fb;
+      fb:w -> ed:w [label="Id, знак −", style=dashed, constraint=false];
+      fb:e -> eq:e [label="Iq, знак −", style=dashed, constraint=false];
+      {rank=same; ed; eq;}
+      ed -> eq [style=invis];
+      {rank=same; refs; vmax;}
+      {rank=same; pd; pq;}
+      {rank=same; ud; uq;}
+    
+}

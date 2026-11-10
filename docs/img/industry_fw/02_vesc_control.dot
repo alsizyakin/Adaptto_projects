@@ -1,0 +1,20 @@
+digraph G {
+      graph [bgcolor="white", pad="0.25", nodesep="0.35", ranksep="0.5", dpi=150];
+      node [shape=box, style="rounded,filled", fillcolor="#eef3f8", color="#596c7e",
+            fontname="DejaVu Sans", fontsize=12, margin="0.16,0.12"];
+      edge [color="#596c7e", fontname="DejaVu Sans", fontsize=10, arrowsize=0.8];
+    
+      rankdir=TB;
+      label="VESC — упрощённая схема по исходному коду 3ebf8d1"; labelloc=t; fontname="DejaVu Sans";
+      duty [label="Фильтрованный модуль duty\nпорог и предел тока ОП"];
+      back [label="FW backoff по знаковой ошибке Iq\nуменьшение допустимого тока ОП"];
+      ref [label="Выбор Id из MTPA / ОП\nжёсткий круг Id² + Iq² ≤ Imax²"];
+      ctrl [label="Токовые PI и развязка"];
+      vd [label="Ограничение Ud и интегратора d\n|Ud| ≤ kd · Umax"];
+      vq [label="Остаток напряжения для q\n|Uq| ≤ √(Umax² − Ud²)\nограничение интегратора q"];
+      note [label="kd = 0,98 в общей конфигурации\nрезерв диапазона q ≈ 0,199 Umax\nне гарантия достаточного Uq", fillcolor="#fff0dc"];
+      duty -> ref; back -> ref;
+      ref -> ctrl -> vd -> vq;
+      vd -> note [style=dashed];
+    
+}

@@ -1,0 +1,28 @@
+digraph G {
+
+      graph [bgcolor="white", pad="0.28", nodesep="0.38", ranksep="0.5", dpi=140];
+      node [shape=box, style="rounded,filled", fillcolor="#eef4fa", color="#526777",
+            fontname="DejaVu Sans", fontsize=12, margin="0.16,0.12"];
+      edge [color="#526777", fontname="DejaVu Sans", fontsize=10, arrowsize=0.75];
+    
+      rankdir=TB;
+      input [label="Id, Iq из Bus Selector\nUd, Uq — команды VectorBase\nскорость и номинальные Rs, Ld"];
+      psi [label="Divide7 → Sum12\nPsi_raw = (Uq − Rs·Iq) / ω̂e − Ld·Id"];
+      lq [label="Sum → Divide8\nLq_raw = (Rs·Id − Ud) / (ω̂e · Îq)"];
+      plim [label="Saturation2 → LPF7\n[0,6 Ψ; 1,4 Ψ]\nτ = 20000 Ts = 1,667 с"];
+      qlim [label="Saturation3 → LPF9\n[0,1 Lq; 1,4 Lq]\nτ = 200 Ts = 16,67 мс"];
+      po [label="Psi_est\nначальное значение Ψ", fillcolor="#e6f4ea"];
+      qo [label="Lq_est\nначальное значение Lq", fillcolor="#e6f4ea"];
+      usep [label="Развязка q; FF и пределы Id\nлогика порога ОП"];
+      useq [label="Развязка d; FF\nпредел Iq по напряжению"];
+      caveat [label="ω̂e: sat_signed1/2, модуль ≥ 40 рад/с\nÎq: sat_signed3, модуль ≥ 0,1 А\nВ текущей схеме нет valid/hold", fillcolor="#fff0dc"];
+      input -> psi -> plim -> po -> usep;
+      input -> lq -> qlim -> qo -> useq;
+      caveat -> psi [style=dotted, constraint=false];
+      caveat -> lq [style=dotted, constraint=false];
+      {rank=same; psi; lq;}
+      {rank=same; plim; qlim;}
+      {rank=same; po; qo;}
+      {rank=same; usep; useq;}
+    
+}

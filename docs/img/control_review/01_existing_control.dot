@@ -1,0 +1,26 @@
+digraph G {
+
+      graph [bgcolor="white", pad="0.3", nodesep="0.35", ranksep="0.55", dpi=150];
+      node [shape=box, style="rounded,filled", fillcolor="#eef4fa", color="#526777",
+            fontname="DejaVu Sans", fontsize=12, margin="0.16,0.11"];
+      edge [color="#526777", fontname="DejaVu Sans", fontsize=10, arrowsize=0.8];
+    
+          rankdir=TB;
+          req [label="Запрос Iq\nRepeating Sequence"];
+          fw [label="FF ослабления поля + Psi_trim\nпо Psi_est, Lq_est и Ud/Uq"];
+          id [label="Idreq: ограничение по Psi_est\nзадержка Ts/2"];
+          filt [label="LPF(Idreq), τ = 8,3 мс\nостаток бюджета тока → IqLim", fillcolor="#fff0dc"];
+          iq [label="Iqreq = min(запрос, IqLim)\nнижнего ограничения нет", fillcolor="#fff0dc"];
+          pi [label="VectorBase: PI_d, PI_q + развязка\nclamping отдельно по осям"];
+          lim [label="Сначала Ud, затем остаток для Uq\nпри |Ud| ≈ Vmax → Uq ≈ 0", fillcolor="#fce7e5"];
+          pwm [label="SVPWM → обрезка → задержка\nидеальные источники → PMSM"];
+          est [label="Оценщики Psi_est и Lq_est\nпо командам Ud/Uq и токам"];
+          { rank=same; req; fw; }
+          req -> iq; fw -> id; id -> filt; filt -> iq;
+          id -> pi; iq -> pi; pi -> lim; lim -> pwm;
+          pwm -> pi [label="токи", style=dashed, constraint=false];
+          lim -> fw [label="Ud/Uq", style=dashed, constraint=false];
+          lim -> est; pwm -> est [label="токи"];
+          est -> fw [style=dashed, constraint=false];
+        
+}

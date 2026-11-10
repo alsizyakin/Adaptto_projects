@@ -1,0 +1,28 @@
+digraph G {
+
+      graph [bgcolor="white", pad="0.28", nodesep="0.38", ranksep="0.5", dpi=140];
+      node [shape=box, style="rounded,filled", fillcolor="#eef4fa", color="#526777",
+            fontname="DejaVu Sans", fontsize=12, margin="0.16,0.12"];
+      edge [color="#526777", fontname="DejaVu Sans", fontsize=10, arrowsize=0.75];
+    
+      rankdir=TB;
+      command [label="Ud / Uq после ограничений PI\nИменно эти сигналы получают ОП и оценщики", fillcolor="#e9e5f3"];
+      angle [label="Угловое опережение\nθfuture = θe + ωe Ts · (1 − 0,5 compensate_pwm)\ncompensate_pwm = 0 → θe + ωe Ts"];
+      park [label="Inverse Park Transform1\nCartesian to Polar1 → vRef, vAngle"];
+      sv [label="SVPWM1: вызов Ts/2\nрасчёт / удержание через вызов\nm = clip(√3 · vRef / Vdc_filt; 0; 0,995)"];
+      clamp [label="Финальная обрезка скважностей\n0,005 ≤ da, db, dc ≤ 0,995\nвнутри SVPWM1", fillcolor="#fff0dc"];
+      delay [label="Mux5 → Unit Delay2\nзадержка Ts/2; сигнал Kzi"];
+      phase [label="Bias2 → Product5\nG1, G3, G5 = (da,b,c − 0,5) · Vdc"];
+      machine [label="Controlled Voltage Source × 3 → PMSM\nсредние напряжения, без ключевых переключений", fillcolor="#e6f4ea"];
+      bus [label="Constant7: Vdc\nмножитель источников"];
+      filt [label="LPF5: Vdc_filt\nτ = 20 Ts = 1,667 мс"];
+      command -> park -> sv -> clamp -> delay -> phase -> machine [weight=8];
+      angle -> park;
+      bus -> filt;
+      filt -> sv [constraint=false];
+      bus -> phase [label="Vdc", constraint=false];
+      {rank=same; park; angle;}
+      {rank=same; sv; filt;}
+      {rank=same; command; bus;}
+    
+}

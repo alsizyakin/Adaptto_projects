@@ -1,0 +1,24 @@
+digraph G {
+
+      graph [bgcolor="white",pad="0.25",nodesep="0.35",ranksep="0.45",dpi=145];
+      node [shape=box,style="rounded,filled",fillcolor="#eef4fa",color="#526777",
+            fontname="DejaVu Sans",fontsize=12,margin="0.16,0.11"];
+      edge [color="#526777",fontname="DejaVu Sans",fontsize=10,arrowsize=0.75];
+    
+      rankdir=TB;
+      req [label="Исходный запрос момента\nограничения питания и машины"];
+      plan [label="Расчёт или таблицы допустимой пары\nток, напряжение, Idmin, доля d\nвариант C: базовое задание + коррекция"];
+      traj [label="Траектория Id / Iq\nпроверка Uss + L·dI/dt\nитоговый токовый круг",fillcolor="#e6f4ea"];
+      ctrl [label="Токовые контуры и выбранный ограничитель\nсогласованный anti-windup"];
+      plant [label="SVPWM и машина\nвсе стадии напряжения и токи"];
+      trim [label="Медленная коррекция ОП\nсигнал напряжения, проверенная полоса\nограниченные усиление и темп"];
+      status [label="Оценка достижимости и слежения\nпотеря Id / Iq, дефицит напряжения\nкоррекция допустимого момента",fillcolor="#fff0dc"];
+      req -> plan -> traj -> ctrl -> plant;
+      plant -> trim [label="обратная связь"];
+      trim -> plan [style=dashed,constraint=false];
+      traj -> trim [label="tracking окончательного задания",style=dashed,constraint=false];
+      plant -> status;
+      status -> plan [style=dashed,constraint=false];
+      {rank=same;trim;status;}
+    
+}

@@ -1,0 +1,33 @@
+digraph G {
+
+      graph [bgcolor="white", pad="0.3", nodesep="0.35", ranksep="0.55", dpi=150];
+      node [shape=box, style="rounded,filled", fillcolor="#eef4fa", color="#526777",
+            fontname="DejaVu Sans", fontsize=12, margin="0.16,0.11"];
+      edge [color="#526777", fontname="DejaVu Sans", fontsize=10, arrowsize=0.8];
+    
+          rankdir=TB;
+          req [label="Запрос момента / Iq\nверхние ограничения"];
+          refs [label="Совместные Id/Iq и траектория\nток, напряжение, предел Id\nдополнительный предел доли Ud"];
+          hard [label="Жёсткий ограничитель Id/Iq\nодин такт, |Iref| ≤ Is_max\nобе полярности", fillcolor="#e6f4ea"];
+          pi [label="PI_d и PI_q + развязка\nU* = Kp·e + x + Uff"];
+          proj [label="Выбранный ограничитель напряжения\nприоритет d / ограниченная доля d\nили радиальная проекция", fillcolor="#e9e5f3"];
+          act [label="ШИМ → машина\nмодель ограничения и восстановление Udq"];
+          aw [label="Согласованный anti-windup\nограниченная команда и U*\nразвязка и время учтены"];
+          obs [label="Параметры регулятора\nфиксированные или valid / hold"];
+          trim [label="Коррекция ОП\nзапас напряжения и слежение\nконтроль направления изменения Id"];
+          { rank=same; aw; pi; }
+          { rank=same; hard; trim; }
+          req -> refs [weight=10]; refs -> hard [weight=10];
+          hard -> pi [weight=10]; pi -> proj [weight=10]; proj -> act [weight=10];
+          act -> pi [label="токи", style=dashed, constraint=false];
+          pi -> aw [label="U*", constraint=false];
+          act -> aw [label="модель ограничения", constraint=false];
+          aw -> pi [label="x", color="#238b45", constraint=false];
+          act -> obs;
+          obs -> refs [style=dashed, constraint=false];
+          obs -> pi [style=dashed, constraint=false];
+          pi -> trim [label="U*", constraint=false];
+          proj -> trim [label="насыщение", constraint=false];
+          trim -> refs [style=dashed, constraint=false];
+        
+}

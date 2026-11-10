@@ -1,0 +1,21 @@
+digraph G {
+      graph [bgcolor="white", pad="0.25", nodesep="0.35", ranksep="0.5", dpi=150];
+      node [shape=box, style="rounded,filled", fillcolor="#eef3f8", color="#596c7e",
+            fontname="DejaVu Sans", fontsize=12, margin="0.16,0.12"];
+      edge [color="#596c7e", fontname="DejaVu Sans", fontsize=10, arrowsize=0.8];
+    
+      rankdir=TB;
+      label="Обобщённая структура FOC — не схема одного изделия"; labelloc=t; fontname="DejaVu Sans";
+      request [label="Запрос момента"];
+      limits [label="Допустимый момент и ток\nпитание, нагрев, тяга / рекуперация"];
+      refs [label="Совместные задания Id / Iq\nрасчёт, таблицы или угол тока"];
+      pi [label="PI_d / PI_q + развязка\nнеограниченный запрос U*"];
+      sat [label="Распределение доступного напряжения\nвыбранный ограничитель + anti-windup", fillcolor="#e9e5f3"];
+      act [label="ШИМ и машина\nтоки, Vdc, реализованное напряжение"];
+      fw [label="Коррекция ослабления поля\nзапас напряжения и потеря слежения", fillcolor="#e1f0f2"];
+      request -> limits -> refs -> pi -> sat -> act;
+      act -> fw [label="обратная связь"];
+      fw -> refs [constraint=false];
+      act -> pi [label="Id / Iq", style=dashed, constraint=false];
+    
+}

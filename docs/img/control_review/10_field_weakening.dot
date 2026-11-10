@@ -1,0 +1,32 @@
+digraph G {
+
+      graph [bgcolor="white", pad="0.28", nodesep="0.38", ranksep="0.5", dpi=140];
+      node [shape=box, style="rounded,filled", fillcolor="#eef4fa", color="#526777",
+            fontname="DejaVu Sans", fontsize=12, margin="0.16,0.12"];
+      edge [color="#526777", fontname="DejaVu Sans", fontsize=10, arrowsize=0.75];
+    
+      rankdir=TB;
+      feed [label="Vs_max, ω̃e, Iqreq, Idreq\nPsi_est, Lq_est"];
+      ff [label="FF по эллипсу напряжения\nDivide2, Sum2, Max, Sqrt2…\nSaturation Dynamic1 → Min1\nPsi_d_ff ∈ [−Psi_est; 0]"];
+      volts [label="Ограниченные Ud, Uq\nиз VectorBase"];
+      vf [label="LPF1 / LPF6 → Sqrt1\nVf = √(Ud_f² + Uq_f²)\nτ = 10 Ts"];
+      error [label="Sum11: ΔV = Vs_max − Vf\nDivide: ΔΨ = ΔV / (sens · |ω̃e|)"];
+      sense [label="Divide3 → LPF2 → sat_signed4\nsens из Uq_f, Rs·Iqreq, Vf\nзнак скорости; |sens| ≥ 0,1"];
+      integ [label="Product1 → PID Controller\n∫ 15 · freeze · ΔΨ dt\nPsi_trim ∈ [−50 Ld; +50 Ld]"];
+      gate [label="AND / AND1 / AND2 → NOT\nfreeze: 1 разрешает интегрирование\nNOT1 → reset интегратора", fillcolor="#fff0dc"];
+      sum [label="Sum6: z = Psi_d_ff + Psi_trim"];
+      clip [label="Saturation Dynamic\nz ∈ [−1,2 Psi_est; 0]"];
+      id [label="Gain1: деление на Ld\nUnit Delay1: Ts/2 → Idreq", fillcolor="#e9e5f3"];
+      inner [label="Токовые контуры + машина\nизменяют токи и запрос напряжения"];
+      feed -> ff -> sum;
+      volts -> vf -> error -> integ -> sum -> clip -> id -> inner;
+      vf -> sense; sense -> error [constraint=false];
+      error -> gate [label="ΔΨ", constraint=false];
+      sum -> gate [label="z", constraint=false];
+      gate -> integ [style=dashed, constraint=false];
+      inner -> volts [label="замыкание наружного контура", style=dashed, constraint=false];
+      {rank=same; feed; volts;}
+      {rank=same; ff; vf;}
+      {rank=same; sense; error;}
+    
+}

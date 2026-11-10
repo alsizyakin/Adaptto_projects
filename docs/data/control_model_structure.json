@@ -1,0 +1,697 @@
+{
+  "model": "ideal_source_drive_Idff_aug_param.slx",
+  "model_sha256": "787414147bdaf4768b4a89b4972d52522646af209e6cf770d9879a9e244c6160",
+  "note": "Functional diagrams manually traced from SLX; line breaks in block names normalized to spaces. No simulation.",
+  "figures": {
+    "08_model_plant": [
+      "Repeating Sequence",
+      "1-D Lookup Table2",
+      "Constant7",
+      "VectorBase",
+      "SVPWM1",
+      "Unit Delay2",
+      "Bias2",
+      "Product5",
+      "PMSM",
+      "Subsystem4",
+      "Ideal Angular Velocity Source",
+      "Inertia",
+      "Constant1"
+    ],
+    "09_current_loops": [
+      "VectorBase/Sum",
+      "VectorBase/Sum1",
+      "VectorBase/PID Controller3",
+      "VectorBase/PID Controller4",
+      "VectorBase/Sum6",
+      "VectorBase/Sum5",
+      "VectorBase/Sum7",
+      "VectorBase/Sum8",
+      "VectorBase/Sum9",
+      "VectorBase/Sum10",
+      "VectorBase/UqLimiter",
+      "VectorBase/UqLimiter/Saturation",
+      "VectorBase/Gain"
+    ],
+    "10_field_weakening": [
+      "Gain8",
+      "Divide2",
+      "Sum2",
+      "Sqrt2",
+      "Saturation Dynamic1",
+      "Min1",
+      "Low-Pass Filter (Discrete or Continuous)1",
+      "Low-Pass Filter (Discrete or Continuous)6",
+      "Sqrt1",
+      "Sum11",
+      "Divide3",
+      "Low-Pass Filter (Discrete or Continuous)2",
+      "sat_signed4",
+      "Divide",
+      "Product1",
+      "PID Controller",
+      "AND",
+      "AND1",
+      "AND2",
+      "NOT",
+      "NOT1",
+      "Sum6",
+      "Saturation Dynamic",
+      "Gain1",
+      "Unit Delay1"
+    ],
+    "11_current_references": [
+      "Unit Delay1",
+      "Low-Pass Filter (Discrete or Continuous)8",
+      "Sum1",
+      "Saturation",
+      "Sqrt",
+      "Divide4",
+      "Min_smooth_ab",
+      "Min3",
+      "Repeating Sequence"
+    ],
+    "12_parameter_feedback": [
+      "Bus Selector",
+      "Gain13",
+      "Gain14",
+      "Divide7",
+      "Divide8",
+      "Sum12",
+      "Sum",
+      "Saturation2",
+      "Saturation3",
+      "sat_signed1",
+      "sat_signed2",
+      "sat_signed3",
+      "Low-Pass Filter (Discrete or Continuous)7",
+      "Low-Pass Filter (Discrete or Continuous)9"
+    ],
+    "13_voltage_path": [
+      "VectorBase/Gain3",
+      "VectorBase/Gain7",
+      "VectorBase/Sum2",
+      "VectorBase/Inverse Park Transform1",
+      "VectorBase/Cartesian to Polar1",
+      "SVPWM1",
+      "Mux5",
+      "Unit Delay2",
+      "Bias2",
+      "Product5",
+      "Low-Pass Filter (Discrete or Continuous)5",
+      "Constant7",
+      "Controlled Voltage Source",
+      "Controlled Voltage Source1",
+      "Controlled Voltage Source2"
+    ]
+  },
+  "blocks": {
+    "1-D Lookup Table2": {
+      "sid": "2151",
+      "type": "Lookup_n-D",
+      "parameters": {
+        "BreakpointsForDimension1": "[0 0.3 1 1.3 2 2.3 3 3.3 4 4.3 5 5.3 6 6.3 7 14 24 ]",
+        "Table": "[0 104 104 208 208 312 312 416 416 520 520 624 624 738 738 156 21]"
+      }
+    },
+    "AND": {
+      "sid": "2392",
+      "type": "Logic",
+      "parameters": {}
+    },
+    "AND1": {
+      "sid": "2393",
+      "type": "Logic",
+      "parameters": {}
+    },
+    "AND2": {
+      "sid": "2636",
+      "type": "Logic",
+      "parameters": {}
+    },
+    "Bias2": {
+      "sid": "2201",
+      "type": "Bias",
+      "parameters": {}
+    },
+    "Bus Selector": {
+      "sid": "2549",
+      "type": "BusSelector",
+      "parameters": {}
+    },
+    "Constant1": {
+      "sid": "2037",
+      "type": "Constant",
+      "parameters": {
+        "Value": "-50"
+      }
+    },
+    "Constant7": {
+      "sid": "2206",
+      "type": "Constant",
+      "parameters": {
+        "Value": "VDC"
+      }
+    },
+    "Controlled Voltage Source": {
+      "sid": "2207",
+      "type": "Reference",
+      "parameters": {}
+    },
+    "Controlled Voltage Source1": {
+      "sid": "2208",
+      "type": "Reference",
+      "parameters": {}
+    },
+    "Controlled Voltage Source2": {
+      "sid": "2209",
+      "type": "Reference",
+      "parameters": {}
+    },
+    "Divide": {
+      "sid": "2121",
+      "type": "Product",
+      "parameters": {
+        "Inputs": "*//"
+      }
+    },
+    "Divide2": {
+      "sid": "2292",
+      "type": "Product",
+      "parameters": {
+        "Inputs": "*/"
+      }
+    },
+    "Divide3": {
+      "sid": "2376",
+      "type": "Product",
+      "parameters": {
+        "Inputs": "/**"
+      }
+    },
+    "Divide4": {
+      "sid": "2327",
+      "type": "Product",
+      "parameters": {
+        "Inputs": "*/"
+      }
+    },
+    "Divide7": {
+      "sid": "2526",
+      "type": "Product",
+      "parameters": {
+        "Inputs": "*/"
+      }
+    },
+    "Divide8": {
+      "sid": "2564",
+      "type": "Product",
+      "parameters": {
+        "Inputs": "*//"
+      }
+    },
+    "Gain1": {
+      "sid": "2127",
+      "type": "Gain",
+      "parameters": {
+        "Gain": "1/Ld"
+      }
+    },
+    "Gain13": {
+      "sid": "2555",
+      "type": "Gain",
+      "parameters": {
+        "Gain": "Rs"
+      }
+    },
+    "Gain14": {
+      "sid": "2558",
+      "type": "Gain",
+      "parameters": {
+        "Gain": "Rs"
+      }
+    },
+    "Gain8": {
+      "sid": "2114",
+      "type": "Gain",
+      "parameters": {
+        "Gain": "0.95"
+      }
+    },
+    "Ideal Angular Velocity Source": {
+      "sid": "2038",
+      "type": "Reference",
+      "parameters": {}
+    },
+    "Inertia": {
+      "sid": "2034",
+      "type": "Reference",
+      "parameters": {
+        "inertia": "0.1"
+      }
+    },
+    "Low-Pass Filter (Discrete or Continuous)1": {
+      "sid": "2457",
+      "type": "Reference",
+      "parameters": {
+        "T": "FocDiscrTime*10",
+        "B": "inf",
+        "A": "-inf",
+        "x0": "0",
+        "Ts": "FocDiscrTime"
+      }
+    },
+    "Low-Pass Filter (Discrete or Continuous)2": {
+      "sid": "2494",
+      "type": "Reference",
+      "parameters": {
+        "T": "FocDiscrTime*10",
+        "B": "inf",
+        "A": "-inf",
+        "x0": "0",
+        "Ts": "FocDiscrTime"
+      }
+    },
+    "Low-Pass Filter (Discrete or Continuous)5": {
+      "sid": "2462",
+      "type": "Reference",
+      "parameters": {
+        "T": "FocDiscrTime*20",
+        "B": "inf",
+        "A": "-inf",
+        "x0": "VDC",
+        "Ts": "FocDiscrTime"
+      }
+    },
+    "Low-Pass Filter (Discrete or Continuous)6": {
+      "sid": "2495",
+      "type": "Reference",
+      "parameters": {
+        "T": "FocDiscrTime*10",
+        "B": "inf",
+        "A": "-inf",
+        "x0": "0",
+        "Ts": "FocDiscrTime"
+      }
+    },
+    "Low-Pass Filter (Discrete or Continuous)7": {
+      "sid": "2530",
+      "type": "Reference",
+      "parameters": {
+        "T": "FocDiscrTime*20000",
+        "B": "1.4*Psi",
+        "A": "0.6*Psi",
+        "x0": "Psi",
+        "Ts": "FocDiscrTime"
+      }
+    },
+    "Low-Pass Filter (Discrete or Continuous)8": {
+      "sid": "2545",
+      "type": "Reference",
+      "parameters": {
+        "T": "FocDiscrTime*100",
+        "B": "inf",
+        "A": "-inf",
+        "x0": "0",
+        "Ts": "FocDiscrTime"
+      }
+    },
+    "Low-Pass Filter (Discrete or Continuous)9": {
+      "sid": "2567",
+      "type": "Reference",
+      "parameters": {
+        "T": "FocDiscrTime*200",
+        "B": "inf",
+        "A": "-inf",
+        "x0": "Lq",
+        "Ts": "FocDiscrTime"
+      }
+    },
+    "Min1": {
+      "sid": "2315",
+      "type": "MinMax",
+      "parameters": {
+        "Inputs": "2"
+      }
+    },
+    "Min3": {
+      "sid": "2638",
+      "type": "MinMax",
+      "parameters": {
+        "Inputs": "2"
+      }
+    },
+    "Min_smooth_ab": {
+      "sid": "2368",
+      "type": "SubSystem",
+      "parameters": {}
+    },
+    "Mux5": {
+      "sid": "1764",
+      "type": "Mux",
+      "parameters": {
+        "Inputs": "3"
+      }
+    },
+    "NOT": {
+      "sid": "2412",
+      "type": "Logic",
+      "parameters": {}
+    },
+    "NOT1": {
+      "sid": "2601",
+      "type": "Logic",
+      "parameters": {}
+    },
+    "PID Controller": {
+      "sid": "1390",
+      "type": "Reference",
+      "parameters": {
+        "Controller": "I",
+        "SampleTime": "FocDiscrTime*1",
+        "P": "0",
+        "I": "0.3*50",
+        "ExternalReset": "either",
+        "TrackingMode": "off",
+        "LimitOutput": "on",
+        "SatLimitsSource": "internal",
+        "AntiWindupMode": "clamping"
+      }
+    },
+    "PMSM": {
+      "sid": "1392",
+      "type": "Reference",
+      "parameters": {
+        "pm_flux_linkage": "Psi*(1+deltaPsi)",
+        "Ld": "Ld*(1+deltaLd)",
+        "Lq": "Lq*(1+deltaLq)",
+        "Rs": "Rs*(1+deltaRs)"
+      }
+    },
+    "Product1": {
+      "sid": "2396",
+      "type": "Product",
+      "parameters": {}
+    },
+    "Product5": {
+      "sid": "2232",
+      "type": "Product",
+      "parameters": {}
+    },
+    "Repeating Sequence": {
+      "sid": "2637",
+      "type": "Reference",
+      "parameters": {
+        "rep_seq_t": "[0 0.2 0.5 0.7 1]",
+        "rep_seq_y": "[Is_max -Is_max/10 -Is_max/10 Is_max Is_max]"
+      }
+    },
+    "SVPWM1": {
+      "sid": "1453",
+      "type": "SubSystem",
+      "parameters": {
+        "SystemSampleTime": "FocDiscrTime/2"
+      }
+    },
+    "Saturation": {
+      "sid": "1396",
+      "type": "Saturate",
+      "parameters": {
+        "UpperLimit": "inf",
+        "LowerLimit": "0"
+      }
+    },
+    "Saturation Dynamic": {
+      "sid": "2496",
+      "type": "Reference",
+      "parameters": {}
+    },
+    "Saturation Dynamic1": {
+      "sid": "2535",
+      "type": "Reference",
+      "parameters": {}
+    },
+    "Saturation2": {
+      "sid": "2542",
+      "type": "Saturate",
+      "parameters": {
+        "UpperLimit": "1.4*Psi",
+        "LowerLimit": "0.6*Psi"
+      }
+    },
+    "Saturation3": {
+      "sid": "2569",
+      "type": "Saturate",
+      "parameters": {
+        "UpperLimit": "1.4*Lq",
+        "LowerLimit": "0.1*Lq"
+      }
+    },
+    "Sqrt": {
+      "sid": "1406",
+      "type": "Sqrt",
+      "parameters": {}
+    },
+    "Sqrt1": {
+      "sid": "2358",
+      "type": "Sqrt",
+      "parameters": {}
+    },
+    "Sqrt2": {
+      "sid": "2296",
+      "type": "Sqrt",
+      "parameters": {}
+    },
+    "Subsystem4": {
+      "sid": "1496",
+      "type": "SubSystem",
+      "parameters": {}
+    },
+    "Sum": {
+      "sid": "2559",
+      "type": "Sum",
+      "parameters": {
+        "Inputs": "|+-"
+      }
+    },
+    "Sum1": {
+      "sid": "1520",
+      "type": "Sum",
+      "parameters": {
+        "Inputs": "|+-"
+      }
+    },
+    "Sum11": {
+      "sid": "2361",
+      "type": "Sum",
+      "parameters": {
+        "Inputs": "+-|"
+      }
+    },
+    "Sum12": {
+      "sid": "2529",
+      "type": "Sum",
+      "parameters": {
+        "Inputs": "|+-"
+      }
+    },
+    "Sum2": {
+      "sid": "2294",
+      "type": "Sum",
+      "parameters": {
+        "Inputs": "|+-"
+      }
+    },
+    "Sum6": {
+      "sid": "2318",
+      "type": "Sum",
+      "parameters": {}
+    },
+    "Unit Delay1": {
+      "sid": "2488",
+      "type": "UnitDelay",
+      "parameters": {
+        "SampleTime": "FocDiscrTime/2"
+      }
+    },
+    "Unit Delay2": {
+      "sid": "1523",
+      "type": "UnitDelay",
+      "parameters": {
+        "SampleTime": "FocDiscrTime/2"
+      }
+    },
+    "VectorBase": {
+      "sid": "1925",
+      "type": "SubSystem",
+      "parameters": {
+        "SystemSampleTime": "FocDiscrTime"
+      }
+    },
+    "VectorBase/Cartesian to Polar1": {
+      "sid": "1932",
+      "type": "Reference",
+      "parameters": {}
+    },
+    "VectorBase/Gain": {
+      "sid": "1963",
+      "type": "Gain",
+      "parameters": {
+        "Gain": "0.995/sqrt(3)"
+      }
+    },
+    "VectorBase/Gain3": {
+      "sid": "1966",
+      "type": "Gain",
+      "parameters": {
+        "Gain": "FocDiscrTime"
+      }
+    },
+    "VectorBase/Gain7": {
+      "sid": "1970",
+      "type": "Gain",
+      "parameters": {
+        "Gain": "1-compensate_pwm*0.5"
+      }
+    },
+    "VectorBase/Inverse Park Transform1": {
+      "sid": "1986",
+      "type": "Reference",
+      "parameters": {}
+    },
+    "VectorBase/PID Controller3": {
+      "sid": "1989",
+      "type": "Reference",
+      "parameters": {
+        "Controller": "PI",
+        "SampleTime": "FocDiscrTime",
+        "P": "piBandwidth*Ld",
+        "I": "piBandwidth*Rs",
+        "ExternalReset": "none",
+        "TrackingMode": "off",
+        "LimitOutput": "on",
+        "SatLimitsSource": "external",
+        "AntiWindupMode": "clamping"
+      }
+    },
+    "VectorBase/PID Controller4": {
+      "sid": "1990",
+      "type": "Reference",
+      "parameters": {
+        "Controller": "PI",
+        "SampleTime": "FocDiscrTime",
+        "P": "piBandwidth*Lq",
+        "I": "piBandwidth*Rs",
+        "ExternalReset": "none",
+        "TrackingMode": "off",
+        "LimitOutput": "on",
+        "SatLimitsSource": "external",
+        "AntiWindupMode": "clamping"
+      }
+    },
+    "VectorBase/Sum": {
+      "sid": "2001",
+      "type": "Sum",
+      "parameters": {
+        "Inputs": "-+|"
+      }
+    },
+    "VectorBase/Sum1": {
+      "sid": "2002",
+      "type": "Sum",
+      "parameters": {
+        "Inputs": "-+|"
+      }
+    },
+    "VectorBase/Sum10": {
+      "sid": "2482",
+      "type": "Sum",
+      "parameters": {
+        "Inputs": "++|"
+      }
+    },
+    "VectorBase/Sum2": {
+      "sid": "2003",
+      "type": "Sum",
+      "parameters": {
+        "Inputs": "|++"
+      }
+    },
+    "VectorBase/Sum5": {
+      "sid": "2006",
+      "type": "Sum",
+      "parameters": {
+        "Inputs": "|++"
+      }
+    },
+    "VectorBase/Sum6": {
+      "sid": "2007",
+      "type": "Sum",
+      "parameters": {
+        "Inputs": "-+|"
+      }
+    },
+    "VectorBase/Sum7": {
+      "sid": "2039",
+      "type": "Sum",
+      "parameters": {
+        "Inputs": "|+-"
+      }
+    },
+    "VectorBase/Sum8": {
+      "sid": "2485",
+      "type": "Sum",
+      "parameters": {
+        "Inputs": "|+-"
+      }
+    },
+    "VectorBase/Sum9": {
+      "sid": "2481",
+      "type": "Sum",
+      "parameters": {
+        "Inputs": "++|"
+      }
+    },
+    "VectorBase/UqLimiter": {
+      "sid": "2010",
+      "type": "SubSystem",
+      "parameters": {}
+    },
+    "VectorBase/UqLimiter/Saturation": {
+      "sid": "2017",
+      "type": "Saturate",
+      "parameters": {
+        "UpperLimit": "inf",
+        "LowerLimit": "0.001"
+      }
+    },
+    "sat_signed1": {
+      "sid": "2532",
+      "type": "SubSystem",
+      "parameters": {
+        "SystemSampleTime": "FocDiscrTime*10"
+      }
+    },
+    "sat_signed2": {
+      "sid": "2563",
+      "type": "SubSystem",
+      "parameters": {
+        "SystemSampleTime": "FocDiscrTime*10"
+      }
+    },
+    "sat_signed3": {
+      "sid": "2568",
+      "type": "SubSystem",
+      "parameters": {
+        "SystemSampleTime": "FocDiscrTime*10"
+      }
+    },
+    "sat_signed4": {
+      "sid": "2489",
+      "type": "SubSystem",
+      "parameters": {
+        "SystemSampleTime": "FocDiscrTime*10"
+      }
+    }
+  }
+}

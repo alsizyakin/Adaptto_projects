@@ -1,0 +1,33 @@
+digraph G {
+      graph [bgcolor="white", pad="0.25", nodesep="0.35", ranksep="0.5", dpi=150];
+      node [shape=box, style="rounded,filled", fillcolor="#eef3f8", color="#596c7e",
+            fontname="DejaVu Sans", fontsize=12, margin="0.16,0.12"];
+      edge [color="#596c7e", fontname="DejaVu Sans", fontsize=10, arrowsize=0.8];
+    
+      rankdir=LR;
+      newrank=true;
+      label="Cascadia / BorgWarner — три воздействия контура ОП по руководству, §6.2";
+      labelloc=t; fontname="DejaVu Sans";
+      subgraph cluster_s {
+        label="Surface PM"; fontname="DejaVu Sans"; color="#ccd7e1";
+        s0 [label="Предел\nмодуляции"];
+        s1 [label="Коррекция\nотрицательного Id"];
+        s0 -> s1;
+      }
+      subgraph cluster_i {
+        label="Internal PM"; fontname="DejaVu Sans"; color="#ccd7e1";
+        i0 [label="Предел\nмодуляции"];
+        i1 [label="Уменьшение Iq\nId задают таблицы"];
+        i0 -> i1;
+      }
+      subgraph cluster_v {
+        label="Internal PM DC Link FW"; fontname="DejaVu Sans"; color="#ccd7e1";
+        v0 [label="Предел\nмодуляции"];
+        v1 [label="Эффективное Vdc\nна входе таблиц"];
+        v2 [label="Новая пара\nId / Iq", fillcolor="#e1f0f2"];
+        v0 -> v1 -> v2;
+      }
+      {rank=same; s0; i0; v0;}
+      {rank=same; s1; i1; v1;}
+    
+}

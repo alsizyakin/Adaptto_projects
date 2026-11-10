@@ -1,0 +1,29 @@
+digraph G {
+
+      graph [bgcolor="white", pad="0.28", nodesep="0.38", ranksep="0.5", dpi=140];
+      node [shape=box, style="rounded,filled", fillcolor="#eef4fa", color="#526777",
+            fontname="DejaVu Sans", fontsize=12, margin="0.16,0.12"];
+      edge [color="#526777", fontname="DejaVu Sans", fontsize=10, arrowsize=0.75];
+    
+      rankdir=TB;
+      iq [label="Repeating Sequence\nзапрос Iq: +420 … −42 А\nпериод 1 с"];
+      ref [label="Формирование Idreq / Iqreq\nОП и ограничения"];
+      foc [label="VectorBase\nClarke / Park → PI_d, PI_q\nразвязка и ограничения Ud/Uq"];
+      pwm [label="Обратный Park → SVPWM1\nскважности и Unit Delay2"];
+      src [label="Bias2 + Product5\nu = (d − 0,5) · Vdc\nтри Controlled Voltage Source"];
+      motor [label="PMSM\nLd, Lq, Ψ, Rs с вариациями delta", fillcolor="#e6f4ea"];
+      meas [label="Subsystem4 + датчики вала\niabc, θm, ωm; θe = p · θm", fillcolor="#e6f4ea"];
+      profile [label="Clock → 1-D Lookup Table2\nзаданный профиль ωm"];
+      mech [label="Ideal Angular Velocity Source\nпринудительно задаёт скорость\nна валу также J и источник момента", fillcolor="#fff0dc"];
+      bus [label="Constant7: Vdc = 440 В\nLPF5 → Vdc_filt для управления"];
+      iq -> ref -> foc -> pwm -> src -> motor -> meas [weight=6];
+      profile -> mech;
+      mech -> motor [label="механический порт", dir=both, color="#a87334"];
+      bus -> src [label="Vdc"];
+      bus -> foc [label="Vdc_filt", constraint=false];
+      meas:e -> foc:e [label="токи, угол, скорость", style=dashed, constraint=false];
+      foc -> ref [label="Ud/Uq для ОП", style=dashed, constraint=false];
+      {rank=same; ref; profile;}
+      {rank=same; src; bus;}
+    
+}

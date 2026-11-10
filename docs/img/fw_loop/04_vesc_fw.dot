@@ -1,0 +1,22 @@
+digraph G {
+
+      graph [bgcolor="white",pad="0.25",nodesep="0.35",ranksep="0.45",dpi=145];
+      node [shape=box,style="rounded,filled",fillcolor="#eef4fa",color="#526777",
+            fontname="DejaVu Sans",fontsize=12,margin="0.16,0.11"];
+      edge [color="#526777",fontname="DejaVu Sans",fontsize=10,arrowsize=0.75];
+    
+      rankdir=TB; splines=polyline;
+      duty [label="|duty| из обеих компонент mod_d / mod_q\nфильтр → m_duty_abs_filtered"];
+      map [label="foc_run_fw: порог d_start\nлинейная карта duty → I_FW,target\nмаксимум зависит от backoff"];
+      back [label="Знаковая ошибка Iq\nbackoff уменьшает I_FW,max",fillcolor="#fff0dc"];
+      ramp [label="Необязательное ограничение темпа\nfoc_fw_ramp_time → m_i_fw_set"];
+      refs [label="Id: выбор большего модуля из MTPA и −I_FW\nIq: отдельная добавка с foc_fw_q_current_factor\nзатем жёсткий токовый круг"];
+      pi [label="Токовые контуры: PI + развязка\nограниченная доля d; остаток q\nограничение интегральных состояний"];
+      plant [label="Модулятор и машина\nтоки; вектор напряжения"];
+      duty -> map -> ramp -> refs -> pi -> plant;
+      back -> map;
+      pi:e -> duty:e [label="команда до модулятора",style=dashed,constraint=false];
+      plant:w -> back:s [label="Iq и скорость",style=dashed,constraint=false];
+      {rank=same; map; back;}
+    
+}

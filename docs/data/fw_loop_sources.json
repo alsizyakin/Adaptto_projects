@@ -1,0 +1,59 @@
+{
+  "reviewed_on": "2026-11-10",
+  "scope": "Outer field-weakening loop, current-reference coordination and local dynamic analysis",
+  "model": "ideal_source_drive_Idff_aug_param.slx",
+  "model_sha256": "787414147bdaf4768b4a89b4972d52522646af209e6cf770d9879a9e244c6160",
+  "sources": [
+    {
+      "id": "VESC",
+      "kind": "open_source_firmware",
+      "revision": "3ebf8d1fe8cc485ad588e4272a761785c9cf0c5d",
+      "urls": [
+        "https://github.com/vedderb/bldc/blob/3ebf8d1fe8cc485ad588e4272a761785c9cf0c5d/motor/foc_math.c#L717",
+        "https://github.com/vedderb/bldc/blob/3ebf8d1fe8cc485ad588e4272a761785c9cf0c5d/motor/mcpwm_foc.c#L3646",
+        "https://github.com/vedderb/bldc/blob/3ebf8d1fe8cc485ad588e4272a761785c9cf0c5d/motor/mcpwm_foc.c#L3818",
+        "https://github.com/vedderb/bldc/blob/3ebf8d1fe8cc485ad588e4272a761785c9cf0c5d/motor/mcpwm_foc.c#L4683",
+        "https://github.com/vedderb/bldc/blob/3ebf8d1fe8cc485ad588e4272a761785c9cf0c5d/motor/mcconf_default.h#L499"
+      ]
+    },
+    {
+      "id": "IR_INFINEON",
+      "kind": "control_ic_application_note",
+      "revision": "AN-1090, IRMCF3xx Series Controller Dynamics and Tuning, Eddy Ho",
+      "url": "https://www.infineon.com/assets/row/public/documents/60/42/infineon-irmcf3xx-series-controller-dynamics-and-tuning-an-en.pdf?fileId=5546d462533600a401535595acd1103c",
+      "locators": ["Printed pages 10–11, Figures 14–17"],
+      "limits": "Appliance drive examples; speed-dependent gain modulation is described, exact equivalence to Adaptto sens is not established."
+    },
+    {
+      "id": "TI",
+      "kind": "traction_inverter_hardware_reference",
+      "revision": "TIDM-02017, TIDUF56, January 2024",
+      "url": "https://www.ti.com/lit/ug/tiduf56/tiduf56.pdf?ts=1780283501979",
+      "locators": ["Section 3.2, Figures 3-10 and 3-11, printed pages 15–16"]
+    },
+    {
+      "id": "KOLLMORGEN",
+      "kind": "production_product_manual",
+      "product": "AKD2G",
+      "url": "https://webhelp.kollmorgen.com/kas/Content/AKD2G_User_Manual/Field_Weakening_View.htm",
+      "limits": "Documents bandwidth dependence and filters; does not disclose the internal gain-normalization implementation."
+    },
+    {
+      "id": "CASCADIA",
+      "kind": "production_product_manual",
+      "revision": "0A-0163-04",
+      "url": "https://www.cascadiamotion.com/_files/ugd/b5e2cb_e731a297509a4b2786cea7ef36199b7f.pdf",
+      "locators": ["Section 6.2, printed pages 37–38"],
+      "limits": "Published control actions for three modes; inner regulator equations are not disclosed."
+    },
+    {
+      "id": "MICROCHIP",
+      "kind": "application_note",
+      "revision": "AN2520",
+      "url": "https://onlinedocs.microchip.com/oxy/GUID-AAAF8F97-D139-4A93-A154-AA3C6EE6BB22-en-US-1/GUID-007091E0-0021-4359-A50B-127AF65C0B1C.html",
+      "locators": ["4 Equation-based Flux Weakening"]
+    }
+  ],
+  "other_materials": "See industry_fw_sources.json for Beckhoff, NXP, ABB and Infineon MOTIX. No unobserved internal algorithm is inferred from those references.",
+  "analysis_provenance": "gd, hd, the local positive-zero calculation and the imposed-current transient are own derivations from the stated constant-parameter PMSM equations; they are not vendor measurements or a closed-loop Adaptto simulation."
+}

@@ -1,0 +1,25 @@
+digraph G {
+
+      graph [bgcolor="white", pad="0.28", nodesep="0.38", ranksep="0.5", dpi=140];
+      node [shape=box, style="rounded,filled", fillcolor="#eef4fa", color="#526777",
+            fontname="DejaVu Sans", fontsize=12, margin="0.16,0.12"];
+      edge [color="#526777", fontname="DejaVu Sans", fontsize=10, arrowsize=0.75];
+    
+      rankdir=TB;
+      id [label="Idreq после Unit Delay1"];
+      direct [label="Без LPF8\nвход d токового регулятора", fillcolor="#e9e5f3"];
+      filt [label="LPF8: Idreq_f\nτ = 100 Ts = 8,33 мс", fillcolor="#fff0dc"];
+      current [label="Sum1 → Saturation → Sqrt\nIq_curLim = √max(0; Is_max² − Idreq_f²)"];
+      volt [label="Divide4\nIq_voltLim = Vs_max / (|ω̃e| · Lq_est)"];
+      smooth [label="Min_smooth_ab\nмягкий минимум двух пределов\nδ = 10 А → IqLim"];
+      request [label="Repeating Sequence\nисходный запрос Iq"];
+      min [label="Min3\nIqreq = min(IqLim, запрос)\nограничение только сверху", fillcolor="#fff0dc"];
+      q [label="Вход q токового регулятора", fillcolor="#e9e5f3"];
+      id -> direct;
+      id -> filt -> current -> smooth -> min -> q;
+      volt -> smooth; request -> min;
+      {rank=same; current; volt;}
+      {rank=same; min; request;}
+      direct -> q [style=invis];
+    
+}

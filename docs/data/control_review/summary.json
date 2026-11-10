@@ -1,0 +1,88 @@
+{
+  "model": "ideal_source_drive_Idff_aug_param.slx",
+  "model_sha256": "787414147bdaf4768b4a89b4972d52522646af209e6cf770d9879a9e244c6160",
+  "parameters": {
+    "Ld": 0.00031,
+    "Lq": 0.000305,
+    "Psi": 0.1024,
+    "Rs": 0.02,
+    "p": 11,
+    "Is": 420,
+    "Vdc": 440
+  },
+  "runs": {
+    "review_nom": {
+      "source_sha256": "62463319a1e18f3f614067ec313efcd2a35966c40d4262063476891f0113c942",
+      "stop_s": 2.0,
+      "elapsed_s": 36.450399,
+      "max_Iref_A": 473.7574406163282,
+      "max_I_A": 474.07211861569607,
+      "min_Lq_est_H": 0.00023686925406267686,
+      "final_Lq_est_H": 0.0003059787519904835,
+      "abs_Iq_error_over_100A_longer_20ms": [],
+      "overrides": {}
+    },
+    "review_ldp20": {
+      "source_sha256": "59eab2976362ce7efb4a10838d303a6039758365503962b5d09a3bbf9288ce81",
+      "stop_s": 11.0,
+      "elapsed_s": 64.365641,
+      "max_Iref_A": 466.28062981399313,
+      "max_I_A": 503.3228108690181,
+      "min_Lq_est_H": 0.0002368008290557164,
+      "final_Lq_est_H": 0.00030859579062779554,
+      "abs_Iq_error_over_100A_longer_20ms": [
+        [
+          3.1475,
+          4.576666666666666
+        ],
+        [
+          10.225,
+          11.0
+        ]
+      ],
+      "overrides": {
+        "deltaLd": 0.2
+      }
+    },
+    "review_zeroiq": {
+      "source_sha256": "c3b3ebe019d06052e6bb144e9498041e987cdfe8520b6040688cf6a88ef128bf",
+      "stop_s": 2.0,
+      "elapsed_s": 39.579015,
+      "max_Iref_A": 0.0,
+      "max_I_A": 0.02416442025425283,
+      "min_Lq_est_H": 3.0500000000000335e-05,
+      "final_Lq_est_H": 3.0500000000000335e-05,
+      "abs_Iq_error_over_100A_longer_20ms": [],
+      "overrides": {},
+      "block_override": "Repeating Sequence/rep_seq_y = [0 0 0 0 0]"
+    },
+    "review_reverse": {
+      "source_sha256": "6513106937b632c91060cb48ddf48dcc0981172173d75941fe9dfbe22e621f19",
+      "stop_s": 2.0,
+      "elapsed_s": 25.25569,
+      "max_Iref_A": 424.0924963793649,
+      "max_I_A": 424.2511617784278,
+      "min_Lq_est_H": 0.00022727070269202293,
+      "final_Lq_est_H": 0.00030581925801061454,
+      "abs_Iq_error_over_100A_longer_20ms": [],
+      "overrides": {},
+      "block_override": "Negate the original speed lookup table; Iq request unchanged"
+    }
+  },
+  "latch_at_10_4s": {
+    "Id": -273.665641980872,
+    "Iq": -166.59294608742783,
+    "Idreq": -177.95978490573253,
+    "Iqreq": -42.0,
+    "Idreq_f": -178.2092968894831,
+    "Psi_est": 0.0864090347012424,
+    "Lq_est": 0.0003095973374347182,
+    "Ud": 252.76394785121818,
+    "Uq": 0.03162277660168389,
+    "speed": 455.39742857143045,
+    "IqLim": 155.49796683937774,
+    "required_Vss_V": 190.39899327790107,
+    "d_raw_if_integrator_zero_V": 436.3799192813203
+  },
+  "sampling_note": "Summary maxima use full logged data and linear interpolation onto Id/Idreq grids. CSV is a plot excerpt, not a full run. Discrete control outputs use ZOH in CSV. Intervals touching the stop time are right-censored."
+}
