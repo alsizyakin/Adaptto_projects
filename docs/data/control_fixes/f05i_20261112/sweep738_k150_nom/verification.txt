@@ -1,0 +1,10 @@
+test_fwl_assess: all regression cases passed
+### Searching for referenced models in model 'aug_k150_nom'.
+### Total of 1 models to build.
+### Generating code for Physical Networks associated with solver block 'aug_k150_nom/Solver Configuration' ...
+done.
+### Building the rapid accelerator target for model: aug_k150_nom
+### Successfully built the rapid accelerator target for model: aug_k150_nom
+aug_k150_nom done in 162.3 s
+k150_nom: verified, max Iref 419.999997 A, max I 421.203678 A, q prolonged=2, recovery=1
+Gain experiment verified: I=150, deltaLd=0, profile=saved, gate=1, reset=either

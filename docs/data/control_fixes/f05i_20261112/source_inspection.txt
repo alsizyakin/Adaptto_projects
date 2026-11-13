@@ -1,0 +1,5 @@
+gate=1, I=0.3*50, controller=I, reset=either
+1-D Lookup
+Table2
+    0.2000
+

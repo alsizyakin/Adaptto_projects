@@ -1,0 +1,35 @@
+{
+  "stage": "F06 first drive run, saved inherited timing at 10*FocDiscrTime",
+  "created": "2026-11-12T23:22:50.133013",
+  "source_sha256": "fab59b2abc248e1ad88b744d7712d777fc8500c4d010fa573c95722937822734",
+  "diagnostic_model_sha256": "07a6e64657515aece83a7702a208d5dff73de04a057284486712cabbe6f65d70",
+  "mat_sha256": "ac864d580d723ea5c7d4948d287a66366546bb6c0361306173a6ae4e99b2391b",
+  "raw_case": "tmp/control_f06_20261112/saved_ldp20",
+  "scenario": {
+    "profile": "sweep738",
+    "deltaLd": 0.2,
+    "stopTime": 25,
+    "decimation": 1
+  },
+  "verification": {
+    "completed": true,
+    "finite": true,
+    "coverage": true,
+    "signalCount": 63,
+    "fwResiduals": {
+      "cmdResidual": 0,
+      "trimResidual": 0,
+      "errorResidual": 0,
+      "nextStateResidual": 0
+    },
+    "nativeFwSampleTime": 0.0008333333333330195
+  },
+  "working_model_unchanged": true,
+  "tools": {
+    "tools/fw_limiter/run_aug.m": "02b0c4df9f5fd0f69977721cfd64b0413e3a9b96e873e7d618d3f3bda7a41b27",
+    "tools/fw_limiter/run_f06_check.m": "26458040b1a88bcd8a705dff885ce8994282c89b5cae608364be99e10b8639cd",
+    "tools/fw_limiter/inspect_f06_model.m": "9f52f60803114f9c2768abc8c06f399e85c7fbf0b89adc350531f4f7a2d27d7f",
+    "tools/fw_limiter/verify_f06_case.m": "dae8931a54e17b26cd9310336091708737a577a1c3524964cdc38f925cfc640f",
+    "tools/fw_limiter/f06_analysis.py": "8a7b28a0d86560bbc5b6ff11dd945c35d5649a66f423139621c26b8d161c695e"
+  }
+}

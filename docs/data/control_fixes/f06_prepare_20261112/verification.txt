@@ -1,0 +1,13 @@
+F06 component checks, 2026-11-12 18:33:04
+MATLAB 25.1.0.2943329 (R2025a)
+Not a closed-loop drive simulation.
+Source SHA-256: 5ba3d6e77f80e880b3b18ef33fdd0e9d34886c216e4aef6e50b69d40484542fe
+PASS: 1 s at FF = 0 and full voltage headroom; state stays zero.
+PASS: legacy positive hidden states projected out at the output and next state.
+PASS: useful positive trim preserved with negative FF; removed when FF becomes zero.
+PASS: overvoltage gives negative correction, independent of old sens.
+PASS: lower-limit anti-windup and immediate inward recovery.
+PASS: smooth return to zero; FF = 0 still allows correction for voltage deficit.
+PASS: 2000 changing-bound/FF cases; bounded state and increment.
+PASS: Simulink harness, 1201 samples at Ts = 8.33333333e-05 s; all 4 outputs match.
+ALL F06 COMPONENT CHECKS PASSED. Full drive validation pending.

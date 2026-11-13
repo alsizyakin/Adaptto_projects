@@ -1,0 +1,6 @@
+Case 1: method=Inherited, chart period=-1, subsystem period=FocDiscrTime*10
+period 0.000833333333333 s, samples 121
+Case 2: method=Discrete, chart period=FocDiscrTime, subsystem period=FocDiscrTime*10
+Error: Block 'f06_rate_probe/PersistentA' has an invalid sample time of 8.333333333333333e-05. Periodic atomic subsystem 'f06_rate_probe/PersistentA' may contain only blocks that have constant (inf), inherited (-1), or periodic (0.0008333333333333333) sample times. 
+Case 3: method=Discrete, chart period=FocDiscrTime, subsystem period=-1
+period 8.33333333333e-05 s, samples 1201

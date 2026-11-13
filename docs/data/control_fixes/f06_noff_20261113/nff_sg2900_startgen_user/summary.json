@@ -1,0 +1,1106 @@
+{
+  "sourceSha256": "7f5d30cc8ef8e3a2e6a6ce0a4c0e209718313088f289f4365abfbcc5db5ee22e",
+  "nff_sg2900_startgen_user": {
+    "currentLimit": 420,
+    "measuredLimit": 441,
+    "errorThreshold": 100,
+    "durationThreshold": 0.02,
+    "nonfinite": [],
+    "finite": true,
+    "completed": true,
+    "fullResolution": true,
+    "coverage": true,
+    "jointReferenceLog": true,
+    "maxReferenceCurrent": 419.99999967217445,
+    "maxMeasuredCurrent": 727.77990766511243,
+    "referenceWithinLimit": true,
+    "measuredWithinLimit": false,
+    "referenceExcess": [],
+    "tracking_d": {
+      "maxAbsoluteError": 610.37196982936666,
+      "events": [
+        {
+          "start": 3.50875,
+          "stop": 3.51,
+          "duration": 0.0012499999999997513,
+          "open": false,
+          "prolonged": false
+        },
+        {
+          "start": 3.5105833333333334,
+          "stop": 3.5119166666666666,
+          "duration": 0.0013333333333331865,
+          "open": false,
+          "prolonged": false
+        },
+        {
+          "start": 3.5124166666666667,
+          "stop": 3.5138333333333334,
+          "duration": 0.0014166666666666217,
+          "open": false,
+          "prolonged": false
+        },
+        {
+          "start": 3.51425,
+          "stop": 3.5157499999999997,
+          "duration": 0.0014999999999996128,
+          "open": false,
+          "prolonged": false
+        },
+        {
+          "start": 3.516083333333333,
+          "stop": 3.51775,
+          "duration": 0.0016666666666669272,
+          "open": false,
+          "prolonged": false
+        },
+        {
+          "start": 3.5179166666666664,
+          "stop": 3.83825,
+          "duration": 0.32033333333333358,
+          "open": false,
+          "prolonged": true
+        },
+        {
+          "start": 7.141166666666666,
+          "stop": 7.1431666666666667,
+          "duration": 0.0020000000000006679,
+          "open": false,
+          "prolonged": false
+        },
+        {
+          "start": 7.14375,
+          "stop": 7.1459166666666665,
+          "duration": 0.00216666666666665,
+          "open": false,
+          "prolonged": false
+        },
+        {
+          "start": 7.1462499999999993,
+          "stop": 7.7422499999999994,
+          "duration": 0.59600000000000009,
+          "open": false,
+          "prolonged": true
+        },
+        {
+          "start": 12.378416666666666,
+          "stop": 12.380583333333332,
+          "duration": 0.0021666666666657619,
+          "open": false,
+          "prolonged": false
+        },
+        {
+          "start": 12.381,
+          "stop": 13.0585,
+          "duration": 0.67750000000000021,
+          "open": false,
+          "prolonged": true
+        },
+        {
+          "start": 16.508166666666668,
+          "stop": 16.509583333333332,
+          "duration": 0.0014166666666639571,
+          "open": false,
+          "prolonged": false
+        },
+        {
+          "start": 16.510166666666667,
+          "stop": 16.511583333333334,
+          "duration": 0.0014166666666675098,
+          "open": false,
+          "prolonged": false
+        },
+        {
+          "start": 16.512083333333333,
+          "stop": 16.513666666666666,
+          "duration": 0.0015833333333326038,
+          "open": false,
+          "prolonged": false
+        },
+        {
+          "start": 16.514,
+          "stop": 16.515666666666664,
+          "duration": 0.0016666666666651508,
+          "open": false,
+          "prolonged": false
+        },
+        {
+          "start": 16.515916666666666,
+          "stop": 16.90075,
+          "duration": 0.38483333333333292,
+          "open": false,
+          "prolonged": true
+        }
+      ],
+      "prolongedCount": 4,
+      "activeAtEnd": false,
+      "settledTail": 8.0992500000000014,
+      "recoveryObserved": true
+    },
+    "tracking_q": {
+      "maxAbsoluteError": 562.18927545133943,
+      "events": [
+        {
+          "start": 3.5084166666666667,
+          "stop": 3.5094166666666666,
+          "duration": 0.00099999999999988987,
+          "open": false,
+          "prolonged": false
+        },
+        {
+          "start": 3.5103333333333331,
+          "stop": 3.51125,
+          "duration": 0.00091666666666689878,
+          "open": false,
+          "prolonged": false
+        },
+        {
+          "start": 3.5121666666666664,
+          "stop": 3.5131666666666668,
+          "duration": 0.001000000000000334,
+          "open": false,
+          "prolonged": false
+        },
+        {
+          "start": 3.5140833333333332,
+          "stop": 3.5149999999999997,
+          "duration": 0.00091666666666645469,
+          "open": false,
+          "prolonged": false
+        },
+        {
+          "start": 3.5159166666666666,
+          "stop": 3.5169166666666665,
+          "duration": 0.00099999999999988987,
+          "open": false,
+          "prolonged": false
+        },
+        {
+          "start": 3.5178333333333334,
+          "stop": 3.5188333333333333,
+          "duration": 0.00099999999999988987,
+          "open": false,
+          "prolonged": false
+        },
+        {
+          "start": 3.5196666666666667,
+          "stop": 3.5206666666666666,
+          "duration": 0.00099999999999988987,
+          "open": false,
+          "prolonged": false
+        },
+        {
+          "start": 3.5215833333333331,
+          "stop": 3.5225833333333334,
+          "duration": 0.001000000000000334,
+          "open": false,
+          "prolonged": false
+        },
+        {
+          "start": 3.5235,
+          "stop": 3.5244166666666668,
+          "duration": 0.00091666666666689878,
+          "open": false,
+          "prolonged": false
+        },
+        {
+          "start": 3.5253333333333332,
+          "stop": 3.5263333333333331,
+          "duration": 0.00099999999999988987,
+          "open": false,
+          "prolonged": false
+        },
+        {
+          "start": 3.52725,
+          "stop": 3.52825,
+          "duration": 0.00099999999999988987,
+          "open": false,
+          "prolonged": false
+        },
+        {
+          "start": 3.5290833333333333,
+          "stop": 3.5300833333333332,
+          "duration": 0.00099999999999988987,
+          "open": false,
+          "prolonged": false
+        },
+        {
+          "start": 3.5309999999999997,
+          "stop": 3.532,
+          "duration": 0.001000000000000334,
+          "open": false,
+          "prolonged": false
+        },
+        {
+          "start": 3.532833333333333,
+          "stop": 3.5338333333333334,
+          "duration": 0.001000000000000334,
+          "open": false,
+          "prolonged": false
+        },
+        {
+          "start": 3.53475,
+          "stop": 3.5357499999999997,
+          "duration": 0.00099999999999988987,
+          "open": false,
+          "prolonged": false
+        },
+        {
+          "start": 3.5365833333333332,
+          "stop": 3.5376666666666665,
+          "duration": 0.001083333333333325,
+          "open": false,
+          "prolonged": false
+        },
+        {
+          "start": 3.5385,
+          "stop": 3.5395,
+          "duration": 0.00099999999999988987,
+          "open": false,
+          "prolonged": false
+        },
+        {
+          "start": 3.5403333333333333,
+          "stop": 3.5414166666666667,
+          "duration": 0.001083333333333325,
+          "open": false,
+          "prolonged": false
+        },
+        {
+          "start": 3.5422499999999997,
+          "stop": 3.543333333333333,
+          "duration": 0.001083333333333325,
+          "open": false,
+          "prolonged": false
+        },
+        {
+          "start": 3.544083333333333,
+          "stop": 3.5451666666666664,
+          "duration": 0.001083333333333325,
+          "open": false,
+          "prolonged": false
+        },
+        {
+          "start": 3.546,
+          "stop": 3.5470833333333331,
+          "duration": 0.001083333333333325,
+          "open": false,
+          "prolonged": false
+        },
+        {
+          "start": 3.5478333333333332,
+          "stop": 3.549,
+          "duration": 0.0011666666666667602,
+          "open": false,
+          "prolonged": false
+        },
+        {
+          "start": 3.5496666666666665,
+          "stop": 3.5508333333333333,
+          "duration": 0.0011666666666667602,
+          "open": false,
+          "prolonged": false
+        },
+        {
+          "start": 3.5515833333333333,
+          "stop": 3.55275,
+          "duration": 0.0011666666666667602,
+          "open": false,
+          "prolonged": false
+        },
+        {
+          "start": 3.5534166666666667,
+          "stop": 3.5546666666666664,
+          "duration": 0.0012499999999997513,
+          "open": false,
+          "prolonged": false
+        },
+        {
+          "start": 3.555333333333333,
+          "stop": 3.5565833333333332,
+          "duration": 0.0012500000000001954,
+          "open": false,
+          "prolonged": false
+        },
+        {
+          "start": 3.5571666666666664,
+          "stop": 3.5585,
+          "duration": 0.0013333333333336306,
+          "open": false,
+          "prolonged": false
+        },
+        {
+          "start": 3.5589999999999997,
+          "stop": 3.5604166666666663,
+          "duration": 0.0014166666666666217,
+          "open": false,
+          "prolonged": false
+        },
+        {
+          "start": 3.5608333333333331,
+          "stop": 3.5623333333333331,
+          "duration": 0.0015000000000000568,
+          "open": false,
+          "prolonged": false
+        },
+        {
+          "start": 3.5626666666666664,
+          "stop": 3.56425,
+          "duration": 0.001583333333333492,
+          "open": false,
+          "prolonged": false
+        },
+        {
+          "start": 3.5645833333333332,
+          "stop": 3.5661666666666667,
+          "duration": 0.001583333333333492,
+          "open": false,
+          "prolonged": false
+        },
+        {
+          "start": 3.5663333333333331,
+          "stop": 4.1391666666666662,
+          "duration": 0.57283333333333308,
+          "open": false,
+          "prolonged": true
+        },
+        {
+          "start": 4.5030833333333335,
+          "stop": 4.5466666666666669,
+          "duration": 0.043583333333333307,
+          "open": false,
+          "prolonged": true
+        },
+        {
+          "start": 7.1404166666666669,
+          "stop": 7.1423333333333332,
+          "duration": 0.0019166666666663446,
+          "open": false,
+          "prolonged": false
+        },
+        {
+          "start": 7.14325,
+          "stop": 7.145,
+          "duration": 0.0017499999999994742,
+          "open": false,
+          "prolonged": false
+        },
+        {
+          "start": 7.1459166666666665,
+          "stop": 7.1476666666666668,
+          "duration": 0.0017500000000003624,
+          "open": false,
+          "prolonged": false
+        },
+        {
+          "start": 7.1484999999999994,
+          "stop": 7.1503333333333332,
+          "duration": 0.0018333333333337976,
+          "open": false,
+          "prolonged": false
+        },
+        {
+          "start": 7.1510833333333332,
+          "stop": 7.153,
+          "duration": 0.0019166666666663446,
+          "open": false,
+          "prolonged": false
+        },
+        {
+          "start": 7.1536666666666662,
+          "stop": 7.1557499999999994,
+          "duration": 0.0020833333333332149,
+          "open": false,
+          "prolonged": false
+        },
+        {
+          "start": 7.15625,
+          "stop": 7.1585,
+          "duration": 0.0022500000000000853,
+          "open": false,
+          "prolonged": false
+        },
+        {
+          "start": 7.1586666666666661,
+          "stop": 8.0455833333333331,
+          "duration": 0.886916666666667,
+          "open": false,
+          "prolonged": true
+        },
+        {
+          "start": 12.376333333333333,
+          "stop": 12.379833333333332,
+          "duration": 0.0034999999999989484,
+          "open": false,
+          "prolonged": false
+        },
+        {
+          "start": 12.380416666666667,
+          "stop": 12.382666666666665,
+          "duration": 0.0022499999999983089,
+          "open": false,
+          "prolonged": false
+        },
+        {
+          "start": 12.382916666666667,
+          "stop": 13.366166666666667,
+          "duration": 0.98325,
+          "open": false,
+          "prolonged": true
+        },
+        {
+          "start": 14.00325,
+          "stop": 14.033083333333332,
+          "duration": 0.02983333333333249,
+          "open": false,
+          "prolonged": true
+        },
+        {
+          "start": 16.507749999999998,
+          "stop": 16.508916666666668,
+          "duration": 0.0011666666666698688,
+          "open": false,
+          "prolonged": false
+        },
+        {
+          "start": 16.509833333333333,
+          "stop": 16.510916666666667,
+          "duration": 0.0010833333333337691,
+          "open": false,
+          "prolonged": false
+        },
+        {
+          "start": 16.511833333333332,
+          "stop": 16.512916666666666,
+          "duration": 0.0010833333333337691,
+          "open": false,
+          "prolonged": false
+        },
+        {
+          "start": 16.513833333333334,
+          "stop": 16.514833333333332,
+          "duration": 0.00099999999999766942,
+          "open": false,
+          "prolonged": false
+        },
+        {
+          "start": 16.51575,
+          "stop": 16.516833333333334,
+          "duration": 0.0010833333333337691,
+          "open": false,
+          "prolonged": false
+        },
+        {
+          "start": 16.51775,
+          "stop": 16.518833333333333,
+          "duration": 0.0010833333333337691,
+          "open": false,
+          "prolonged": false
+        },
+        {
+          "start": 16.51975,
+          "stop": 16.520833333333332,
+          "duration": 0.0010833333333337691,
+          "open": false,
+          "prolonged": false
+        },
+        {
+          "start": 16.521666666666665,
+          "stop": 16.52275,
+          "duration": 0.0010833333333337691,
+          "open": false,
+          "prolonged": false
+        },
+        {
+          "start": 16.523666666666667,
+          "stop": 16.52475,
+          "duration": 0.0010833333333337691,
+          "open": false,
+          "prolonged": false
+        },
+        {
+          "start": 16.525583333333334,
+          "stop": 16.52675,
+          "duration": 0.0011666666666663161,
+          "open": false,
+          "prolonged": false
+        },
+        {
+          "start": 16.527583333333332,
+          "stop": 16.528666666666666,
+          "duration": 0.0010833333333337691,
+          "open": false,
+          "prolonged": false
+        },
+        {
+          "start": 16.5295,
+          "stop": 16.530666666666665,
+          "duration": 0.0011666666666663161,
+          "open": false,
+          "prolonged": false
+        },
+        {
+          "start": 16.5315,
+          "stop": 16.532666666666668,
+          "duration": 0.0011666666666663161,
+          "open": false,
+          "prolonged": false
+        },
+        {
+          "start": 16.533416666666668,
+          "stop": 16.534583333333334,
+          "duration": 0.0011666666666663161,
+          "open": false,
+          "prolonged": false
+        },
+        {
+          "start": 16.535333333333334,
+          "stop": 16.536583333333333,
+          "duration": 0.0012499999999988631,
+          "open": false,
+          "prolonged": false
+        },
+        {
+          "start": 16.537333333333333,
+          "stop": 16.5385,
+          "duration": 0.0011666666666663161,
+          "open": false,
+          "prolonged": false
+        },
+        {
+          "start": 16.53925,
+          "stop": 16.540499999999998,
+          "duration": 0.0012499999999988631,
+          "open": false,
+          "prolonged": false
+        },
+        {
+          "start": 16.541166666666665,
+          "stop": 16.5425,
+          "duration": 0.0013333333333349628,
+          "open": false,
+          "prolonged": false
+        },
+        {
+          "start": 16.543083333333332,
+          "stop": 16.544416666666667,
+          "duration": 0.0013333333333349628,
+          "open": false,
+          "prolonged": false
+        },
+        {
+          "start": 16.544999999999998,
+          "stop": 16.546416666666666,
+          "duration": 0.0014166666666675098,
+          "open": false,
+          "prolonged": false
+        },
+        {
+          "start": 16.546916666666664,
+          "stop": 16.548333333333332,
+          "duration": 0.0014166666666675098,
+          "open": false,
+          "prolonged": false
+        },
+        {
+          "start": 16.548833333333334,
+          "stop": 16.550333333333334,
+          "duration": 0.0015000000000000568,
+          "open": false,
+          "prolonged": false
+        },
+        {
+          "start": 16.55075,
+          "stop": 16.552333333333333,
+          "duration": 0.0015833333333326038,
+          "open": false,
+          "prolonged": false
+        },
+        {
+          "start": 16.552666666666667,
+          "stop": 16.554333333333332,
+          "duration": 0.0016666666666651508,
+          "open": false,
+          "prolonged": false
+        },
+        {
+          "start": 16.5545,
+          "stop": 17.199666666666666,
+          "duration": 0.64516666666666467,
+          "open": false,
+          "prolonged": true
+        },
+        {
+          "start": 18.003,
+          "stop": 18.037666666666667,
+          "duration": 0.0346666666666664,
+          "open": false,
+          "prolonged": true
+        }
+      ],
+      "prolongedCount": 7,
+      "activeAtEnd": false,
+      "settledTail": 6.9623333333333335,
+      "recoveryObserved": true
+    },
+    "dutyWithinLimit": true,
+    "minDuty": 0.0050000364283331877,
+    "maxDuty": 0.99499996357166687,
+    "fwVerification": {
+      "cmdResidual": 0,
+      "trimResidual": 0,
+      "errorResidual": 0,
+      "nextStateResidual": 0
+    },
+    "controlStructure": {
+      "source": "/home/alexey/Git/Matlab/Adaptto/tmp/f06_noff_20261113/nff_sg2900_startgen_user/baseline_source.slx",
+      "sha256": "7f5d30cc8ef8e3a2e6a6ce0a4c0e209718313088f289f4365abfbcc5db5ee22e",
+      "parameters": {
+        "Is_max": 420,
+        "FocDiscrTime": 8.3333333333333331E-5,
+        "Ld": 0.00031,
+        "Lq": 0.000305,
+        "Psi": 0.1024,
+        "Rs": 0.02,
+        "PolePairs": 11,
+        "VDC": 440,
+        "mMaxPWM": 0.99,
+        "mMaxCurrent": 0.99,
+        "mFW": 0.95,
+        "deltaLd": 0.05,
+        "deltaLq": 0.2,
+        "deltaPsi": 0.1,
+        "deltaRs": 0
+      },
+      "fwBlock": "fw_trim",
+      "updateMethod": "Discrete",
+      "sampleTimeExpression": "FocDiscrTime",
+      "configuredFunctionSampleTime": 8.3333333333333331E-5,
+      "subsystemSampleTimeExpression": "-1",
+      "subsystemSampleTime": -1,
+      "directFeedthrough": true,
+      "legacyPIDCommented": "on",
+      "idReferenceDelay": 4.1666666666666665E-5,
+      "timeDataScope": "Parameter",
+      "timeDataTunable": true,
+      "codeMatchesReferenceIgnoringComments": true,
+      "inputs": {
+        "psi_ff": {
+          "block": "Experiment_FF_gain",
+          "port": 1
+        },
+        "eU": {
+          "block": "Sum11",
+          "port": 1
+        },
+        "Ufw": {
+          "block": "From65",
+          "port": 1
+        },
+        "psi_min": {
+          "block": "Gain11",
+          "port": 1
+        },
+        "psi_max": {
+          "block": "Constant15",
+          "port": 1,
+          "value": 0
+        },
+        "Kpsi": {
+          "block": "Constant17",
+          "port": 1,
+          "value": 2.5
+        }
+      },
+      "dLimitGain": 1,
+      "qBudgetGain": 0.95,
+      "speedProfile": {
+        "block": "1-D Lookup Table5",
+        "time": [
+          0,
+          0.15,
+          0.65,
+          1.25,
+          2.25,
+          5,
+          5.4,
+          7,
+          7.5,
+          9,
+          9.4,
+          10,
+          10.5,
+          11,
+          11.3,
+          12,
+          12.6,
+          14,
+          14.3,
+          16,
+          16.6,
+          18,
+          18.5,
+          21,
+          22,
+          25
+        ],
+        "speed": [
+          0,
+          0,
+          60,
+          120,
+          303.68728984701329,
+          303.68728984701329,
+          180,
+          180,
+          303.68728984701329,
+          303.68728984701329,
+          60,
+          60,
+          0,
+          0,
+          60,
+          60,
+          303.68728984701329,
+          303.68728984701329,
+          200,
+          200,
+          303.68728984701329,
+          303.68728984701329,
+          120,
+          120,
+          0,
+          0
+        ]
+      },
+      "stopTime": 25,
+      "actualSampleTime": 8.3333333333213133E-5,
+      "periodToIntegrationStepRatio": 0.9999999999985576
+    },
+    "sourceSha256": "7f5d30cc8ef8e3a2e6a6ce0a4c0e209718313088f289f4365abfbcc5db5ee22e",
+    "modelSha256": "99182d8f48fcd2ad34387b9a45a9331bf8e8582a3df348f6c9e51dd467c297d9",
+    "matSha256": "98f88766308a33dd134cf58747de2d07433f2974abd8b64404ee73af04172a2b",
+    "parameters": {
+      "Is_max": 420,
+      "FocDiscrTime": 8.3333333333333331E-5,
+      "Ld": 0.00031,
+      "Lq": 0.000305,
+      "Psi": 0.1024,
+      "Rs": 0.02,
+      "PolePairs": 11,
+      "VDC": 440,
+      "mMaxPWM": 0.99,
+      "mMaxCurrent": 0.99,
+      "mFW": 0.95,
+      "deltaLd": 0.05,
+      "deltaLq": 0.2,
+      "deltaPsi": 0.1,
+      "deltaRs": 0
+    },
+    "overrides": {
+      "deltaLd": 0.05,
+      "deltaLq": 0.2,
+      "deltaPsi": 0.1,
+      "deltaRs": 0,
+      "VDC": 440,
+      "Is_max": 420
+    },
+    "finalTime": 25,
+    "elapsed": 137.35349,
+    "signalCount": 63,
+    "speedProfile": {
+      "block": "1-D Lookup Table5",
+      "time": [
+        0,
+        0.15,
+        0.65,
+        1.25,
+        2.25,
+        5,
+        5.4,
+        7,
+        7.5,
+        9,
+        9.4,
+        10,
+        10.5,
+        11,
+        11.3,
+        12,
+        12.6,
+        14,
+        14.3,
+        16,
+        16.6,
+        18,
+        18.5,
+        21,
+        22,
+        25
+      ],
+      "speed": [
+        0,
+        0,
+        60,
+        120,
+        303.68728984701329,
+        303.68728984701329,
+        180,
+        180,
+        303.68728984701329,
+        303.68728984701329,
+        60,
+        60,
+        0,
+        0,
+        60,
+        60,
+        303.68728984701329,
+        303.68728984701329,
+        200,
+        200,
+        303.68728984701329,
+        303.68728984701329,
+        120,
+        120,
+        0,
+        0
+      ],
+      "maxMeasuredSpeed": 303.687289847008
+    },
+    "userSourceSha256": "a659ad73c6900842f769adef4e45a95ee696bca25d79e3af9640b94603ef558e",
+    "profileSelection": "startgen",
+    "releaseScenario": {
+      "stopTime": 25,
+      "VDC": 440,
+      "Is_max": 420,
+      "deltaLd": 0.05,
+      "deltaLq": 0.2,
+      "deltaPsi": 0.1,
+      "deltaRs": 0,
+      "speedTime": [
+        0,
+        0.15,
+        0.65,
+        1.25,
+        2.25,
+        5,
+        5.4,
+        7,
+        7.5,
+        9,
+        9.4,
+        10,
+        10.5,
+        11,
+        11.3,
+        12,
+        12.6,
+        14,
+        14.3,
+        16,
+        16.6,
+        18,
+        18.5,
+        21,
+        22,
+        25
+      ],
+      "speedValues": [
+        0,
+        0,
+        60,
+        120,
+        303.68728984701335,
+        303.68728984701335,
+        180,
+        180,
+        303.68728984701335,
+        303.68728984701335,
+        60,
+        60,
+        0,
+        0,
+        60,
+        60,
+        303.68728984701335,
+        303.68728984701335,
+        200,
+        200,
+        303.68728984701335,
+        303.68728984701335,
+        120,
+        120,
+        0,
+        0
+      ],
+      "iqTime": [
+        0,
+        0.02,
+        0.6,
+        0.61,
+        1.1,
+        1.11,
+        1.5,
+        1.51,
+        2.5,
+        2.51,
+        3,
+        3.01,
+        3.5,
+        3.51,
+        4,
+        4.01,
+        4.5,
+        4.51,
+        5,
+        5.01,
+        6,
+        6.01,
+        6.5,
+        6.51,
+        7,
+        7.01,
+        8,
+        8.01,
+        8.5,
+        8.51,
+        9,
+        9.01,
+        10.5,
+        10.52,
+        11.5,
+        11.51,
+        12,
+        12.01,
+        12.5,
+        12.51,
+        13.5,
+        13.51,
+        14,
+        14.01,
+        14.5,
+        14.51,
+        15,
+        15.01,
+        15.5,
+        15.51,
+        16,
+        16.01,
+        16.5,
+        16.51,
+        17.5,
+        17.51,
+        18,
+        18.01,
+        18.5,
+        18.51,
+        19.5,
+        19.51,
+        20,
+        20.01,
+        21,
+        21.01,
+        22.5,
+        22.52,
+        23,
+        23.01,
+        25
+      ],
+      "iqFraction": [
+        0,
+        1,
+        1,
+        0.25,
+        0.25,
+        0,
+        0,
+        -0.25,
+        -0.25,
+        0,
+        0,
+        -0.1,
+        -0.1,
+        -0.25,
+        -0.25,
+        0,
+        0,
+        1,
+        1,
+        -0.25,
+        -0.25,
+        0,
+        0,
+        0.5,
+        0.5,
+        -0.25,
+        -0.25,
+        0,
+        0,
+        -0.1,
+        -0.1,
+        0,
+        0,
+        1,
+        1,
+        0.25,
+        0.25,
+        0,
+        0,
+        -0.25,
+        -0.25,
+        0,
+        0,
+        1,
+        1,
+        -0.25,
+        -0.25,
+        0,
+        0,
+        -0.1,
+        -0.1,
+        0,
+        0,
+        -0.25,
+        -0.25,
+        0,
+        0,
+        1,
+        1,
+        -0.25,
+        -0.25,
+        0,
+        0,
+        -0.1,
+        -0.1,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0
+      ],
+      "id": "nff_sg2900_startgen_user",
+      "profile": "startgen",
+      "description": "F06 FF contribution disabled, Kpsi 2.5; Electrical starter-generator sequence: zero-speed current, acceleration, generation, abrupt load rejection, repeated start; imposed speed, no engine mechanics",
+      "speedLimitRadPerSec": 303.68728984701335,
+      "referenceCase": "sg2900_startgen_user"
+    },
+    "parameterSelection": {
+      "ManualSwitch": {
+        "setting": "1",
+        "inputs": [
+          "Low-Pass Filter\n(Discrete or Continuous)7",
+          "Constant6"
+        ]
+      },
+      "ManualSwitch2": {
+        "setting": "1",
+        "inputs": [
+          "Low-Pass Filter\n(Discrete or Continuous)9",
+          "Constant12"
+        ]
+      }
+    }
+  }
+}

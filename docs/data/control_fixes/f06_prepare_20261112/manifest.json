@@ -1,0 +1,17 @@
+{
+  "stage": "F06 preparation; working SLX unchanged; full drive simulation pending",
+  "verified_utc": "2026-11-12T15:36:12.576243+00:00",
+  "parameters": {
+    "Kpsi_Wb_per_s": 2.5,
+    "Ts_s": 8.333333333333333e-05
+  },
+  "files": {
+    "ideal_source_drive_Idff_aug_param.slx": "b4a938647d12a4e7695ca3e9cee42bd70964739419f6c0c66a922da2bdf6a824",
+    "ideal_source_drive_Idff_aug_param_woFreeze.slx": "6c8ac5f0ca8cdb88fcce1ea34436d1b86f15cb57e92027b6321e1fec51495199",
+    "tools/fw_limiter/fw_trim_projected.m": "5ba3d6e77f80e880b3b18ef33fdd0e9d34886c216e4aef6e50b69d40484542fe",
+    "tools/fw_limiter/test_fw_trim_projected.m": "53094a9c6804a5197cee9d6af2beba4a5e2e4e5525d0ca00fe0dd863273d6410"
+  },
+  "component_results": "tmp/control_f06_prepare_20261112_r2",
+  "checks": "MATLAB regressions and isolated Simulink harness, 1201 samples; all passed",
+  "limits": "No closed-loop drive run, no motor current or stability acceptance."
+}

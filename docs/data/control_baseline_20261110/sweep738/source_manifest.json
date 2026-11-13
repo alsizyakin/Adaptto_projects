@@ -1,0 +1,43 @@
+{
+  "oldSourceSha256": "c0fd6c1a7c8c4e5210ba4726f8a1c74d8ca567408f371c3691838f398be25eaa",
+  "newSourceSha256": "cc6d86c5b0b74a7d09f2f7dcdf9a6ba292806a60ccf86f9c73916028a8601593",
+  "source": "ideal_source_drive_Idff_aug_param.slx",
+  "oldProfile": {
+    "block": "1-D Lookup Table4",
+    "time": "[0 0.4 1.0 1.2 1.8]",
+    "speed": "[0 408 408 204 204]"
+  },
+  "newProfile": {
+    "block": "1-D Lookup Table2",
+    "time": "[0 0.3 1 1.3 2 2.3 3 3.3 4 4.3 5 5.3 6 6.3 7 14 24 ]",
+    "speed": "[0 104 104 208 208 312 312 416 416 520 520 624 624 738 738 156 21]"
+  },
+  "connectionChanges": [
+    {
+      "system": "simulink/systems/system_root.xml",
+      "removed": [
+        [
+          "2350#out:1",
+          "1405#in:1"
+        ],
+        [
+          "2350#out:1",
+          "1924#in:1"
+        ]
+      ],
+      "added": [
+        [
+          "2151#out:1",
+          "1405#in:1"
+        ],
+        [
+          "2151#out:1",
+          "1924#in:1"
+        ]
+      ]
+    }
+  ],
+  "sameWorkspace": true,
+  "sameConfiguration": true,
+  "sameMatlabFunctionCode": true
+}

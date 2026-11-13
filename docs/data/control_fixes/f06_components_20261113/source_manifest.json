@@ -1,0 +1,18 @@
+{
+  "saved_F06_source.slx": {
+    "source": "ideal_source_drive_Idff_aug_param_F06.slx",
+    "sha256": "1895d6502311498c93f831b02794d1ea081b0092d15f70014eb0889ef192151e",
+    "mtime": "2026-11-13T12:15:49.341782"
+  },
+  "component_source.slx": {
+    "source": "ideal_source_drive_Idff_aug_param_F06.slx.autosave",
+    "sha256": "37876d8a5c4952d56e0a0c50f951fab21df60f87c61dec7742d89a99248f2cd0",
+    "mtime": "2026-11-13T14:59:20.528456"
+  },
+  "component_source_ff_restored.slx": {
+    "source": "ideal_source_drive_Idff_aug_param_F06.slx.autosave",
+    "sha256": "045d393ed405aae6769332ec8f0ed3321cee887f129bcc3a0fbe0596fd844899",
+    "mtime": "2026-11-13T15:44:20.350766",
+    "note": "Autosave observed during audit; FF restored at Sum6 and VectorBase/Gain1 changed from 1 to 0.98. Both changes are included in B."
+  }
+}

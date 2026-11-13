@@ -1,0 +1,1 @@
+The first MATLAB process completed all assertions, then reported malloc(): smallbin double linked list corrupted during shutdown and was interrupted (exit 130). The repeat with -nojvm -singleCompThread completed the same assertions and exited 0. The four full-drive runs exited 0 independently. No full-drive run of the proposed F07 was performed.

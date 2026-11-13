@@ -1,0 +1,166 @@
+{
+  "existingBlockFunctionalParameterChanges": [
+    {
+      "system": "simulink/systems/system_root.xml",
+      "sid": "1390",
+      "block": "PID Controller",
+      "changes": {
+        "UpperSaturationLimit": [
+          "500*Ld",
+          "0*Ld"
+        ]
+      }
+    },
+    {
+      "system": "simulink/systems/system_root.xml",
+      "sid": "1858",
+      "block": "Mux6",
+      "changes": {
+        "Inputs": [
+          "2",
+          "5"
+        ]
+      }
+    }
+  ],
+  "changedExistingEmbeddedFunctions": [],
+  "modelWorkspaceBytesEqual": true,
+  "sourceFrozenFromAutosave": true,
+  "rootConnectionsRemoved": [
+    [
+      "1406#out:1",
+      "2368#in:1"
+    ],
+    [
+      "1813#out:1",
+      "2638#in:1"
+    ],
+    [
+      "1846#out:1",
+      "1859#in:2"
+    ],
+    [
+      "1856#out:1",
+      "1858#in:1"
+    ],
+    [
+      "1857#out:1",
+      "1858#in:2"
+    ],
+    [
+      "1858#out:1",
+      "1859#in:1"
+    ],
+    [
+      "1859#out:1",
+      "1398#in:4"
+    ],
+    [
+      "2319#out:1",
+      "2318#in:2"
+    ],
+    [
+      "2368#out:1",
+      "1812#in:1"
+    ],
+    [
+      "2637#out:1",
+      "2638#in:2"
+    ],
+    [
+      "2638#out:1",
+      "2370#in:1"
+    ],
+    [
+      "2658#out:1",
+      "2368#in:2"
+    ]
+  ],
+  "rootConnectionsAdded": [
+    [
+      "1406#out:1",
+      "2669#in:1"
+    ],
+    [
+      "1813#out:1",
+      "2668#in:1"
+    ],
+    [
+      "1846#out:1",
+      "2667#in:1"
+    ],
+    [
+      "1856#out:1",
+      "1858#in:2"
+    ],
+    [
+      "1857#out:1",
+      "1858#in:1"
+    ],
+    [
+      "1858#out:1",
+      "1398#in:4"
+    ],
+    [
+      "2637#out:1",
+      "2668#in:2"
+    ],
+    [
+      "2658#out:1",
+      "2652#in:3"
+    ],
+    [
+      "2658#out:1",
+      "2669#in:2"
+    ],
+    [
+      "2667#out:1",
+      "1858#in:3"
+    ],
+    [
+      "2667#out:2",
+      "1858#in:4"
+    ],
+    [
+      "2667#out:3",
+      "1858#in:5"
+    ],
+    [
+      "2668#out:1",
+      "2370#in:1"
+    ],
+    [
+      "2669#out:1",
+      "1812#in:1"
+    ]
+  ],
+  "rootBlocksAdded": [
+    {
+      "Name": "Bus\nSelector1",
+      "SID": "2667",
+      "BlockType": "BusSelector"
+    },
+    {
+      "Name": "lim",
+      "SID": "2668",
+      "BlockType": "SubSystem"
+    },
+    {
+      "Name": "Min2",
+      "SID": "2669",
+      "BlockType": "MinMax"
+    }
+  ],
+  "rootBlocksRemoved": [
+    {
+      "Name": "Mux7",
+      "SID": "1859",
+      "BlockType": "Mux"
+    },
+    {
+      "Name": "Min3",
+      "SID": "2638",
+      "BlockType": "MinMax"
+    }
+  ]
+}

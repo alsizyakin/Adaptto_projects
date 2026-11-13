@@ -1,0 +1,1132 @@
+{
+  "blocks": {
+    "1926": {
+      "name": "currents",
+      "type": "Inport",
+      "sid": "1926",
+      "p": {}
+    },
+    "1927": {
+      "name": "angle",
+      "type": "Inport",
+      "sid": "1927",
+      "p": {
+        "Port": "2"
+      }
+    },
+    "1928": {
+      "name": "speed",
+      "type": "Inport",
+      "sid": "1928",
+      "p": {
+        "Port": "3"
+      }
+    },
+    "1929": {
+      "name": "Vdc",
+      "type": "Inport",
+      "sid": "1929",
+      "p": {
+        "Port": "4"
+      }
+    },
+    "1930": {
+      "name": "Idreq",
+      "type": "Inport",
+      "sid": "1930",
+      "p": {
+        "Port": "5"
+      }
+    },
+    "1931": {
+      "name": "Iqreq",
+      "type": "Inport",
+      "sid": "1931",
+      "p": {
+        "Port": "6"
+      }
+    },
+    "1932": {
+      "name": "Cartesian to\nPolar1",
+      "type": "Reference",
+      "sid": "1932",
+      "p": {
+        "SourceBlock": "simulink_extras/Transformations/Cartesian to\nPolar"
+      }
+    },
+    "1933": {
+      "name": "Clarke Transform",
+      "type": "Reference",
+      "sid": "1933",
+      "p": {
+        "SourceBlock": "mcbeeMathTransformLib/Clarke Transform"
+      }
+    },
+    "1935": {
+      "name": "Demux2",
+      "type": "Demux",
+      "sid": "1935",
+      "p": {}
+    },
+    "1936": {
+      "name": "From",
+      "type": "From",
+      "sid": "1936",
+      "p": {
+        "GotoTag": "angle_act"
+      }
+    },
+    "1937": {
+      "name": "From1",
+      "type": "From",
+      "sid": "1937",
+      "p": {
+        "GotoTag": "angle_futute"
+      }
+    },
+    "1938": {
+      "name": "From10",
+      "type": "From",
+      "sid": "1938",
+      "p": {
+        "GotoTag": "UqComp"
+      }
+    },
+    "1939": {
+      "name": "From11",
+      "type": "From",
+      "sid": "1939",
+      "p": {
+        "GotoTag": "UdComp"
+      }
+    },
+    "1940": {
+      "name": "From12",
+      "type": "From",
+      "sid": "1940",
+      "p": {
+        "GotoTag": "Id"
+      }
+    },
+    "1941": {
+      "name": "From13",
+      "type": "From",
+      "sid": "1941",
+      "p": {
+        "GotoTag": "Iq"
+      }
+    },
+    "1942": {
+      "name": "From14",
+      "type": "From",
+      "sid": "1942",
+      "p": {
+        "GotoTag": "Ud"
+      }
+    },
+    "1943": {
+      "name": "From15",
+      "type": "From",
+      "sid": "1943",
+      "p": {
+        "GotoTag": "Uq"
+      }
+    },
+    "1944": {
+      "name": "From16",
+      "type": "From",
+      "sid": "1944",
+      "p": {
+        "GotoTag": "VDC"
+      }
+    },
+    "1945": {
+      "name": "From17",
+      "type": "From",
+      "sid": "1945",
+      "p": {
+        "GotoTag": "currents"
+      }
+    },
+    "1946": {
+      "name": "From18",
+      "type": "From",
+      "sid": "1946",
+      "p": {
+        "GotoTag": "Iqreq"
+      }
+    },
+    "1947": {
+      "name": "From19",
+      "type": "From",
+      "sid": "1947",
+      "p": {
+        "GotoTag": "Idreq"
+      }
+    },
+    "1948": {
+      "name": "From2",
+      "type": "From",
+      "sid": "1948",
+      "p": {
+        "GotoTag": "ElOmega"
+      }
+    },
+    "1949": {
+      "name": "From20",
+      "type": "From",
+      "sid": "1949",
+      "p": {
+        "GotoTag": "Ud"
+      }
+    },
+    "1950": {
+      "name": "From21",
+      "type": "From",
+      "sid": "1950",
+      "p": {
+        "GotoTag": "Uq"
+      }
+    },
+    "1951": {
+      "name": "From22",
+      "type": "From",
+      "sid": "1951",
+      "p": {
+        "GotoTag": "Id"
+      }
+    },
+    "1952": {
+      "name": "From23",
+      "type": "From",
+      "sid": "1952",
+      "p": {
+        "GotoTag": "Iq"
+      }
+    },
+    "1953": {
+      "name": "From24",
+      "type": "From",
+      "sid": "1953",
+      "p": {
+        "GotoTag": "VDC"
+      }
+    },
+    "1954": {
+      "name": "From25",
+      "type": "From",
+      "sid": "1954",
+      "p": {
+        "GotoTag": "VDC"
+      }
+    },
+    "1955": {
+      "name": "From26",
+      "type": "From",
+      "sid": "1955",
+      "p": {
+        "GotoTag": "angle_act"
+      }
+    },
+    "1956": {
+      "name": "From3",
+      "type": "From",
+      "sid": "1956",
+      "p": {
+        "GotoTag": "Ud"
+      }
+    },
+    "1957": {
+      "name": "From4",
+      "type": "From",
+      "sid": "1957",
+      "p": {
+        "GotoTag": "Uq_lim"
+      }
+    },
+    "1958": {
+      "name": "From5",
+      "type": "From",
+      "sid": "1958",
+      "p": {
+        "GotoTag": "Ecomp"
+      }
+    },
+    "1959": {
+      "name": "From6",
+      "type": "From",
+      "sid": "1959",
+      "p": {
+        "GotoTag": "ElOmega"
+      }
+    },
+    "1960": {
+      "name": "From7",
+      "type": "From",
+      "sid": "1960",
+      "p": {
+        "GotoTag": "Id"
+      }
+    },
+    "1961": {
+      "name": "From8",
+      "type": "From",
+      "sid": "1961",
+      "p": {
+        "GotoTag": "Iq"
+      }
+    },
+    "1962": {
+      "name": "From9",
+      "type": "From",
+      "sid": "1962",
+      "p": {
+        "GotoTag": "ElOmega"
+      }
+    },
+    "1963": {
+      "name": "Gain",
+      "type": "Gain",
+      "sid": "1963",
+      "p": {
+        "Gain": "0.995/sqrt(3)"
+      }
+    },
+    "1964": {
+      "name": "Gain1",
+      "type": "Gain",
+      "sid": "1964",
+      "p": {
+        "Gain": "Psi"
+      }
+    },
+    "1965": {
+      "name": "Gain2",
+      "type": "Gain",
+      "sid": "1965",
+      "p": {
+        "Gain": "PolePairs"
+      }
+    },
+    "1966": {
+      "name": "Gain3",
+      "type": "Gain",
+      "sid": "1966",
+      "p": {
+        "Gain": "FocDiscrTime"
+      }
+    },
+    "1967": {
+      "name": "Gain4",
+      "type": "Gain",
+      "sid": "1967",
+      "p": {
+        "Gain": "Lq"
+      }
+    },
+    "1968": {
+      "name": "Gain5",
+      "type": "Gain",
+      "sid": "1968",
+      "p": {
+        "Gain": "-1"
+      }
+    },
+    "1969": {
+      "name": "Gain6",
+      "type": "Gain",
+      "sid": "1969",
+      "p": {
+        "Gain": "Ld"
+      }
+    },
+    "1970": {
+      "name": "Gain7",
+      "type": "Gain",
+      "sid": "1970",
+      "p": {
+        "Gain": "1-compensate_pwm*0.5"
+      }
+    },
+    "1971": {
+      "name": "Goto",
+      "type": "Goto",
+      "sid": "1971",
+      "p": {
+        "GotoTag": "angle_act"
+      }
+    },
+    "1972": {
+      "name": "Goto1",
+      "type": "Goto",
+      "sid": "1972",
+      "p": {
+        "GotoTag": "angle_futute"
+      }
+    },
+    "1973": {
+      "name": "Goto10",
+      "type": "Goto",
+      "sid": "1973",
+      "p": {
+        "GotoTag": "Iqreq"
+      }
+    },
+    "1974": {
+      "name": "Goto11",
+      "type": "Goto",
+      "sid": "1974",
+      "p": {
+        "GotoTag": "Idreq"
+      }
+    },
+    "1975": {
+      "name": "Goto12",
+      "type": "Goto",
+      "sid": "1975",
+      "p": {
+        "GotoTag": "Ud"
+      }
+    },
+    "1976": {
+      "name": "Goto13",
+      "type": "Goto",
+      "sid": "1976",
+      "p": {
+        "GotoTag": "Uq_lim"
+      }
+    },
+    "1977": {
+      "name": "Goto14",
+      "type": "Goto",
+      "sid": "1977",
+      "p": {
+        "GotoTag": "VDC"
+      }
+    },
+    "1978": {
+      "name": "Goto2",
+      "type": "Goto",
+      "sid": "1978",
+      "p": {
+        "GotoTag": "ElOmega"
+      }
+    },
+    "1979": {
+      "name": "Goto3",
+      "type": "Goto",
+      "sid": "1979",
+      "p": {
+        "GotoTag": "Ecomp"
+      }
+    },
+    "1980": {
+      "name": "Goto4",
+      "type": "Goto",
+      "sid": "1980",
+      "p": {
+        "GotoTag": "Id"
+      }
+    },
+    "1981": {
+      "name": "Goto5",
+      "type": "Goto",
+      "sid": "1981",
+      "p": {
+        "GotoTag": "Iq"
+      }
+    },
+    "1982": {
+      "name": "Goto6",
+      "type": "Goto",
+      "sid": "1982",
+      "p": {
+        "GotoTag": "UqComp"
+      }
+    },
+    "1983": {
+      "name": "Goto7",
+      "type": "Goto",
+      "sid": "1983",
+      "p": {
+        "GotoTag": "UdComp"
+      }
+    },
+    "1984": {
+      "name": "Goto8",
+      "type": "Goto",
+      "sid": "1984",
+      "p": {
+        "GotoTag": "Uq"
+      }
+    },
+    "1985": {
+      "name": "Goto9",
+      "type": "Goto",
+      "sid": "1985",
+      "p": {
+        "GotoTag": "currents"
+      }
+    },
+    "1986": {
+      "name": "Inverse Park Transform1",
+      "type": "Reference",
+      "sid": "1986",
+      "p": {
+        "SourceBlock": "mcbeeMathTransformLib/Park to Clarke\nAngle Transform"
+      }
+    },
+    "1987": {
+      "name": "Mux",
+      "type": "Mux",
+      "sid": "1987",
+      "p": {
+        "Inputs": "3"
+      }
+    },
+    "1988": {
+      "name": "Mux1",
+      "type": "Mux",
+      "sid": "1988",
+      "p": {
+        "Inputs": "3"
+      }
+    },
+    "1989": {
+      "name": "PID Controller3",
+      "type": "Reference",
+      "sid": "1989",
+      "p": {
+        "SourceBlock": "slpidlib/PID Controller",
+        "P": "piBandwidth*Ld",
+        "I": "piBandwidth*Rs",
+        "UpperSaturationLimit": "230",
+        "LowerSaturationLimit": "-230"
+      }
+    },
+    "1990": {
+      "name": "PID Controller4",
+      "type": "Reference",
+      "sid": "1990",
+      "p": {
+        "SourceBlock": "slpidlib/PID Controller",
+        "P": "piBandwidth*Lq",
+        "I": "piBandwidth*Rs",
+        "UpperSaturationLimit": "24",
+        "LowerSaturationLimit": "-15"
+      }
+    },
+    "1991": {
+      "name": "Park Transform",
+      "type": "Reference",
+      "sid": "1991",
+      "p": {
+        "SourceBlock": "mcbeeMathTransformLib/Clarke to Park\nAngle Transform"
+      }
+    },
+    "1992": {
+      "name": "Product",
+      "type": "Product",
+      "sid": "1992",
+      "p": {}
+    },
+    "1993": {
+      "name": "Product1",
+      "type": "Product",
+      "sid": "1993",
+      "p": {}
+    },
+    "1997": {
+      "name": "ScopeComp",
+      "type": "Scope",
+      "sid": "1997",
+      "p": {}
+    },
+    "1995": {
+      "name": "ScopeUd",
+      "type": "Scope",
+      "sid": "1995",
+      "p": {}
+    },
+    "1996": {
+      "name": "ScopeUq",
+      "type": "Scope",
+      "sid": "1996",
+      "p": {}
+    },
+    "1998": {
+      "name": "Sqrt",
+      "type": "Sqrt",
+      "sid": "1998",
+      "p": {}
+    },
+    "1999": {
+      "name": "Square",
+      "type": "Math",
+      "sid": "1999",
+      "p": {
+        "Operator": "square"
+      }
+    },
+    "2000": {
+      "name": "Square1",
+      "type": "Math",
+      "sid": "2000",
+      "p": {
+        "Operator": "square"
+      }
+    },
+    "2001": {
+      "name": "Sum",
+      "type": "Sum",
+      "sid": "2001",
+      "p": {
+        "Inputs": "-+|"
+      }
+    },
+    "2002": {
+      "name": "Sum1",
+      "type": "Sum",
+      "sid": "2002",
+      "p": {
+        "Inputs": "-+|"
+      }
+    },
+    "2003": {
+      "name": "Sum2",
+      "type": "Sum",
+      "sid": "2003",
+      "p": {
+        "Inputs": "|++"
+      }
+    },
+    "2004": {
+      "name": "Sum3",
+      "type": "Sum",
+      "sid": "2004",
+      "p": {
+        "Inputs": "|++"
+      }
+    },
+    "2005": {
+      "name": "Sum4",
+      "type": "Sum",
+      "sid": "2005",
+      "p": {}
+    },
+    "2006": {
+      "name": "Sum5",
+      "type": "Sum",
+      "sid": "2006",
+      "p": {
+        "Inputs": "|++"
+      }
+    },
+    "2007": {
+      "name": "Sum6",
+      "type": "Sum",
+      "sid": "2007",
+      "p": {
+        "Inputs": "-+|"
+      }
+    },
+    "2039": {
+      "name": "Sum7",
+      "type": "Sum",
+      "sid": "2039",
+      "p": {
+        "Inputs": "|+-"
+      }
+    },
+    "2040": {
+      "name": "Sum8",
+      "type": "Sum",
+      "sid": "2040",
+      "p": {
+        "Inputs": "|+-"
+      }
+    },
+    "2093": {
+      "name": "Sum9",
+      "type": "Sum",
+      "sid": "2093",
+      "p": {
+        "Inputs": "++|"
+      }
+    },
+    "2008": {
+      "name": "Terminator",
+      "type": "Terminator",
+      "sid": "2008",
+      "p": {}
+    },
+    "2009": {
+      "name": "Unary Minus1",
+      "type": "UnaryMinus",
+      "sid": "2009",
+      "p": {}
+    },
+    "2010": {
+      "name": "UqLimiter",
+      "type": "SubSystem",
+      "sid": "2010",
+      "p": {}
+    },
+    "2022": {
+      "name": "vRef",
+      "type": "Outport",
+      "sid": "2022",
+      "p": {}
+    },
+    "2023": {
+      "name": "vAngle",
+      "type": "Outport",
+      "sid": "2023",
+      "p": {
+        "Port": "2"
+      }
+    },
+    "2024": {
+      "name": "Vd",
+      "type": "Outport",
+      "sid": "2024",
+      "p": {
+        "Port": "3"
+      }
+    },
+    "2025": {
+      "name": "Vq",
+      "type": "Outport",
+      "sid": "2025",
+      "p": {
+        "Port": "4"
+      }
+    },
+    "2026": {
+      "name": "Currents_work",
+      "type": "Outport",
+      "sid": "2026",
+      "p": {
+        "Port": "5"
+      }
+    },
+    "2027": {
+      "name": "Currents_dq_calc",
+      "type": "Outport",
+      "sid": "2027",
+      "p": {
+        "Port": "6"
+      }
+    },
+    "2028": {
+      "name": "Ang",
+      "type": "Outport",
+      "sid": "2028",
+      "p": {
+        "Port": "7"
+      }
+    },
+    "2029": {
+      "name": "VDC",
+      "type": "Outport",
+      "sid": "2029",
+      "p": {
+        "Port": "8"
+      }
+    }
+  },
+  "edges": [
+    [
+      "2004#out:1",
+      "1987#in:3"
+    ],
+    [
+      "2004#out:1",
+      "1984#in:1"
+    ],
+    [
+      "1987#out:1",
+      "1996#in:6"
+    ],
+    [
+      "1998#out:1",
+      "1988#in:3"
+    ],
+    [
+      "2005#out:1",
+      "1998#in:1"
+    ],
+    [
+      "2000#out:1",
+      "2005#in:2"
+    ],
+    [
+      "1999#out:1",
+      "2005#in:1"
+    ],
+    [
+      "1953#out:1",
+      "2029#in:1"
+    ],
+    [
+      "1932#out:1",
+      "2022#in:1"
+    ],
+    [
+      "1932#out:2",
+      "2023#in:1"
+    ],
+    [
+      "1955#out:1",
+      "2028#in:1"
+    ],
+    [
+      "1970#out:1",
+      "2003#in:2"
+    ],
+    [
+      "1968#out:1",
+      "1989#in:3"
+    ],
+    [
+      "2093#out:1",
+      "1968#in:1"
+    ],
+    [
+      "2093#out:1",
+      "1995#in:3"
+    ],
+    [
+      "2093#out:1",
+      "1989#in:2"
+    ],
+    [
+      "1944#out:1",
+      "1963#in:1"
+    ],
+    [
+      "1929#out:1",
+      "1977#in:1"
+    ],
+    [
+      "1952#out:1",
+      "2002#in:1"
+    ],
+    [
+      "1951#out:1",
+      "2001#in:1"
+    ],
+    [
+      "1950#out:1",
+      "1986#in:2"
+    ],
+    [
+      "1949#out:1",
+      "1986#in:1"
+    ],
+    [
+      "1931#out:1",
+      "1973#in:1"
+    ],
+    [
+      "1930#out:1",
+      "1974#in:1"
+    ],
+    [
+      "1945#out:1",
+      "2026#in:1"
+    ],
+    [
+      "2039#out:1",
+      "1990#in:2"
+    ],
+    [
+      "2039#out:1",
+      "1987#in:1"
+    ],
+    [
+      "2039#out:1",
+      "2009#in:1"
+    ],
+    [
+      "1943#out:1",
+      "2025#in:1"
+    ],
+    [
+      "1942#out:1",
+      "2024#in:1"
+    ],
+    [
+      "1941#out:1",
+      "1988#in:2"
+    ],
+    [
+      "1941#out:1",
+      "2000#in:1"
+    ],
+    [
+      "1940#out:1",
+      "1988#in:1"
+    ],
+    [
+      "1940#out:1",
+      "1999#in:1"
+    ],
+    [
+      "1992#out:1",
+      "1983#in:1"
+    ],
+    [
+      "1992#out:1",
+      "1997#in:3"
+    ],
+    [
+      "1993#out:1",
+      "1982#in:1"
+    ],
+    [
+      "1993#out:1",
+      "1997#in:2"
+    ],
+    [
+      "1962#out:1",
+      "1969#in:1"
+    ],
+    [
+      "1961#out:1",
+      "1992#in:1"
+    ],
+    [
+      "1960#out:1",
+      "1993#in:1"
+    ],
+    [
+      "1959#out:1",
+      "1964#in:1"
+    ],
+    [
+      "1964#out:1",
+      "1979#in:1"
+    ],
+    [
+      "1964#out:1",
+      "1997#in:1"
+    ],
+    [
+      "1966#out:1",
+      "1970#in:1"
+    ],
+    [
+      "1965#out:1",
+      "1966#in:1"
+    ],
+    [
+      "1965#out:1",
+      "1978#in:1"
+    ],
+    [
+      "2010#out:1",
+      "1976#in:1"
+    ],
+    [
+      "1954#out:1",
+      "2010#in:2"
+    ],
+    [
+      "1956#out:1",
+      "2010#in:1"
+    ],
+    [
+      "1938#out:1",
+      "1996#in:5"
+    ],
+    [
+      "1938#out:1",
+      "2004#in:2"
+    ],
+    [
+      "1938#out:1",
+      "2039#in:2"
+    ],
+    [
+      "1958#out:1",
+      "2006#in:2"
+    ],
+    [
+      "1958#out:1",
+      "1996#in:4"
+    ],
+    [
+      "1958#out:1",
+      "2040#in:2"
+    ],
+    [
+      "1939#out:1",
+      "1995#in:1"
+    ],
+    [
+      "1939#out:1",
+      "2093#in:1"
+    ],
+    [
+      "1939#out:1",
+      "2007#in:1"
+    ],
+    [
+      "1969#out:1",
+      "1993#in:2"
+    ],
+    [
+      "1967#out:1",
+      "1992#in:2"
+    ],
+    [
+      "1948#out:1",
+      "1967#in:1"
+    ],
+    [
+      "1937#out:1",
+      "1986#in:3"
+    ],
+    [
+      "1936#out:1",
+      "1991#in:3"
+    ],
+    [
+      "1988#out:1",
+      "2027#in:1"
+    ],
+    [
+      "1989#out:1",
+      "1995#in:5"
+    ],
+    [
+      "1989#out:1",
+      "2007#in:2"
+    ],
+    [
+      "1986#out:2",
+      "1932#in:2"
+    ],
+    [
+      "1986#out:1",
+      "1932#in:1"
+    ],
+    [
+      "2009#out:1",
+      "1990#in:3"
+    ],
+    [
+      "2009#out:1",
+      "1987#in:2"
+    ],
+    [
+      "2006#out:1",
+      "2004#in:1"
+    ],
+    [
+      "2002#out:1",
+      "1990#in:1"
+    ],
+    [
+      "2002#out:1",
+      "1996#in:2"
+    ],
+    [
+      "1990#out:1",
+      "2006#in:1"
+    ],
+    [
+      "1990#out:1",
+      "1996#in:3"
+    ],
+    [
+      "1991#out:1",
+      "1980#in:1"
+    ],
+    [
+      "1935#out:2",
+      "1991#in:2"
+    ],
+    [
+      "2001#out:1",
+      "1989#in:1"
+    ],
+    [
+      "2001#out:1",
+      "1995#in:2"
+    ],
+    [
+      "1933#out:1",
+      "1935#in:1"
+    ],
+    [
+      "1946#out:1",
+      "2002#in:2"
+    ],
+    [
+      "1946#out:1",
+      "1996#in:1"
+    ],
+    [
+      "1935#out:3",
+      "2008#in:1"
+    ],
+    [
+      "1991#out:2",
+      "1981#in:1"
+    ],
+    [
+      "1935#out:1",
+      "1991#in:1"
+    ],
+    [
+      "1926#out:1",
+      "1933#in:1"
+    ],
+    [
+      "1926#out:1",
+      "1985#in:1"
+    ],
+    [
+      "2003#out:1",
+      "1972#in:1"
+    ],
+    [
+      "1927#out:1",
+      "2003#in:1"
+    ],
+    [
+      "1927#out:1",
+      "1971#in:1"
+    ],
+    [
+      "1928#out:1",
+      "1965#in:1"
+    ],
+    [
+      "2007#out:1",
+      "1995#in:4"
+    ],
+    [
+      "2007#out:1",
+      "1975#in:1"
+    ],
+    [
+      "1947#out:1",
+      "2001#in:2"
+    ],
+    [
+      "2040#out:1",
+      "2039#in:1"
+    ],
+    [
+      "1957#out:1",
+      "2040#in:1"
+    ],
+    [
+      "1963#out:1",
+      "2093#in:2"
+    ]
+  ]
+}

@@ -1,0 +1,4 @@
+cmp_sg2900_hold_nom Imax 595.928 settled q/d 475.428056234608 220.76444344452545 regression False quality False
+AUDIT cmp_sg2900_hold_nom Imax 595.9280854027382 q bound residual 0.0 rates {'w_el_sat': 0.0008333333333330195, 'psi_speed_den': 0.0008333333333330195, 'lq_speed_den': 0.0008333333333330195, 'lq_current_den': 0.0008333333333330195}
+cmp_sg2900_cycles_user Imax 1129.866 settled q/d 592.0149108147847 287.4903930986468 regression False quality False
+AUDIT cmp_sg2900_cycles_user Imax 1129.865624991234 q bound residual 0.0 rates {'w_el_sat': 0.0008333333333330195, 'psi_speed_den': 0.0008333333333330195, 'lq_speed_den': 0.0008333333333330195, 'lq_current_den': 0.0008333333333330195}

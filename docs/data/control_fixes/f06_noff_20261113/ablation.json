@@ -1,0 +1,15 @@
+{
+  "referenceSource": "/home/alexey/Git/Matlab/Adaptto/tmp/f06_noff_20261113/reference_source.slx",
+  "referenceSha256": "1895d6502311498c93f831b02794d1ea081b0092d15f70014eb0889ef192151e",
+  "ablationSource": "/home/alexey/Git/Matlab/Adaptto/tmp/f06_noff_20261113/noff_source.slx",
+  "ablationSha256": "a659ad73c6900842f769adef4e45a95ee696bca25d79e3af9640b94603ef558e",
+  "gainBlock": "Experiment_FF_gain",
+  "gain": 0,
+  "removedDirectConnections": [
+    "From58/1 -> Sum6/2",
+    "From58/1 -> fw_trim/1"
+  ],
+  "keptKpsi": 2.5,
+  "fwCodeUnchanged": true,
+  "meaning": "FF contribution is zero at BOTH projection input and final sum. Raw FF calculator remains for observation."
+}

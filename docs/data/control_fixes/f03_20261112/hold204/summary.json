@@ -1,0 +1,230 @@
+{
+  "sourceSha256": "4bc2327040951dc4c1b425a1556479c2e4f1155e68a47b911bc040edbab762f0",
+  "source": "/home/alexey/Git/Matlab/Adaptto/tmp/control_fix_f03_20261112/hold204/profile_source.slx",
+  "matlabVersion": "25.1.0.2943329 (R2025a)",
+  "created": "2026-11-12 14:07:53 +0300",
+  "note": "Raw errors: no feasibility or transition-window gating; not final drive acceptance.",
+  "nom": {
+    "currentLimit": 420,
+    "measuredLimit": 441,
+    "errorThreshold": 100,
+    "durationThreshold": 0.02,
+    "nonfinite": [],
+    "finite": true,
+    "completed": true,
+    "fullResolution": true,
+    "coverage": true,
+    "jointReferenceLog": true,
+    "maxReferenceCurrent": 419.99999667378142,
+    "maxMeasuredCurrent": 421.18830567601219,
+    "referenceWithinLimit": true,
+    "measuredWithinLimit": true,
+    "referenceExcess": [],
+    "tracking_d": {
+      "maxAbsoluteError": 3.5370708708582583,
+      "events": [],
+      "prolongedCount": 0,
+      "activeAtEnd": false,
+      "settledTail": 25,
+      "recoveryObserved": true
+    },
+    "tracking_q": {
+      "maxAbsoluteError": 419.99999667378142,
+      "events": {
+        "start": 0,
+        "stop": 0.0005,
+        "duration": 0.0005,
+        "open": false,
+        "prolonged": false
+      },
+      "prolongedCount": 0,
+      "activeAtEnd": false,
+      "settledTail": 24.9995,
+      "recoveryObserved": true
+    },
+    "dutyWithinLimit": true,
+    "minDuty": 0.0050000000000001432,
+    "maxDuty": 0.99499999999999988,
+    "actualDeltas": {
+      "deltaLd": 0,
+      "deltaLq": 0,
+      "deltaPsi": 0,
+      "deltaRs": 0
+    },
+    "speedProfile": {
+      "block": "1-D Lookup Table4",
+      "time": [
+        0,
+        0.4,
+        1,
+        1.2,
+        1.8
+      ],
+      "speed": [
+        0,
+        408,
+        408,
+        204,
+        204
+      ],
+      "maxMeasuredSpeed": 407.99999999999494,
+      "finalLoggedTime": 25,
+      "finalMeasuredSpeed": 204.00000000000284
+    },
+    "controlParameters": {
+      "Psi": {
+        "minimum": 0.1024,
+        "maximum": 0.1024,
+        "maxNominalDeviation": 0
+      },
+      "Lq": {
+        "minimum": 0.000305,
+        "maximum": 0.000305,
+        "maxNominalDeviation": 0
+      }
+    },
+    "sourceSha256": "4bc2327040951dc4c1b425a1556479c2e4f1155e68a47b911bc040edbab762f0",
+    "modelSha256": "e579844d5872e0db0f296760a8e6f7a51d9e783242dadb371834643f19fa0cbd",
+    "parameters": {
+      "Is_max": 420,
+      "FocDiscrTime": 8.3333333333333331E-5,
+      "Ld": 0.00031,
+      "Lq": 0.000305,
+      "Psi": 0.1024,
+      "Rs": 0.02,
+      "PolePairs": 11,
+      "VDC": 440,
+      "mMaxPWM": 0.99,
+      "mMaxCurrent": 0.99,
+      "mFW": 0.95,
+      "deltaLd": 0,
+      "deltaLq": 0,
+      "deltaPsi": 0,
+      "deltaRs": 0
+    },
+    "overrides": {
+      "deltaLd": 0,
+      "deltaLq": 0,
+      "deltaPsi": 0,
+      "deltaRs": 0
+    },
+    "elapsed": 142.198554,
+    "finalTime": 25,
+    "signalCount": 51,
+    "matSha256": "8376aee9cc1e28a15795b7e4c7517808c03ac430f0d52fddd675ace60e4bfa5d"
+  },
+  "ldp20": {
+    "currentLimit": 420,
+    "measuredLimit": 441,
+    "errorThreshold": 100,
+    "durationThreshold": 0.02,
+    "nonfinite": [],
+    "finite": true,
+    "completed": true,
+    "fullResolution": true,
+    "coverage": true,
+    "jointReferenceLog": true,
+    "maxReferenceCurrent": 419.99999667378142,
+    "maxMeasuredCurrent": 421.18830352993552,
+    "referenceWithinLimit": true,
+    "measuredWithinLimit": true,
+    "referenceExcess": [],
+    "tracking_d": {
+      "maxAbsoluteError": 3.6205682868405233,
+      "events": [],
+      "prolongedCount": 0,
+      "activeAtEnd": false,
+      "settledTail": 25,
+      "recoveryObserved": true
+    },
+    "tracking_q": {
+      "maxAbsoluteError": 419.99999667378142,
+      "events": {
+        "start": 0,
+        "stop": 0.0005,
+        "duration": 0.0005,
+        "open": false,
+        "prolonged": false
+      },
+      "prolongedCount": 0,
+      "activeAtEnd": false,
+      "settledTail": 24.9995,
+      "recoveryObserved": true
+    },
+    "dutyWithinLimit": true,
+    "minDuty": 0.0050000000000001432,
+    "maxDuty": 0.99499999999999988,
+    "actualDeltas": {
+      "deltaLd": 0.2,
+      "deltaLq": 0,
+      "deltaPsi": 0,
+      "deltaRs": 0
+    },
+    "speedProfile": {
+      "block": "1-D Lookup Table4",
+      "time": [
+        0,
+        0.4,
+        1,
+        1.2,
+        1.8
+      ],
+      "speed": [
+        0,
+        408,
+        408,
+        204,
+        204
+      ],
+      "maxMeasuredSpeed": 407.9999999999946,
+      "finalLoggedTime": 25,
+      "finalMeasuredSpeed": 204.00000000000284
+    },
+    "controlParameters": {
+      "Psi": {
+        "minimum": 0.1024,
+        "maximum": 0.1024,
+        "maxNominalDeviation": 0
+      },
+      "Lq": {
+        "minimum": 0.000305,
+        "maximum": 0.000305,
+        "maxNominalDeviation": 0
+      }
+    },
+    "sourceSha256": "4bc2327040951dc4c1b425a1556479c2e4f1155e68a47b911bc040edbab762f0",
+    "modelSha256": "1b0f93926467e674499912bc93985e5ec5c1e04cfb354d27f1ed43dc1347c382",
+    "parameters": {
+      "Is_max": 420,
+      "FocDiscrTime": 8.3333333333333331E-5,
+      "Ld": 0.00031,
+      "Lq": 0.000305,
+      "Psi": 0.1024,
+      "Rs": 0.02,
+      "PolePairs": 11,
+      "VDC": 440,
+      "mMaxPWM": 0.99,
+      "mMaxCurrent": 0.99,
+      "mFW": 0.95,
+      "deltaLd": 0.2,
+      "deltaLq": 0,
+      "deltaPsi": 0,
+      "deltaRs": 0
+    },
+    "overrides": {
+      "deltaLd": 0.2,
+      "deltaLq": 0,
+      "deltaPsi": 0,
+      "deltaRs": 0
+    },
+    "elapsed": 143.551339,
+    "finalTime": 25,
+    "signalCount": 51,
+    "matSha256": "94728c2e88b9873b017dca058e7324c8e3b0c9d38104c93db573e946dfb91bc2"
+  },
+  "verification": "test_fwl_assess; both complete logs reassessed; source/model hashes; saved delta parameters; limited-voltage identities",
+  "verificationLog": "verification_20261112_141333.log",
+  "verifiedAt": "2026-11-12 14:13:46 +0300",
+  "userSourceSha256": "17f6a14ccbb0c814d38cb1c01a889c73365b5fb65824205ad9bd595ca77c138c",
+  "profileSelection": "hold204"
+}

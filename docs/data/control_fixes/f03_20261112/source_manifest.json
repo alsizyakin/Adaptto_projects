@@ -1,0 +1,34 @@
+{
+  "userSourceSha256": "17f6a14ccbb0c814d38cb1c01a889c73365b5fb65824205ad9bd595ca77c138c",
+  "beforeSourceSha256": "61d9bf937a5a672f06b3b33a217e6d16f2e0c19fadc31b52f92262d08057d607",
+  "removedEdges": [
+    [
+      "2366#out:1",
+      "2368#in:2"
+    ]
+  ],
+  "addedEdges": [
+    [
+      "2366#out:1",
+      "2658#in:1"
+    ],
+    [
+      "2658#out:1",
+      "2368#in:2"
+    ]
+  ],
+  "newGain": "<Block BlockType=\"Gain\" Name=\"Gain15\" SID=\"2658\">\n    <P Name=\"Position\">[638, 580, 682, 625]</P>\n    <P Name=\"ZOrder\">100000</P>\n    <P Name=\"BlockRotation\">270</P>\n    <P Name=\"NameLocation\">right</P>\n    <P Name=\"Gain\">0.95</P>\n  </Block>\n  ",
+  "unchangedData": {
+    "simulink/modelWorkspace.mxarray": true,
+    "simulink/configSet0.xml": true,
+    "simulink/stateflow/chart_116.xml": true,
+    "simulink/stateflow/chart_123.xml": true,
+    "simulink/stateflow/chart_130.xml": true,
+    "simulink/stateflow/chart_137.xml": true,
+    "simulink/stateflow/chart_144.xml": true,
+    "simulink/stateflow/chart_151.xml": true,
+    "simulink/stateflow/chart_79.xml": true,
+    "simulink/stateflow/chart_87.xml": true,
+    "simulink/stateflow/chart_97.xml": true
+  }
+}

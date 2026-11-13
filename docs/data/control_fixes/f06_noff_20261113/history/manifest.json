@@ -1,0 +1,58 @@
+[
+  {
+    "commit": "acd6832e3c082cef42242c959155225615f57f6b",
+    "file": "ideal_source_drive.slx",
+    "saved": "tmp/f06_noff_20261113/history/acd6832_ideal_source_drive.slx",
+    "sha256": "95236fd35f0475fc24c642a392475f3a7c2d40b41d023cd81d232a7eb8843e5c",
+    "dateSubject": "2026-07-28T12:46:24+03:00 feedforward for Id added",
+    "archive": "docs/data/control_fixes/f06_noff_20261113/history/acd6832/ideal_source_drive.slx"
+  },
+  {
+    "commit": "68a95c21d46b4958b557a5486ea46677053ef97b",
+    "file": "ideal_source_drive.slx",
+    "saved": "tmp/f06_noff_20261113/history/68a95c2_ideal_source_drive.slx",
+    "sha256": "cd1a6ab866791544fb32ff87be702d69b98affc90171542b5166b5eb28e22638",
+    "dateSubject": "2026-07-23T22:57:42+03:00 verified models",
+    "archive": "docs/data/control_fixes/f06_noff_20261113/history/68a95c2/ideal_source_drive.slx"
+  },
+  {
+    "commit": "cd3e1e570374ca9ca6c1aebf9ef077f56cd3def9",
+    "file": "ideal_source_Motor_DVS_newest_param.slx",
+    "saved": "tmp/f06_noff_20261113/history/cd3e1e5_ideal_source_Motor_DVS_newest_param.slx",
+    "sha256": "cf24a533cc4d5d11309c3926b94b0e6660c39423aedc9a6fbbf1bd6003d9c115",
+    "dateSubject": "2026-05-06T18:49:50+03:00 motor mode and gen modes are combined",
+    "archive": "docs/data/control_fixes/f06_noff_20261113/history/cd3e1e5/ideal_source_Motor_DVS_newest_param.slx"
+  },
+  {
+    "commit": "9b8435566a2295ee94f3f5d5736e9b51b8841157",
+    "file": "ideal_source_Motor_DVS_newest_param.slx",
+    "saved": "tmp/f06_noff_20261113/history/9b84355_ideal_source_Motor_DVS_newest_param.slx",
+    "sha256": "af5bc8619fcff457cf12c86ea11afba1866ac095cb31fea374871f8bbb5bd92b",
+    "dateSubject": "2026-02-05T18:36:23+03:00 ideal source version works",
+    "archive": "docs/data/control_fixes/f06_noff_20261113/history/9b84355/ideal_source_Motor_DVS_newest_param.slx"
+  },
+  {
+    "commit": "6123a28d3d375f0be295d8f4aec4d6c1d3a16150",
+    "file": "ideal_source_Motor_DVS.slx",
+    "saved": "tmp/f06_noff_20261113/history/6123a28_ideal_source_Motor_DVS.slx",
+    "sha256": "1a4d77047a498997b7500118245ec5112ea457710123ab4c05b5cf117870efc3",
+    "dateSubject": "2026-01-20T21:55:59+03:00 ideal source model works good. Need vwrification of processes",
+    "archive": "docs/data/control_fixes/f06_noff_20261113/history/6123a28/ideal_source_Motor_DVS.slx"
+  },
+  {
+    "commit": "68a95c21d46b4958b557a5486ea46677053ef97b",
+    "file": "svpwm_inv_ideal_switch_drive.slx",
+    "saved": "tmp/f06_noff_20261113/history/68a95c2_svpwm_inv_ideal_switch_drive.slx",
+    "sha256": "c19f690855b746c508c12ed72f38a9291344dd2fd3cf9bcd20d8ce85405b978a",
+    "dateSubject": "2026-07-23T22:57:42+03:00 verified models",
+    "archive": "docs/data/control_fixes/f06_noff_20261113/history/68a95c2/svpwm_inv_ideal_switch_drive.slx"
+  },
+  {
+    "commit": "78ed0b5dbd2ce4b7814f04781a7ff272a3d9c002",
+    "file": "ideal_source_Motor_DVS_newest_param.slx",
+    "saved": "tmp/f06_noff_20261113/history/78ed0b5_ideal_source_Motor_DVS_newest_param.slx",
+    "sha256": "cf24a533cc4d5d11309c3926b94b0e6660c39423aedc9a6fbbf1bd6003d9c115",
+    "dateSubject": "2026-06-26T19:53:37+03:00 june params tuned",
+    "archive": "docs/data/control_fixes/f06_noff_20261113/history/78ed0b5/ideal_source_Motor_DVS_newest_param.slx"
+  }
+]

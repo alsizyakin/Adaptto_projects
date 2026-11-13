@@ -1,0 +1,9 @@
+FW fw_trim: method=Discrete, function period=FocDiscrTime, subsystem period=-1, integration step=8.33333333e-05 s, Kpsi=2.5
+Saved plant deltaLd=0.05, code matches=1, delay Idref=4.16666667e-05 s
+FF CONNECTION observed_autosave: projection=From58 sum=<unconnected> consistent=0
+FW fw_trim: method=Discrete, function period=FocDiscrTime, subsystem period=-1, integration step=8.33333333e-05 s, Kpsi=2.5
+Saved plant deltaLd=0.05, code matches=1, delay Idref=4.16666667e-05 s
+FF CONNECTION saved_F06: projection=From58 sum=From58 consistent=1
+FW fw_trim: method=Discrete, function period=FocDiscrTime, subsystem period=-1, integration step=8.33333333e-05 s, Kpsi=2.5
+Saved plant deltaLd=0.05, code matches=1, delay Idref=4.16666667e-05 s
+FF CONNECTION proper_noFF: projection=Experiment_FF_gain sum=Experiment_FF_gain consistent=1

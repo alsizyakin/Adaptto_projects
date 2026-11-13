@@ -1,0 +1,10 @@
+test_fwl_assess: all regression cases passed
+### Searching for referenced models in model 'aug_k45_ldp20'.
+### Total of 1 models to build.
+### Generating code for Physical Networks associated with solver block 'aug_k45_ldp20/Solver Configuration' ...
+done.
+### Building the rapid accelerator target for model: aug_k45_ldp20
+### Successfully built the rapid accelerator target for model: aug_k45_ldp20
+aug_k45_ldp20 done in 161.1 s
+k45_ldp20: verified, max Iref 419.999997 A, max I 687.997996 A, q prolonged=2, recovery=1
+Gain experiment verified: I=45, deltaLd=0.2, profile=saved, gate=1, reset=either

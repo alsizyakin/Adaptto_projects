@@ -1,0 +1,16 @@
+{
+  "stopTime": 25,
+  "VDC": 440,
+  "Is_max": 420,
+  "deltaLd": 0.05,
+  "deltaLq": 0.2,
+  "deltaPsi": 0.1,
+  "deltaRs": 0,
+  "speedTime": [],
+  "speedValues": [],
+  "iqTime": [],
+  "iqFraction": [],
+  "id": "r450_saved",
+  "profile": "saved",
+  "description": "Exact saved 438 rad/s profile and saved combined machine deviations"
+}

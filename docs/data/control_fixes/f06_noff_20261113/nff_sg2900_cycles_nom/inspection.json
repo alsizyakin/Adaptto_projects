@@ -1,0 +1,133 @@
+{
+  "source": "/home/alexey/Git/Matlab/Adaptto/tmp/f06_noff_20261113/nff_sg2900_cycles_nom/baseline_source.slx",
+  "sha256": "9a0906ccb7a9c0b8da63a6dda69847109141fa170118efdaa2a8eee280671ece",
+  "parameters": {
+    "Is_max": 420,
+    "FocDiscrTime": 8.3333333333333331E-5,
+    "Ld": 0.00031,
+    "Lq": 0.000305,
+    "Psi": 0.1024,
+    "Rs": 0.02,
+    "PolePairs": 11,
+    "VDC": 440,
+    "mMaxPWM": 0.99,
+    "mMaxCurrent": 0.99,
+    "mFW": 0.95,
+    "deltaLd": 0,
+    "deltaLq": 0,
+    "deltaPsi": 0,
+    "deltaRs": 0
+  },
+  "fwBlock": "fw_trim",
+  "updateMethod": "Discrete",
+  "sampleTimeExpression": "FocDiscrTime",
+  "configuredFunctionSampleTime": 8.3333333333333331E-5,
+  "subsystemSampleTimeExpression": "-1",
+  "subsystemSampleTime": -1,
+  "directFeedthrough": true,
+  "legacyPIDCommented": "on",
+  "idReferenceDelay": 4.1666666666666665E-5,
+  "timeDataScope": "Parameter",
+  "timeDataTunable": true,
+  "codeMatchesReferenceIgnoringComments": true,
+  "inputs": {
+    "psi_ff": {
+      "block": "Experiment_FF_gain",
+      "port": 1
+    },
+    "eU": {
+      "block": "Sum11",
+      "port": 1
+    },
+    "Ufw": {
+      "block": "From65",
+      "port": 1
+    },
+    "psi_min": {
+      "block": "Gain11",
+      "port": 1
+    },
+    "psi_max": {
+      "block": "Constant15",
+      "port": 1,
+      "value": 0
+    },
+    "Kpsi": {
+      "block": "Constant17",
+      "port": 1,
+      "value": 2.5
+    }
+  },
+  "dLimitGain": 1,
+  "qBudgetGain": 0.95,
+  "speedProfile": {
+    "block": "1-D Lookup Table5",
+    "time": [
+      0,
+      0.4,
+      1,
+      1.2,
+      3,
+      3.4,
+      4,
+      4.2,
+      6,
+      6.3,
+      7,
+      7.6,
+      9,
+      9.3,
+      10,
+      11,
+      13,
+      13.4,
+      14,
+      14.2,
+      16,
+      16.4,
+      17,
+      17.2,
+      19,
+      19.4,
+      20,
+      20.2,
+      23,
+      24,
+      25
+    ],
+    "speed": [
+      0,
+      303.68728984701329,
+      303.68728984701329,
+      204,
+      204,
+      303.68728984701329,
+      303.68728984701329,
+      50,
+      50,
+      303.68728984701329,
+      303.68728984701329,
+      0,
+      0,
+      300,
+      300,
+      303.68728984701329,
+      303.68728984701329,
+      204,
+      204,
+      303.68728984701329,
+      303.68728984701329,
+      204,
+      204,
+      303.68728984701329,
+      303.68728984701329,
+      204,
+      204,
+      303.68728984701329,
+      303.68728984701329,
+      0,
+      0
+    ]
+  },
+  "stopTime": 25
+}

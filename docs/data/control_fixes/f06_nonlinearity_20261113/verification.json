@@ -1,0 +1,10 @@
+{
+  "analyticDerivativeCheckedAt2000Points": true,
+  "rootSubstitutionChecked": true,
+  "archivedMatHashChecked": true,
+  "newSimulinkRuns": 0,
+  "workingModelUnchangedDuringAnalysis": true,
+  "modelSha256": "632394ce2cd9ca77674a271e7eff35ae4fcc3d05987c97c826bb7583c866c05b",
+  "figuresVerified": 2,
+  "pythonSyntaxAndLocalLinksChecked": true
+}

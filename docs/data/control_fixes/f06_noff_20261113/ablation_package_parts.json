@@ -1,0 +1,14 @@
+{
+  "changedParts": [
+    "metadata/coreProperties.xml",
+    "metadata/thumbnail.png",
+    "simulink/blockdiagram.xml",
+    "simulink/stateflow/chart_144.xml",
+    "simulink/stateflow/chart_160.xml",
+    "simulink/stateflow/chart_79.xml",
+    "simulink/systems/system_1925.xml",
+    "simulink/systems/system_root.xml",
+    "simulink/windowsInfo.xml"
+  ],
+  "modelWorkspaceUnchanged": true
+}

@@ -1,0 +1,2143 @@
+{
+  "stage": "F05-W: freeze tag=0 disables correction; FF preserved; trim limits +/-500 A inactive",
+  "cases": [
+    {
+      "profile": "hold204",
+      "scenario": "nom",
+      "before": {
+        "maxReferenceCurrent": 419.9999966737814,
+        "maxMeasuredCurrent": 421.1883056760122,
+        "referenceWithinLimit": true,
+        "measuredWithinLimit": true,
+        "dutyWithinLimit": true,
+        "matSha256": "dabef982f4555d29d0b3547b73f4b3be7fa53c1480e0100687052816ded7f238",
+        "sourceSha256": "fa91e8de6e46070cb03c1fe65941595f9d5fd1dc4090bd15a8093dc05290aa5f",
+        "tracking_d": {
+          "maxAbsoluteError": 3.5366743309573963,
+          "prolongedCount": 0,
+          "activeAtEnd": false,
+          "settledTail": 25,
+          "recoveryObserved": true,
+          "episodeCount": 0,
+          "prolongedOrOpenEvents": []
+        },
+        "tracking_q": {
+          "maxAbsoluteError": 419.9999966737814,
+          "prolongedCount": 0,
+          "activeAtEnd": false,
+          "settledTail": 24.9995,
+          "recoveryObserved": true,
+          "episodeCount": 1,
+          "prolongedOrOpenEvents": []
+        },
+        "dSaturation": {
+          "definition": "abs(Ud)>=Ulim-1e-6 V and abs(Uq)<0.1 V, no gap merging",
+          "longestDuration": 0,
+          "totalDuration": 0,
+          "episodesOver20msOrOpen": []
+        }
+      },
+      "after": {
+        "maxReferenceCurrent": 419.9999966737814,
+        "maxMeasuredCurrent": 421.1883056760122,
+        "referenceWithinLimit": true,
+        "measuredWithinLimit": true,
+        "dutyWithinLimit": true,
+        "matSha256": "0b2d5459b93efc20d20dc9e34b8e899f5bac76402fb53e48f9d9eecf53809779",
+        "sourceSha256": "4e0e8d1409c40d24094858a0ee14abeb7e8a80f6daf259eb3d837a3c73606c67",
+        "tracking_d": {
+          "maxAbsoluteError": 3.4566716323887476,
+          "prolongedCount": 0,
+          "activeAtEnd": false,
+          "settledTail": 25,
+          "recoveryObserved": true,
+          "episodeCount": 0,
+          "prolongedOrOpenEvents": []
+        },
+        "tracking_q": {
+          "maxAbsoluteError": 419.9999966737814,
+          "prolongedCount": 0,
+          "activeAtEnd": false,
+          "settledTail": 24.9995,
+          "recoveryObserved": true,
+          "episodeCount": 1,
+          "prolongedOrOpenEvents": []
+        },
+        "dSaturation": {
+          "definition": "abs(Ud)>=Ulim-1e-6 V and abs(Uq)<0.1 V, no gap merging",
+          "longestDuration": 0,
+          "totalDuration": 0,
+          "episodesOver20msOrOpen": []
+        },
+        "disabledTrimChecks": {
+          "freezeUsedMaxAbs": 0.0,
+          "integratorInputMaxAbs": 0.0,
+          "trimMaxAbsA": 0.0,
+          "integratorStateMaxAbs": 0.0,
+          "sumMinusFFMaxAbs": 0.0
+        },
+        "maxStationaryReferenceVoltage": 244.11801190495683,
+        "stationaryReferenceAboveHardLimitFraction": 0.0,
+        "parameters": {
+          "Is_max": 420,
+          "FocDiscrTime": 8.333333333333333e-05,
+          "Ld": 0.00031,
+          "Lq": 0.000305,
+          "Psi": 0.1024,
+          "Rs": 0.02,
+          "PolePairs": 11,
+          "VDC": 440,
+          "mMaxPWM": 0.99,
+          "mMaxCurrent": 0.99,
+          "mFW": 0.95,
+          "deltaLd": 0,
+          "deltaLq": 0,
+          "deltaPsi": 0,
+          "deltaRs": 0
+        },
+        "transientDiagnostics": {
+          "minIq": -42.1613447508931,
+          "minIqTime": 0.39849999999999997,
+          "IqrefAtMinIq": -42.0,
+          "maxQErrorAfter50ms": 0.9050323392978044,
+          "maxQErrorTime": 0.591,
+          "qErrorEpisodesAfter50ms": [],
+          "minimumTorqueOnCurrentGrid": -71.13136841001364
+        },
+        "selectedSamples": [
+          {
+            "time": 2.8,
+            "speed": 204.00000000000284,
+            "Id": -245.40756659970208,
+            "Iq": 332.12069625866866,
+            "Idref": -245.40868408699393,
+            "Iqref": 332.1143789124988,
+            "Ud": -232.9293127015885,
+            "Uq": 65.7036073731202,
+            "UssReference": 241.33241252126376,
+            "Ulim": 251.49377725900098,
+            "fluxAtReference": 0.026323307933031892
+          },
+          {
+            "time": 3.3,
+            "speed": 204.00000000000284,
+            "Id": 3.816238152154483e-06,
+            "Iq": -42.0002456365071,
+            "Idref": 0.0,
+            "Iqref": -42.0,
+            "Ud": 28.827813891749248,
+            "Uq": 229.62292718617346,
+            "UssReference": 230.74314633022385,
+            "Ulim": 251.49377725900098,
+            "fluxAtReference": 0.1024
+          },
+          {
+            "time": 6.8,
+            "speed": 204.00000000000284,
+            "Id": -245.40599666226382,
+            "Iq": 332.11986878440854,
+            "Idref": -245.40868408699393,
+            "Iqref": 332.1143789124988,
+            "Ud": -232.93168264023498,
+            "Uq": 65.70576790040415,
+            "UssReference": 241.33241252126376,
+            "Ulim": 251.49377725900098,
+            "fluxAtReference": 0.026323307933031892
+          },
+          {
+            "time": 7.532333333333333,
+            "speed": 204.00000000000284,
+            "Id": 0.04317827966913912,
+            "Iq": 32.30375905065749,
+            "Idref": 0.0,
+            "Iqref": 32.689999999998975,
+            "Ud": -22.30934230913719,
+            "Uq": 231.85681056530453,
+            "UssReference": 231.52299900361538,
+            "Ulim": 251.49377725900098,
+            "fluxAtReference": 0.1024
+          },
+          {
+            "time": 20.0,
+            "speed": 204.00000000000284,
+            "Id": -245.40859860225487,
+            "Iq": 332.1222211395256,
+            "Idref": -245.40868408699393,
+            "Iqref": 332.1143789124988,
+            "Ud": -232.92842416581917,
+            "Uq": 65.70007125580403,
+            "UssReference": 241.33241252126376,
+            "Ulim": 251.49377725900098,
+            "fluxAtReference": 0.026323307933031892
+          }
+        ]
+      }
+    },
+    {
+      "profile": "hold204",
+      "scenario": "ldp20",
+      "before": {
+        "maxReferenceCurrent": 419.9999966737814,
+        "maxMeasuredCurrent": 649.2692999637926,
+        "referenceWithinLimit": true,
+        "measuredWithinLimit": false,
+        "dutyWithinLimit": true,
+        "matSha256": "82b03003630623545cf0df3752592efa76c4ce92564cd2406b64128c4cbdb4da",
+        "sourceSha256": "fa91e8de6e46070cb03c1fe65941595f9d5fd1dc4090bd15a8093dc05290aa5f",
+        "tracking_d": {
+          "maxAbsoluteError": 456.6173078216534,
+          "prolongedCount": 24,
+          "activeAtEnd": false,
+          "settledTail": 0.34025000000000105,
+          "recoveryObserved": true,
+          "episodeCount": 27,
+          "prolongedOrOpenEvents": [
+            {
+              "start": 1.1558333333333333,
+              "stop": 1.6597499999999998,
+              "duration": 0.5039166666666666,
+              "open": false,
+              "prolonged": true
+            },
+            {
+              "start": 2.0421666666666667,
+              "stop": 2.65975,
+              "duration": 0.6175833333333332,
+              "open": false,
+              "prolonged": true
+            },
+            {
+              "start": 3.0421666666666667,
+              "stop": 3.65975,
+              "duration": 0.6175833333333332,
+              "open": false,
+              "prolonged": true
+            },
+            {
+              "start": 4.042166666666667,
+              "stop": 4.65975,
+              "duration": 0.6175833333333332,
+              "open": false,
+              "prolonged": true
+            },
+            {
+              "start": 5.042166666666667,
+              "stop": 5.65975,
+              "duration": 0.6175833333333332,
+              "open": false,
+              "prolonged": true
+            },
+            {
+              "start": 6.042166666666667,
+              "stop": 6.65975,
+              "duration": 0.6175833333333332,
+              "open": false,
+              "prolonged": true
+            },
+            {
+              "start": 7.042166666666667,
+              "stop": 7.65975,
+              "duration": 0.6175833333333332,
+              "open": false,
+              "prolonged": true
+            },
+            {
+              "start": 8.042166666666667,
+              "stop": 8.659749999999999,
+              "duration": 0.6175833333333323,
+              "open": false,
+              "prolonged": true
+            },
+            {
+              "start": 9.042166666666667,
+              "stop": 9.659749999999999,
+              "duration": 0.6175833333333323,
+              "open": false,
+              "prolonged": true
+            },
+            {
+              "start": 10.042166666666667,
+              "stop": 10.659749999999999,
+              "duration": 0.6175833333333323,
+              "open": false,
+              "prolonged": true
+            },
+            {
+              "start": 11.042166666666667,
+              "stop": 11.659749999999999,
+              "duration": 0.6175833333333323,
+              "open": false,
+              "prolonged": true
+            },
+            {
+              "start": 12.042166666666667,
+              "stop": 12.659749999999999,
+              "duration": 0.6175833333333323,
+              "open": false,
+              "prolonged": true
+            },
+            {
+              "start": 13.042166666666667,
+              "stop": 13.659749999999999,
+              "duration": 0.6175833333333323,
+              "open": false,
+              "prolonged": true
+            },
+            {
+              "start": 14.042166666666667,
+              "stop": 14.659749999999999,
+              "duration": 0.6175833333333323,
+              "open": false,
+              "prolonged": true
+            },
+            {
+              "start": 15.042166666666667,
+              "stop": 15.659749999999999,
+              "duration": 0.6175833333333323,
+              "open": false,
+              "prolonged": true
+            },
+            {
+              "start": 16.042166666666667,
+              "stop": 16.65975,
+              "duration": 0.6175833333333323,
+              "open": false,
+              "prolonged": true
+            },
+            {
+              "start": 17.042166666666667,
+              "stop": 17.65975,
+              "duration": 0.6175833333333323,
+              "open": false,
+              "prolonged": true
+            },
+            {
+              "start": 18.042166666666667,
+              "stop": 18.65975,
+              "duration": 0.6175833333333323,
+              "open": false,
+              "prolonged": true
+            },
+            {
+              "start": 19.042166666666667,
+              "stop": 19.65975,
+              "duration": 0.6175833333333323,
+              "open": false,
+              "prolonged": true
+            },
+            {
+              "start": 20.042166666666667,
+              "stop": 20.65975,
+              "duration": 0.6175833333333323,
+              "open": false,
+              "prolonged": true
+            },
+            {
+              "start": 21.042166666666667,
+              "stop": 21.65975,
+              "duration": 0.6175833333333323,
+              "open": false,
+              "prolonged": true
+            },
+            {
+              "start": 22.042166666666667,
+              "stop": 22.65975,
+              "duration": 0.6175833333333323,
+              "open": false,
+              "prolonged": true
+            },
+            {
+              "start": 23.042166666666667,
+              "stop": 23.65975,
+              "duration": 0.6175833333333323,
+              "open": false,
+              "prolonged": true
+            },
+            {
+              "start": 24.042166666666667,
+              "stop": 24.65975,
+              "duration": 0.6175833333333323,
+              "open": false,
+              "prolonged": true
+            }
+          ]
+        },
+        "tracking_q": {
+          "maxAbsoluteError": 708.6951447545134,
+          "prolongedCount": 1,
+          "activeAtEnd": true,
+          "settledTail": 0,
+          "recoveryObserved": false,
+          "episodeCount": 2,
+          "prolongedOrOpenEvents": [
+            {
+              "start": 1.1446666666666667,
+              "stop": 25,
+              "duration": 23.855333333333334,
+              "open": true,
+              "prolonged": true
+            }
+          ]
+        },
+        "dSaturation": {
+          "definition": "abs(Ud)>=Ulim-1e-6 V and abs(Uq)<0.1 V, no gap merging",
+          "longestDuration": 23.851083333333335,
+          "totalDuration": 23.851333333333336,
+          "episodesOver20msOrOpen": [
+            {
+              "start": 1.1489166666666666,
+              "end": 25.0,
+              "duration": 23.851083333333335,
+              "open": true
+            }
+          ]
+        }
+      },
+      "after": {
+        "maxReferenceCurrent": 419.9999966737814,
+        "maxMeasuredCurrent": 421.1883035299355,
+        "referenceWithinLimit": true,
+        "measuredWithinLimit": true,
+        "dutyWithinLimit": true,
+        "matSha256": "7f9e995d16fb102d8b682506b9aeef44d86065d6886d510a82149f96d0cd52f8",
+        "sourceSha256": "4e0e8d1409c40d24094858a0ee14abeb7e8a80f6daf259eb3d837a3c73606c67",
+        "tracking_d": {
+          "maxAbsoluteError": 18.956902225540716,
+          "prolongedCount": 0,
+          "activeAtEnd": false,
+          "settledTail": 25,
+          "recoveryObserved": true,
+          "episodeCount": 0,
+          "prolongedOrOpenEvents": []
+        },
+        "tracking_q": {
+          "maxAbsoluteError": 419.9999966737814,
+          "prolongedCount": 0,
+          "activeAtEnd": false,
+          "settledTail": 24.9995,
+          "recoveryObserved": true,
+          "episodeCount": 1,
+          "prolongedOrOpenEvents": []
+        },
+        "dSaturation": {
+          "definition": "abs(Ud)>=Ulim-1e-6 V and abs(Uq)<0.1 V, no gap merging",
+          "longestDuration": 0.4993333333333333,
+          "totalDuration": 0.4993333333333333,
+          "episodesOver20msOrOpen": [
+            {
+              "start": 0.5904166666666667,
+              "end": 1.08975,
+              "duration": 0.4993333333333333,
+              "open": false
+            }
+          ]
+        },
+        "disabledTrimChecks": {
+          "freezeUsedMaxAbs": 0.0,
+          "integratorInputMaxAbs": 0.0,
+          "trimMaxAbsA": 0.0,
+          "integratorStateMaxAbs": 0.0,
+          "sumMinusFFMaxAbs": 0.0
+        },
+        "maxStationaryReferenceVoltage": 242.13476601055868,
+        "stationaryReferenceAboveHardLimitFraction": 0.0,
+        "parameters": {
+          "Is_max": 420,
+          "FocDiscrTime": 8.333333333333333e-05,
+          "Ld": 0.00031,
+          "Lq": 0.000305,
+          "Psi": 0.1024,
+          "Rs": 0.02,
+          "PolePairs": 11,
+          "VDC": 440,
+          "mMaxPWM": 0.99,
+          "mMaxCurrent": 0.99,
+          "mFW": 0.95,
+          "deltaLd": 0.2,
+          "deltaLq": 0,
+          "deltaPsi": 0,
+          "deltaRs": 0
+        },
+        "transientDiagnostics": {
+          "minIq": -43.21226415217801,
+          "minIqTime": 1.2003333333333333,
+          "IqrefAtMinIq": -42.0,
+          "maxQErrorAfter50ms": 16.6131593894238,
+          "maxQErrorTime": 1.08975,
+          "qErrorEpisodesAfter50ms": [],
+          "minimumTorqueOnCurrentGrid": -73.01171914874512
+        },
+        "selectedSamples": [
+          {
+            "time": 2.8,
+            "speed": 204.00000000000284,
+            "Id": -245.40844018277386,
+            "Iq": 332.12015122043573,
+            "Idref": -245.40868408699393,
+            "Iqref": 332.1143789124988,
+            "Ud": -232.90070179696633,
+            "Uq": 31.46398609429532,
+            "UssReference": 234.34988499778245,
+            "Ulim": 251.49377725900098,
+            "fluxAtReference": 0.011107969519638272
+          },
+          {
+            "time": 3.3,
+            "speed": 204.00000000000284,
+            "Id": -3.0500006566569482e-05,
+            "Iq": -42.00027074795743,
+            "Idref": 0.0,
+            "Iqref": -42.0,
+            "Ud": 28.826117975479335,
+            "Uq": 229.6229441801504,
+            "UssReference": 230.74314633022385,
+            "Ulim": 251.49377725900098,
+            "fluxAtReference": 0.1024
+          },
+          {
+            "time": 6.8,
+            "speed": 204.00000000000284,
+            "Id": -245.40714735813316,
+            "Iq": 332.119955509837,
+            "Idref": -245.40868408699393,
+            "Iqref": 332.1143789124988,
+            "Ud": -232.9029310078699,
+            "Uq": 31.46517917570465,
+            "UssReference": 234.34988499778245,
+            "Ulim": 251.49377725900098,
+            "fluxAtReference": 0.011107969519638272
+          },
+          {
+            "time": 7.532333333333333,
+            "speed": 204.00000000000284,
+            "Id": 0.04306426265167529,
+            "Iq": 32.30368682817684,
+            "Idref": 0.0,
+            "Iqref": 32.689999999998975,
+            "Ud": -22.311012620867583,
+            "Uq": 231.86278937252405,
+            "UssReference": 231.52299900361538,
+            "Ulim": 251.49377725900098,
+            "fluxAtReference": 0.1024
+          },
+          {
+            "time": 20.0,
+            "speed": 204.00000000000284,
+            "Id": -245.40933799714946,
+            "Iq": 332.11972327516696,
+            "Idref": -245.40868408699393,
+            "Iqref": 332.1143789124988,
+            "Ud": -232.8985840010152,
+            "Uq": 31.460096805860474,
+            "UssReference": 234.34988499778245,
+            "Ulim": 251.49377725900098,
+            "fluxAtReference": 0.011107969519638272
+          }
+        ]
+      }
+    },
+    {
+      "profile": "sweep738",
+      "scenario": "nom",
+      "before": {
+        "maxReferenceCurrent": 419.9999966737814,
+        "maxMeasuredCurrent": 421.203678134884,
+        "referenceWithinLimit": true,
+        "measuredWithinLimit": true,
+        "dutyWithinLimit": true,
+        "matSha256": "a10d5b724a26f0a68d0921e2629848fbc2c4f7d3a54d0d214c2ccc015479b1d0",
+        "sourceSha256": "b4a938647d12a4e7695ca3e9cee42bd70964739419f6c0c66a922da2bdf6a824",
+        "tracking_d": {
+          "maxAbsoluteError": 5.604714702953061,
+          "prolongedCount": 0,
+          "activeAtEnd": false,
+          "settledTail": 25,
+          "recoveryObserved": true,
+          "episodeCount": 0,
+          "prolongedOrOpenEvents": []
+        },
+        "tracking_q": {
+          "maxAbsoluteError": 419.9999966737814,
+          "prolongedCount": 0,
+          "activeAtEnd": false,
+          "settledTail": 24.9995,
+          "recoveryObserved": true,
+          "episodeCount": 1,
+          "prolongedOrOpenEvents": []
+        },
+        "dSaturation": {
+          "definition": "abs(Ud)>=Ulim-1e-6 V and abs(Uq)<0.1 V, no gap merging",
+          "longestDuration": 0.005916666666665904,
+          "totalDuration": 0.04599999999999849,
+          "episodesOver20msOrOpen": []
+        },
+        "windows": [
+          {
+            "start": 4.8,
+            "endExclusive": 4.9799999999999995,
+            "samples": 2160,
+            "speedMin": 519.9999999999893,
+            "speedMax": 519.9999999999893,
+            "IdPeakToPeak": 0.23706172612929777,
+            "IqPeakToPeak": 0.2761386576761993,
+            "IdrefPeakToPeak": 0.16929253745325923,
+            "IqrefPeakToPeak": 0.00022983050155289675,
+            "IdErrorPeak": 0.044128262294975684,
+            "IqErrorPeak": 0.16582864749054238,
+            "IdDominantFrequency50to2000Hz": 1077.7777777777778,
+            "frequencyBinHz": 5.555555555555555,
+            "IdStdFirstHalf": 0.04380271388580978,
+            "IdStdSecondHalf": 0.018030533076653824,
+            "FFEquivalentPeakToPeakA": 0.007369982761439333,
+            "trimEquivalentPeakToPeakA": 0.16192584179262254,
+            "sensMinimum": 0.10292869394395719,
+            "sensMaximum": 0.10432118174019346,
+            "IqrefMean": 131.24217559158396,
+            "stationaryOptimumIdMean": -330.3044359482312,
+            "stationaryMinimumVoltageMin": 235.58606589473425,
+            "stationaryMinimumVoltageMax": 235.58646688336717,
+            "fwTargetMin": 241.3324125212636,
+            "fwTargetMax": 241.3324125212636,
+            "stationaryMaxPositiveIqAtFWTargetMin": 134.53568870445415,
+            "stationaryMaxPositiveIqAtFWTargetMax": 134.53568870445415,
+            "meanTorque": 218.3235201775778,
+            "meanIq": 131.24256719882106,
+            "meanCommandMagnitude": 241.3434061987997,
+            "meanFWFeedback": 241.34340546956707,
+            "UdPeakToPeak": 0.45732359801579037,
+            "UqPeakToPeak": 0.6794197670035054
+          },
+          {
+            "start": 5.8,
+            "endExclusive": 5.9799999999999995,
+            "samples": 2160,
+            "speedMin": 623.9999999999891,
+            "speedMax": 623.9999999999891,
+            "IdPeakToPeak": 0.3346236808148433,
+            "IqPeakToPeak": 0.3862382399024966,
+            "IdrefPeakToPeak": 0.27368872964689217,
+            "IqrefPeakToPeak": 0.000384782970840547,
+            "IdErrorPeak": 0.07603895941059591,
+            "IqErrorPeak": 0.22245861690304025,
+            "IdDominantFrequency50to2000Hz": 105.55555555555556,
+            "frequencyBinHz": 5.555555555555555,
+            "IdStdFirstHalf": 0.0638887047199496,
+            "IdStdSecondHalf": 0.07368940393615968,
+            "FFEquivalentPeakToPeakA": 0.010304669865341022,
+            "trimEquivalentPeakToPeakA": 0.2633475604529195,
+            "sensMinimum": -0.1,
+            "sensMaximum": 0.1,
+            "IqrefMean": 109.34575719428014,
+            "stationaryOptimumIdMean": -330.3099762269992,
+            "stationaryMinimumVoltageMin": 235.5337362296243,
+            "stationaryMinimumVoltageMax": 235.53454181721847,
+            "fwTargetMin": 241.3324125212636,
+            "fwTargetMax": 241.3324125212636,
+            "stationaryMaxPositiveIqAtFWTargetMin": 112.11526283421244,
+            "stationaryMaxPositiveIqAtFWTargetMax": 112.11526283421244,
+            "meanTorque": 181.77384993073449,
+            "meanIq": 109.34607796029994,
+            "meanCommandMagnitude": 241.98378026074292,
+            "meanFWFeedback": 241.98392850485894,
+            "UdPeakToPeak": 0.7504483071747643,
+            "UqPeakToPeak": 1.1209762922389528
+          },
+          {
+            "start": 6.8,
+            "endExclusive": 6.9799999999999995,
+            "samples": 2160,
+            "speedMin": 737.9999999999893,
+            "speedMax": 737.9999999999893,
+            "IdPeakToPeak": 1.1367454776427621,
+            "IqPeakToPeak": 0.43920925995280413,
+            "IdrefPeakToPeak": 1.0696071738586284,
+            "IqrefPeakToPeak": 0.0012164060537429577,
+            "IdErrorPeak": 0.1319462653233927,
+            "IqErrorPeak": 0.22643755720386594,
+            "IdDominantFrequency50to2000Hz": 116.66666666666666,
+            "frequencyBinHz": 5.555555555555555,
+            "IdStdFirstHalf": 0.2737379655506924,
+            "IdStdSecondHalf": 0.2665978157200847,
+            "FFEquivalentPeakToPeakA": 0.03431692740373106,
+            "trimEquivalentPeakToPeakA": 1.0351611780002339,
+            "sensMinimum": -0.1,
+            "sensMaximum": 0.1,
+            "IqrefMean": 92.44603721079561,
+            "stationaryOptimumIdMean": -330.3135681458723,
+            "stationaryMinimumVoltageMin": 235.50764259574123,
+            "stationaryMinimumVoltageMax": 235.51065450319518,
+            "fwTargetMin": 241.3324125212636,
+            "fwTargetMax": 241.3324125212636,
+            "stationaryMaxPositiveIqAtFWTargetMin": 94.79784420628646,
+            "stationaryMaxPositiveIqAtFWTargetMax": 94.79784420628646,
+            "meanTorque": 153.67812388550695,
+            "meanIq": 92.44521752562969,
+            "meanCommandMagnitude": 244.67383594064827,
+            "meanFWFeedback": 244.674991609763,
+            "UdPeakToPeak": 1.1838841436407677,
+            "UqPeakToPeak": 3.388068847756987
+          }
+        ]
+      },
+      "after": {
+        "maxReferenceCurrent": 419.9999966737814,
+        "maxMeasuredCurrent": 429.24498132388845,
+        "referenceWithinLimit": true,
+        "measuredWithinLimit": true,
+        "dutyWithinLimit": true,
+        "matSha256": "c4056db322d1794debbc7bc177123d3afc4974f64963a85c4f0e02d1457fb1a9",
+        "sourceSha256": "32216a42fe10e43f93c93998c82db437619960b00a7e56ed42f610efb5b9835b",
+        "tracking_d": {
+          "maxAbsoluteError": 180.8410598664476,
+          "prolongedCount": 0,
+          "activeAtEnd": false,
+          "settledTail": 17.45325,
+          "recoveryObserved": true,
+          "episodeCount": 54,
+          "prolongedOrOpenEvents": []
+        },
+        "tracking_q": {
+          "maxAbsoluteError": 419.9999966737814,
+          "prolongedCount": 0,
+          "activeAtEnd": false,
+          "settledTail": 17.45275,
+          "recoveryObserved": true,
+          "episodeCount": 55,
+          "prolongedOrOpenEvents": []
+        },
+        "dSaturation": {
+          "definition": "abs(Ud)>=Ulim-1e-6 V and abs(Uq)<0.1 V, no gap merging",
+          "longestDuration": 0.0006666666666674814,
+          "totalDuration": 0.5952500000000027,
+          "episodesOver20msOrOpen": []
+        },
+        "disabledTrimChecks": {
+          "freezeUsedMaxAbs": 0.0,
+          "integratorInputMaxAbs": 0.0,
+          "trimMaxAbsA": 0.0,
+          "integratorStateMaxAbs": 0.0,
+          "sumMinusFFMaxAbs": 0.0
+        },
+        "maxStationaryReferenceVoltage": 246.32402156031497,
+        "stationaryReferenceAboveHardLimitFraction": 0.0,
+        "parameters": {
+          "Is_max": 420,
+          "FocDiscrTime": 8.333333333333333e-05,
+          "Ld": 0.00031,
+          "Lq": 0.000305,
+          "Psi": 0.1024,
+          "Rs": 0.02,
+          "PolePairs": 11,
+          "VDC": 440,
+          "mMaxPWM": 0.99,
+          "mMaxCurrent": 0.99,
+          "mFW": 0.95,
+          "deltaLd": 0,
+          "deltaLq": 0,
+          "deltaPsi": 0,
+          "deltaRs": 0
+        },
+        "transientDiagnostics": {
+          "minIq": -192.2034123171626,
+          "minIqTime": 7.532333333333333,
+          "IqrefAtMinIq": 32.689999999998975,
+          "maxQErrorAfter50ms": 248.3536027638068,
+          "maxQErrorTime": 7.546333333333333,
+          "qErrorEpisodesAfter50ms": [
+            {
+              "start": 6.50875,
+              "end": 6.5089999999999995,
+              "duration": 0.00024999999999941735,
+              "open": false
+            },
+            {
+              "start": 6.5097499999999995,
+              "end": 6.510083333333333,
+              "duration": 0.0003333333333337407,
+              "open": false
+            },
+            {
+              "start": 6.510833333333333,
+              "end": 6.511166666666666,
+              "duration": 0.00033333333333285253,
+              "open": false
+            },
+            {
+              "start": 6.511833333333333,
+              "end": 6.512166666666666,
+              "duration": 0.0003333333333337407,
+              "open": false
+            },
+            {
+              "start": 6.512833333333333,
+              "end": 6.513166666666667,
+              "duration": 0.0003333333333337407,
+              "open": false
+            },
+            {
+              "start": 6.513833333333333,
+              "end": 6.514166666666666,
+              "duration": 0.00033333333333285253,
+              "open": false
+            },
+            {
+              "start": 6.514749999999999,
+              "end": 6.5151666666666666,
+              "duration": 0.0004166666666671759,
+              "open": false
+            },
+            {
+              "start": 6.515833333333333,
+              "end": 6.516249999999999,
+              "duration": 0.0004166666666662877,
+              "open": false
+            },
+            {
+              "start": 6.516916666666666,
+              "end": 6.517333333333333,
+              "duration": 0.0004166666666671759,
+              "open": false
+            },
+            {
+              "start": 6.518,
+              "end": 6.518416666666666,
+              "duration": 0.0004166666666662877,
+              "open": false
+            },
+            {
+              "start": 6.519083333333333,
+              "end": 6.5195,
+              "duration": 0.0004166666666671759,
+              "open": false
+            },
+            {
+              "start": 6.520166666666666,
+              "end": 6.520583333333333,
+              "duration": 0.0004166666666662877,
+              "open": false
+            },
+            {
+              "start": 6.52125,
+              "end": 6.5216666666666665,
+              "duration": 0.0004166666666662877,
+              "open": false
+            },
+            {
+              "start": 6.522333333333333,
+              "end": 6.522833333333333,
+              "duration": 0.0004999999999997229,
+              "open": false
+            },
+            {
+              "start": 6.523333333333333,
+              "end": 6.523833333333333,
+              "duration": 0.0004999999999997229,
+              "open": false
+            },
+            {
+              "start": 6.524333333333333,
+              "end": 6.5248333333333335,
+              "duration": 0.0005000000000006111,
+              "open": false
+            },
+            {
+              "start": 6.525333333333333,
+              "end": 6.525833333333333,
+              "duration": 0.0004999999999997229,
+              "open": false
+            },
+            {
+              "start": 6.5264999999999995,
+              "end": 6.527,
+              "duration": 0.0005000000000006111,
+              "open": false
+            },
+            {
+              "start": 6.527666666666667,
+              "end": 6.5281666666666665,
+              "duration": 0.0004999999999997229,
+              "open": false
+            },
+            {
+              "start": 6.52875,
+              "end": 6.529333333333333,
+              "duration": 0.0005833333333331581,
+              "open": false
+            },
+            {
+              "start": 6.529916666666667,
+              "end": 6.5304166666666665,
+              "duration": 0.0004999999999997229,
+              "open": false
+            },
+            {
+              "start": 6.531,
+              "end": 6.531583333333333,
+              "duration": 0.0005833333333331581,
+              "open": false
+            },
+            {
+              "start": 6.5320833333333335,
+              "end": 6.532666666666667,
+              "duration": 0.0005833333333331581,
+              "open": false
+            },
+            {
+              "start": 6.533166666666666,
+              "end": 6.533833333333333,
+              "duration": 0.0006666666666665932,
+              "open": false
+            },
+            {
+              "start": 6.53425,
+              "end": 6.534916666666667,
+              "duration": 0.0006666666666665932,
+              "open": false
+            },
+            {
+              "start": 6.535333333333333,
+              "end": 6.535916666666666,
+              "duration": 0.0005833333333331581,
+              "open": false
+            },
+            {
+              "start": 6.536416666666667,
+              "end": 6.537166666666667,
+              "duration": 0.0007500000000000284,
+              "open": false
+            },
+            {
+              "start": 6.5376666666666665,
+              "end": 6.5384166666666665,
+              "duration": 0.0007500000000000284,
+              "open": false
+            },
+            {
+              "start": 6.538749999999999,
+              "end": 6.539583333333333,
+              "duration": 0.0008333333333334636,
+              "open": false
+            },
+            {
+              "start": 6.54,
+              "end": 6.5408333333333335,
+              "duration": 0.0008333333333334636,
+              "open": false
+            },
+            {
+              "start": 6.541083333333333,
+              "end": 6.541916666666666,
+              "duration": 0.0008333333333334636,
+              "open": false
+            },
+            {
+              "start": 6.542333333333334,
+              "end": 6.543333333333333,
+              "duration": 0.0009999999999994458,
+              "open": false
+            },
+            {
+              "start": 6.5435,
+              "end": 6.544583333333333,
+              "duration": 0.001083333333332881,
+              "open": false
+            },
+            {
+              "start": 6.54475,
+              "end": 6.545999999999999,
+              "duration": 0.0012499999999997513,
+              "open": false
+            },
+            {
+              "start": 6.546083333333333,
+              "end": 6.547166666666667,
+              "duration": 0.0010833333333337691,
+              "open": false
+            },
+            {
+              "start": 6.54725,
+              "end": 6.550583333333333,
+              "duration": 0.0033333333333329662,
+              "open": false
+            },
+            {
+              "start": 7.5215,
+              "end": 7.521999999999999,
+              "duration": 0.0004999999999997229,
+              "open": false
+            },
+            {
+              "start": 7.522749999999999,
+              "end": 7.52325,
+              "duration": 0.0005000000000006111,
+              "open": false
+            },
+            {
+              "start": 7.524166666666666,
+              "end": 7.52475,
+              "duration": 0.0005833333333340462,
+              "open": false
+            },
+            {
+              "start": 7.525333333333333,
+              "end": 7.525916666666666,
+              "duration": 0.0005833333333331581,
+              "open": false
+            },
+            {
+              "start": 7.526583333333333,
+              "end": 7.527166666666666,
+              "duration": 0.0005833333333331581,
+              "open": false
+            },
+            {
+              "start": 7.527916666666666,
+              "end": 7.528583333333333,
+              "duration": 0.0006666666666665932,
+              "open": false
+            },
+            {
+              "start": 7.529249999999999,
+              "end": 7.529833333333333,
+              "duration": 0.0005833333333340462,
+              "open": false
+            },
+            {
+              "start": 7.530583333333333,
+              "end": 7.53125,
+              "duration": 0.0006666666666665932,
+              "open": false
+            },
+            {
+              "start": 7.531916666666667,
+              "end": 7.532666666666667,
+              "duration": 0.0007500000000000284,
+              "open": false
+            },
+            {
+              "start": 7.533333333333333,
+              "end": 7.534083333333333,
+              "duration": 0.0007500000000000284,
+              "open": false
+            },
+            {
+              "start": 7.5344999999999995,
+              "end": 7.535333333333333,
+              "duration": 0.0008333333333334636,
+              "open": false
+            },
+            {
+              "start": 7.535833333333333,
+              "end": 7.53675,
+              "duration": 0.0009166666666668988,
+              "open": false
+            },
+            {
+              "start": 7.537166666666667,
+              "end": 7.538083333333333,
+              "duration": 0.0009166666666660106,
+              "open": false
+            },
+            {
+              "start": 7.5384166666666665,
+              "end": 7.539416666666666,
+              "duration": 0.0009999999999994458,
+              "open": false
+            },
+            {
+              "start": 7.539833333333333,
+              "end": 7.540916666666666,
+              "duration": 0.001083333333332881,
+              "open": false
+            },
+            {
+              "start": 7.54125,
+              "end": 7.542583333333333,
+              "duration": 0.0013333333333331865,
+              "open": false
+            },
+            {
+              "start": 7.54275,
+              "end": 7.54375,
+              "duration": 0.001000000000000334,
+              "open": false
+            },
+            {
+              "start": 7.544,
+              "end": 7.54725,
+              "duration": 0.0032500000000004192,
+              "open": false
+            }
+          ],
+          "minimumTorqueOnCurrentGrid": -319.3814951603911
+        },
+        "selectedSamples": [
+          {
+            "time": 2.8,
+            "speed": 311.99999999999443,
+            "Id": -281.2687759285472,
+            "Iq": 218.7229403941191,
+            "Idref": -281.27029223199156,
+            "Iqref": 218.755843233926,
+            "Ud": -236.20392545028903,
+            "Uq": 56.73713753884356,
+            "UssReference": 241.3324125212637,
+            "Ulim": 251.49377725900098,
+            "fluxAtReference": 0.015206209408082622
+          },
+          {
+            "time": 3.3,
+            "speed": 415.6533333333372,
+            "Id": -163.91665709240516,
+            "Iq": -42.02818466306899,
+            "Idref": -163.86979069532714,
+            "Iqref": -42.0,
+            "Ud": 55.69080903833741,
+            "Uq": 237.86954835735256,
+            "UssReference": 241.50135149388439,
+            "Ulim": 251.49377725900098,
+            "fluxAtReference": 0.051600364884448593
+          },
+          {
+            "time": 6.8,
+            "speed": 737.9999999999887,
+            "Id": -300.2333543250593,
+            "Iq": 75.7837009195256,
+            "Idref": -309.45890270728046,
+            "Iqref": 92.46505548653673,
+            "Ud": -227.77148257710783,
+            "Uq": 106.62678708760882,
+            "UssReference": 241.33241252126373,
+            "Ulim": 251.49377725900098,
+            "fluxAtReference": 0.006467740160743057
+          },
+          {
+            "time": 7.532333333333333,
+            "speed": 693.8234285714283,
+            "Id": -338.5199277993752,
+            "Iq": -192.2034123171626,
+            "Idref": -233.77157522054176,
+            "Iqref": 32.689999999998975,
+            "Ud": 251.49377725900098,
+            "Uq": 0.031622776601683,
+            "UssReference": 242.90933525118535,
+            "Ulim": 251.49377725900098,
+            "fluxAtReference": 0.029930811681632058
+          },
+          {
+            "time": 20.0,
+            "speed": 75.01349999999955,
+            "Id": -0.0001742495223595597,
+            "Iq": 419.94963491522276,
+            "Idref": 0.0,
+            "Iqref": 419.9490863743858,
+            "Ud": -105.73833073842606,
+            "Uq": 92.9194517464484,
+            "UssReference": 140.71045975024722,
+            "Ulim": 251.49377725900098,
+            "fluxAtReference": 0.1024
+          }
+        ],
+        "windows": [
+          {
+            "start": 4.8,
+            "endExclusive": 4.9799999999999995,
+            "samples": 2160,
+            "speedMin": 519.9999999999887,
+            "speedMax": 519.9999999999887,
+            "IdPeakToPeak": 0.08947585600674302,
+            "IqPeakToPeak": 0.26031460338330703,
+            "IdrefPeakToPeak": 0.0,
+            "IqrefPeakToPeak": 0.0,
+            "IdErrorPeak": 0.0463915169810889,
+            "IqErrorPeak": 0.1614554356993949,
+            "IdDominantFrequency50to2000Hz": 1077.7777777777778,
+            "frequencyBinHz": 5.555555555555555,
+            "IdStdFirstHalf": 0.018941229768613392,
+            "IdStdSecondHalf": 0.018917994946230313,
+            "FFEquivalentPeakToPeakA": 0.0,
+            "trimEquivalentPeakToPeakA": 0.0,
+            "sensMinimum": 0.21499286103289084,
+            "sensMaximum": 0.2151806222432668,
+            "IqrefMean": 131.2600157579711,
+            "stationaryOptimumIdMean": -330.30443919330236,
+            "stationaryMinimumVoltageMin": 235.61729808746358,
+            "stationaryMinimumVoltageMax": 235.61729808746358,
+            "fwTargetMin": 241.3324125212636,
+            "fwTargetMax": 241.3324125212636,
+            "stationaryMaxPositiveIqAtFWTargetMin": 134.53568870445434,
+            "stationaryMaxPositiveIqAtFWTargetMax": 134.53568870445434,
+            "meanTorque": 218.5200691279641,
+            "meanIq": 131.26004837144143,
+            "meanCommandMagnitude": 245.8757273656764,
+            "meanFWFeedback": 245.87558436136288,
+            "UdPeakToPeak": 0.5743945204280863,
+            "UqPeakToPeak": 0.39970179039841724,
+            "meanId": -300.8626746222072,
+            "meanIdref": -300.8627031674027,
+            "meanStationaryReferenceVoltage": 241.33241252126385,
+            "meanUd": -239.5281264600912,
+            "meanUq": 55.507995557949
+          },
+          {
+            "start": 5.8,
+            "endExclusive": 5.9799999999999995,
+            "samples": 2160,
+            "speedMin": 623.9999999999902,
+            "speedMax": 623.9999999999902,
+            "IdPeakToPeak": 0.11110511683261848,
+            "IqPeakToPeak": 0.29576352895360003,
+            "IdrefPeakToPeak": 0.0,
+            "IqrefPeakToPeak": 0.0,
+            "IdErrorPeak": 0.05622344425518122,
+            "IqErrorPeak": 0.15585426913051492,
+            "IdDominantFrequency50to2000Hz": 1111.111111111111,
+            "frequencyBinHz": 5.555555555555555,
+            "IdStdFirstHalf": 0.023046344842165653,
+            "IdStdSecondHalf": 0.02228757587070849,
+            "FFEquivalentPeakToPeakA": 0.0,
+            "trimEquivalentPeakToPeakA": 0.0,
+            "sensMinimum": 0.21532873347937845,
+            "sensMaximum": 0.21561472429448342,
+            "IqrefMean": 109.3721457303292,
+            "stationaryOptimumIdMean": -330.3099802271491,
+            "stationaryMinimumVoltageMin": 235.58938001820172,
+            "stationaryMinimumVoltageMax": 235.58938001820172,
+            "fwTargetMin": 241.3324125212636,
+            "fwTargetMax": 241.3324125212636,
+            "stationaryMaxPositiveIqAtFWTargetMin": 112.11526283421226,
+            "stationaryMaxPositiveIqAtFWTargetMax": 112.11526283421226,
+            "meanTorque": 182.03696500342608,
+            "meanIq": 109.3717773723997,
+            "meanCommandMagnitude": 247.95317610608768,
+            "meanFWFeedback": 247.95330277357505,
+            "UdPeakToPeak": 0.6801075004751738,
+            "UqPeakToPeak": 0.5273713773284285,
+            "meanId": -305.7155150302228,
+            "meanIdref": -305.7155894501218,
+            "meanStationaryReferenceVoltage": 241.3324125212637,
+            "meanUd": -241.63674909725927,
+            "meanUq": 55.609709402291024
+          },
+          {
+            "start": 6.8,
+            "endExclusive": 6.9799999999999995,
+            "samples": 2160,
+            "speedMin": 737.9999999999887,
+            "speedMax": 737.9999999999887,
+            "IdPeakToPeak": 21.23235259179404,
+            "IqPeakToPeak": 25.56341222893981,
+            "IdrefPeakToPeak": 0.0,
+            "IqrefPeakToPeak": 0.0,
+            "IdErrorPeak": 14.915497735499628,
+            "IqErrorPeak": 17.46565573287836,
+            "IdDominantFrequency50to2000Hz": 1250.0,
+            "frequencyBinHz": 5.555555555555555,
+            "IdStdFirstHalf": 8.595195475423878,
+            "IdStdSecondHalf": 8.592310002882403,
+            "FFEquivalentPeakToPeakA": 0.0,
+            "trimEquivalentPeakToPeakA": 0.0,
+            "sensMinimum": 0.2515252183276928,
+            "sensMaximum": 0.25537661848542526,
+            "IqrefMean": 92.46505548653671,
+            "stationaryOptimumIdMean": -330.313570583522,
+            "stationaryMinimumVoltageMin": 235.556262598333,
+            "stationaryMinimumVoltageMax": 235.556262598333,
+            "fwTargetMin": 241.3324125212636,
+            "fwTargetMax": 241.3324125212636,
+            "stationaryMaxPositiveIqAtFWTargetMin": 94.79784420628651,
+            "stationaryMaxPositiveIqAtFWTargetMax": 94.79784420628651,
+            "meanTorque": 145.96118966621748,
+            "meanIq": 87.69569601994601,
+            "meanCommandMagnitude": 251.4662110472292,
+            "meanFWFeedback": 251.46613330890563,
+            "UdPeakToPeak": 54.35260611177702,
+            "UqPeakToPeak": 155.74551793205626,
+            "meanId": -305.7830440109035,
+            "meanIdref": -309.4589027072805,
+            "meanStationaryReferenceVoltage": 241.3324125212637,
+            "meanUd": -232.05192701939933,
+            "meanUq": 65.60630859705888
+          }
+        ]
+      }
+    },
+    {
+      "profile": "sweep738",
+      "scenario": "ldp20",
+      "before": {
+        "maxReferenceCurrent": 419.9999966737814,
+        "maxMeasuredCurrent": 2047.4695737803177,
+        "referenceWithinLimit": true,
+        "measuredWithinLimit": false,
+        "dutyWithinLimit": true,
+        "matSha256": "71ecc2e830f52efb70b3cb3d2fa7a4096cb4a433e4d2354fd925d9e1e33a1752",
+        "sourceSha256": "b4a938647d12a4e7695ca3e9cee42bd70964739419f6c0c66a922da2bdf6a824",
+        "tracking_d": {
+          "maxAbsoluteError": 373.78813386736687,
+          "prolongedCount": 5,
+          "activeAtEnd": false,
+          "settledTail": 2.8496666666666677,
+          "recoveryObserved": true,
+          "episodeCount": 442,
+          "prolongedOrOpenEvents": [
+            {
+              "start": 3.18425,
+              "stop": 3.2244166666666665,
+              "duration": 0.04016666666666646,
+              "open": false,
+              "prolonged": true
+            },
+            {
+              "start": 4.136,
+              "stop": 4.21825,
+              "duration": 0.08225000000000016,
+              "open": false,
+              "prolonged": true
+            },
+            {
+              "start": 12.170499999999999,
+              "stop": 12.62075,
+              "duration": 0.4502500000000005,
+              "open": false,
+              "prolonged": true
+            },
+            {
+              "start": 13.062333333333333,
+              "stop": 13.677416666666666,
+              "duration": 0.6150833333333328,
+              "open": false,
+              "prolonged": true
+            },
+            {
+              "start": 13.770916666666666,
+              "stop": 22.150333333333332,
+              "duration": 8.379416666666666,
+              "open": false,
+              "prolonged": true
+            }
+          ]
+        },
+        "tracking_q": {
+          "maxAbsoluteError": 2467.452254861327,
+          "prolongedCount": 2,
+          "activeAtEnd": false,
+          "settledTail": 2.1494999999999997,
+          "recoveryObserved": true,
+          "episodeCount": 426,
+          "prolongedOrOpenEvents": [
+            {
+              "start": 3.177833333333333,
+              "stop": 4.571583333333333,
+              "duration": 1.3937499999999998,
+              "open": false,
+              "prolonged": true
+            },
+            {
+              "start": 12.162666666666667,
+              "stop": 22.8505,
+              "duration": 10.687833333333334,
+              "open": false,
+              "prolonged": true
+            }
+          ]
+        },
+        "dSaturation": {
+          "definition": "abs(Ud)>=Ulim-1e-6 V and abs(Uq)<0.1 V, no gap merging",
+          "longestDuration": 10.684500000000002,
+          "totalDuration": 12.659333333333336,
+          "episodesOver20msOrOpen": [
+            {
+              "start": 3.1733333333333333,
+              "end": 4.570916666666666,
+              "duration": 1.397583333333333,
+              "open": false
+            },
+            {
+              "start": 4.573583333333334,
+              "end": 4.6105,
+              "duration": 0.03691666666666649,
+              "open": false
+            },
+            {
+              "start": 12.161083333333332,
+              "end": 22.845583333333334,
+              "duration": 10.684500000000002,
+              "open": false
+            }
+          ]
+        },
+        "windows": [
+          {
+            "start": 4.8,
+            "endExclusive": 4.9799999999999995,
+            "samples": 2160,
+            "speedMin": 519.9999999999895,
+            "speedMax": 519.9999999999895,
+            "IdPeakToPeak": 2.5494624285470877,
+            "IqPeakToPeak": 0.29002359955987345,
+            "IdrefPeakToPeak": 2.499420659568898,
+            "IqrefPeakToPeak": 0.0019875607410995144,
+            "IdErrorPeak": 0.0380601465992072,
+            "IqErrorPeak": 0.21266963536271533,
+            "IdDominantFrequency50to2000Hz": 1077.7777777777778,
+            "frequencyBinHz": 5.555555555555555,
+            "IdStdFirstHalf": 0.5460438110181898,
+            "IdStdSecondHalf": 0.16913928536869985,
+            "FFEquivalentPeakToPeakA": 0.11038973685872026,
+            "trimEquivalentPeakToPeakA": 2.386063461780639,
+            "sensMinimum": -0.14126550421409437,
+            "sensMaximum": -0.11849077060520458,
+            "IqrefMean": 131.2696044987506,
+            "stationaryOptimumIdMean": -275.46670310148556,
+            "stationaryMinimumVoltageMin": 234.53152620739777,
+            "stationaryMinimumVoltageMax": 234.53499392632196,
+            "fwTargetMin": 241.3324125212636,
+            "fwTargetMax": 241.3324125212636,
+            "stationaryMaxPositiveIqAtFWTargetMin": 135.16696490025117,
+            "stationaryMaxPositiveIqAtFWTargetMax": 135.16696490025117,
+            "meanTorque": 179.78290133207042,
+            "meanIq": 131.3269770124469,
+            "meanCommandMagnitude": 241.13106385029226,
+            "meanFWFeedback": 241.12892792747536,
+            "UdPeakToPeak": 0.47043691119998243,
+            "UqPeakToPeak": 5.698653066297624
+          },
+          {
+            "start": 5.8,
+            "endExclusive": 5.9799999999999995,
+            "samples": 2160,
+            "speedMin": 623.9999999999902,
+            "speedMax": 623.9999999999902,
+            "IdPeakToPeak": 0.5051040747243292,
+            "IqPeakToPeak": 0.3550931562416224,
+            "IdrefPeakToPeak": 0.44058059879102984,
+            "IqrefPeakToPeak": 0.00020548113559470949,
+            "IdErrorPeak": 0.046493889327393845,
+            "IqErrorPeak": 0.19944161485038592,
+            "IdDominantFrequency50to2000Hz": 1111.111111111111,
+            "frequencyBinHz": 5.555555555555555,
+            "IdStdFirstHalf": 0.07549129268352107,
+            "IdStdSecondHalf": 0.05788160503372931,
+            "FFEquivalentPeakToPeakA": 0.016105880069983862,
+            "trimEquivalentPeakToPeakA": 0.4244745811770563,
+            "sensMinimum": 0.1,
+            "sensMaximum": 0.1,
+            "IqrefMean": 109.39426985884762,
+            "stationaryOptimumIdMean": -275.40624581266655,
+            "stationaryMinimumVoltageMin": 234.53421091799854,
+            "stationaryMinimumVoltageMax": 234.5346411158586,
+            "fwTargetMin": 241.3324125212636,
+            "fwTargetMax": 241.3324125212636,
+            "stationaryMaxPositiveIqAtFWTargetMin": 112.64128997165393,
+            "stationaryMaxPositiveIqAtFWTargetMax": 112.64128997165393,
+            "meanTorque": 152.15529081067962,
+            "meanIq": 109.39331927479431,
+            "meanCommandMagnitude": 241.3548715144833,
+            "meanFWFeedback": 241.3541298288503,
+            "UdPeakToPeak": 0.7478744669312221,
+            "UqPeakToPeak": 1.6567586574518742
+          },
+          {
+            "start": 6.8,
+            "endExclusive": 6.9799999999999995,
+            "samples": 2160,
+            "speedMin": 737.9999999999889,
+            "speedMax": 737.9999999999889,
+            "IdPeakToPeak": 0.813945057538092,
+            "IqPeakToPeak": 0.623214975133962,
+            "IdrefPeakToPeak": 0.7710395094563864,
+            "IqrefPeakToPeak": 0.0003304644364732212,
+            "IdErrorPeak": 0.11193691907806169,
+            "IqErrorPeak": 0.34253909665417837,
+            "IdDominantFrequency50to2000Hz": 111.11111111111111,
+            "frequencyBinHz": 5.555555555555555,
+            "IdStdFirstHalf": 0.1905944723971501,
+            "IdStdSecondHalf": 0.19404952849797097,
+            "FFEquivalentPeakToPeakA": 0.02425827874600758,
+            "trimEquivalentPeakToPeakA": 0.7467649587271991,
+            "sensMinimum": -0.1,
+            "sensMaximum": 0.1,
+            "IqrefMean": 92.48441733165299,
+            "stationaryOptimumIdMean": -275.3670553820063,
+            "stationaryMinimumVoltageMin": 234.50255826963894,
+            "stationaryMinimumVoltageMax": 234.50337652210624,
+            "fwTargetMin": 241.3324125212636,
+            "fwTargetMax": 241.3324125212636,
+            "stationaryMaxPositiveIqAtFWTargetMin": 95.24259519679363,
+            "stationaryMaxPositiveIqAtFWTargetMax": 95.24259519679363,
+            "meanTorque": 128.1332854304071,
+            "meanIq": 92.48566196871442,
+            "meanCommandMagnitude": 243.6413549049862,
+            "meanFWFeedback": 243.6398052904316,
+            "UdPeakToPeak": 1.6231866174196625,
+            "UqPeakToPeak": 2.8158404415823384
+          }
+        ]
+      },
+      "after": {
+        "maxReferenceCurrent": 419.9999966737814,
+        "maxMeasuredCurrent": 421.84109853087534,
+        "referenceWithinLimit": true,
+        "measuredWithinLimit": true,
+        "dutyWithinLimit": true,
+        "matSha256": "06d41878f0ec66e2964434a639785b5c1cd906bc6d8ad380ee215d31ccb90fc6",
+        "sourceSha256": "32216a42fe10e43f93c93998c82db437619960b00a7e56ed42f610efb5b9835b",
+        "tracking_d": {
+          "maxAbsoluteError": 37.1511958414452,
+          "prolongedCount": 0,
+          "activeAtEnd": false,
+          "settledTail": 25,
+          "recoveryObserved": true,
+          "episodeCount": 0,
+          "prolongedOrOpenEvents": []
+        },
+        "tracking_q": {
+          "maxAbsoluteError": 419.9999966737814,
+          "prolongedCount": 0,
+          "activeAtEnd": false,
+          "settledTail": 24.9995,
+          "recoveryObserved": true,
+          "episodeCount": 1,
+          "prolongedOrOpenEvents": []
+        },
+        "dSaturation": {
+          "definition": "abs(Ud)>=Ulim-1e-6 V and abs(Uq)<0.1 V, no gap merging",
+          "longestDuration": 0.5920833333333331,
+          "totalDuration": 4.495666666666667,
+          "episodesOver20msOrOpen": [
+            {
+              "start": 3.5889166666666665,
+              "end": 4.120666666666667,
+              "duration": 0.5317500000000002,
+              "open": false
+            },
+            {
+              "start": 4.573583333333334,
+              "end": 5.1345833333333335,
+              "duration": 0.5609999999999999,
+              "open": false
+            },
+            {
+              "start": 5.56325,
+              "end": 6.144416666666666,
+              "duration": 0.5811666666666664,
+              "open": false
+            },
+            {
+              "start": 6.555916666666667,
+              "end": 7.148,
+              "duration": 0.5920833333333331,
+              "open": false
+            },
+            {
+              "start": 7.558166666666667,
+              "end": 8.141833333333333,
+              "duration": 0.5836666666666659,
+              "open": false
+            },
+            {
+              "start": 8.564666666666666,
+              "end": 9.134,
+              "duration": 0.5693333333333346,
+              "open": false
+            },
+            {
+              "start": 9.573083333333333,
+              "end": 10.123916666666666,
+              "duration": 0.5508333333333333,
+              "open": false
+            },
+            {
+              "start": 10.58475,
+              "end": 11.109916666666667,
+              "duration": 0.5251666666666672,
+              "open": false
+            }
+          ]
+        },
+        "disabledTrimChecks": {
+          "freezeUsedMaxAbs": 0.0,
+          "integratorInputMaxAbs": 0.0,
+          "trimMaxAbsA": 0.0,
+          "integratorStateMaxAbs": 0.0,
+          "sumMinusFFMaxAbs": 0.0
+        },
+        "maxStationaryReferenceVoltage": 256.06470755797227,
+        "stationaryReferenceAboveHardLimitFraction": 0.026269912433625222,
+        "parameters": {
+          "Is_max": 420,
+          "FocDiscrTime": 8.333333333333333e-05,
+          "Ld": 0.00031,
+          "Lq": 0.000305,
+          "Psi": 0.1024,
+          "Rs": 0.02,
+          "PolePairs": 11,
+          "VDC": 440,
+          "mMaxPWM": 0.99,
+          "mMaxCurrent": 0.99,
+          "mFW": 0.95,
+          "deltaLd": 0.2,
+          "deltaLq": 0,
+          "deltaPsi": 0,
+          "deltaRs": 0
+        },
+        "transientDiagnostics": {
+          "minIq": -42.24718625643134,
+          "minIqTime": 12.200416666666666,
+          "IqrefAtMinIq": -42.0,
+          "maxQErrorAfter50ms": 19.150364391642725,
+          "maxQErrorTime": 7.148,
+          "qErrorEpisodesAfter50ms": [],
+          "minimumTorqueOnCurrentGrid": -71.23513685915937
+        },
+        "selectedSamples": [
+          {
+            "time": 2.8,
+            "speed": 311.9999999999944,
+            "Id": -281.2638956335563,
+            "Iq": 218.733187453465,
+            "Idref": -281.27029223199173,
+            "Iqref": 218.75584323392604,
+            "Ud": -236.15513656586523,
+            "Uq": -3.530417082059138,
+            "UssReference": 234.6332972487289,
+            "Ulim": 251.49377725900098,
+            "fluxAtReference": -0.002232548710300916
+          },
+          {
+            "time": 3.3,
+            "speed": 415.6533333333372,
+            "Id": -163.90989787641087,
+            "Iq": -41.34894924096547,
+            "Idref": -163.86979069532714,
+            "Iqref": -42.0,
+            "Ud": 54.773840419041875,
+            "Uq": 190.8767815347956,
+            "UssReference": 196.57010535630218,
+            "Ulim": 251.49377725900098,
+            "fluxAtReference": 0.04144043786133831
+          },
+          {
+            "time": 6.8,
+            "speed": 737.9999999999886,
+            "Id": -275.7868202575567,
+            "Iq": 95.59310270038682,
+            "Idref": -309.45890270728034,
+            "Iqref": 92.46505548653673,
+            "Ud": -251.49377725900098,
+            "Uq": -0.03162277660169366,
+            "UssReference": 256.06470755797227,
+            "Ulim": 251.49377725900098,
+            "fluxAtReference": -0.012718711807108277
+          },
+          {
+            "time": 7.532333333333333,
+            "speed": 693.8234285714269,
+            "Id": -232.15240673915662,
+            "Iq": 32.9166206073142,
+            "Idref": -233.77157522054176,
+            "Iqref": 32.689999999998975,
+            "Ud": -85.075487683485,
+            "Uq": 127.85975782830735,
+            "UssReference": 143.38387266053923,
+            "Ulim": 251.49377725900098,
+            "fluxAtReference": 0.015436974017958474
+          },
+          {
+            "time": 20.0,
+            "speed": 75.01350000000012,
+            "Id": -0.00017673490654601665,
+            "Iq": 419.94965500223356,
+            "Idref": 0.0,
+            "Iqref": 419.9490863743858,
+            "Ud": -105.7400515907464,
+            "Uq": 92.91748411921856,
+            "UssReference": 140.71045975024825,
+            "Ulim": 251.49377725900098,
+            "fluxAtReference": 0.1024
+          }
+        ],
+        "windows": [
+          {
+            "start": 4.8,
+            "endExclusive": 4.9799999999999995,
+            "samples": 2160,
+            "speedMin": 519.9999999999892,
+            "speedMax": 519.9999999999892,
+            "IdPeakToPeak": 0.6537840657368292,
+            "IqPeakToPeak": 0.8679008387590841,
+            "IdrefPeakToPeak": 0.0,
+            "IqrefPeakToPeak": 0.0,
+            "IdErrorPeak": 24.787158016972512,
+            "IqErrorPeak": 7.494007820189978,
+            "IdDominantFrequency50to2000Hz": 1077.7777777777778,
+            "frequencyBinHz": 5.555555555555555,
+            "IdStdFirstHalf": 0.14239504581071122,
+            "IdStdSecondHalf": 0.1343036102521965,
+            "FFEquivalentPeakToPeakA": 0.0,
+            "trimEquivalentPeakToPeakA": 0.0,
+            "sensMinimum": -0.1,
+            "sensMaximum": -0.1,
+            "IqrefMean": 131.260015757971,
+            "stationaryOptimumIdMean": -275.4666868704548,
+            "stationaryMinimumVoltageMin": 234.5159156985944,
+            "stationaryMinimumVoltageMax": 234.5159156985944,
+            "fwTargetMin": 241.3324125212636,
+            "fwTargetMax": 241.3324125212636,
+            "stationaryMaxPositiveIqAtFWTargetMin": 135.16696490025126,
+            "stationaryMaxPositiveIqAtFWTargetMax": 135.16696490025126,
+            "meanTorque": 191.44717938251284,
+            "meanIq": 138.3236956224455,
+            "meanCommandMagnitude": 251.49377924712167,
+            "meanFWFeedback": 251.4937792471216,
+            "UdPeakToPeak": 0.0,
+            "UqPeakToPeak": 0.0,
+            "meanId": -276.39416154380626,
+            "meanIdref": -300.8627031674027,
+            "meanStationaryReferenceVoltage": 240.66189852117967,
+            "meanUd": -251.493777259001,
+            "meanUq": -0.03162277660167945
+          },
+          {
+            "start": 5.8,
+            "endExclusive": 5.9799999999999995,
+            "samples": 2160,
+            "speedMin": 623.9999999999899,
+            "speedMax": 623.9999999999899,
+            "IdPeakToPeak": 3.4485026508892247,
+            "IqPeakToPeak": 4.279227418186878,
+            "IdrefPeakToPeak": 0.0,
+            "IqrefPeakToPeak": 0.0,
+            "IdErrorPeak": 31.456829898200795,
+            "IqErrorPeak": 7.082991661770805,
+            "IdDominantFrequency50to2000Hz": 1111.111111111111,
+            "frequencyBinHz": 5.555555555555555,
+            "IdStdFirstHalf": 1.1216254973638078,
+            "IdStdSecondHalf": 1.150436719690018,
+            "FFEquivalentPeakToPeakA": 0.0,
+            "trimEquivalentPeakToPeakA": 0.0,
+            "sensMinimum": -0.1,
+            "sensMaximum": -0.1,
+            "IqrefMean": 109.37214573032928,
+            "stationaryOptimumIdMean": -275.40621460357164,
+            "stationaryMinimumVoltageMin": 234.48809149540455,
+            "stationaryMinimumVoltageMax": 234.48809149540455,
+            "fwTargetMin": 241.3324125212636,
+            "fwTargetMax": 241.3324125212636,
+            "stationaryMaxPositiveIqAtFWTargetMin": 112.64128997165399,
+            "stationaryMaxPositiveIqAtFWTargetMax": 112.64128997165399,
+            "meanTorque": 158.2260914958988,
+            "meanIq": 114.2848310782539,
+            "meanCommandMagnitude": 251.49377924712167,
+            "meanFWFeedback": 251.4937792471216,
+            "UdPeakToPeak": 0.0,
+            "UqPeakToPeak": 0.0,
+            "meanId": -275.99864954082716,
+            "meanIdref": -305.7155894501219,
+            "meanStationaryReferenceVoltage": 246.93032452394638,
+            "meanUd": -251.493777259001,
+            "meanUq": -0.03162277660167945
+          },
+          {
+            "start": 6.8,
+            "endExclusive": 6.9799999999999995,
+            "samples": 2160,
+            "speedMin": 737.9999999999886,
+            "speedMax": 737.9999999999886,
+            "IdPeakToPeak": 0.4699917904439417,
+            "IqPeakToPeak": 0.6606250498437873,
+            "IdrefPeakToPeak": 0.0,
+            "IqrefPeakToPeak": 0.0,
+            "IdErrorPeak": 33.9387981355967,
+            "IqErrorPeak": 3.4203649515101517,
+            "IdDominantFrequency50to2000Hz": 1283.3333333333333,
+            "frequencyBinHz": 5.555555555555555,
+            "IdStdFirstHalf": 0.07237350689797097,
+            "IdStdSecondHalf": 0.08527727933205942,
+            "FFEquivalentPeakToPeakA": 0.0,
+            "trimEquivalentPeakToPeakA": 0.0,
+            "sensMinimum": -0.1,
+            "sensMaximum": -0.1,
+            "IqrefMean": 92.46505548653671,
+            "stationaryOptimumIdMean": -275.3670322880911,
+            "stationaryMinimumVoltageMin": 234.45503489714497,
+            "stationaryMinimumVoltageMax": 234.45503489714497,
+            "fwTargetMin": 241.3324125212636,
+            "fwTargetMax": 241.3324125212636,
+            "stationaryMaxPositiveIqAtFWTargetMin": 95.24259519679369,
+            "stationaryMaxPositiveIqAtFWTargetMax": 95.24259519679369,
+            "meanTorque": 132.2969719463003,
+            "meanIq": 95.53778493366742,
+            "meanCommandMagnitude": 251.49377924712167,
+            "meanFWFeedback": 251.4937792471216,
+            "UdPeakToPeak": 0.0,
+            "UqPeakToPeak": 0.0,
+            "meanId": -275.7529483941307,
+            "meanIdref": -309.4589027072803,
+            "meanStationaryReferenceVoltage": 256.06470755797227,
+            "meanUd": -251.493777259001,
+            "meanUq": -0.03162277660169366
+          }
+        ]
+      }
+    }
+  ],
+  "additionalScenario": {
+    "maxReferenceCurrent": 419.9999966737814,
+    "maxMeasuredCurrent": 2048.2884368293517,
+    "referenceWithinLimit": true,
+    "measuredWithinLimit": false,
+    "dutyWithinLimit": true,
+    "matSha256": "f1095ad788b0b0aa50e2bf7c4362c81879b9f2feaadd2454af671a85c5462aa2",
+    "sourceSha256": "32216a42fe10e43f93c93998c82db437619960b00a7e56ed42f610efb5b9835b",
+    "tracking_d": {
+      "maxAbsoluteError": 635.8885490742895,
+      "prolongedCount": 1,
+      "activeAtEnd": false,
+      "settledTail": 2.5663333333333327,
+      "recoveryObserved": true,
+      "episodeCount": 2,
+      "prolongedOrOpenEvents": [
+        {
+          "start": 2.1823333333333332,
+          "stop": 22.433666666666667,
+          "duration": 20.251333333333335,
+          "open": false,
+          "prolonged": true
+        }
+      ]
+    },
+    "tracking_q": {
+      "maxAbsoluteError": 2468.2711457837504,
+      "prolongedCount": 6,
+      "activeAtEnd": false,
+      "settledTail": 2.148416666666666,
+      "recoveryObserved": true,
+      "episodeCount": 28,
+      "prolongedOrOpenEvents": [
+        {
+          "start": 2.1838333333333333,
+          "stop": 5.194333333333333,
+          "duration": 3.0104999999999995,
+          "open": false,
+          "prolonged": true
+        },
+        {
+          "start": 5.509833333333333,
+          "stop": 6.185333333333333,
+          "duration": 0.6755000000000004,
+          "open": false,
+          "prolonged": true
+        },
+        {
+          "start": 6.517666666666666,
+          "stop": 7.183333333333333,
+          "duration": 0.6656666666666666,
+          "open": false,
+          "prolonged": true
+        },
+        {
+          "start": 7.514833333333333,
+          "stop": 8.189666666666666,
+          "duration": 0.674833333333333,
+          "open": false,
+          "prolonged": true
+        },
+        {
+          "start": 8.50825,
+          "stop": 9.197666666666667,
+          "duration": 0.6894166666666663,
+          "open": false,
+          "prolonged": true
+        },
+        {
+          "start": 9.4565,
+          "stop": 22.851583333333334,
+          "duration": 13.395083333333334,
+          "open": false,
+          "prolonged": true
+        }
+      ]
+    },
+    "dSaturation": {
+      "definition": "abs(Ud)>=Ulim-1e-6 V and abs(Uq)<0.1 V, no gap merging",
+      "longestDuration": 20.66675,
+      "totalDuration": 20.66675,
+      "episodesOver20msOrOpen": [
+        {
+          "start": 2.1799166666666667,
+          "end": 22.846666666666668,
+          "duration": 20.66675,
+          "open": false
+        }
+      ]
+    },
+    "disabledTrimChecks": {
+      "freezeUsedMaxAbs": 0.0,
+      "integratorInputMaxAbs": 0.0,
+      "trimMaxAbsA": 0.0,
+      "integratorStateMaxAbs": 0.0,
+      "sumMinusFFMaxAbs": 0.0
+    },
+    "maxStationaryReferenceVoltage": 359.60706995204464,
+    "stationaryReferenceAboveHardLimitFraction": 0.46040846530511564,
+    "parameters": {
+      "Is_max": 420,
+      "FocDiscrTime": 8.333333333333333e-05,
+      "Ld": 0.00031,
+      "Lq": 0.000305,
+      "Psi": 0.1024,
+      "Rs": 0.02,
+      "PolePairs": 11,
+      "VDC": 440,
+      "mMaxPWM": 0.99,
+      "mMaxCurrent": 0.99,
+      "mFW": 0.95,
+      "deltaLd": -0.2,
+      "deltaLq": 0,
+      "deltaPsi": 0,
+      "deltaRs": 0
+    },
+    "transientDiagnostics": {
+      "minIq": -2048.2884115605157,
+      "minIqTime": 22.846666666666668,
+      "IqrefAtMinIq": 419.98273422323496,
+      "maxQErrorAfter50ms": 2468.2711457837504,
+      "maxQErrorTime": 22.846666666666668,
+      "qErrorEpisodesAfter50ms": [
+        {
+          "start": 2.1786666666666665,
+          "end": 2.1813333333333333,
+          "duration": 0.002666666666666817,
+          "open": false
+        },
+        {
+          "start": 2.181833333333333,
+          "end": 2.1835833333333334,
+          "duration": 0.0017500000000003624,
+          "open": false
+        },
+        {
+          "start": 2.1838333333333333,
+          "end": 5.194333333333333,
+          "duration": 3.0104999999999995,
+          "open": false
+        },
+        {
+          "start": 5.508333333333333,
+          "end": 5.508416666666666,
+          "duration": 8.333333333343518e-05,
+          "open": false
+        },
+        {
+          "start": 5.509083333333333,
+          "end": 5.5095833333333335,
+          "duration": 0.0005000000000006111,
+          "open": false
+        },
+        {
+          "start": 5.509833333333333,
+          "end": 6.185333333333333,
+          "duration": 0.6755000000000004,
+          "open": false
+        },
+        {
+          "start": 6.517666666666666,
+          "end": 7.183333333333333,
+          "duration": 0.6656666666666666,
+          "open": false
+        },
+        {
+          "start": 7.514833333333333,
+          "end": 8.189666666666666,
+          "duration": 0.674833333333333,
+          "open": false
+        },
+        {
+          "start": 8.50825,
+          "end": 9.197666666666667,
+          "duration": 0.6894166666666663,
+          "open": false
+        },
+        {
+          "start": 9.436166666666667,
+          "end": 9.436333333333334,
+          "duration": 0.00016666666666687036,
+          "open": false
+        },
+        {
+          "start": 9.437416666666666,
+          "end": 9.437666666666667,
+          "duration": 0.0002500000000011937,
+          "open": false
+        },
+        {
+          "start": 9.438833333333333,
+          "end": 9.439166666666667,
+          "duration": 0.0003333333333337407,
+          "open": false
+        },
+        {
+          "start": 9.440083333333334,
+          "end": 9.4405,
+          "duration": 0.0004166666666662877,
+          "open": false
+        },
+        {
+          "start": 9.441333333333333,
+          "end": 9.441833333333333,
+          "duration": 0.0005000000000006111,
+          "open": false
+        },
+        {
+          "start": 9.442583333333333,
+          "end": 9.443166666666666,
+          "duration": 0.0005833333333331581,
+          "open": false
+        },
+        {
+          "start": 9.443833333333332,
+          "end": 9.4445,
+          "duration": 0.0006666666666674814,
+          "open": false
+        },
+        {
+          "start": 9.445083333333333,
+          "end": 9.445833333333333,
+          "duration": 0.0007500000000000284,
+          "open": false
+        },
+        {
+          "start": 9.4465,
+          "end": 9.447166666666666,
+          "duration": 0.0006666666666657051,
+          "open": false
+        },
+        {
+          "start": 9.44775,
+          "end": 9.4485,
+          "duration": 0.0007500000000000284,
+          "open": false
+        },
+        {
+          "start": 9.448833333333333,
+          "end": 9.448916666666666,
+          "duration": 8.3333333332547e-05,
+          "open": false
+        },
+        {
+          "start": 9.449,
+          "end": 9.449833333333332,
+          "duration": 0.0008333333333325754,
+          "open": false
+        },
+        {
+          "start": 9.45025,
+          "end": 9.451166666666666,
+          "duration": 0.0009166666666651224,
+          "open": false
+        },
+        {
+          "start": 9.4515,
+          "end": 9.4525,
+          "duration": 0.0010000000000012221,
+          "open": false
+        },
+        {
+          "start": 9.45275,
+          "end": 9.455166666666667,
+          "duration": 0.0024166666666669556,
+          "open": false
+        },
+        {
+          "start": 9.45525,
+          "end": 9.455333333333334,
+          "duration": 8.333333333432336e-05,
+          "open": false
+        },
+        {
+          "start": 9.455416666666666,
+          "end": 9.456333333333333,
+          "duration": 0.0009166666666668988,
+          "open": false
+        },
+        {
+          "start": 9.4565,
+          "end": 22.851583333333334,
+          "duration": 13.395083333333334,
+          "open": false
+        }
+      ],
+      "minimumTorqueOnCurrentGrid": -3461.419878673703
+    },
+    "selectedSamples": [
+      {
+        "time": 2.8,
+        "speed": 311.9999999999943,
+        "Id": -407.38831991887554,
+        "Iq": -246.47865239085067,
+        "Idref": -281.27029223199156,
+        "Iqref": 218.75584323392607,
+        "Ud": 251.49377725900098,
+        "Uq": 0.03162277660167945,
+        "UssReference": 261.9043410964302,
+        "Ulim": 251.49377725900098,
+        "fluxAtReference": 0.03264496752646609
+      },
+      {
+        "time": 3.3,
+        "speed": 415.6533333333359,
+        "Id": -409.92372736455263,
+        "Iq": -183.9862759255424,
+        "Idref": -163.8697906953271,
+        "Iqref": -42.0,
+        "Ud": 251.49377725900098,
+        "Uq": 0.03162277660167945,
+        "UssReference": 286.9177182453091,
+        "Ulim": 251.49377725900098,
+        "fluxAtReference": 0.06176029190755888
+      },
+      {
+        "time": 6.8,
+        "speed": 737.9999999999897,
+        "Id": -412.4284230580565,
+        "Iq": -100.78974335840641,
+        "Idref": -309.4589027072805,
+        "Iqref": 92.46505548653661,
+        "Ud": 251.49377725900098,
+        "Uq": 0.03162277660169366,
+        "UssReference": 315.3302343746226,
+        "Ulim": 251.49377725900098,
+        "fluxAtReference": 0.025654192128594433
+      },
+      {
+        "time": 7.532333333333333,
+        "speed": 693.8234285714267,
+        "Id": -412.00351903141393,
+        "Iq": -107.93516903651957,
+        "Idref": -233.77157522054173,
+        "Iqref": 32.689999999998975,
+        "Ud": 251.49377725900098,
+        "Uq": 0.03162277660169366,
+        "UssReference": 349.1755334711923,
+        "Ulim": 251.49377725900098,
+        "fluxAtReference": 0.044424649345305656
+      },
+      {
+        "time": 20.0,
+        "speed": 75.0135,
+        "Id": -312.8133784010154,
+        "Iq": -1023.7186624723661,
+        "Idref": 0.0,
+        "Iqref": 419.9490863743859,
+        "Ud": 251.49377725900098,
+        "Uq": 0.03162277660168389,
+        "UssReference": 140.71045975024805,
+        "Ulim": 251.49377725900098,
+        "fluxAtReference": 0.1024
+      }
+    ],
+    "scenario": "Ld -20%, saved sweep738 profile; no before-run for this plant error"
+  }
+}

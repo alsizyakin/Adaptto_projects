@@ -1,0 +1,197 @@
+{
+  "sourceSha256": "c9a801db86b55be713db64829d3d20662bac25c33766dc6b05b28a58d0dc9aa0",
+  "parentSourceSha256": "8654386d860ca2ce3d96e2477e428a27a94b7850b2d57cc9bc5dd7b0e1016fa0",
+  "k15h_nom": {
+    "currentLimit": 420,
+    "measuredLimit": 441,
+    "errorThreshold": 100,
+    "durationThreshold": 0.02,
+    "nonfinite": [],
+    "finite": true,
+    "completed": true,
+    "fullResolution": true,
+    "coverage": true,
+    "jointReferenceLog": true,
+    "maxReferenceCurrent": 419.99999667378142,
+    "maxMeasuredCurrent": 759.26428621879029,
+    "referenceWithinLimit": true,
+    "measuredWithinLimit": false,
+    "referenceExcess": [],
+    "tracking_d": {
+      "maxAbsoluteError": 607.66878374429859,
+      "events": [
+        {
+          "start": 0.011916666666666666,
+          "stop": 0.012166666666666666,
+          "duration": 0.00025000000000000022,
+          "open": false,
+          "prolonged": false
+        },
+        {
+          "start": 0.13258333333333333,
+          "stop": 0.133,
+          "duration": 0.00041666666666667629,
+          "open": false,
+          "prolonged": false
+        },
+        {
+          "start": 0.22458333333333333,
+          "stop": 0.22658333333333333,
+          "duration": 0.0020000000000000018,
+          "open": false,
+          "prolonged": false
+        },
+        {
+          "start": 0.22699999999999998,
+          "stop": 0.33925,
+          "duration": 0.11225000000000002,
+          "open": false,
+          "prolonged": true
+        }
+      ],
+      "prolongedCount": 1,
+      "activeAtEnd": false,
+      "settledTail": 24.66075,
+      "recoveryObserved": true
+    },
+    "tracking_q": {
+      "maxAbsoluteError": 595.72325587091916,
+      "events": [
+        {
+          "start": 0,
+          "stop": 0.0005,
+          "duration": 0.0005,
+          "open": false,
+          "prolonged": false
+        },
+        {
+          "start": 0.012,
+          "stop": 0.012333333333333333,
+          "duration": 0.00033333333333333305,
+          "open": false,
+          "prolonged": false
+        },
+        {
+          "start": 0.22333333333333333,
+          "stop": 0.22583333333333333,
+          "duration": 0.0025000000000000022,
+          "open": false,
+          "prolonged": false
+        },
+        {
+          "start": 0.22649999999999998,
+          "stop": 0.22841666666666666,
+          "duration": 0.0019166666666666776,
+          "open": false,
+          "prolonged": false
+        },
+        {
+          "start": 0.22891666666666666,
+          "stop": 0.23091666666666666,
+          "duration": 0.0020000000000000018,
+          "open": false,
+          "prolonged": false
+        },
+        {
+          "start": 0.23124999999999998,
+          "stop": 0.40008333333333335,
+          "duration": 0.16883333333333336,
+          "open": false,
+          "prolonged": true
+        }
+      ],
+      "prolongedCount": 1,
+      "activeAtEnd": false,
+      "settledTail": 24.599916666666665,
+      "recoveryObserved": true
+    },
+    "dutyWithinLimit": true,
+    "minDuty": 0.0050000000000001432,
+    "maxDuty": 0.99499999999999988,
+    "actualDeltas": {
+      "deltaLd": 0,
+      "deltaLq": 0,
+      "deltaPsi": 0,
+      "deltaRs": 0
+    },
+    "speedProfile": {
+      "block": "1-D Lookup Table4",
+      "time": [
+        0,
+        0.4,
+        1,
+        1.2,
+        1.8
+      ],
+      "speed": [
+        0,
+        408,
+        408,
+        204,
+        204
+      ],
+      "maxMeasuredSpeed": 407.99999999999454,
+      "finalLoggedTime": 25,
+      "finalMeasuredSpeed": 204.00000000000281
+    },
+    "controlParameters": {
+      "Psi": {
+        "minimum": 0.1024,
+        "maximum": 0.1024,
+        "maxNominalDeviation": 0
+      },
+      "Lq": {
+        "minimum": 0.000305,
+        "maximum": 0.000305,
+        "maxNominalDeviation": 0
+      }
+    },
+    "controlStructure": {
+      "freezeTagSource": "Constant16",
+      "freezeUsedMinimum": 1,
+      "freezeUsedMaximum": 1,
+      "trimUpperFlux": 0.155,
+      "trimLowerFlux": -0.155,
+      "gainIExpression": "0.3*50",
+      "gainI": 15,
+      "trimReset": "either"
+    },
+    "sourceSha256": "c9a801db86b55be713db64829d3d20662bac25c33766dc6b05b28a58d0dc9aa0",
+    "modelSha256": "7b386d05c495afbb43649340d0eb3877ee1fa36e41ea2c16d46c8fa18c9e90a4",
+    "matSha256": "0c140f4f8c8132810930b8243fbe0a324ef8443450e5e47c7f352d43709e851a",
+    "parameters": {
+      "Is_max": 420,
+      "FocDiscrTime": 8.3333333333333331E-5,
+      "Ld": 0.00031,
+      "Lq": 0.000305,
+      "Psi": 0.1024,
+      "Rs": 0.02,
+      "PolePairs": 11,
+      "VDC": 440,
+      "mMaxPWM": 0.99,
+      "mMaxCurrent": 0.99,
+      "mFW": 0.95,
+      "deltaLd": 0,
+      "deltaLq": 0,
+      "deltaPsi": 0,
+      "deltaRs": 0
+    },
+    "overrides": {
+      "deltaLd": 0,
+      "deltaLq": 0,
+      "deltaPsi": 0,
+      "deltaRs": 0
+    },
+    "finalTime": 25,
+    "elapsed": 166.188719,
+    "signalCount": 60,
+    "verification": "full native logs; source/model/MAT hashes; saved plant deltas; limited-voltage identities",
+    "gainExperiment": {
+      "originalExpression": "0.3*50",
+      "gainI": 15,
+      "profile": "hold204",
+      "deltaLd": 0,
+      "parentSourceSha256": "8654386d860ca2ce3d96e2477e428a27a94b7850b2d57cc9bc5dd7b0e1016fa0"
+    }
+  }
+}

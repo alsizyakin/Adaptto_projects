@@ -1,0 +1,60 @@
+{
+  "sourceSha256": "b4a938647d12a4e7695ca3e9cee42bd70964739419f6c0c66a922da2bdf6a824",
+  "purpose": "D06: freeze/reset and FW structure diagnosis; unchanged controller, extra probes in copies only",
+  "scopeDemag2": [
+    {
+      "source": "IsNegative2",
+      "sourcePort": "2423#out:1",
+      "destination": "2597#in:1"
+    },
+    {
+      "source": "IsNegative1",
+      "sourcePort": "2387#out:1",
+      "destination": "2597#in:2"
+    },
+    {
+      "source": "Product1",
+      "sourcePort": "2396#out:1",
+      "destination": "2597#in:4"
+    },
+    {
+      "source": "Sum6",
+      "sourcePort": "2318#out:1",
+      "destination": "2597#in:3"
+    },
+    {
+      "source": "NOT1",
+      "sourcePort": "2601#out:1",
+      "destination": "2597#in:7"
+    },
+    {
+      "source": "From66",
+      "sourcePort": "2643#out:1",
+      "destination": "2597#in:6"
+    },
+    {
+      "source": "PID Controller",
+      "sourcePort": "1390#out:1",
+      "destination": "2597#in:5"
+    }
+  ],
+  "savedWorkspace": {
+    "Ld": 0.00031,
+    "Lq": 0.000305,
+    "Psi": 0.1024,
+    "Rs": 0.02,
+    "deltaLd": 0.2,
+    "deltaLq": 0,
+    "deltaPsi": 0,
+    "deltaRs": 0,
+    "piBandwidth": 6000,
+    "FocDiscrTime": 8.333333333333333e-05,
+    "VDC": 440,
+    "Is_max": 420
+  },
+  "fixedParameterSelection": {
+    "PsiSwitchSetting": "0 (constant input)",
+    "LqSwitchSetting": "0 (constant input)"
+  },
+  "retryNote": "First nominal runs completed but logging completeness failed: Divide port was named twice (dPsi/fw_error_flux). Duplicate name removed. Accepted full matrix is under full/; first-attempt files retained, not accepted as verification."
+}

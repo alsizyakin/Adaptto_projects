@@ -1,0 +1,14 @@
+F05-W final verification, 2026-11-12
+Five completed 25 s simulations; native current/reference logs, no decimation.
+hold204/nom: completed=1, finite=1, fullResolution=1, jointReferenceLog=1, signals=60, Iref_max=419.999996674 A, Imax=421.188305676 A
+hold204/ldp20: completed=1, finite=1, fullResolution=1, jointReferenceLog=1, signals=60, Iref_max=419.999996674 A, Imax=421.188303530 A
+sweep738/nom: completed=1, finite=1, fullResolution=1, jointReferenceLog=1, signals=60, Iref_max=419.999996674 A, Imax=429.244981324 A
+sweep738/ldp20: completed=1, finite=1, fullResolution=1, jointReferenceLog=1, signals=60, Iref_max=419.999996674 A, Imax=421.841098531 A
+sweep738_ldm20/ldm20: completed=1, finite=1, fullResolution=1, jointReferenceLog=1, signals=60, Iref_max=419.999996674 A, Imax=2048.288436829 A
+user_source.slx: SHA-256 32216a42fe10e43f93c93998c82db437619960b00a7e56ed42f610efb5b9835b
+comparison.json: SHA-256 4a5df4e976df97fb4fc73d7dd6765861e1d6838481322fd81d78fee97fe3c688
+Four PNG oscillograms visually inspected; labels and legends readable.
+Working main SLX and woFreeze SLX hashes match the pre-run manifest.
+Markdown local links, fences and whitespace: passed; Python syntax: passed; git diff --check: passed.
+No control-logic changes to user models; no files deleted.
+tmp/control_fix_f05w_20261112 is ignored by Git; 2.7 GiB retained for continued analysis.

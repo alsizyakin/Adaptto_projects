@@ -1,0 +1,1057 @@
+{
+  "sourceSha256": "32216a42fe10e43f93c93998c82db437619960b00a7e56ed42f610efb5b9835b",
+  "source": "/home/alexey/Git/Matlab/Adaptto/tmp/control_fix_f05w_20261112/source_model.slx",
+  "matlabVersion": "25.1.0.2943329 (R2025a)",
+  "created": "2026-11-12 16:42:40 +0300",
+  "note": "Raw errors: no feasibility or transition-window gating; not final drive acceptance.",
+  "nom": {
+    "currentLimit": 420,
+    "measuredLimit": 441,
+    "errorThreshold": 100,
+    "durationThreshold": 0.02,
+    "nonfinite": [],
+    "finite": true,
+    "completed": true,
+    "fullResolution": true,
+    "coverage": true,
+    "jointReferenceLog": true,
+    "maxReferenceCurrent": 419.99999667378142,
+    "maxMeasuredCurrent": 429.24498132388845,
+    "referenceWithinLimit": true,
+    "measuredWithinLimit": true,
+    "referenceExcess": [],
+    "tracking_d": {
+      "maxAbsoluteError": 180.84105986644761,
+      "events": [
+        {
+          "start": 6.508916666666666,
+          "stop": 6.50925,
+          "duration": 0.00033333333333374071,
+          "open": false,
+          "prolonged": false
+        },
+        {
+          "start": 6.5099166666666664,
+          "stop": 6.5103333333333335,
+          "duration": 0.00041666666666717589,
+          "open": false,
+          "prolonged": false
+        },
+        {
+          "start": 6.511,
+          "stop": 6.5114166666666664,
+          "duration": 0.00041666666666628771,
+          "open": false,
+          "prolonged": false
+        },
+        {
+          "start": 6.512,
+          "stop": 6.5124166666666667,
+          "duration": 0.00041666666666717589,
+          "open": false,
+          "prolonged": false
+        },
+        {
+          "start": 6.513,
+          "stop": 6.5134166666666662,
+          "duration": 0.00041666666666628771,
+          "open": false,
+          "prolonged": false
+        },
+        {
+          "start": 6.5139999999999993,
+          "stop": 6.5143333333333331,
+          "duration": 0.00033333333333374071,
+          "open": false,
+          "prolonged": false
+        },
+        {
+          "start": 6.515,
+          "stop": 6.5153333333333334,
+          "duration": 0.00033333333333374071,
+          "open": false,
+          "prolonged": false
+        },
+        {
+          "start": 6.5160833333333334,
+          "stop": 6.5164166666666663,
+          "duration": 0.00033333333333285253,
+          "open": false,
+          "prolonged": false
+        },
+        {
+          "start": 6.5171666666666663,
+          "stop": 6.5175,
+          "duration": 0.00033333333333374071,
+          "open": false,
+          "prolonged": false
+        },
+        {
+          "start": 6.51825,
+          "stop": 6.5186666666666664,
+          "duration": 0.00041666666666628771,
+          "open": false,
+          "prolonged": false
+        },
+        {
+          "start": 6.5192499999999995,
+          "stop": 6.5196666666666667,
+          "duration": 0.00041666666666717589,
+          "open": false,
+          "prolonged": false
+        },
+        {
+          "start": 6.5203333333333333,
+          "stop": 6.52075,
+          "duration": 0.00041666666666628771,
+          "open": false,
+          "prolonged": false
+        },
+        {
+          "start": 6.5215,
+          "stop": 6.5218333333333334,
+          "duration": 0.00033333333333374071,
+          "open": false,
+          "prolonged": false
+        },
+        {
+          "start": 6.5225833333333334,
+          "stop": 6.523,
+          "duration": 0.00041666666666628771,
+          "open": false,
+          "prolonged": false
+        },
+        {
+          "start": 6.5235833333333328,
+          "stop": 6.524,
+          "duration": 0.00041666666666717589,
+          "open": false,
+          "prolonged": false
+        },
+        {
+          "start": 6.5245833333333332,
+          "stop": 6.5249999999999995,
+          "duration": 0.00041666666666628771,
+          "open": false,
+          "prolonged": false
+        },
+        {
+          "start": 6.5256666666666661,
+          "stop": 6.526,
+          "duration": 0.00033333333333374071,
+          "open": false,
+          "prolonged": false
+        },
+        {
+          "start": 6.52675,
+          "stop": 6.5271666666666661,
+          "duration": 0.00041666666666628771,
+          "open": false,
+          "prolonged": false
+        },
+        {
+          "start": 6.5279166666666661,
+          "stop": 6.5283333333333333,
+          "duration": 0.00041666666666717589,
+          "open": false,
+          "prolonged": false
+        },
+        {
+          "start": 6.5290833333333333,
+          "stop": 6.5294166666666662,
+          "duration": 0.00033333333333285253,
+          "open": false,
+          "prolonged": false
+        },
+        {
+          "start": 6.5301666666666662,
+          "stop": 6.5305833333333334,
+          "duration": 0.00041666666666717589,
+          "open": false,
+          "prolonged": false
+        },
+        {
+          "start": 6.5313333333333334,
+          "stop": 6.53175,
+          "duration": 0.00041666666666628771,
+          "open": false,
+          "prolonged": false
+        },
+        {
+          "start": 6.5324166666666663,
+          "stop": 6.5328333333333335,
+          "duration": 0.00041666666666717589,
+          "open": false,
+          "prolonged": false
+        },
+        {
+          "start": 6.5335833333333335,
+          "stop": 6.5339166666666664,
+          "duration": 0.00033333333333285253,
+          "open": false,
+          "prolonged": false
+        },
+        {
+          "start": 6.5346666666666664,
+          "stop": 6.535,
+          "duration": 0.00033333333333374071,
+          "open": false,
+          "prolonged": false
+        },
+        {
+          "start": 6.53575,
+          "stop": 6.536083333333333,
+          "duration": 0.00033333333333285253,
+          "open": false,
+          "prolonged": false
+        },
+        {
+          "start": 6.5369166666666665,
+          "stop": 6.5372499999999993,
+          "duration": 0.00033333333333285253,
+          "open": false,
+          "prolonged": false
+        },
+        {
+          "start": 6.5381666666666662,
+          "stop": 6.5385,
+          "duration": 0.00033333333333374071,
+          "open": false,
+          "prolonged": false
+        },
+        {
+          "start": 6.5393333333333334,
+          "stop": 6.5396666666666663,
+          "duration": 0.00033333333333285253,
+          "open": false,
+          "prolonged": false
+        },
+        {
+          "start": 6.5405833333333332,
+          "stop": 6.540916666666666,
+          "duration": 0.00033333333333285253,
+          "open": false,
+          "prolonged": false
+        },
+        {
+          "start": 6.5416666666666661,
+          "stop": 6.542,
+          "duration": 0.00033333333333374071,
+          "open": false,
+          "prolonged": false
+        },
+        {
+          "start": 6.543,
+          "stop": 6.543333333333333,
+          "duration": 0.00033333333333285253,
+          "open": false,
+          "prolonged": false
+        },
+        {
+          "start": 6.5443333333333333,
+          "stop": 6.5445833333333328,
+          "duration": 0.00024999999999941735,
+          "open": false,
+          "prolonged": false
+        },
+        {
+          "start": 6.54575,
+          "stop": 6.5459999999999994,
+          "duration": 0.00024999999999941735,
+          "open": false,
+          "prolonged": false
+        },
+        {
+          "start": 6.5469166666666663,
+          "stop": 6.5471666666666666,
+          "duration": 0.00025000000000030553,
+          "open": false,
+          "prolonged": false
+        },
+        {
+          "start": 6.5480833333333335,
+          "stop": 6.5483333333333329,
+          "duration": 0.00024999999999941735,
+          "open": false,
+          "prolonged": false
+        },
+        {
+          "start": 7.52175,
+          "stop": 7.5221666666666662,
+          "duration": 0.00041666666666628771,
+          "open": false,
+          "prolonged": false
+        },
+        {
+          "start": 7.523,
+          "stop": 7.523416666666666,
+          "duration": 0.00041666666666628771,
+          "open": false,
+          "prolonged": false
+        },
+        {
+          "start": 7.5245,
+          "stop": 7.524916666666666,
+          "duration": 0.00041666666666628771,
+          "open": false,
+          "prolonged": false
+        },
+        {
+          "start": 7.5256666666666661,
+          "stop": 7.5260833333333332,
+          "duration": 0.00041666666666717589,
+          "open": false,
+          "prolonged": false
+        },
+        {
+          "start": 7.5269166666666667,
+          "stop": 7.527333333333333,
+          "duration": 0.00041666666666628771,
+          "open": false,
+          "prolonged": false
+        },
+        {
+          "start": 7.5283333333333333,
+          "stop": 7.52875,
+          "duration": 0.00041666666666628771,
+          "open": false,
+          "prolonged": false
+        },
+        {
+          "start": 7.5295833333333331,
+          "stop": 7.5299999999999994,
+          "duration": 0.00041666666666628771,
+          "open": false,
+          "prolonged": false
+        },
+        {
+          "start": 7.531,
+          "stop": 7.531416666666666,
+          "duration": 0.00041666666666628771,
+          "open": false,
+          "prolonged": false
+        },
+        {
+          "start": 7.5323333333333329,
+          "stop": 7.53275,
+          "duration": 0.00041666666666717589,
+          "open": false,
+          "prolonged": false
+        },
+        {
+          "start": 7.5338333333333329,
+          "stop": 7.53425,
+          "duration": 0.00041666666666717589,
+          "open": false,
+          "prolonged": false
+        },
+        {
+          "start": 7.535,
+          "stop": 7.5354166666666664,
+          "duration": 0.00041666666666628771,
+          "open": false,
+          "prolonged": false
+        },
+        {
+          "start": 7.5364166666666668,
+          "stop": 7.5368333333333331,
+          "duration": 0.00041666666666628771,
+          "open": false,
+          "prolonged": false
+        },
+        {
+          "start": 7.53775,
+          "stop": 7.5381666666666662,
+          "duration": 0.00041666666666628771,
+          "open": false,
+          "prolonged": false
+        },
+        {
+          "start": 7.5390833333333331,
+          "stop": 7.5394999999999994,
+          "duration": 0.00041666666666628771,
+          "open": false,
+          "prolonged": false
+        },
+        {
+          "start": 7.5405833333333332,
+          "stop": 7.5409999999999995,
+          "duration": 0.00041666666666628771,
+          "open": false,
+          "prolonged": false
+        },
+        {
+          "start": 7.54225,
+          "stop": 7.542583333333333,
+          "duration": 0.00033333333333285253,
+          "open": false,
+          "prolonged": false
+        },
+        {
+          "start": 7.5435,
+          "stop": 7.5438333333333327,
+          "duration": 0.00033333333333285253,
+          "open": false,
+          "prolonged": false
+        },
+        {
+          "start": 7.5464166666666666,
+          "stop": 7.5467499999999994,
+          "duration": 0.00033333333333285253,
+          "open": false,
+          "prolonged": false
+        }
+      ],
+      "prolongedCount": 0,
+      "activeAtEnd": false,
+      "settledTail": 17.45325,
+      "recoveryObserved": true
+    },
+    "tracking_q": {
+      "maxAbsoluteError": 419.99999667378142,
+      "events": [
+        {
+          "start": 0,
+          "stop": 0.0005,
+          "duration": 0.0005,
+          "open": false,
+          "prolonged": false
+        },
+        {
+          "start": 6.50875,
+          "stop": 6.5089999999999995,
+          "duration": 0.00024999999999941735,
+          "open": false,
+          "prolonged": false
+        },
+        {
+          "start": 6.5097499999999995,
+          "stop": 6.5100833333333332,
+          "duration": 0.00033333333333374071,
+          "open": false,
+          "prolonged": false
+        },
+        {
+          "start": 6.5108333333333333,
+          "stop": 6.5111666666666661,
+          "duration": 0.00033333333333285253,
+          "open": false,
+          "prolonged": false
+        },
+        {
+          "start": 6.5118333333333327,
+          "stop": 6.5121666666666664,
+          "duration": 0.00033333333333374071,
+          "open": false,
+          "prolonged": false
+        },
+        {
+          "start": 6.512833333333333,
+          "stop": 6.5131666666666668,
+          "duration": 0.00033333333333374071,
+          "open": false,
+          "prolonged": false
+        },
+        {
+          "start": 6.5138333333333334,
+          "stop": 6.5141666666666662,
+          "duration": 0.00033333333333285253,
+          "open": false,
+          "prolonged": false
+        },
+        {
+          "start": 6.5147499999999994,
+          "stop": 6.5151666666666666,
+          "duration": 0.00041666666666717589,
+          "open": false,
+          "prolonged": false
+        },
+        {
+          "start": 6.5158333333333331,
+          "stop": 6.5162499999999994,
+          "duration": 0.00041666666666628771,
+          "open": false,
+          "prolonged": false
+        },
+        {
+          "start": 6.516916666666666,
+          "stop": 6.5173333333333332,
+          "duration": 0.00041666666666717589,
+          "open": false,
+          "prolonged": false
+        },
+        {
+          "start": 6.518,
+          "stop": 6.5184166666666661,
+          "duration": 0.00041666666666628771,
+          "open": false,
+          "prolonged": false
+        },
+        {
+          "start": 6.5190833333333327,
+          "stop": 6.5195,
+          "duration": 0.00041666666666717589,
+          "open": false,
+          "prolonged": false
+        },
+        {
+          "start": 6.5201666666666664,
+          "stop": 6.5205833333333327,
+          "duration": 0.00041666666666628771,
+          "open": false,
+          "prolonged": false
+        },
+        {
+          "start": 6.52125,
+          "stop": 6.5216666666666665,
+          "duration": 0.00041666666666628771,
+          "open": false,
+          "prolonged": false
+        },
+        {
+          "start": 6.5223333333333331,
+          "stop": 6.5228333333333328,
+          "duration": 0.00049999999999972289,
+          "open": false,
+          "prolonged": false
+        },
+        {
+          "start": 6.5233333333333334,
+          "stop": 6.5238333333333332,
+          "duration": 0.00049999999999972289,
+          "open": false,
+          "prolonged": false
+        },
+        {
+          "start": 6.5243333333333329,
+          "stop": 6.5248333333333335,
+          "duration": 0.00050000000000061107,
+          "open": false,
+          "prolonged": false
+        },
+        {
+          "start": 6.5253333333333332,
+          "stop": 6.5258333333333329,
+          "duration": 0.00049999999999972289,
+          "open": false,
+          "prolonged": false
+        },
+        {
+          "start": 6.5264999999999995,
+          "stop": 6.527,
+          "duration": 0.00050000000000061107,
+          "open": false,
+          "prolonged": false
+        },
+        {
+          "start": 6.5276666666666667,
+          "stop": 6.5281666666666665,
+          "duration": 0.00049999999999972289,
+          "open": false,
+          "prolonged": false
+        },
+        {
+          "start": 6.52875,
+          "stop": 6.5293333333333328,
+          "duration": 0.00058333333333315807,
+          "open": false,
+          "prolonged": false
+        },
+        {
+          "start": 6.5299166666666668,
+          "stop": 6.5304166666666665,
+          "duration": 0.00049999999999972289,
+          "open": false,
+          "prolonged": false
+        },
+        {
+          "start": 6.531,
+          "stop": 6.5315833333333329,
+          "duration": 0.00058333333333315807,
+          "open": false,
+          "prolonged": false
+        },
+        {
+          "start": 6.5320833333333335,
+          "stop": 6.5326666666666666,
+          "duration": 0.00058333333333315807,
+          "open": false,
+          "prolonged": false
+        },
+        {
+          "start": 6.5331666666666663,
+          "stop": 6.5338333333333329,
+          "duration": 0.00066666666666659324,
+          "open": false,
+          "prolonged": false
+        },
+        {
+          "start": 6.53425,
+          "stop": 6.5349166666666667,
+          "duration": 0.00066666666666659324,
+          "open": false,
+          "prolonged": false
+        },
+        {
+          "start": 6.535333333333333,
+          "stop": 6.5359166666666662,
+          "duration": 0.00058333333333315807,
+          "open": false,
+          "prolonged": false
+        },
+        {
+          "start": 6.5364166666666668,
+          "stop": 6.5371666666666668,
+          "duration": 0.00075000000000002842,
+          "open": false,
+          "prolonged": false
+        },
+        {
+          "start": 6.5376666666666665,
+          "stop": 6.5384166666666665,
+          "duration": 0.00075000000000002842,
+          "open": false,
+          "prolonged": false
+        },
+        {
+          "start": 6.5387499999999994,
+          "stop": 6.5395833333333329,
+          "duration": 0.0008333333333334636,
+          "open": false,
+          "prolonged": false
+        },
+        {
+          "start": 6.54,
+          "stop": 6.5408333333333335,
+          "duration": 0.0008333333333334636,
+          "open": false,
+          "prolonged": false
+        },
+        {
+          "start": 6.5410833333333329,
+          "stop": 6.5419166666666664,
+          "duration": 0.0008333333333334636,
+          "open": false,
+          "prolonged": false
+        },
+        {
+          "start": 6.5423333333333336,
+          "stop": 6.543333333333333,
+          "duration": 0.00099999999999944578,
+          "open": false,
+          "prolonged": false
+        },
+        {
+          "start": 6.5435,
+          "stop": 6.5445833333333328,
+          "duration": 0.001083333333332881,
+          "open": false,
+          "prolonged": false
+        },
+        {
+          "start": 6.54475,
+          "stop": 6.5459999999999994,
+          "duration": 0.0012499999999997513,
+          "open": false,
+          "prolonged": false
+        },
+        {
+          "start": 6.5460833333333328,
+          "stop": 6.5471666666666666,
+          "duration": 0.0010833333333337691,
+          "open": false,
+          "prolonged": false
+        },
+        {
+          "start": 6.54725,
+          "stop": 6.550583333333333,
+          "duration": 0.0033333333333329662,
+          "open": false,
+          "prolonged": false
+        },
+        {
+          "start": 7.5215,
+          "stop": 7.5219999999999994,
+          "duration": 0.00049999999999972289,
+          "open": false,
+          "prolonged": false
+        },
+        {
+          "start": 7.5227499999999994,
+          "stop": 7.52325,
+          "duration": 0.00050000000000061107,
+          "open": false,
+          "prolonged": false
+        },
+        {
+          "start": 7.524166666666666,
+          "stop": 7.52475,
+          "duration": 0.00058333333333404624,
+          "open": false,
+          "prolonged": false
+        },
+        {
+          "start": 7.5253333333333332,
+          "stop": 7.5259166666666664,
+          "duration": 0.00058333333333315807,
+          "open": false,
+          "prolonged": false
+        },
+        {
+          "start": 7.526583333333333,
+          "stop": 7.5271666666666661,
+          "duration": 0.00058333333333315807,
+          "open": false,
+          "prolonged": false
+        },
+        {
+          "start": 7.5279166666666661,
+          "stop": 7.5285833333333327,
+          "duration": 0.00066666666666659324,
+          "open": false,
+          "prolonged": false
+        },
+        {
+          "start": 7.5292499999999993,
+          "stop": 7.5298333333333334,
+          "duration": 0.00058333333333404624,
+          "open": false,
+          "prolonged": false
+        },
+        {
+          "start": 7.5305833333333334,
+          "stop": 7.53125,
+          "duration": 0.00066666666666659324,
+          "open": false,
+          "prolonged": false
+        },
+        {
+          "start": 7.5319166666666666,
+          "stop": 7.5326666666666666,
+          "duration": 0.00075000000000002842,
+          "open": false,
+          "prolonged": false
+        },
+        {
+          "start": 7.5333333333333332,
+          "stop": 7.5340833333333332,
+          "duration": 0.00075000000000002842,
+          "open": false,
+          "prolonged": false
+        },
+        {
+          "start": 7.5344999999999995,
+          "stop": 7.535333333333333,
+          "duration": 0.0008333333333334636,
+          "open": false,
+          "prolonged": false
+        },
+        {
+          "start": 7.5358333333333327,
+          "stop": 7.53675,
+          "duration": 0.00091666666666689878,
+          "open": false,
+          "prolonged": false
+        },
+        {
+          "start": 7.5371666666666668,
+          "stop": 7.5380833333333328,
+          "duration": 0.0009166666666660106,
+          "open": false,
+          "prolonged": false
+        },
+        {
+          "start": 7.5384166666666665,
+          "stop": 7.539416666666666,
+          "duration": 0.00099999999999944578,
+          "open": false,
+          "prolonged": false
+        },
+        {
+          "start": 7.5398333333333332,
+          "stop": 7.540916666666666,
+          "duration": 0.001083333333332881,
+          "open": false,
+          "prolonged": false
+        },
+        {
+          "start": 7.54125,
+          "stop": 7.542583333333333,
+          "duration": 0.0013333333333331865,
+          "open": false,
+          "prolonged": false
+        },
+        {
+          "start": 7.54275,
+          "stop": 7.54375,
+          "duration": 0.001000000000000334,
+          "open": false,
+          "prolonged": false
+        },
+        {
+          "start": 7.544,
+          "stop": 7.54725,
+          "duration": 0.0032500000000004192,
+          "open": false,
+          "prolonged": false
+        }
+      ],
+      "prolongedCount": 0,
+      "activeAtEnd": false,
+      "settledTail": 17.45275,
+      "recoveryObserved": true
+    },
+    "dutyWithinLimit": true,
+    "minDuty": 0.0050000000000001432,
+    "maxDuty": 0.99499999999999988,
+    "actualDeltas": {
+      "deltaLd": 0,
+      "deltaLq": 0,
+      "deltaPsi": 0,
+      "deltaRs": 0
+    },
+    "speedProfile": {
+      "block": "1-D Lookup Table2",
+      "time": [
+        0,
+        0.3,
+        1,
+        1.3,
+        2,
+        2.3,
+        3,
+        3.3,
+        4,
+        4.3,
+        5,
+        5.3,
+        6,
+        6.3,
+        7,
+        14,
+        24
+      ],
+      "speed": [
+        0,
+        104,
+        104,
+        208,
+        208,
+        312,
+        312,
+        416,
+        416,
+        520,
+        520,
+        624,
+        624,
+        738,
+        738,
+        156,
+        21
+      ],
+      "maxMeasuredSpeed": 737.99999999998875,
+      "finalLoggedTime": 25,
+      "finalMeasuredSpeed": 7.5134999999999472
+    },
+    "controlStructure": {
+      "fwFeedbackSource": "Low-Pass Filter (Discrete or Continuous)1",
+      "freezeTagSource": "Constant16",
+      "trimUpperFlux": 0.155,
+      "trimLowerFlux": -0.155,
+      "trimReset": "either",
+      "freezeUsedMinimum": 0,
+      "freezeUsedMaximum": 0,
+      "dLimitGain": 1
+    },
+    "controlParameters": {
+      "Psi": {
+        "minimum": 0.1024,
+        "maximum": 0.1024,
+        "maxNominalDeviation": 0
+      },
+      "Lq": {
+        "minimum": 0.000305,
+        "maximum": 0.000305,
+        "maxNominalDeviation": 0
+      }
+    },
+    "sourceSha256": "32216a42fe10e43f93c93998c82db437619960b00a7e56ed42f610efb5b9835b",
+    "modelSha256": "3886d761e5bb03c9c9cc9f1af12338652d013225b13681006513c251f0c8e958",
+    "parameters": {
+      "Is_max": 420,
+      "FocDiscrTime": 8.3333333333333331E-5,
+      "Ld": 0.00031,
+      "Lq": 0.000305,
+      "Psi": 0.1024,
+      "Rs": 0.02,
+      "PolePairs": 11,
+      "VDC": 440,
+      "mMaxPWM": 0.99,
+      "mMaxCurrent": 0.99,
+      "mFW": 0.95,
+      "deltaLd": 0,
+      "deltaLq": 0,
+      "deltaPsi": 0,
+      "deltaRs": 0
+    },
+    "overrides": {
+      "deltaLd": 0,
+      "deltaLq": 0,
+      "deltaPsi": 0,
+      "deltaRs": 0
+    },
+    "elapsed": 154.881484,
+    "finalTime": 25,
+    "signalCount": 60,
+    "matSha256": "c4056db322d1794debbc7bc177123d3afc4974f64963a85c4f0e02d1457fb1a9"
+  },
+  "ldp20": {
+    "currentLimit": 420,
+    "measuredLimit": 441,
+    "errorThreshold": 100,
+    "durationThreshold": 0.02,
+    "nonfinite": [],
+    "finite": true,
+    "completed": true,
+    "fullResolution": true,
+    "coverage": true,
+    "jointReferenceLog": true,
+    "maxReferenceCurrent": 419.99999667378142,
+    "maxMeasuredCurrent": 421.84109853087534,
+    "referenceWithinLimit": true,
+    "measuredWithinLimit": true,
+    "referenceExcess": [],
+    "tracking_d": {
+      "maxAbsoluteError": 37.1511958414452,
+      "events": [],
+      "prolongedCount": 0,
+      "activeAtEnd": false,
+      "settledTail": 25,
+      "recoveryObserved": true
+    },
+    "tracking_q": {
+      "maxAbsoluteError": 419.99999667378142,
+      "events": {
+        "start": 0,
+        "stop": 0.0005,
+        "duration": 0.0005,
+        "open": false,
+        "prolonged": false
+      },
+      "prolongedCount": 0,
+      "activeAtEnd": false,
+      "settledTail": 24.9995,
+      "recoveryObserved": true
+    },
+    "dutyWithinLimit": true,
+    "minDuty": 0.0050000000000001432,
+    "maxDuty": 0.99499999999999988,
+    "actualDeltas": {
+      "deltaLd": 0.2,
+      "deltaLq": 0,
+      "deltaPsi": 0,
+      "deltaRs": 0
+    },
+    "speedProfile": {
+      "block": "1-D Lookup Table2",
+      "time": [
+        0,
+        0.3,
+        1,
+        1.3,
+        2,
+        2.3,
+        3,
+        3.3,
+        4,
+        4.3,
+        5,
+        5.3,
+        6,
+        6.3,
+        7,
+        14,
+        24
+      ],
+      "speed": [
+        0,
+        104,
+        104,
+        208,
+        208,
+        312,
+        312,
+        416,
+        416,
+        520,
+        520,
+        624,
+        624,
+        738,
+        738,
+        156,
+        21
+      ],
+      "maxMeasuredSpeed": 737.99999999998863,
+      "finalLoggedTime": 25,
+      "finalMeasuredSpeed": 7.5135000000000609
+    },
+    "controlStructure": {
+      "fwFeedbackSource": "Low-Pass Filter (Discrete or Continuous)1",
+      "freezeTagSource": "Constant16",
+      "trimUpperFlux": 0.155,
+      "trimLowerFlux": -0.155,
+      "trimReset": "either",
+      "freezeUsedMinimum": 0,
+      "freezeUsedMaximum": 0,
+      "dLimitGain": 1
+    },
+    "controlParameters": {
+      "Psi": {
+        "minimum": 0.1024,
+        "maximum": 0.1024,
+        "maxNominalDeviation": 0
+      },
+      "Lq": {
+        "minimum": 0.000305,
+        "maximum": 0.000305,
+        "maxNominalDeviation": 0
+      }
+    },
+    "sourceSha256": "32216a42fe10e43f93c93998c82db437619960b00a7e56ed42f610efb5b9835b",
+    "modelSha256": "6c05f83ab94b294faf2f22270c2607a9a97851998ad6a41f93706357c1e7d6c3",
+    "parameters": {
+      "Is_max": 420,
+      "FocDiscrTime": 8.3333333333333331E-5,
+      "Ld": 0.00031,
+      "Lq": 0.000305,
+      "Psi": 0.1024,
+      "Rs": 0.02,
+      "PolePairs": 11,
+      "VDC": 440,
+      "mMaxPWM": 0.99,
+      "mMaxCurrent": 0.99,
+      "mFW": 0.95,
+      "deltaLd": 0.2,
+      "deltaLq": 0,
+      "deltaPsi": 0,
+      "deltaRs": 0
+    },
+    "overrides": {
+      "deltaLd": 0.2,
+      "deltaLq": 0,
+      "deltaPsi": 0,
+      "deltaRs": 0
+    },
+    "elapsed": 146.815164,
+    "finalTime": 25,
+    "signalCount": 60,
+    "matSha256": "06d41878f0ec66e2964434a639785b5c1cd906bc6d8ad380ee215d31ccb90fc6"
+  },
+  "verification": "test_fwl_assess; both complete logs reassessed; source/model hashes; saved delta parameters; limited-voltage identities",
+  "verificationLog": "verification_20261112_164930.log",
+  "verifiedAt": "2026-11-12 16:49:47 +0300",
+  "userSourceSha256": "32216a42fe10e43f93c93998c82db437619960b00a7e56ed42f610efb5b9835b",
+  "profileSelection": "saved"
+}

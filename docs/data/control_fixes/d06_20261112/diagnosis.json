@@ -1,0 +1,523 @@
+{
+  "stage": "D06: unchanged saved controller; extra probes for gate causes",
+  "cases": [
+    {
+      "profile": "hold204",
+      "scenario": "nom",
+      "maxReferenceCurrent": 419.9999966737814,
+      "maxMeasuredCurrent": 421.1883056760122,
+      "referenceWithinLimit": true,
+      "measuredWithinLimit": true,
+      "dutyWithinLimit": true,
+      "matSha256": "dabef982f4555d29d0b3547b73f4b3be7fa53c1480e0100687052816ded7f238",
+      "sourceSha256": "fa91e8de6e46070cb03c1fe65941595f9d5fd1dc4090bd15a8093dc05290aa5f",
+      "tracking_d": {
+        "maxAbsoluteError": 3.5366743309573963,
+        "prolongedCount": 0,
+        "activeAtEnd": false,
+        "settledTail": 25,
+        "recoveryObserved": true,
+        "episodeCount": 0,
+        "prolongedOrOpenEvents": []
+      },
+      "tracking_q": {
+        "maxAbsoluteError": 419.9999966737814,
+        "prolongedCount": 0,
+        "activeAtEnd": false,
+        "settledTail": 24.9995,
+        "recoveryObserved": true,
+        "episodeCount": 1,
+        "prolongedOrOpenEvents": []
+      },
+      "dSaturation": {
+        "definition": "abs(Ud)>=Ulim-1e-6 V and abs(Uq)<0.1 V, no gap merging",
+        "longestDuration": 0,
+        "totalDuration": 0,
+        "episodesOver20msOrOpen": []
+      },
+      "logic": {
+        "trimMinA": -9.86912958451299,
+        "trimMaxA": 1.305653392329693,
+        "trimSamplesNearLowerFraction": 0.0,
+        "trimSamplesNearUpperFraction": 0.0,
+        "boundaryToBoundaryCount": 0,
+        "edgeCountsNative": {
+          "freeze": 49,
+          "reset": 2,
+          "fw_hold_lower": 0,
+          "fw_hold_upper": 51,
+          "fw_hold_base": 2
+        },
+        "edgeCountsOnCurrentGrid": {
+          "freeze": 49,
+          "reset": 2,
+          "fw_hold_lower": 0,
+          "fw_hold_upper": 51,
+          "fw_hold_base": 2
+        },
+        "holdFractionsOnCurrentGrid": {
+          "fw_hold_lower": 0.0,
+          "fw_hold_upper": 0.4076253079156403,
+          "fw_hold_base": 0.00043333188889370367
+        },
+        "maxFreezeEdgesIn100ms": 1,
+        "zoomStart": 0.2,
+        "zoomEnd": 0.30000000000000004,
+        "edgeRateMeaning": "Native combinational/solver events; both directions counted, not oscillation frequency. Separate counts on the 12 kHz current-controller grid."
+      },
+      "gateProductResidual": 0.0
+    },
+    {
+      "profile": "hold204",
+      "scenario": "ldp20",
+      "maxReferenceCurrent": 419.9999966737814,
+      "maxMeasuredCurrent": 649.2692999637926,
+      "referenceWithinLimit": true,
+      "measuredWithinLimit": false,
+      "dutyWithinLimit": true,
+      "matSha256": "82b03003630623545cf0df3752592efa76c4ce92564cd2406b64128c4cbdb4da",
+      "sourceSha256": "fa91e8de6e46070cb03c1fe65941595f9d5fd1dc4090bd15a8093dc05290aa5f",
+      "tracking_d": {
+        "maxAbsoluteError": 456.6173078216534,
+        "prolongedCount": 24,
+        "activeAtEnd": false,
+        "settledTail": 0.34025000000000105,
+        "recoveryObserved": true,
+        "episodeCount": 27,
+        "prolongedOrOpenEvents": [
+          {
+            "start": 1.1558333333333333,
+            "stop": 1.6597499999999998,
+            "duration": 0.5039166666666666,
+            "open": false,
+            "prolonged": true
+          },
+          {
+            "start": 2.0421666666666667,
+            "stop": 2.65975,
+            "duration": 0.6175833333333332,
+            "open": false,
+            "prolonged": true
+          },
+          {
+            "start": 3.0421666666666667,
+            "stop": 3.65975,
+            "duration": 0.6175833333333332,
+            "open": false,
+            "prolonged": true
+          },
+          {
+            "start": 4.042166666666667,
+            "stop": 4.65975,
+            "duration": 0.6175833333333332,
+            "open": false,
+            "prolonged": true
+          },
+          {
+            "start": 5.042166666666667,
+            "stop": 5.65975,
+            "duration": 0.6175833333333332,
+            "open": false,
+            "prolonged": true
+          },
+          {
+            "start": 6.042166666666667,
+            "stop": 6.65975,
+            "duration": 0.6175833333333332,
+            "open": false,
+            "prolonged": true
+          },
+          {
+            "start": 7.042166666666667,
+            "stop": 7.65975,
+            "duration": 0.6175833333333332,
+            "open": false,
+            "prolonged": true
+          },
+          {
+            "start": 8.042166666666667,
+            "stop": 8.659749999999999,
+            "duration": 0.6175833333333323,
+            "open": false,
+            "prolonged": true
+          },
+          {
+            "start": 9.042166666666667,
+            "stop": 9.659749999999999,
+            "duration": 0.6175833333333323,
+            "open": false,
+            "prolonged": true
+          },
+          {
+            "start": 10.042166666666667,
+            "stop": 10.659749999999999,
+            "duration": 0.6175833333333323,
+            "open": false,
+            "prolonged": true
+          },
+          {
+            "start": 11.042166666666667,
+            "stop": 11.659749999999999,
+            "duration": 0.6175833333333323,
+            "open": false,
+            "prolonged": true
+          },
+          {
+            "start": 12.042166666666667,
+            "stop": 12.659749999999999,
+            "duration": 0.6175833333333323,
+            "open": false,
+            "prolonged": true
+          },
+          {
+            "start": 13.042166666666667,
+            "stop": 13.659749999999999,
+            "duration": 0.6175833333333323,
+            "open": false,
+            "prolonged": true
+          },
+          {
+            "start": 14.042166666666667,
+            "stop": 14.659749999999999,
+            "duration": 0.6175833333333323,
+            "open": false,
+            "prolonged": true
+          },
+          {
+            "start": 15.042166666666667,
+            "stop": 15.659749999999999,
+            "duration": 0.6175833333333323,
+            "open": false,
+            "prolonged": true
+          },
+          {
+            "start": 16.042166666666667,
+            "stop": 16.65975,
+            "duration": 0.6175833333333323,
+            "open": false,
+            "prolonged": true
+          },
+          {
+            "start": 17.042166666666667,
+            "stop": 17.65975,
+            "duration": 0.6175833333333323,
+            "open": false,
+            "prolonged": true
+          },
+          {
+            "start": 18.042166666666667,
+            "stop": 18.65975,
+            "duration": 0.6175833333333323,
+            "open": false,
+            "prolonged": true
+          },
+          {
+            "start": 19.042166666666667,
+            "stop": 19.65975,
+            "duration": 0.6175833333333323,
+            "open": false,
+            "prolonged": true
+          },
+          {
+            "start": 20.042166666666667,
+            "stop": 20.65975,
+            "duration": 0.6175833333333323,
+            "open": false,
+            "prolonged": true
+          },
+          {
+            "start": 21.042166666666667,
+            "stop": 21.65975,
+            "duration": 0.6175833333333323,
+            "open": false,
+            "prolonged": true
+          },
+          {
+            "start": 22.042166666666667,
+            "stop": 22.65975,
+            "duration": 0.6175833333333323,
+            "open": false,
+            "prolonged": true
+          },
+          {
+            "start": 23.042166666666667,
+            "stop": 23.65975,
+            "duration": 0.6175833333333323,
+            "open": false,
+            "prolonged": true
+          },
+          {
+            "start": 24.042166666666667,
+            "stop": 24.65975,
+            "duration": 0.6175833333333323,
+            "open": false,
+            "prolonged": true
+          }
+        ]
+      },
+      "tracking_q": {
+        "maxAbsoluteError": 708.6951447545134,
+        "prolongedCount": 1,
+        "activeAtEnd": true,
+        "settledTail": 0,
+        "recoveryObserved": false,
+        "episodeCount": 2,
+        "prolongedOrOpenEvents": [
+          {
+            "start": 1.1446666666666667,
+            "stop": 25,
+            "duration": 23.855333333333334,
+            "open": true,
+            "prolonged": true
+          }
+        ]
+      },
+      "dSaturation": {
+        "definition": "abs(Ud)>=Ulim-1e-6 V and abs(Uq)<0.1 V, no gap merging",
+        "longestDuration": 23.851083333333335,
+        "totalDuration": 23.851333333333336,
+        "episodesOver20msOrOpen": [
+          {
+            "start": 1.1489166666666666,
+            "end": 25.0,
+            "duration": 23.851083333333335,
+            "open": true
+          }
+        ]
+      },
+      "logic": {
+        "trimMinA": -50.0,
+        "trimMaxA": 50.0,
+        "trimSamplesNearLowerFraction": 0.28028906570311435,
+        "trimSamplesNearUpperFraction": 0.5468581771394095,
+        "boundaryToBoundaryCount": 47,
+        "edgeCountsNative": {
+          "freeze": 10369,
+          "reset": 2,
+          "fw_hold_lower": 0,
+          "fw_hold_upper": 10371,
+          "fw_hold_base": 2
+        },
+        "edgeCountsOnCurrentGrid": {
+          "freeze": 10177,
+          "reset": 2,
+          "fw_hold_lower": 0,
+          "fw_hold_upper": 10179,
+          "fw_hold_base": 2
+        },
+        "holdFractionsOnCurrentGrid": {
+          "fw_hold_lower": 0.0,
+          "fw_hold_upper": 0.12622624591251363,
+          "fw_hold_base": 0.00043333188889370367
+        },
+        "maxFreezeEdgesIn100ms": 390,
+        "zoomStart": 1.5000000000000002,
+        "zoomEnd": 1.6,
+        "edgeRateMeaning": "Native combinational/solver events; both directions counted, not oscillation frequency. Separate counts on the 12 kHz current-controller grid."
+      },
+      "gateProductResidual": 0.0
+    },
+    {
+      "profile": "sweep738",
+      "scenario": "nom",
+      "maxReferenceCurrent": 419.9999966737814,
+      "maxMeasuredCurrent": 421.203678134884,
+      "referenceWithinLimit": true,
+      "measuredWithinLimit": true,
+      "dutyWithinLimit": true,
+      "matSha256": "a10d5b724a26f0a68d0921e2629848fbc2c4f7d3a54d0d214c2ccc015479b1d0",
+      "sourceSha256": "b4a938647d12a4e7695ca3e9cee42bd70964739419f6c0c66a922da2bdf6a824",
+      "tracking_d": {
+        "maxAbsoluteError": 5.604714702953061,
+        "prolongedCount": 0,
+        "activeAtEnd": false,
+        "settledTail": 25,
+        "recoveryObserved": true,
+        "episodeCount": 0,
+        "prolongedOrOpenEvents": []
+      },
+      "tracking_q": {
+        "maxAbsoluteError": 419.9999966737814,
+        "prolongedCount": 0,
+        "activeAtEnd": false,
+        "settledTail": 24.9995,
+        "recoveryObserved": true,
+        "episodeCount": 1,
+        "prolongedOrOpenEvents": []
+      },
+      "dSaturation": {
+        "definition": "abs(Ud)>=Ulim-1e-6 V and abs(Uq)<0.1 V, no gap merging",
+        "longestDuration": 0.005916666666665904,
+        "totalDuration": 0.04599999999999849,
+        "episodesOver20msOrOpen": []
+      },
+      "logic": {
+        "trimMinA": -24.21065467321419,
+        "trimMaxA": 1.677891886937842,
+        "trimSamplesNearLowerFraction": 0.0,
+        "trimSamplesNearUpperFraction": 0.0,
+        "boundaryToBoundaryCount": 0,
+        "edgeCountsNative": {
+          "freeze": 6,
+          "reset": 4,
+          "fw_hold_lower": 0,
+          "fw_hold_upper": 10,
+          "fw_hold_base": 4
+        },
+        "edgeCountsOnCurrentGrid": {
+          "freeze": 6,
+          "reset": 4,
+          "fw_hold_lower": 0,
+          "fw_hold_upper": 10,
+          "fw_hold_base": 4
+        },
+        "holdFractionsOnCurrentGrid": {
+          "fw_hold_lower": 0.0,
+          "fw_hold_upper": 0.4876117079609735,
+          "fw_hold_base": 0.007689974366752111
+        },
+        "maxFreezeEdgesIn100ms": 1,
+        "zoomStart": 1.5000000000000002,
+        "zoomEnd": 1.6,
+        "edgeRateMeaning": "Native combinational/solver events; both directions counted, not oscillation frequency. Separate counts on the 12 kHz current-controller grid."
+      },
+      "gateProductResidual": 0.0
+    },
+    {
+      "profile": "sweep738",
+      "scenario": "ldp20",
+      "maxReferenceCurrent": 419.9999966737814,
+      "maxMeasuredCurrent": 2047.4695737803177,
+      "referenceWithinLimit": true,
+      "measuredWithinLimit": false,
+      "dutyWithinLimit": true,
+      "matSha256": "71ecc2e830f52efb70b3cb3d2fa7a4096cb4a433e4d2354fd925d9e1e33a1752",
+      "sourceSha256": "b4a938647d12a4e7695ca3e9cee42bd70964739419f6c0c66a922da2bdf6a824",
+      "tracking_d": {
+        "maxAbsoluteError": 373.78813386736687,
+        "prolongedCount": 5,
+        "activeAtEnd": false,
+        "settledTail": 2.8496666666666677,
+        "recoveryObserved": true,
+        "episodeCount": 442,
+        "prolongedOrOpenEvents": [
+          {
+            "start": 3.18425,
+            "stop": 3.2244166666666665,
+            "duration": 0.04016666666666646,
+            "open": false,
+            "prolonged": true
+          },
+          {
+            "start": 4.136,
+            "stop": 4.21825,
+            "duration": 0.08225000000000016,
+            "open": false,
+            "prolonged": true
+          },
+          {
+            "start": 12.170499999999999,
+            "stop": 12.62075,
+            "duration": 0.4502500000000005,
+            "open": false,
+            "prolonged": true
+          },
+          {
+            "start": 13.062333333333333,
+            "stop": 13.677416666666666,
+            "duration": 0.6150833333333328,
+            "open": false,
+            "prolonged": true
+          },
+          {
+            "start": 13.770916666666666,
+            "stop": 22.150333333333332,
+            "duration": 8.379416666666666,
+            "open": false,
+            "prolonged": true
+          }
+        ]
+      },
+      "tracking_q": {
+        "maxAbsoluteError": 2467.452254861327,
+        "prolongedCount": 2,
+        "activeAtEnd": false,
+        "settledTail": 2.1494999999999997,
+        "recoveryObserved": true,
+        "episodeCount": 426,
+        "prolongedOrOpenEvents": [
+          {
+            "start": 3.177833333333333,
+            "stop": 4.571583333333333,
+            "duration": 1.3937499999999998,
+            "open": false,
+            "prolonged": true
+          },
+          {
+            "start": 12.162666666666667,
+            "stop": 22.8505,
+            "duration": 10.687833333333334,
+            "open": false,
+            "prolonged": true
+          }
+        ]
+      },
+      "dSaturation": {
+        "definition": "abs(Ud)>=Ulim-1e-6 V and abs(Uq)<0.1 V, no gap merging",
+        "longestDuration": 10.684500000000002,
+        "totalDuration": 12.659333333333336,
+        "episodesOver20msOrOpen": [
+          {
+            "start": 3.1733333333333333,
+            "end": 4.570916666666666,
+            "duration": 1.397583333333333,
+            "open": false
+          },
+          {
+            "start": 4.573583333333334,
+            "end": 4.6105,
+            "duration": 0.03691666666666649,
+            "open": false
+          },
+          {
+            "start": 12.161083333333332,
+            "end": 22.845583333333334,
+            "duration": 10.684500000000002,
+            "open": false
+          }
+        ]
+      },
+      "logic": {
+        "trimMinA": -50.0,
+        "trimMaxA": 50.0,
+        "trimSamplesNearLowerFraction": 0.06637644541184863,
+        "trimSamplesNearUpperFraction": 0.08890637031209896,
+        "boundaryToBoundaryCount": 10,
+        "edgeCountsNative": {
+          "freeze": 432,
+          "reset": 18,
+          "fw_hold_lower": 0,
+          "fw_hold_upper": 450,
+          "fw_hold_base": 18
+        },
+        "edgeCountsOnCurrentGrid": {
+          "freeze": 424,
+          "reset": 18,
+          "fw_hold_lower": 0,
+          "fw_hold_upper": 442,
+          "fw_hold_base": 18
+        },
+        "holdFractionsOnCurrentGrid": {
+          "fw_hold_lower": 0.0,
+          "fw_hold_upper": 0.3683754387485375,
+          "fw_hold_base": 0.09512301625661247
+        },
+        "maxFreezeEdgesIn100ms": 216,
+        "zoomStart": 13.6,
+        "zoomEnd": 13.700000000000001,
+        "edgeRateMeaning": "Native combinational/solver events; both directions counted, not oscillation frequency. Separate counts on the 12 kHz current-controller grid."
+      },
+      "gateProductResidual": 0.0
+    }
+  ]
+}

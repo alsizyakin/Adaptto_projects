@@ -1,0 +1,36 @@
+FW fw_trim: method=Discrete, function period=FocDiscrTime, subsystem period=-1, integration step=8.33333333e-05 s, Kpsi=2.5
+Saved plant deltaLd=0.2, code matches=1, delay Idref=4.16666667e-05 s
+### Searching for referenced models in model 'aug_f06t_nom'.
+### Total of 1 models to build.
+### Generating code for Physical Networks associated with solver block 'aug_f06t_nom/Solver Configuration' ...
+done.
+### Building the rapid accelerator target for model: aug_f06t_nom
+### Successfully built the rapid accelerator target for model: aug_f06t_nom
+aug_f06t_nom done in 142.3 s
+FW fw_trim: method=Discrete, function period=FocDiscrTime, subsystem period=-1, integration step=8.33333333e-05 s, Kpsi=2.5
+Saved plant deltaLd=0.2, code matches=1, delay Idref=4.16666667e-05 s
+f06t_nom: complete=1, finite=1, native logs, Iref 419.999997 A, Imax 421.203678 A, FW ratio=1
+FW fw_trim: method=Discrete, function period=FocDiscrTime, subsystem period=-1, integration step=8.33333333e-05 s, Kpsi=2.5
+Saved plant deltaLd=0.2, code matches=1, delay Idref=4.16666667e-05 s
+### Searching for referenced models in model 'aug_f06t_hold_nom'.
+### Total of 1 models to build.
+### Generating code for Physical Networks associated with solver block 'aug_f06t_hold_nom/Solver Configuration' ...
+done.
+### Building the rapid accelerator target for model: aug_f06t_hold_nom
+### Successfully built the rapid accelerator target for model: aug_f06t_hold_nom
+aug_f06t_hold_nom done in 129.4 s
+FW fw_trim: method=Discrete, function period=FocDiscrTime, subsystem period=-1, integration step=8.33333333e-05 s, Kpsi=2.5
+Saved plant deltaLd=0.2, code matches=1, delay Idref=4.16666667e-05 s
+f06t_hold_nom: complete=1, finite=1, native logs, Iref 419.999997 A, Imax 421.188306 A, FW ratio=1
+FW fw_trim: method=Discrete, function period=FocDiscrTime, subsystem period=-1, integration step=8.33333333e-05 s, Kpsi=2.5
+Saved plant deltaLd=0.2, code matches=1, delay Idref=4.16666667e-05 s
+### Searching for referenced models in model 'aug_f06t_hold_ldp20'.
+### Total of 1 models to build.
+### Generating code for Physical Networks associated with solver block 'aug_f06t_hold_ldp20/Solver Configuration' ...
+done.
+### Building the rapid accelerator target for model: aug_f06t_hold_ldp20
+### Successfully built the rapid accelerator target for model: aug_f06t_hold_ldp20
+aug_f06t_hold_ldp20 done in 131.3 s
+FW fw_trim: method=Discrete, function period=FocDiscrTime, subsystem period=-1, integration step=8.33333333e-05 s, Kpsi=2.5
+Saved plant deltaLd=0.2, code matches=1, delay Idref=4.16666667e-05 s
+f06t_hold_ldp20: complete=1, finite=1, native logs, Iref 419.999997 A, Imax 669.733206 A, FW ratio=1

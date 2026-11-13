@@ -1,0 +1,65 @@
+{
+  "cases": [
+    {
+      "id": "cmp_sg2900_hold_nom",
+      "completed": true,
+      "duration": 25,
+      "sourceSnapshot": "component_source.slx",
+      "matSha256": "14fb00daf7dec9a3746362be34da21eedaa3b9c79601920465e511528c5853d9",
+      "maxMeasuredCurrent": 595.9280854027382,
+      "regressionPass": false,
+      "qualityPass": false
+    },
+    {
+      "id": "cmp_sg2900_cycles_user",
+      "completed": true,
+      "duration": 25,
+      "sourceSnapshot": "component_source.slx",
+      "matSha256": "ca85c07e0b6640af4520ffcddc9346d9bd9be1d236a3573aea2be50f9982f06d",
+      "maxMeasuredCurrent": 1129.865624991234,
+      "regressionPass": false,
+      "qualityPass": false
+    },
+    {
+      "id": "chk_sg2900_hold_nom",
+      "completed": true,
+      "duration": 25,
+      "sourceSnapshot": "component_source_ff_restored.slx",
+      "matSha256": "53daf8adba5e90d1f8853cb73fd3478bf6c666fdb3a178b2a8c451249d84746b",
+      "maxMeasuredCurrent": 521.25045511667,
+      "regressionPass": false,
+      "qualityPass": false
+    },
+    {
+      "id": "chk_sg2900_cycles_user",
+      "completed": true,
+      "duration": 25,
+      "sourceSnapshot": "component_source_ff_restored.slx",
+      "matSha256": "c789fcbbcc1ec0b63f7e464787c6b90a2368b100ca3fcea7c7e2f7bea1604da1",
+      "maxMeasuredCurrent": 636.4782748006523,
+      "regressionPass": false,
+      "qualityPass": false
+    }
+  ],
+  "componentTestsPassed": true,
+  "figureCount": 17,
+  "archivedCopiesMatch": true,
+  "localLinksChecked": [
+    "docs/f06_component_audit.md",
+    "docs/control_fix_log.md",
+    "docs/control_backlog.md",
+    "docs/F07_HANDOFF.md",
+    "docs/field_weakening_redesign.md",
+    "tools/fw_limiter/README.md"
+  ],
+  "pythonSyntaxChecked": true,
+  "gitDiffCheckPassed": true,
+  "workingSavedF06Sha256AtFinish": "1895d6502311498c93f831b02794d1ea081b0092d15f70014eb0889ef192151e",
+  "workingSavedF06StillMatchesInitial": true,
+  "workingModelWrittenByAssistant": false,
+  "limitations": [
+    "Four runs compare mixed changes, not isolated Iq, FF or estimator effects.",
+    "The old dSaturation metric requires near-zero Uq; ordinary d saturation is recorded separately.",
+    "Full MAT and simulation caches remain in project tmp; no cleanup performed."
+  ]
+}

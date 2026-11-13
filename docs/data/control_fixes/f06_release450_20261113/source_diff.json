@@ -1,0 +1,47 @@
+[
+  {
+    "file": "simulink/systems/system_root.xml",
+    "block": "Manual Switch",
+    "property": "CurrentSetting",
+    "before": "0",
+    "after": null
+  },
+  {
+    "file": "simulink/systems/system_root.xml",
+    "blockAddedOrRemoved": "2654",
+    "attrs": {
+      "BlockType": "ManualSwitch",
+      "Name": "Manual Switch1",
+      "SID": "2654"
+    }
+  },
+  {
+    "file": "simulink/systems/system_root.xml",
+    "block": "Manual Switch2",
+    "property": "CurrentSetting",
+    "before": "0",
+    "after": null
+  },
+  {
+    "file": "simulink/systems/system_root.xml",
+    "blockAddedOrRemoved": "2666",
+    "attrs": {
+      "BlockType": "Lookup_n-D",
+      "Name": "1-D Lookup\nTable5",
+      "SID": "2666"
+    }
+  },
+  {
+    "file": "simulink/systems/system_root.xml",
+    "lineDiff": [
+      "--- \n",
+      "+++ \n",
+      "@@ -86 +86 @@\n",
+      "-Src:2045#out:1|Dst:2151#in:1|Dst:2044#in:1|Dst:2439#in:1|Dst:2350#in:1",
+      "+Src:2045#out:1|Dst:2666#in:1|Dst:2151#in:1|Dst:2044#in:1|Dst:2439#in:1|Dst:2350#in:1",
+      "@@ -217 +217 @@\n",
+      "-Src:2151#out:1|Dst:1405#in:1|Dst:1924#in:1",
+      "+Src:2666#out:1|Dst:1405#in:1|Dst:1924#in:1"
+    ]
+  }
+]

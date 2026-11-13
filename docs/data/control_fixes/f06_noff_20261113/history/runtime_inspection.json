@@ -1,0 +1,82 @@
+{
+  "model1": {
+    "file": "cd3e1e5/ideal_source_Motor_DVS_newest_param.slx",
+    "parameters": {
+      "FocDiscrTime": 0.0001,
+      "Ld": 0.00026,
+      "Lq": 0.00026,
+      "Psi": 0.07437,
+      "PolePairs": 13,
+      "Is_max": 390,
+      "Rs": 0.02
+    },
+    "blocks": {
+      "Gain7": {
+        "path": "Gain7",
+        "Gain": "1"
+      },
+      "Sum4": {
+        "path": "Sum4",
+        "Inputs": "++"
+      },
+      "Sqrt1": {
+        "path": "Sqrt1",
+        "Operator": "sqrt",
+        "OutputSignalType": "auto"
+      },
+      "PIDController": {
+        "path": "PID Controller",
+        "P": "0.1",
+        "I": "500",
+        "SampleTime": "FocDiscrTime",
+        "IntegratorMethod": "Forward Euler",
+        "TimeDomain": "Discrete-time",
+        "Controller": "PI",
+        "LimitOutput": "on",
+        "AntiWindupMode": "clamping",
+        "UpperSaturationLimit": "0",
+        "LowerSaturationLimit": "-250"
+      }
+    }
+  },
+  "model2": {
+    "file": "68a95c2/ideal_source_drive.slx",
+    "parameters": {
+      "FocDiscrTime": 0.0001,
+      "Ld": 0.00031,
+      "Lq": 0.000305,
+      "Psi": 0.09569,
+      "PolePairs": 11,
+      "VDC": 400,
+      "Is_max": 450,
+      "Rs": 0.02
+    },
+    "blocks": {
+      "Gain7": {
+        "path": "Gain7",
+        "Gain": "1/sqrt(3)"
+      },
+      "Sum4": {
+        "path": "Sum4"
+      },
+      "Sqrt1": {
+        "path": "Sqrt1",
+        "Operator": "sqrt",
+        "OutputSignalType": "auto"
+      },
+      "PIDController": {
+        "path": "PID Controller",
+        "P": "0.1*5",
+        "I": "100*5",
+        "SampleTime": "FocDiscrTime*10",
+        "IntegratorMethod": "Forward Euler",
+        "TimeDomain": "Discrete-time",
+        "Controller": "PI",
+        "LimitOutput": "on",
+        "AntiWindupMode": "clamping",
+        "UpperSaturationLimit": "0",
+        "LowerSaturationLimit": "-300*Ld"
+      }
+    }
+  }
+}

@@ -1,0 +1,478 @@
+{
+  "maxReferenceCurrent": 418.3744070424314,
+  "maxMeasuredCurrent": 599.4282574207706,
+  "referenceWithinLimit": true,
+  "measuredWithinLimit": false,
+  "dutyWithinLimit": true,
+  "matSha256": "31d6bcb04faa5618909d4ecdbcb3496a8fca89f8b1bbcff779366e979a577114",
+  "sourceSha256": "baab8eb60150be352c001959fa3adab685f87e8426b54fed6a80c249b32cbe28",
+  "tracking_d": {
+    "maxAbsoluteError": 430.6727113495847,
+    "prolongedCount": 6,
+    "activeAtEnd": false,
+    "settledTail": 1.5978333333333339,
+    "recoveryObserved": true,
+    "episodeCount": 31,
+    "prolongedOrOpenEvents": [
+      {
+        "start": 6.02325,
+        "stop": 6.40125,
+        "duration": 0.3780000000000001,
+        "open": false,
+        "prolonged": true
+      },
+      {
+        "start": 8.023,
+        "stop": 8.40275,
+        "duration": 0.3797499999999996,
+        "open": false,
+        "prolonged": true
+      },
+      {
+        "start": 14.020166666666666,
+        "stop": 14.395583333333333,
+        "duration": 0.3754166666666663,
+        "open": false,
+        "prolonged": true
+      },
+      {
+        "start": 16.0205,
+        "stop": 16.310916666666667,
+        "duration": 0.290416666666669,
+        "open": false,
+        "prolonged": true
+      },
+      {
+        "start": 20.02283333333333,
+        "stop": 20.404916666666665,
+        "duration": 0.382083333333334,
+        "open": false,
+        "prolonged": true
+      },
+      {
+        "start": 23.023,
+        "stop": 23.402166666666666,
+        "duration": 0.37916666666666643,
+        "open": false,
+        "prolonged": true
+      }
+    ]
+  },
+  "tracking_q": {
+    "maxAbsoluteError": 394.28508651394316,
+    "prolongedCount": 6,
+    "activeAtEnd": false,
+    "settledTail": 1.2928333333333342,
+    "recoveryObserved": true,
+    "episodeCount": 63,
+    "prolongedOrOpenEvents": [
+      {
+        "start": 6.022833333333333,
+        "stop": 6.706666666666666,
+        "duration": 0.6838333333333333,
+        "open": false,
+        "prolonged": true
+      },
+      {
+        "start": 8.022583333333333,
+        "stop": 8.708166666666667,
+        "duration": 0.6855833333333337,
+        "open": false,
+        "prolonged": true
+      },
+      {
+        "start": 14.027249999999999,
+        "stop": 14.70375,
+        "duration": 0.6765000000000008,
+        "open": false,
+        "prolonged": true
+      },
+      {
+        "start": 16.067083333333333,
+        "stop": 16.61975,
+        "duration": 0.5526666666666671,
+        "open": false,
+        "prolonged": true
+      },
+      {
+        "start": 20.022416666666665,
+        "stop": 20.711333333333332,
+        "duration": 0.6889166666666675,
+        "open": false,
+        "prolonged": true
+      },
+      {
+        "start": 23.022583333333333,
+        "stop": 23.707166666666666,
+        "duration": 0.6845833333333324,
+        "open": false,
+        "prolonged": true
+      }
+    ]
+  },
+  "dSaturation": {
+    "definition": "abs(Ud)>=Ulim-1e-6 V and abs(Uq)<0.1 V, no gap merging",
+    "longestDuration": 0.6955833333333352,
+    "totalDuration": 4.123583333333328,
+    "episodesOver20msOrOpen": [
+      {
+        "start": 6.015583333333333,
+        "end": 6.706083333333333,
+        "duration": 0.6905000000000001,
+        "open": false
+      },
+      {
+        "start": 8.015333333333333,
+        "end": 8.7075,
+        "duration": 0.692166666666667,
+        "open": false
+      },
+      {
+        "start": 14.0125,
+        "end": 14.703249999999999,
+        "duration": 0.6907499999999995,
+        "open": false
+      },
+      {
+        "start": 16.01275,
+        "end": 16.6195,
+        "duration": 0.6067499999999981,
+        "open": false
+      },
+      {
+        "start": 20.015166666666666,
+        "end": 20.71075,
+        "duration": 0.6955833333333352,
+        "open": false
+      },
+      {
+        "start": 23.015333333333334,
+        "end": 23.70658333333333,
+        "duration": 0.6912499999999966,
+        "open": false
+      }
+    ]
+  },
+  "id": "sg2900_hold_user",
+  "scenario": {
+    "stopTime": 25,
+    "VDC": 440,
+    "Is_max": 420,
+    "deltaLd": 0.05,
+    "deltaLq": 0.2,
+    "deltaPsi": 0.1,
+    "deltaRs": 0,
+    "speedTime": [
+      0,
+      0.5,
+      1,
+      24,
+      25
+    ],
+    "speedValues": [
+      0,
+      200,
+      303.68728984701335,
+      303.68728984701335,
+      0
+    ],
+    "iqTime": [
+      0,
+      1.1,
+      1.11,
+      2.0,
+      2.01,
+      3.0,
+      3.01,
+      4.0,
+      4.01,
+      5.0,
+      5.01,
+      6.0,
+      6.01,
+      7.0,
+      7.01,
+      8.0,
+      8.01,
+      9.0,
+      9.01,
+      10.0,
+      10.01,
+      11.0,
+      11.01,
+      12.0,
+      12.01,
+      13.0,
+      13.01,
+      14.0,
+      14.01,
+      15.0,
+      15.01,
+      16.0,
+      16.01,
+      17.0,
+      17.01,
+      18.0,
+      18.01,
+      19.0,
+      19.01,
+      20.0,
+      20.01,
+      21.0,
+      21.01,
+      23.0,
+      23.01,
+      25.0
+    ],
+    "iqFraction": [
+      0,
+      0,
+      0.1,
+      0.1,
+      0,
+      0,
+      0.3,
+      0.3,
+      0,
+      0,
+      0.5,
+      0.5,
+      0,
+      0,
+      1,
+      1,
+      0,
+      0,
+      -0.1,
+      -0.1,
+      0,
+      0,
+      -0.25,
+      -0.25,
+      0,
+      0,
+      1,
+      1,
+      -0.1,
+      -0.1,
+      1,
+      1,
+      -0.25,
+      -0.25,
+      0.1,
+      0.1,
+      -0.1,
+      -0.1,
+      1,
+      1,
+      0,
+      0,
+      1,
+      1,
+      0,
+      0
+    ],
+    "id": "sg2900_hold_user",
+    "profile": "hold",
+    "description": "Hold at 2900 rpm with 10 ms q changes",
+    "speedLimitRadPerSec": 303.68728984701335
+  },
+  "toolSha256": "458a4126e867a6bf51efb4428be04e7156b9dfdb808575c39c6e8b19fa6aa678",
+  "actualFwPeriod": 8.333333333321313e-05,
+  "fwVerification": {
+    "cmdResidual": 0,
+    "trimResidual": 0,
+    "errorResidual": 0,
+    "nextStateResidual": 0
+  },
+  "peakTime": 6.016416666666666,
+  "torqueFormulaMaxResidualNm": 0.007413065471041591,
+  "torqueFormulaRelativeToPeakResidual": 8.970616895070436e-06,
+  "maxCurrentAt2900rpm": 599.4282574207706,
+  "maxSpeed": 303.6872898470079,
+  "speedLimitRadPerSec": 303.68728984701335,
+  "maxRpm": 2899.9999999999477,
+  "maxQErrorAfter50ms": 394.28508651394316,
+  "maxDErrorAfter50ms": 430.6727113495847,
+  "settledInputDuration": 21.6215,
+  "settledMaxQError": 221.32997289774016,
+  "settledMaxDError": 228.0029530541131,
+  "zeroRequestMaxIq": 221.32997289774016,
+  "wrongIqSignWhenSettled": {
+    "totalDuration": 0,
+    "longestDuration": 0.0,
+    "prolongedOrOpen": []
+  },
+  "stationaryVoltageExcessWhenSettled": {
+    "totalDuration": 0,
+    "longestDuration": 0.0,
+    "prolongedOrOpen": []
+  },
+  "currentExcess": {
+    "totalDuration": 0.05716666666666104,
+    "longestDuration": 0.0009999999999994458,
+    "prolongedOrOpen": []
+  },
+  "selectedEstimatesMatchEstimatorOutputs": true,
+  "parameterRangesAfter50ms": {
+    "Psi": {
+      "min": 0.10251614841771907,
+      "max": 0.11080876994445328,
+      "tailMean": 0.10937763168427354,
+      "truePlantValue": 0.11264000000000002
+    },
+    "Lq": {
+      "min": 6.142964528480616e-05,
+      "max": 0.00042699427393361867,
+      "tailMean": 0.00029199171749963383,
+      "truePlantValue": 0.00036599999999999995
+    }
+  },
+  "settledSpeedBands": [
+    {
+      "speed": 303.68728984701335,
+      "duration": 21.6215,
+      "maxCurrent": 413.8570242627174,
+      "maxQError": 221.32997289774016,
+      "maxDError": 228.0029530541131
+    }
+  ],
+  "samples": [
+    {
+      "time": 6.016416666666666,
+      "Idref": -112.98279929238292,
+      "Iqref": 0.0,
+      "speed": 303.6872898470079,
+      "Id": -530.0539448794227,
+      "Iq": -279.9232954083377,
+      "Iq_request": 0.0,
+      "Ud": 251.49377725900098,
+      "Uq": 0.03162277660169366,
+      "Uq_limit": 0.03162277660168379,
+      "Ud_raw": 1107.2519292061147,
+      "Uq_raw": 327.7060750593887,
+      "Uss_ref": 253.438662007813,
+      "Pmech": -188.1071562286644,
+      "Pcommand": 0.0,
+      "Psi_used": 0.10934873522031041,
+      "Lq_used": 0.00035513225066322875
+    },
+    {
+      "time": 13.008666666666667,
+      "Idref": -308.80854014514773,
+      "Iqref": 282.2665938461878,
+      "speed": 303.6872898470079,
+      "Id": -271.13400788881927,
+      "Iq": 177.6516185178042,
+      "Iq_request": 364.00000000000495,
+      "Ud": -232.32697019199742,
+      "Uq": 96.29796945630132,
+      "Uq_limit": 96.29796945630132,
+      "Ud_raw": -232.32697019199742,
+      "Uq_raw": 282.0932290515122,
+      "Uss_ref": 354.3055006200259,
+      "Pmech": 110.04639309878793,
+      "Pcommand": 177.00665866824536,
+      "Psi_used": 0.11080871963887558,
+      "Lq_used": 0.0002345022964806778
+    },
+    {
+      "time": 6.016416666666666,
+      "Idref": -112.98279929238292,
+      "Iqref": 0.0,
+      "speed": 303.6872898470079,
+      "Id": -530.0539448794227,
+      "Iq": -279.9232954083377,
+      "Iq_request": 0.0,
+      "Ud": 251.49377725900098,
+      "Uq": 0.03162277660169366,
+      "Uq_limit": 0.03162277660168379,
+      "Ud_raw": 1107.2519292061147,
+      "Uq_raw": 327.7060750593887,
+      "Uss_ref": 253.438662007813,
+      "Pmech": -188.1071562286644,
+      "Pcommand": 0.0,
+      "Psi_used": 0.10934873522031041,
+      "Lq_used": 0.00035513225066322875
+    },
+    {
+      "time": 6.052833333333333,
+      "Idref": -125.21090021835785,
+      "Iqref": 0.0,
+      "speed": 303.6872898470079,
+      "Id": -336.19550727668394,
+      "Iq": -191.73567069789948,
+      "Iq_request": 0.0,
+      "Ud": 251.49377725900098,
+      "Uq": 0.031622776601683,
+      "Uq_limit": 0.03162277660168379,
+      "Ud_raw": 625.7496614580634,
+      "Uq_raw": 366.9267190826138,
+      "Uss_ref": 240.14539135676077,
+      "Pmech": -121.3017848242933,
+      "Pcommand": 0.0,
+      "Psi_used": 0.10930362476459433,
+      "Lq_used": 0.0003651856666354465
+    },
+    {
+      "time": 8.052583333333333,
+      "Idref": -124.13977711202759,
+      "Iqref": 0.0,
+      "speed": 303.6872898470079,
+      "Id": -335.0069263371096,
+      "Iq": -192.26164456471977,
+      "Iq_request": 0.0,
+      "Ud": 251.49377725900098,
+      "Uq": 0.031622776601683,
+      "Uq_limit": 0.03162277660168379,
+      "Ud_raw": 626.1492332588457,
+      "Uq_raw": 367.4725023040577,
+      "Uss_ref": 241.3097951902548,
+      "Pmech": -121.58841644802175,
+      "Pcommand": 0.0,
+      "Psi_used": 0.1085116889203276,
+      "Lq_used": 0.0003633836825650557
+    },
+    {
+      "time": 14.05725,
+      "Idref": -129.11281987111127,
+      "Iqref": -42.0,
+      "speed": 303.6872898470079,
+      "Id": -340.08353376629685,
+      "Iq": -198.3941529981867,
+      "Iq_request": -42.0,
+      "Ud": 251.49377725900098,
+      "Uq": 0.031622776601683,
+      "Uq_limit": 0.03162277660168379,
+      "Ud_raw": 635.2472736235005,
+      "Uq_raw": 297.6392104407564,
+      "Uss_ref": 240.05562031481386,
+      "Pmech": -125.67051262580921,
+      "Pcommand": -24.806169361227216,
+      "Psi_used": 0.10943842406020174,
+      "Lq_used": 0.0003651802710194614
+    },
+    {
+      "time": 6.061166666666667,
+      "Idref": -128.0049125347497,
+      "Iqref": 0.0,
+      "speed": 303.6872898470079,
+      "Id": -340.58152491667164,
+      "Iq": -221.32997289774016,
+      "Iq_request": 0.0,
+      "Ud": 251.49377725900098,
+      "Uq": 0.031622776601683,
+      "Uq_limit": 0.03162277660168379,
+      "Ud_raw": 666.1423244505838,
+      "Uq_raw": 416.5045257471446,
+      "Uss_ref": 237.10807959151225,
+      "Pmech": -140.2220032419989,
+      "Pcommand": 0.0,
+      "Psi_used": 0.10929233263815527,
+      "Lq_used": 0.00036698276402143495
+    }
+  ],
+  "regressionPass": false,
+  "qualityToleranceA": 8.4,
+  "settledQualityPass": false
+}

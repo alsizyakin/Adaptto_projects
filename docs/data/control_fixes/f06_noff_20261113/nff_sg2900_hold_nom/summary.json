@@ -1,0 +1,475 @@
+{
+  "sourceSha256": "7a84f5f03694dd2af2cf3677ad95cf5b50bc18f1f8b79cb70d084ae730a7175f",
+  "nff_sg2900_hold_nom": {
+    "currentLimit": 420,
+    "measuredLimit": 441,
+    "errorThreshold": 100,
+    "durationThreshold": 0.02,
+    "nonfinite": [],
+    "finite": true,
+    "completed": true,
+    "fullResolution": true,
+    "coverage": true,
+    "jointReferenceLog": true,
+    "maxReferenceCurrent": 390.34922993096649,
+    "maxMeasuredCurrent": 596.39269765123242,
+    "referenceWithinLimit": true,
+    "measuredWithinLimit": false,
+    "referenceExcess": [],
+    "tracking_d": {
+      "maxAbsoluteError": 409.17757930164743,
+      "events": [
+        {
+          "start": 11.01475,
+          "stop": 11.016166666666667,
+          "duration": 0.0014166666666675098,
+          "open": false,
+          "prolonged": false
+        },
+        {
+          "start": 11.016666666666666,
+          "stop": 11.018166666666666,
+          "duration": 0.0015000000000000568,
+          "open": false,
+          "prolonged": false
+        },
+        {
+          "start": 11.0185,
+          "stop": 11.020083333333332,
+          "duration": 0.0015833333333326038,
+          "open": false,
+          "prolonged": false
+        },
+        {
+          "start": 11.020249999999999,
+          "stop": 11.392249999999999,
+          "duration": 0.37199999999999989,
+          "open": false,
+          "prolonged": true
+        }
+      ],
+      "prolongedCount": 1,
+      "activeAtEnd": false,
+      "settledTail": 13.607750000000001,
+      "recoveryObserved": true
+    },
+    "tracking_q": {
+      "maxAbsoluteError": 335.56805377772088,
+      "events": [
+        {
+          "start": 5.0065,
+          "stop": 5.052,
+          "duration": 0.045499999999999652,
+          "open": false,
+          "prolonged": true
+        },
+        {
+          "start": 7.003,
+          "stop": 7.0785,
+          "duration": 0.0754999999999999,
+          "open": false,
+          "prolonged": true
+        },
+        {
+          "start": 11.014333333333333,
+          "stop": 11.015583333333334,
+          "duration": 0.0012500000000006395,
+          "open": false,
+          "prolonged": false
+        },
+        {
+          "start": 11.016333333333334,
+          "stop": 11.017416666666666,
+          "duration": 0.0010833333333319928,
+          "open": false,
+          "prolonged": false
+        },
+        {
+          "start": 11.018166666666666,
+          "stop": 11.019333333333332,
+          "duration": 0.0011666666666663161,
+          "open": false,
+          "prolonged": false
+        },
+        {
+          "start": 11.020083333333332,
+          "stop": 11.02125,
+          "duration": 0.0011666666666680925,
+          "open": false,
+          "prolonged": false
+        },
+        {
+          "start": 11.021916666666666,
+          "stop": 11.023166666666667,
+          "duration": 0.0012500000000006395,
+          "open": false,
+          "prolonged": false
+        },
+        {
+          "start": 11.023833333333332,
+          "stop": 11.025,
+          "duration": 0.0011666666666680925,
+          "open": false,
+          "prolonged": false
+        },
+        {
+          "start": 11.025666666666666,
+          "stop": 11.026916666666667,
+          "duration": 0.0012500000000006395,
+          "open": false,
+          "prolonged": false
+        },
+        {
+          "start": 11.0275,
+          "stop": 11.028833333333333,
+          "duration": 0.0013333333333331865,
+          "open": false,
+          "prolonged": false
+        },
+        {
+          "start": 11.029333333333334,
+          "stop": 11.03075,
+          "duration": 0.0014166666666657335,
+          "open": false,
+          "prolonged": false
+        },
+        {
+          "start": 11.03125,
+          "stop": 11.032666666666666,
+          "duration": 0.0014166666666657335,
+          "open": false,
+          "prolonged": false
+        },
+        {
+          "start": 11.033083333333334,
+          "stop": 11.034666666666666,
+          "duration": 0.0015833333333326038,
+          "open": false,
+          "prolonged": false
+        },
+        {
+          "start": 11.034833333333333,
+          "stop": 11.710416666666667,
+          "duration": 0.67558333333333387,
+          "open": false,
+          "prolonged": true
+        },
+        {
+          "start": 13.003,
+          "stop": 13.0785,
+          "duration": 0.0754999999999999,
+          "open": false,
+          "prolonged": true
+        },
+        {
+          "start": 15.0045,
+          "stop": 15.071416666666666,
+          "duration": 0.066916666666665847,
+          "open": false,
+          "prolonged": true
+        },
+        {
+          "start": 19.0045,
+          "stop": 19.071416666666668,
+          "duration": 0.066916666666667624,
+          "open": false,
+          "prolonged": true
+        },
+        {
+          "start": 21.003,
+          "stop": 21.0785,
+          "duration": 0.075499999999998124,
+          "open": false,
+          "prolonged": true
+        }
+      ],
+      "prolongedCount": 7,
+      "activeAtEnd": false,
+      "settledTail": 3.9215000000000018,
+      "recoveryObserved": true
+    },
+    "dutyWithinLimit": true,
+    "minDuty": 0.0050006866475055534,
+    "maxDuty": 0.99499931335249447,
+    "fwVerification": {
+      "cmdResidual": 0,
+      "trimResidual": 0,
+      "errorResidual": 0,
+      "nextStateResidual": 0
+    },
+    "controlStructure": {
+      "source": "/home/alexey/Git/Matlab/Adaptto/tmp/f06_noff_20261113/nff_sg2900_hold_nom/baseline_source.slx",
+      "sha256": "7a84f5f03694dd2af2cf3677ad95cf5b50bc18f1f8b79cb70d084ae730a7175f",
+      "parameters": {
+        "Is_max": 420,
+        "FocDiscrTime": 8.3333333333333331E-5,
+        "Ld": 0.00031,
+        "Lq": 0.000305,
+        "Psi": 0.1024,
+        "Rs": 0.02,
+        "PolePairs": 11,
+        "VDC": 440,
+        "mMaxPWM": 0.99,
+        "mMaxCurrent": 0.99,
+        "mFW": 0.95,
+        "deltaLd": 0,
+        "deltaLq": 0,
+        "deltaPsi": 0,
+        "deltaRs": 0
+      },
+      "fwBlock": "fw_trim",
+      "updateMethod": "Discrete",
+      "sampleTimeExpression": "FocDiscrTime",
+      "configuredFunctionSampleTime": 8.3333333333333331E-5,
+      "subsystemSampleTimeExpression": "-1",
+      "subsystemSampleTime": -1,
+      "directFeedthrough": true,
+      "legacyPIDCommented": "on",
+      "idReferenceDelay": 4.1666666666666665E-5,
+      "timeDataScope": "Parameter",
+      "timeDataTunable": true,
+      "codeMatchesReferenceIgnoringComments": true,
+      "inputs": {
+        "psi_ff": {
+          "block": "Experiment_FF_gain",
+          "port": 1
+        },
+        "eU": {
+          "block": "Sum11",
+          "port": 1
+        },
+        "Ufw": {
+          "block": "From65",
+          "port": 1
+        },
+        "psi_min": {
+          "block": "Gain11",
+          "port": 1
+        },
+        "psi_max": {
+          "block": "Constant15",
+          "port": 1,
+          "value": 0
+        },
+        "Kpsi": {
+          "block": "Constant17",
+          "port": 1,
+          "value": 2.5
+        }
+      },
+      "dLimitGain": 1,
+      "qBudgetGain": 0.95,
+      "speedProfile": {
+        "block": "1-D Lookup Table5",
+        "time": [
+          0,
+          0.5,
+          1,
+          24,
+          25
+        ],
+        "speed": [
+          0,
+          200,
+          303.68728984701329,
+          303.68728984701329,
+          0
+        ]
+      },
+      "stopTime": 25,
+      "actualSampleTime": 8.3333333333213133E-5,
+      "periodToIntegrationStepRatio": 0.9999999999985576
+    },
+    "sourceSha256": "7a84f5f03694dd2af2cf3677ad95cf5b50bc18f1f8b79cb70d084ae730a7175f",
+    "modelSha256": "15ae955ebd6628c85f4c457f1a4752f96b0045eebe3e4dae6aa2e296e77dac2f",
+    "matSha256": "65b4bd888adda775b77a5215625a4cf11a642c0054ec2807c96394a3c8a28672",
+    "parameters": {
+      "Is_max": 420,
+      "FocDiscrTime": 8.3333333333333331E-5,
+      "Ld": 0.00031,
+      "Lq": 0.000305,
+      "Psi": 0.1024,
+      "Rs": 0.02,
+      "PolePairs": 11,
+      "VDC": 440,
+      "mMaxPWM": 0.99,
+      "mMaxCurrent": 0.99,
+      "mFW": 0.95,
+      "deltaLd": 0,
+      "deltaLq": 0,
+      "deltaPsi": 0,
+      "deltaRs": 0
+    },
+    "overrides": {
+      "deltaLd": 0,
+      "deltaLq": 0,
+      "deltaPsi": 0,
+      "deltaRs": 0,
+      "VDC": 440,
+      "Is_max": 420
+    },
+    "finalTime": 25,
+    "elapsed": 135.767221,
+    "signalCount": 63,
+    "speedProfile": {
+      "block": "1-D Lookup Table5",
+      "time": [
+        0,
+        0.5,
+        1,
+        24,
+        25
+      ],
+      "speed": [
+        0,
+        200,
+        303.68728984701329,
+        303.68728984701329,
+        0
+      ],
+      "maxMeasuredSpeed": 303.687289847008
+    },
+    "userSourceSha256": "a659ad73c6900842f769adef4e45a95ee696bca25d79e3af9640b94603ef558e",
+    "profileSelection": "hold",
+    "releaseScenario": {
+      "stopTime": 25,
+      "VDC": 440,
+      "Is_max": 420,
+      "deltaLd": 0,
+      "deltaLq": 0,
+      "deltaPsi": 0,
+      "deltaRs": 0,
+      "speedTime": [
+        0,
+        0.5,
+        1,
+        24,
+        25
+      ],
+      "speedValues": [
+        0,
+        200,
+        303.68728984701335,
+        303.68728984701335,
+        0
+      ],
+      "iqTime": [
+        0,
+        1.1,
+        1.11,
+        2,
+        2.01,
+        3,
+        3.01,
+        4,
+        4.01,
+        5,
+        5.01,
+        6,
+        6.01,
+        7,
+        7.01,
+        8,
+        8.01,
+        9,
+        9.01,
+        10,
+        10.01,
+        11,
+        11.01,
+        12,
+        12.01,
+        13,
+        13.01,
+        14,
+        14.01,
+        15,
+        15.01,
+        16,
+        16.01,
+        17,
+        17.01,
+        18,
+        18.01,
+        19,
+        19.01,
+        20,
+        20.01,
+        21,
+        21.01,
+        23,
+        23.01,
+        25
+      ],
+      "iqFraction": [
+        0,
+        0,
+        0.1,
+        0.1,
+        0,
+        0,
+        0.3,
+        0.3,
+        0,
+        0,
+        0.5,
+        0.5,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        -0.1,
+        -0.1,
+        0,
+        0,
+        -0.25,
+        -0.25,
+        0,
+        0,
+        1,
+        1,
+        -0.1,
+        -0.1,
+        1,
+        1,
+        -0.25,
+        -0.25,
+        0.1,
+        0.1,
+        -0.1,
+        -0.1,
+        1,
+        1,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0
+      ],
+      "id": "nff_sg2900_hold_nom",
+      "profile": "hold",
+      "description": "F06 FF contribution disabled, Kpsi 2.5; Hold at 2900 rpm with 10 ms q changes",
+      "speedLimitRadPerSec": 303.68728984701335,
+      "referenceCase": "sg2900_hold_nom"
+    },
+    "parameterSelection": {
+      "ManualSwitch": {
+        "setting": "1",
+        "inputs": [
+          "Low-Pass Filter\n(Discrete or Continuous)7",
+          "Constant6"
+        ]
+      },
+      "ManualSwitch2": {
+        "setting": "1",
+        "inputs": [
+          "Low-Pass Filter\n(Discrete or Continuous)9",
+          "Constant12"
+        ]
+      }
+    }
+  }
+}

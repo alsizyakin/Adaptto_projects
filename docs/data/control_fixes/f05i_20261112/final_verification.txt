@@ -1,0 +1,23 @@
+F05-I final verification, 2026-11-12
+14 completed 25 s simulations, no decimation; six oscillograms visually inspected.
+hold204_k150_ldp20: I=150, deltaLd=+0.2, max I=709.325270822 A, completed/finite/full-resolution/source/gain/scenario/duty verified
+hold204_k150_nom: I=150, deltaLd=+0, max I=759.268657821 A, completed/finite/full-resolution/source/gain/scenario/duty verified
+hold204_k15_ldp20: I=15, deltaLd=+0.2, max I=709.327118409 A, completed/finite/full-resolution/source/gain/scenario/duty verified
+hold204_k15_nom: I=15, deltaLd=+0, max I=759.264286219 A, completed/finite/full-resolution/source/gain/scenario/duty verified
+sweep738_k150_ldm20: I=150, deltaLd=-0.2, max I=863.493451276 A, completed/finite/full-resolution/source/gain/scenario/duty verified
+sweep738_k150_ldp20: I=150, deltaLd=+0.2, max I=442.503408989 A, completed/finite/full-resolution/source/gain/scenario/duty verified
+sweep738_k150_nom: I=150, deltaLd=+0, max I=421.203678135 A, completed/finite/full-resolution/source/gain/scenario/duty verified
+sweep738_k15_ldm20: I=15, deltaLd=-0.2, max I=863.493451301 A, completed/finite/full-resolution/source/gain/scenario/duty verified
+sweep738_k15_ldp20: I=15, deltaLd=+0.2, max I=712.276073749 A, completed/finite/full-resolution/source/gain/scenario/duty verified
+sweep738_k15_nom: I=15, deltaLd=+0, max I=752.386901173 A, completed/finite/full-resolution/source/gain/scenario/duty verified
+sweep738_k1p5_ldp20: I=1.5, deltaLd=+0.2, max I=1130.579883827 A, completed/finite/full-resolution/source/gain/scenario/duty verified
+sweep738_k450_ldp20: I=450, deltaLd=+0.2, max I=442.478453600 A, completed/finite/full-resolution/source/gain/scenario/duty verified
+sweep738_k45_ldp20: I=45, deltaLd=+0.2, max I=687.997995776 A, completed/finite/full-resolution/source/gain/scenario/duty verified
+sweep738_k45_nom: I=45, deltaLd=+0, max I=742.167782387 A, completed/finite/full-resolution/source/gain/scenario/duty verified
+ideal_source_drive_Idff_aug_param_woFreeze.slx: current SHA-256 6c8ac5f0ca8cdb88fcce1ea34436d1b86f15cb57e92027b6321e1fec51495199; matches inspection=True
+ideal_source_drive_Idff_aug_param.slx: current SHA-256 b4a938647d12a4e7695ca3e9cee42bd70964739419f6c0c66a922da2bdf6a824; matches inspection=True
+All source/input/output hashes were checked during MATLAB verification and Python analysis.
+First integrator step matches I*Ts*dPsi[0]; actual gate is constant 1 and input equals dPsi.
+Markdown local links/fences/whitespace and Python syntax: passed.
+git diff --check: passed. User working SLX/XLSX not edited; no cleanup performed.
+Simulation/data verification passed. Controller acceptance failed in documented scenarios; no gain accepted as a complete correction.

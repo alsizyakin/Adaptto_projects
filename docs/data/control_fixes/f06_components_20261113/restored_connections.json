@@ -1,0 +1,32 @@
+{
+  "removed": [],
+  "added": [
+    [
+      "1813#out:1",
+      "2670#in:1"
+    ],
+    [
+      "2319#out:1",
+      "2318#in:2"
+    ],
+    [
+      "2637#out:1",
+      "2670#in:2"
+    ],
+    [
+      "2668#out:1",
+      "2670#in:3"
+    ]
+  ],
+  "existingEmbeddedCodeUnchanged": true,
+  "modelWorkspaceUnchanged": true,
+  "otherFunctionalChange": {
+    "block": "VectorBase/Gain1",
+    "before": 1,
+    "after": 0.98
+  },
+  "otherAddedBlock": {
+    "name": "Scope2",
+    "type": "Scope"
+  }
+}

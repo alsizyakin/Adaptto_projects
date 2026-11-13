@@ -1,0 +1,6 @@
+sg2900_hold_nom Imax 605.287 settled q/d 153.64309660951716 203.1334622834955 regression False quality False
+sg2900_hold_user Imax 599.428 settled q/d 221.32997289774016 228.0029530541131 regression False quality False
+sg2900_cycles_nom Imax 759.77 settled q/d 212.98966716538604 240.9785702468705 regression False quality False
+sg2900_cycles_user Imax 750.996 settled q/d 170.78097770440672 235.2853034427944 regression False quality False
+sg2900_startgen_nom Imax 609.091 settled q/d 321.06927720476307 169.95600562013865 regression False quality False
+sg2900_startgen_user Imax 739.542 settled q/d 319.9151810578187 322.7031873839665 regression False quality False

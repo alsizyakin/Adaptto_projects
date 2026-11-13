@@ -1,0 +1,226 @@
+{
+  "review_date": "2026-11-13",
+  "scope": "PMSM field-weakening loop architecture and priorities for Adaptto F06/F07",
+  "model_modified": false,
+  "new_simulink_runs": false,
+  "source_count": 19,
+  "sources": [
+    {
+      "id": "B1",
+      "type": "book",
+      "authors": "Seung-Ki Sul",
+      "year": 2011,
+      "title": "Control of Electric Machine Drive Systems",
+      "url": "https://www.wiley-vch.de/de/fachgebiete/ingenieurwesen/elektrotechnik-und-elektronik-10ee/regelungstechnik-10ee3/control-of-electric-machine-drive-systems-978-0-470-59079-9",
+      "access": "publisher_description_and_toc",
+      "sections": "4.2; 5.4; 7.3; Appendix A",
+      "note": "Полные главы не прочитаны; маршрут для изучения токового контура, ОП и дискретных задержек."
+    },
+    {
+      "id": "B2",
+      "type": "book",
+      "authors": "R. W. De Doncker; D. W. J. Pulle; A. Veltman",
+      "year": 2020,
+      "title": "Advanced Electrical Drives: Control of Synchronous Machine Drives",
+      "url": "https://link.springer.com/chapter/10.1007/978-3-030-48977-9_7",
+      "doi": "10.1007/978-3-030-48977-9_7",
+      "access": "publisher_chapter_abstract",
+      "sections": "Chapter 7, pp.179–219",
+      "note": "Полный текст главы не получен; явнополюсные и неявнополюсные машины, FOC, ОП, учебные примеры."
+    },
+    {
+      "id": "M1",
+      "type": "thesis",
+      "authors": "Oskar Wallmark",
+      "year": 2004,
+      "title": "On Control of Permanent-Magnet Synchronous Motors in Hybrid-Electric Vehicle Applications",
+      "url": "https://publications.lib.chalmers.se/records/fulltext/2386.pdf",
+      "access": "full_pdf_selected_sections_read_and_rendered",
+      "sections": "2.3, pp.27–36; especially 2.3.2–2.3.3, eqs.2.55–2.64",
+      "note": "Прямое регулирование Id по квадрату напряжения; разные динамические модели внутри и на границе токового круга. Формула усиления с оговорёнными допущениями."
+    },
+    {
+      "id": "L1",
+      "type": "lecture",
+      "authors": "NPTEL",
+      "title": "Module 7, Lecture 26: Flux Weakening Control of PM Machines",
+      "url": "https://archive.nptel.ac.in/content/storage2/courses/108103009/module7/lec26/3.html",
+      "access": "lecture_page_read",
+      "sections": "Page 3",
+      "note": "Учебная схема задания амплитуды и угла тока; не готовая настройка переходных режимов."
+    },
+    {
+      "id": "R1",
+      "type": "review_paper",
+      "authors": "N. Bianchi; P. G. Carlet; L. Cinti; L. Ortombina",
+      "year": 2022,
+      "title": "A Review about Flux-Weakening Operating Limits and Control Techniques for Synchronous Motor Drives",
+      "url": "https://www.mdpi.com/1996-1073/15/5/1930",
+      "doi": "10.3390/en15051930",
+      "access": "full_html_selected_sections_read",
+      "sections": "Section 4, especially 4.2; figures 10–11",
+      "note": "Классификация FF, feedback, hybrid; различие воздействия на Id и угол тока; ограничения точной линеаризации."
+    },
+    {
+      "id": "R2",
+      "type": "experimental_comparison",
+      "authors": "Anton Dianov",
+      "year": 2023,
+      "title": "Comparison of Feedback Field-Weakening Techniques for Synchronous Machines with Permanent Magnets",
+      "url": "https://www.mdpi.com/2624-8921/5/4/91",
+      "doi": "10.3390/vehicles5040091",
+      "access": "full_html_selected_sections_read",
+      "sections": "Sections 2–7",
+      "note": "Сравнение трёх структур на автомобильном компрессоре; параметры испытанной машины меняются менее 5%. Выводы не переносить как доказательство для нашего стартер-генератора."
+    },
+    {
+      "id": "R3",
+      "type": "research_paper",
+      "authors": "S. Bolognani; S. Calligaro; R. Petrella",
+      "year": 2014,
+      "title": "Adaptive Flux-Weakening Controller for Interior Permanent Magnet Synchronous Motor Drives",
+      "url": "https://air.uniud.it/handle/11390/1064184",
+      "access": "author_institution_abstract_only",
+      "sections": "Abstract; JESTPE 2(2), pp.236–248",
+      "note": "Адаптация регулятора по рабочей точке с учётом нелинейности и дискретности. Полного текста в карточке нет; формулы не проверены."
+    },
+    {
+      "id": "R4",
+      "type": "research_paper",
+      "authors": "N. Bedetti; S. Calligaro; R. Petrella",
+      "year": 2020,
+      "title": "Analytical Design and Autotuning of Adaptive Flux-Weakening Voltage Regulation Loop in IPMSM Drives With Accurate Torque Regulation",
+      "url": "https://bia.unibz.it/esploro/outputs/journalArticle/Analytical-Design-and-Autotuning-of-Adaptive/991006906253801241",
+      "doi": "10.1109/TIA.2019.2942807",
+      "access": "indexed_institutional_abstract_only",
+      "sections": "Abstract; TIA 56(1), pp.301–313",
+      "note": "Явное задание момента и адаптация усиления; полная статья помечена Open Access в каталоге, но PDF в этом обзоре не получен. Не считать проверенной реализацией."
+    },
+    {
+      "id": "R5",
+      "type": "research_paper",
+      "authors": "J. Jacob; O. Bottesi; S. Calligaro; R. Petrella",
+      "year": 2021,
+      "title": "Design Criteria for Flux-Weakening Control Bandwidth and Voltage Margin in IPMSM Drives Considering Transient Conditions",
+      "url": "https://www.researchgate.net/publication/352041457_Design_Criteria_for_Flux-Weakening_Control_Bandwidth_and_Voltage_Margin_in_IPMSM_Drives_Considering_Transient_Conditions",
+      "doi": "10.1109/TIA.2021.3085535",
+      "access": "author_uploaded_fulltext_selected_sections_read",
+      "sections": "Introduction; torque disturbance analysis; Conclusions; Table II",
+      "note": "Совместный выбор полосы, фильтров и запаса для разгона, скачка момента и просадки шины. Анализ чувствительности к ошибке параметров оставлен авторами на дальнейшую работу. Формулы таблицы II не переносились из повреждённого HTML."
+    },
+    {
+      "id": "R6",
+      "type": "research_paper",
+      "authors": "T.-S. Kwon; S.-K. Sul",
+      "year": 2006,
+      "title": "Novel Antiwindup of a Current Regulator of a Surface-Mounted Permanent-Magnet Motor for Flux-Weakening Control",
+      "url": "https://doi.org/10.1109/TIA.2006.880836",
+      "abstract_url": "https://www.researchgate.net/publication/3172201_Novel_Antiwindup_of_a_Current_Regulator_of_a_Surface-Mounted_Permanent-Magnet_Motor_for_Flux-Weakening_Control",
+      "doi": "10.1109/TIA.2006.880836",
+      "access": "paper_abstract_only_via_researchgate",
+      "sections": "Abstract; TIA42(5), pp.1293–1300",
+      "note": "По аннотации разность требуемого и ограниченного Uq используется для изменения Id и согласования ОП с anti-windup. Полный текст не получен; SPM, не автоматическое обоснование нашего F07."
+    },
+    {
+      "id": "A1",
+      "type": "application_note",
+      "authors": "Eddy Ho; International Rectifier / Infineon",
+      "title": "AN-1090: IRMCF3xx Series Controller Dynamics and Tuning",
+      "url": "https://www.infineon.com/dgdl/Infineon-IRMCF3xx_Series_Controller_Dynamics_and_Tuning-AN-v01_00-EN.pdf?fileId=5546d462533600a401535595acd1103c",
+      "access": "full_pdf_fw_text_read",
+      "sections": "Field-Weakening Controller, pp.10–11, figs.14–16",
+      "note": "Интегральный контур модуляции, коррекция усиления по скорости. Указанные 0.1–0.4 с относятся к бытовым нагрузкам и не являются нашей настройкой."
+    },
+    {
+      "id": "A2",
+      "type": "application_note",
+      "authors": "NXP",
+      "year": 2020,
+      "title": "AN12235: 3-Phase Sensorless PMSM Motor Control Kit with S32K144",
+      "url": "https://www.nxp.com/docs/en/application-note/AN12235.pdf",
+      "version": "Rev.1, 06/2020",
+      "access": "full_pdf_selected_sections_read_and_figure_rendered",
+      "sections": "3.5; 4.3.4; Fig.40, p.42",
+      "note": "В AMCLIB_FW видны UQLim, UQReq и ошибка Iq с учётом направления, фильтр, ПИ и преобразование угла в токи. Схема не тождественна F07 с расчётным Ud."
+    },
+    {
+      "id": "A3",
+      "type": "application_note",
+      "authors": "Microchip",
+      "title": "AN2520: Sensorless FOC Using a PLL Estimator and Equation-based Flux Weakening",
+      "url": "https://onlinedocs.microchip.com/oxy/GUID-AAAF8F97-D139-4A93-A154-AA3C6EE6BB22-en-US-1/GUID-007091E0-0021-4359-A50B-127AF65C0B1C.html",
+      "access": "official_full_chapter_read",
+      "sections": "Chapter 4, equations 4-1–4-4 and Fig.4-1",
+      "note": "Расчёт Id из уравнений, остаточный бюджет Iq и приоритет напряжения d. Полезный пример FF, но не доказательство робастности при неизвестных картах."
+    },
+    {
+      "id": "C1",
+      "type": "source_code",
+      "authors": "Texas Instruments",
+      "title": "Motor Control SDK: TIDM-02018 motor1_drive.c, PI and DCL",
+      "url": "https://github.com/TexasInstruments/motor-control-sdk/blob/1f61c0e76d099b2f1c5f793a5ca8e7757568c27f/examples/tidm_02018_universal_motorcontrol/universal_motorcontrol/src_control/motor1_drive.c",
+      "commit": "1f61c0e76d099b2f1c5f793a5ca8e7757568c27f",
+      "access": "caller_and_pi_source_read_via_github",
+      "sections": "motor1_drive.c lines2031–2051,2088–2108,2170–2213; pi.h; dcl_pi.h lines294–309",
+      "note": "Модуль ограниченных выходов ПИ; PI по напряжению управляет углом тока; остаточное ограничение q после d. Код не собирался и не испытывался.",
+      "related_urls": [
+        "https://github.com/TexasInstruments/motor-control-sdk/blob/1f61c0e76d099b2f1c5f793a5ca8e7757568c27f/source/rtlibs/control/pi/include/pi.h",
+        "https://github.com/TexasInstruments/motor-control-sdk/blob/1f61c0e76d099b2f1c5f793a5ca8e7757568c27f/source/rtlibs/dcl/pi/dcl_pi.h",
+        "https://software-dl.ti.com/processor-industrial-sw/esd/motor_control_sdk/am261x/latest/docs/api_guide_am261x/fwc_8h_source.html"
+      ]
+    },
+    {
+      "id": "C2",
+      "type": "laboratory_guide",
+      "authors": "Texas Instruments",
+      "title": "InstaSPIN Projects and Labs: Lab 9, An Example in Automatic Field Weakening",
+      "url": "https://e2e.ti.com/cfs-file/__key/communityserver-discussions-components-files/171/1830.instaspin_5F00_labs.pdf",
+      "access": "indexed_pdf_lab_sections_read",
+      "sections": "Lab9, pp.181–183",
+      "note": "Старый учебный пример непосредственной подстройки Id, отличается от современного PI угла. Не считать готовым решением наших быстрых переходов."
+    },
+    {
+      "id": "F1",
+      "type": "vendor_forum",
+      "authors": "ST Community; Gael A (ST Employee)",
+      "year": 2023,
+      "title": "Flux Weakening Torque Control Mode",
+      "url": "https://community.st.com/stm32-mcus-motor-control-34/flux-weakening-torque-control-mode-122361",
+      "access": "question_and_vendor_answer_read",
+      "sections": "Answer dated 2023-10-18; MC Workbench6.2",
+      "note": "Обсуждается зависимость данной реализации FW от ограничений скоростного регулятора. Не означает физической невозможности ОП в режиме момента."
+    },
+    {
+      "id": "F2",
+      "type": "vendor_forum",
+      "authors": "ST Community; GMA (ST Technical Moderator)",
+      "year": 2025,
+      "title": "MCSDK 6.4.0 Flux weakening problem",
+      "url": "https://community.st.com/stm32-mcus-motor-control-34/mcsdk-6-4-0-flux-weakening-problem-155428",
+      "access": "question_and_replies_read",
+      "sections": "2025-08-06–08",
+      "note": "Пользователь сообщает колебания и совместную работу FW/overmodulation; поддержка предлагает проверить порог, исходный эффект полностью не воспроизведён. Подтверждённого общего исправления нет."
+    },
+    {
+      "id": "F3",
+      "type": "vendor_forum",
+      "authors": "NXP Community; Matej Pacha (NXP Employee)",
+      "year": 2021,
+      "title": "About of the application of AMCLIB_FW_F16",
+      "url": "https://community.nxp.com/t5/S12-MagniV-Microcontrollers/About-of-the-application-of-AMCLIB-FW-F16/m-p/1206630",
+      "access": "vendor_answer_and_call_example_read",
+      "sections": "Reply 2021-01-05",
+      "note": "Точка входа stateRun(), AMCLIB_FW, пример S12ZVM и маршрут к S32K144/FreeMASTER. Полная библиотека не загружалась."
+    },
+    {
+      "id": "F4",
+      "type": "vendor_forum",
+      "authors": "TI E2E; Yanming Luo",
+      "title": "LAUNCHXL-F280049C: SDK speed PI dynamic update",
+      "url": "https://e2e.ti.com/support/microcontrollers/c2000-microcontrollers-group/c2000/f/c2000-microcontrollers-forum/1008687/launchxl-f280049c-sdk-speed-pi-dynamic-update",
+      "access": "thread_and_vendor_reply_read",
+      "sections": "SDKv2.01 LAB-is07; final vendor reply",
+      "note": "Жалобы пользователя на насыщение не являются диагнозом TI. Ответ TI обозначает InstaSPIN как референс, требующий настройки/доработки. Не используется для выбора закона FW."
+    }
+  ]
+}

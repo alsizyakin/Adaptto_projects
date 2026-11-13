@@ -1,0 +1,10 @@
+MATLAB 2025a; FocDiscrTime = 8.33333333333e-05 s
+Discrete + chart FocDiscrTime + subsystem -1: 8.33333333333e-05 s, 1201 samples
+Inherited + subsystem FocDiscrTime: 8.33333333333e-05 s, 1201 samples
+Stored chart SampleTime under Inherited: -1
+Output 1: identical timestamps, maximum difference 0
+Output 2: identical timestamps, maximum difference 0
+Output 3: identical timestamps, maximum difference 0
+Output 4: identical timestamps, maximum difference 0
+PASS: identical four outputs and timestamps on the component fixture.
+The working drive model was not opened or changed; no full-drive run.

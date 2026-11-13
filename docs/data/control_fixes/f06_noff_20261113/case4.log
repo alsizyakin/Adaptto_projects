@@ -1,0 +1,13 @@
+FW fw_trim: method=Discrete, function period=FocDiscrTime, subsystem period=-1, integration step=8.33333333e-05 s, Kpsi=2.5
+Saved plant deltaLd=0.05, code matches=1, delay Idref=4.16666667e-05 s
+### Searching for referenced models in model 'aug_nff_sg2900_cycles_user'.
+### Total of 1 models to build.
+### Generating code for Physical Networks associated with solver block 'aug_nff_sg2900_cycles_user/Solver Configuration' ...
+done.
+### Building the rapid accelerator target for model: aug_nff_sg2900_cycles_user
+### Successfully built the rapid accelerator target for model: aug_nff_sg2900_cycles_user
+aug_nff_sg2900_cycles_user done in 136.9 s
+FW fw_trim: method=Discrete, function period=FocDiscrTime, subsystem period=-1, integration step=8.33333333e-05 s, Kpsi=2.5
+Saved plant deltaLd=0.05, code matches=1, delay Idref=4.16666667e-05 s
+nff_sg2900_cycles_user: complete=1, finite=1, native logs, Iref 420.000000 A, Imax 750.884529 A, FW ratio=1
+RELEASE450 nff_sg2900_cycles_user: Imax=750.884529 A, q prolonged=8, complete=1

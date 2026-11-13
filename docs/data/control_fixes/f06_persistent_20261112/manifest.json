@@ -1,0 +1,31 @@
+{
+  "stage": "F06 persistent state; identical update law; full drive simulation pending",
+  "verified_utc": "2026-11-12T19:05:41.615173+00:00",
+  "parameters": {
+    "Kpsi_Wb_per_s": 2.5,
+    "Ts_s": 8.333333333333333e-05
+  },
+  "files": {
+    "tools/fw_limiter/fw_trim_persistent.m": "1d3861548c71ecf78c3aa310b7d6148ba114512da8f61c612996e9875693ef5f",
+    "tools/fw_limiter/test_fw_trim_persistent.m": "fcaaa4b13e261da675192d7740306adeddbcb89ee4bc629831eacfae728c21b5",
+    "tools/fw_limiter/fw_trim_projected.m": "5ba3d6e77f80e880b3b18ef33fdd0e9d34886c216e4aef6e50b69d40484542fe",
+    "ideal_source_drive_Idff_aug_param.slx": "b4a938647d12a4e7695ca3e9cee42bd70964739419f6c0c66a922da2bdf6a824",
+    "ideal_source_drive_Idff_aug_param_woFreeze.slx": "6c8ac5f0ca8cdb88fcce1ea34436d1b86f15cb57e92027b6321e1fec51495199"
+  },
+  "checks": {
+    "matlab_sequence_samples": 6000,
+    "simulink_samples_per_run": 1201,
+    "normal_runs": 2,
+    "fast_restart_runs": 2,
+    "persistent_instances": 2,
+    "max_equivalence_error": 0,
+    "initialization_and_instance_isolation": "passed"
+  },
+  "component_results": "tmp/control_f06_persistent_20261112",
+  "working_drive_models_modified_by_assistant": false,
+  "limits": "Isolated component only. Drive behavior has not been tested with F06.",
+  "archived_sources": {
+    "tools/fw_limiter/fw_trim_persistent.m": "docs/data/control_fixes/f06_persistent_20261112/fw_trim_persistent.m",
+    "tools/fw_limiter/test_fw_trim_persistent.m": "docs/data/control_fixes/f06_persistent_20261112/test_fw_trim_persistent.m"
+  }
+}

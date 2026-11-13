@@ -1,0 +1,7 @@
+F06-C01, 2026-11-13. Four completed 25-second simulations of frozen copies.
+A: Iq fixes and inconsistent FF connections. B: Iq fixes, restored FF, d-limit gain 0.98.
+Original user SLX/autosave were never saved by these tools. Autosave changed during the audit.
+All four cases fail system current/tracking criteria; passing component checks do not establish system stability.
+Full native MAT files and generated run models remain in tmp/f06_components_20261113.
+Repeat instructions: tools/fw_limiter/README.md, section F06: аудит компонентов.
+Units were tested from source A; unchanged embedded code and UqLimiter are shared with B.

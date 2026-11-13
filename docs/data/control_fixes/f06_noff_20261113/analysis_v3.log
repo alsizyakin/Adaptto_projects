@@ -1,0 +1,10 @@
+nff_sg2900_hold_nom Imax 596.393 settled q/d 155.26868229747157 220.75165850546568 regression False quality False
+PAIRED nff_sg2900_hold_nom with FF 605.2865718239416 without FF 596.3926976512324 FF used 0.0
+nff_sg2900_hold_user Imax 566.686 settled q/d 112.46334242652685 210.18237167297926 regression False quality False
+PAIRED nff_sg2900_hold_user with FF 599.4282574207706 without FF 566.6862568945298 FF used 0.0
+nff_sg2900_cycles_nom Imax 759.964 settled q/d 481.2534753170819 277.29138741265797 regression False quality False
+PAIRED nff_sg2900_cycles_nom with FF 759.7696884689251 without FF 759.9635263403387 FF used 0.0
+nff_sg2900_cycles_user Imax 750.885 settled q/d 401.350772146257 287.4749568188058 regression False quality False
+PAIRED nff_sg2900_cycles_user with FF 750.9960985426234 without FF 750.8845286807306 FF used 0.0
+nff_sg2900_startgen_nom Imax 743.794 settled q/d 251.79765283878467 235.11932607749537 regression False quality False
+PAIRED nff_sg2900_startgen_nom with FF 609.0913345216259 without FF 743.7939378931312 FF used 0.0

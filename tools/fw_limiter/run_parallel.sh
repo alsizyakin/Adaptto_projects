@@ -2,14 +2,14 @@
 # Run the scenarios of fwl_scenarios.m in parallel MATLAB batch sessions.
 #   run_parallel.sh [jobs] [runDir] [tag ...]
 # jobs   number of simultaneous MATLAB sessions (default 6, ~3 GB RAM each)
-# runDir output folder (default <repo>/work/fw_limiter)
+# runDir output folder (default <repo>/tmp/fw_limiter)
 # tag    scenarios to run (default: every scenario with doc = true)
 set -euo pipefail
 
 HERE=$(cd "$(dirname "$0")" && pwd)
 ROOT=$(cd "$HERE/../.." && pwd)
 JOBS=${1:-6}
-RUN_DIR=${2:-$ROOT/work/fw_limiter}
+RUN_DIR=${2:-$ROOT/tmp/fw_limiter}
 shift $(( $# < 2 ? $# : 2 ))
 mkdir -p "$RUN_DIR/logs"
 RUN_DIR=$(cd "$RUN_DIR" && pwd)

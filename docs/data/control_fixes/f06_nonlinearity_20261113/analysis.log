@@ -1,0 +1,24 @@
+{
+  "Kpsi": 2.5,
+  "Ufw": 241.3324125212636,
+  "Umax": 251.493777259001,
+  "normalizedErrorMinimumAfterVoltageLimit": -0.042105263157894736,
+  "maximumMoreNegativeIdRateAperS": 339.5585738539898,
+  "maximumRestorationIdRateAperS": 8064.5161290322585,
+  "minimumTimeFor100AMoreNegativeWithFixedFF": 0.29450000000000004,
+  "conditionsForRates": "Constant FF and limits, valid fixed Vdc, post-limit feedback after its transient; projection can only reduce the integral step.",
+  "finiteDifferenceMaxErrorVPerA": 1.3136358667509285e-09,
+  "limitations": "No new Simulink run. Frozen-Iq static slopes do not identify the saturated coupled dynamic plant.",
+  "archivedTrace": {
+    "case": "chk_sg2900_cycles_user",
+    "matSha256": "c789fcbbcc1ec0b63f7e464787c6b90a2368b100ca3fcea7c7e2f7bea1604da1",
+    "sourceSnapshotSha256": "045d393ed405aae6769332ec8f0ed3321cee887f129bcc3a0fbe0596fd844899",
+    "window": [
+      9.3,
+      9.5
+    ],
+    "minimumNormalizedError": -0.04210526315789415,
+    "maximumNormalizedError": -0.04210526315789415,
+    "note": "Previous B autosave, not the current saved SLX. Observation of clipped feedback, not plant identification."
+  }
+}

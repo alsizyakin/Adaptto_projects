@@ -1,0 +1,16 @@
+PASS local links and fenced code: docs/control_fix_log.md
+PASS local links and fenced code: docs/control_backlog.md
+PASS local links and fenced code: docs/field_weakening_f06.md
+PASS local links and fenced code: docs/field_weakening_f07.md
+PASS local links and fenced code: docs/field_weakening_redesign.md
+PASS local links and fenced code: tools/fw_limiter/README.md
+PASS Python syntax
+PASS tool versions match archived manifest
+PASS working model unchanged: 9648727af96157b30a60cee65b718e27ba488b3de519e1a88a38d0a495e39f48
+PASS full native 25 s run, timing and zero recurrence residuals: saved_nom
+PASS full native 25 s run, timing and zero recurrence residuals: saved_ldp20
+PASS full native 25 s run, timing and zero recurrence residuals: hold204_nom
+PASS full native 25 s run, timing and zero recurrence residuals: hold204_ldp20
+PASS four plots visually reviewed; hold plot margins corrected and reviewed again.
+PASS F07 stationary component assertions; retry MATLAB exit 0. Closed-loop F07 not tested.
+No project tmp files deleted.

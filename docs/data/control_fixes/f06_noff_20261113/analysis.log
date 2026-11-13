@@ -1,0 +1,30 @@
+nff_sg2900_hold_nom Imax 596.393 settled q/d 155.26868229747157 220.75165850546568 regression False quality False
+Traceback (most recent call last):
+  File "/home/alexey/Git/Matlab/Adaptto/tools/fw_limiter/noff_comparison.py", line 118, in <module>
+    if __name__=='__main__':main()
+                            ~~~~^^
+  File "/home/alexey/Git/Matlab/Adaptto/tools/fw_limiter/noff_comparison.py", line 110, in main
+    results.append(compare(args.runs,args.reference,spec,args.output,sha))
+                   ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/alexey/Git/Matlab/Adaptto/tools/fw_limiter/noff_comparison.py", line 67, in compare
+    np.testing.assert_allclose(n['speed'],b['speed'],rtol=0,atol=1e-8)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/numpy/testing/_private/utils.py", line 1711, in assert_allclose
+    assert_array_compare(compare, actual, desired, err_msg=str(err_msg),
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                         verbose=verbose, header=header, equal_nan=equal_nan,
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                         strict=strict)
+                         ^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/numpy/testing/_private/utils.py", line 919, in assert_array_compare
+    raise AssertionError(msg)
+AssertionError: 
+Not equal to tolerance rtol=0, atol=1e-08
+
+Mismatched elements: 32 / 300001 (0.0107%)
+Max absolute difference among violations: 5.42426051e-08
+Max relative difference among violations: 1.78662136e-10
+ ACTUAL: array([0.      , 0.001357, 0.005271, ..., 0.354302, 0.328995, 0.303687],
+      shape=(300001,))
+ DESIRED: array([0.      , 0.001357, 0.005271, ..., 0.354302, 0.328995, 0.303687],
+      shape=(300001,))

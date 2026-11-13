@@ -1,0 +1,60 @@
+FW fw_trim: method=Discrete, function period=FocDiscrTime, subsystem period=-1, integration step=8.33333333e-05 s, Kpsi=2.5
+Saved plant deltaLd=0, code matches=1, delay Idref=4.16666667e-05 s
+### Searching for referenced models in model 'aug_r450_steps_nom'.
+### Total of 1 models to build.
+### Generating code for Physical Networks associated with solver block 'aug_r450_steps_nom/Solver Configuration' ...
+done.
+### Building the rapid accelerator target for model: aug_r450_steps_nom
+### Successfully built the rapid accelerator target for model: aug_r450_steps_nom
+aug_r450_steps_nom done in 141.4 s
+FW fw_trim: method=Discrete, function period=FocDiscrTime, subsystem period=-1, integration step=8.33333333e-05 s, Kpsi=2.5
+Saved plant deltaLd=0, code matches=1, delay Idref=4.16666667e-05 s
+r450_steps_nom: complete=1, finite=1, native logs, Iref 419.993950 A, Imax 420.040010 A, FW ratio=1
+RELEASE450 r450_steps_nom: Imax=420.040010 A, q prolonged=0, complete=1
+FW fw_trim: method=Discrete, function period=FocDiscrTime, subsystem period=-1, integration step=8.33333333e-05 s, Kpsi=2.5
+Saved plant deltaLd=0.05, code matches=1, delay Idref=4.16666667e-05 s
+### Searching for referenced models in model 'aug_r450_steps_user'.
+### Total of 1 models to build.
+### Generating code for Physical Networks associated with solver block 'aug_r450_steps_user/Solver Configuration' ...
+done.
+### Building the rapid accelerator target for model: aug_r450_steps_user
+### Successfully built the rapid accelerator target for model: aug_r450_steps_user
+aug_r450_steps_user done in 125.3 s
+FW fw_trim: method=Discrete, function period=FocDiscrTime, subsystem period=-1, integration step=8.33333333e-05 s, Kpsi=2.5
+Saved plant deltaLd=0.05, code matches=1, delay Idref=4.16666667e-05 s
+r450_steps_user: complete=1, finite=1, native logs, Iref 419.992578 A, Imax 421.381454 A, FW ratio=1
+RELEASE450 r450_steps_user: Imax=421.381454 A, q prolonged=0, complete=1
+FW fw_trim: method=Discrete, function period=FocDiscrTime, subsystem period=-1, integration step=8.33333333e-05 s, Kpsi=2.5
+Saved plant deltaLd=0, code matches=1, delay Idref=4.16666667e-05 s
+### Searching for referenced models in model 'aug_r450_hold_nom'.
+### Total of 1 models to build.
+### Generating code for Physical Networks associated with solver block 'aug_r450_hold_nom/Solver Configuration' ...
+done.
+### Building the rapid accelerator target for model: aug_r450_hold_nom
+### Successfully built the rapid accelerator target for model: aug_r450_hold_nom
+aug_r450_hold_nom done in 137.7 s
+FW fw_trim: method=Discrete, function period=FocDiscrTime, subsystem period=-1, integration step=8.33333333e-05 s, Kpsi=2.5
+Saved plant deltaLd=0, code matches=1, delay Idref=4.16666667e-05 s
+r450_hold_nom: complete=1, finite=1, native logs, Iref 402.716873 A, Imax 500.299658 A, FW ratio=1
+RELEASE450 r450_hold_nom: Imax=500.299658 A, q prolonged=1, complete=1
+FW fw_trim: method=Discrete, function period=FocDiscrTime, subsystem period=-1, integration step=8.33333333e-05 s, Kpsi=2.5
+Saved plant deltaLd=0.05, code matches=1, delay Idref=4.16666667e-05 s
+### Searching for referenced models in model 'aug_r450_hold_user'.
+### Total of 1 models to build.
+### Generating code for Physical Networks associated with solver block 'aug_r450_hold_user/Solver Configuration' ...
+done.
+### Building the rapid accelerator target for model: aug_r450_hold_user
+### Successfully built the rapid accelerator target for model: aug_r450_hold_user
+aug_r450_hold_user done in 132.6 s
+FW fw_trim: method=Discrete, function period=FocDiscrTime, subsystem period=-1, integration step=8.33333333e-05 s, Kpsi=2.5
+Saved plant deltaLd=0.05, code matches=1, delay Idref=4.16666667e-05 s
+r450_hold_user: complete=1, finite=1, native logs, Iref 403.045386 A, Imax 727.354645 A, FW ratio=1
+RELEASE450 r450_hold_user: Imax=727.354645 A, q prolonged=6, complete=1
+FW fw_trim: method=Discrete, function period=FocDiscrTime, subsystem period=-1, integration step=8.33333333e-05 s, Kpsi=2.5
+Saved plant deltaLd=0, code matches=1, delay Idref=4.16666667e-05 s
+### Searching for referenced models in model 'aug_r450_cycles_nom'.
+### Total of 1 models to build.
+### Generating code for Physical Networks associated with solver block 'aug_r450_cycles_nom/Solver Configuration' ...
+done.
+### Building the rapid accelerator target for model: aug_r450_cycles_nom
+### Successfully built the rapid accelerator target for model: aug_r450_cycles_nom

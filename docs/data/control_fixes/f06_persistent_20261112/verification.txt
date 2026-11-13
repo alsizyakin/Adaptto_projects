@@ -1,0 +1,13 @@
+F06 persistent equivalence, 2026-11-12 22:03:16
+MATLAB 25.1.0.2943329 (R2025a)
+Component checks only; full drive simulation pending.
+fw_trim_persistent SHA-256: 1d3861548c71ecf78c3aa310b7d6148ba114512da8f61c612996e9875693ef5f
+fw_trim_projected SHA-256: 5ba3d6e77f80e880b3b18ef33fdd0e9d34886c216e4aef6e50b69d40484542fe
+PASS: first call integrates without early return; outputs retain old-state timing; clear resets MATLAB state.
+PASS: 6000 MATLAB samples match the external-state reference.
+PASS: Simulink run 1, FastRestart=off, 1201 samples; both instances and reference match.
+PASS: Simulink run 2, FastRestart=off, 1201 samples; both instances and reference match.
+PASS: Simulink run 3, FastRestart=on, 1201 samples; both instances and reference match.
+PASS: Simulink run 4, FastRestart=on, 1201 samples; both instances and reference match.
+PASS: normal/Fast Restart reinitialization; instance isolation; max error 0.
+ALL F06 PERSISTENT CHECKS PASSED. No drive stability claim.

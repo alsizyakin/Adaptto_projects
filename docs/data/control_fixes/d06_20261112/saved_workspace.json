@@ -1,0 +1,14 @@
+{
+  "Ld": 0.00031,
+  "Lq": 0.000305,
+  "Psi": 0.1024,
+  "Rs": 0.02,
+  "deltaLd": 0.2,
+  "deltaLq": 0,
+  "deltaPsi": 0,
+  "deltaRs": 0,
+  "piBandwidth": 6000,
+  "FocDiscrTime": 8.3333333333333331E-5,
+  "VDC": 440,
+  "Is_max": 420
+}

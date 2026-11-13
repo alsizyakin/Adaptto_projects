@@ -1,0 +1,10 @@
+{
+  "incompleteAttempt": "tmp/f06_release450_20261113/incomplete_r450_cycles_nom_first_attempt",
+  "suiteAExitCode": 143,
+  "suiteBExitCode": 0,
+  "savedCaseExitCode": 0,
+  "cyclesNomRetryExitCode": 0,
+  "finalAnalysisExitCode": 0,
+  "cause": "Process interruption during MAT save; cause not established",
+  "action": "Partial MAT excluded; identical scenario repeated and fully verified; old files retained"
+}

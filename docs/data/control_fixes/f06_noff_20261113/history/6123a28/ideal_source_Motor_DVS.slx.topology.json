@@ -1,0 +1,2032 @@
+{
+  "nodes": {
+    "1818": {
+      "BlockType": "Abs",
+      "Name": "Abs",
+      "SID": "1818",
+      "parameters": {}
+    },
+    "1722": {
+      "BlockType": "Bias",
+      "Name": "Bias",
+      "SID": "1722",
+      "parameters": {}
+    },
+    "1889": {
+      "BlockType": "Bias",
+      "Name": "Bias1",
+      "SID": "1889",
+      "parameters": {}
+    },
+    "1890": {
+      "BlockType": "Bias",
+      "Name": "Bias2",
+      "SID": "1890",
+      "parameters": {}
+    },
+    "1891": {
+      "BlockType": "Bias",
+      "Name": "Bias3",
+      "SID": "1891",
+      "parameters": {}
+    },
+    "1525": {
+      "BlockType": "Reference",
+      "Name": "Clarke Transform",
+      "SID": "1525",
+      "parameters": {
+        "SourceBlock": "mcbeeMathTransformLib/Clarke Transform"
+      }
+    },
+    "1712": {
+      "BlockType": "Reference",
+      "Name": "Clarke Transform1",
+      "SID": "1712",
+      "parameters": {
+        "SourceBlock": "mcbeeMathTransformLib/Clarke Transform"
+      }
+    },
+    "1328": {
+      "BlockType": "ConnectionLabel",
+      "Name": "Connection Label1",
+      "SID": "1328",
+      "parameters": {}
+    },
+    "1329": {
+      "BlockType": "ConnectionLabel",
+      "Name": "Connection Label2",
+      "SID": "1329",
+      "parameters": {}
+    },
+    "1892": {
+      "BlockType": "ConnectionLabel",
+      "Name": "Connection Label6",
+      "SID": "1892",
+      "parameters": {}
+    },
+    "1893": {
+      "BlockType": "ConnectionLabel",
+      "Name": "Connection Label7",
+      "SID": "1893",
+      "parameters": {}
+    },
+    "1894": {
+      "BlockType": "ConnectionLabel",
+      "Name": "Connection Label8",
+      "SID": "1894",
+      "parameters": {}
+    },
+    "1330": {
+      "BlockType": "ConnectionLabel",
+      "Name": "Connection Label9",
+      "SID": "1330",
+      "parameters": {}
+    },
+    "1331": {
+      "BlockType": "Constant",
+      "Name": "Constant",
+      "SID": "1331",
+      "parameters": {
+        "Value": "350"
+      }
+    },
+    "1895": {
+      "BlockType": "Constant",
+      "Name": "Constant1",
+      "SID": "1895",
+      "parameters": {
+        "Value": "400"
+      }
+    },
+    "1927": {
+      "BlockType": "Constant",
+      "Name": "Constant2",
+      "SID": "1927",
+      "parameters": {
+        "Value": "227"
+      }
+    },
+    "1817": {
+      "BlockType": "Constant",
+      "Name": "Constant3",
+      "SID": "1817",
+      "parameters": {
+        "Value": "Psi"
+      }
+    },
+    "1896": {
+      "BlockType": "Reference",
+      "Name": "Controlled Voltage\nSource",
+      "SID": "1896",
+      "parameters": {
+        "SourceBlock": "fl_lib/Electrical/Electrical Sources/Controlled Voltage\nSource"
+      }
+    },
+    "1897": {
+      "BlockType": "Reference",
+      "Name": "Controlled Voltage\nSource1",
+      "SID": "1897",
+      "parameters": {
+        "SourceBlock": "fl_lib/Electrical/Electrical Sources/Controlled Voltage\nSource"
+      }
+    },
+    "1898": {
+      "BlockType": "Reference",
+      "Name": "Controlled Voltage\nSource2",
+      "SID": "1898",
+      "parameters": {
+        "SourceBlock": "fl_lib/Electrical/Electrical Sources/Controlled Voltage\nSource"
+      }
+    },
+    "1335": {
+      "BlockType": "SubSystem",
+      "Name": "CurrentsMuxFilter",
+      "SID": "1335",
+      "parameters": {}
+    },
+    "1345": {
+      "BlockType": "SubSystem",
+      "Name": "CurrentsMuxFilter1",
+      "SID": "1345",
+      "parameters": {}
+    },
+    "1871": {
+      "BlockType": "Demux",
+      "Name": "Demux",
+      "SID": "1871",
+      "parameters": {}
+    },
+    "1899": {
+      "BlockType": "Demux",
+      "Name": "Demux2",
+      "SID": "1899",
+      "parameters": {}
+    },
+    "1548": {
+      "BlockType": "Product",
+      "Name": "Divide",
+      "SID": "1548",
+      "parameters": {
+        "Inputs": "*/"
+      }
+    },
+    "1900": {
+      "BlockType": "Reference",
+      "Name": "Electrical Reference",
+      "SID": "1900",
+      "parameters": {
+        "SourceBlock": "fl_lib/Electrical/Electrical Elements/Electrical Reference"
+      }
+    },
+    "1700": {
+      "BlockType": "From",
+      "Name": "From",
+      "SID": "1700",
+      "parameters": {
+        "GotoTag": "Uq"
+      }
+    },
+    "1922": {
+      "BlockType": "From",
+      "Name": "From1",
+      "SID": "1922",
+      "parameters": {
+        "GotoTag": "speed"
+      }
+    },
+    "1702": {
+      "BlockType": "From",
+      "Name": "From10",
+      "SID": "1702",
+      "parameters": {
+        "GotoTag": "Idreq"
+      }
+    },
+    "1526": {
+      "BlockType": "From",
+      "Name": "From11",
+      "SID": "1526",
+      "parameters": {
+        "GotoTag": "Currents"
+      }
+    },
+    "1353": {
+      "BlockType": "From",
+      "Name": "From12",
+      "SID": "1353",
+      "parameters": {
+        "GotoTag": "speed"
+      }
+    },
+    "1528": {
+      "BlockType": "From",
+      "Name": "From13",
+      "SID": "1528",
+      "parameters": {
+        "GotoTag": "angle_elec"
+      }
+    },
+    "1734": {
+      "BlockType": "From",
+      "Name": "From14",
+      "SID": "1734",
+      "parameters": {
+        "GotoTag": "AngleWork"
+      }
+    },
+    "1354": {
+      "BlockType": "From",
+      "Name": "From15",
+      "SID": "1354",
+      "parameters": {
+        "GotoTag": "speed"
+      }
+    },
+    "1355": {
+      "BlockType": "From",
+      "Name": "From16",
+      "SID": "1355",
+      "parameters": {
+        "GotoTag": "angle_elec"
+      }
+    },
+    "1724": {
+      "BlockType": "From",
+      "Name": "From17",
+      "SID": "1724",
+      "parameters": {
+        "GotoTag": "Ud"
+      }
+    },
+    "1538": {
+      "BlockType": "From",
+      "Name": "From18",
+      "SID": "1538",
+      "parameters": {
+        "GotoTag": "speed"
+      }
+    },
+    "1705": {
+      "BlockType": "From",
+      "Name": "From19",
+      "SID": "1705",
+      "parameters": {
+        "GotoTag": "Iqreq"
+      }
+    },
+    "1925": {
+      "BlockType": "From",
+      "Name": "From2",
+      "SID": "1925",
+      "parameters": {
+        "GotoTag": "Ud"
+      }
+    },
+    "1710": {
+      "BlockType": "From",
+      "Name": "From20",
+      "SID": "1710",
+      "parameters": {
+        "GotoTag": "Currents_work"
+      }
+    },
+    "1357": {
+      "BlockType": "From",
+      "Name": "From21",
+      "SID": "1357",
+      "parameters": {
+        "GotoTag": "Vdc"
+      }
+    },
+    "1711": {
+      "BlockType": "From",
+      "Name": "From22",
+      "SID": "1711",
+      "parameters": {
+        "GotoTag": "Currents_dq_calc"
+      }
+    },
+    "1358": {
+      "BlockType": "From",
+      "Name": "From23",
+      "SID": "1358",
+      "parameters": {
+        "GotoTag": "IqReq"
+      }
+    },
+    "1725": {
+      "BlockType": "From",
+      "Name": "From24",
+      "SID": "1725",
+      "parameters": {
+        "GotoTag": "Uq"
+      }
+    },
+    "1811": {
+      "BlockType": "From",
+      "Name": "From25",
+      "SID": "1811",
+      "parameters": {
+        "GotoTag": "Idreq"
+      }
+    },
+    "1813": {
+      "BlockType": "From",
+      "Name": "From26",
+      "SID": "1813",
+      "parameters": {
+        "GotoTag": "IqLim"
+      }
+    },
+    "1788": {
+      "BlockType": "From",
+      "Name": "From27",
+      "SID": "1788",
+      "parameters": {
+        "GotoTag": "vRef"
+      }
+    },
+    "1790": {
+      "BlockType": "From",
+      "Name": "From28",
+      "SID": "1790",
+      "parameters": {
+        "GotoTag": "vAngle"
+      }
+    },
+    "1791": {
+      "BlockType": "From",
+      "Name": "From29",
+      "SID": "1791",
+      "parameters": {
+        "GotoTag": "Currents_work"
+      }
+    },
+    "1359": {
+      "BlockType": "From",
+      "Name": "From3",
+      "SID": "1359",
+      "parameters": {
+        "GotoTag": "Currents"
+      }
+    },
+    "1799": {
+      "BlockType": "From",
+      "Name": "From30",
+      "SID": "1799",
+      "parameters": {
+        "GotoTag": "VDCwork"
+      }
+    },
+    "1816": {
+      "BlockType": "From",
+      "Name": "From34",
+      "SID": "1816",
+      "parameters": {
+        "GotoTag": "IqLim"
+      }
+    },
+    "1835": {
+      "BlockType": "From",
+      "Name": "From36",
+      "SID": "1835",
+      "parameters": {
+        "GotoTag": "IqLim"
+      }
+    },
+    "1843": {
+      "BlockType": "From",
+      "Name": "From38",
+      "SID": "1843",
+      "parameters": {
+        "GotoTag": "angle_mech"
+      }
+    },
+    "1856": {
+      "BlockType": "From",
+      "Name": "From39",
+      "SID": "1856",
+      "parameters": {
+        "GotoTag": "Iqreq"
+      }
+    },
+    "1360": {
+      "BlockType": "From",
+      "Name": "From4",
+      "SID": "1360",
+      "parameters": {
+        "GotoTag": "Voltages"
+      }
+    },
+    "1857": {
+      "BlockType": "From",
+      "Name": "From40",
+      "SID": "1857",
+      "parameters": {
+        "GotoTag": "Idreq"
+      }
+    },
+    "1874": {
+      "BlockType": "From",
+      "Name": "From41",
+      "SID": "1874",
+      "parameters": {
+        "GotoTag": "vRef"
+      }
+    },
+    "1870": {
+      "BlockType": "From",
+      "Name": "From42",
+      "SID": "1870",
+      "parameters": {
+        "GotoTag": "Currents_dq_calc"
+      }
+    },
+    "1901": {
+      "BlockType": "From",
+      "Name": "From43",
+      "SID": "1901",
+      "parameters": {
+        "GotoTag": "Vdc"
+      }
+    },
+    "1902": {
+      "BlockType": "From",
+      "Name": "From44",
+      "SID": "1902",
+      "parameters": {
+        "GotoTag": "Kzi"
+      }
+    },
+    "1903": {
+      "BlockType": "From",
+      "Name": "From45",
+      "SID": "1903",
+      "parameters": {
+        "GotoTag": "G1"
+      }
+    },
+    "1904": {
+      "BlockType": "From",
+      "Name": "From46",
+      "SID": "1904",
+      "parameters": {
+        "GotoTag": "G3"
+      }
+    },
+    "1905": {
+      "BlockType": "From",
+      "Name": "From47",
+      "SID": "1905",
+      "parameters": {
+        "GotoTag": "G5"
+      }
+    },
+    "1846": {
+      "BlockType": "From",
+      "Name": "From5",
+      "SID": "1846",
+      "parameters": {
+        "GotoTag": "Currents_dq_calc"
+      }
+    },
+    "1362": {
+      "BlockType": "From",
+      "Name": "From6",
+      "SID": "1362",
+      "parameters": {
+        "GotoTag": "Vdc"
+      }
+    },
+    "1363": {
+      "BlockType": "From",
+      "Name": "From7",
+      "SID": "1363",
+      "parameters": {
+        "GotoTag": "speed"
+      }
+    },
+    "1364": {
+      "BlockType": "From",
+      "Name": "From8",
+      "SID": "1364",
+      "parameters": {
+        "GotoTag": "Torque"
+      }
+    },
+    "1365": {
+      "BlockType": "From",
+      "Name": "From9",
+      "SID": "1365",
+      "parameters": {
+        "GotoTag": "Currents"
+      }
+    },
+    "1836": {
+      "BlockType": "Gain",
+      "Name": "Gain",
+      "SID": "1836",
+      "parameters": {
+        "Gain": "-1"
+      }
+    },
+    "1906": {
+      "BlockType": "Gain",
+      "Name": "Gain1",
+      "SID": "1906",
+      "parameters": {}
+    },
+    "1719": {
+      "BlockType": "Gain",
+      "Name": "Gain2",
+      "SID": "1719",
+      "parameters": {
+        "Gain": "20000"
+      }
+    },
+    "1369": {
+      "BlockType": "Gain",
+      "Name": "Gain3",
+      "SID": "1369",
+      "parameters": {
+        "Gain": "PolePairs"
+      }
+    },
+    "1539": {
+      "BlockType": "Gain",
+      "Name": "Gain4",
+      "SID": "1539",
+      "parameters": {
+        "Gain": "PolePairs"
+      }
+    },
+    "1907": {
+      "BlockType": "Gain",
+      "Name": "Gain5",
+      "SID": "1907",
+      "parameters": {}
+    },
+    "1543": {
+      "BlockType": "Gain",
+      "Name": "Gain6",
+      "SID": "1543",
+      "parameters": {
+        "Gain": "1/Ld"
+      }
+    },
+    "1545": {
+      "BlockType": "Gain",
+      "Name": "Gain7",
+      "SID": "1545",
+      "parameters": {
+        "Gain": "-1"
+      }
+    },
+    "1908": {
+      "BlockType": "Gain",
+      "Name": "Gain8",
+      "SID": "1908",
+      "parameters": {}
+    },
+    "1699": {
+      "BlockType": "Goto",
+      "Name": "Goto",
+      "SID": "1699",
+      "parameters": {
+        "GotoTag": "Uq"
+      }
+    },
+    "1370": {
+      "BlockType": "Goto",
+      "Name": "Goto1",
+      "SID": "1370",
+      "parameters": {
+        "GotoTag": "Currents"
+      }
+    },
+    "1701": {
+      "BlockType": "Goto",
+      "Name": "Goto10",
+      "SID": "1701",
+      "parameters": {
+        "GotoTag": "Idreq"
+      }
+    },
+    "1704": {
+      "BlockType": "Goto",
+      "Name": "Goto11",
+      "SID": "1704",
+      "parameters": {
+        "GotoTag": "Iqreq"
+      }
+    },
+    "1708": {
+      "BlockType": "Goto",
+      "Name": "Goto15",
+      "SID": "1708",
+      "parameters": {
+        "GotoTag": "Currents_dq_calc"
+      }
+    },
+    "1709": {
+      "BlockType": "Goto",
+      "Name": "Goto16",
+      "SID": "1709",
+      "parameters": {
+        "GotoTag": "Currents_work"
+      }
+    },
+    "1723": {
+      "BlockType": "Goto",
+      "Name": "Goto17",
+      "SID": "1723",
+      "parameters": {
+        "GotoTag": "Ud"
+      }
+    },
+    "1733": {
+      "BlockType": "Goto",
+      "Name": "Goto18",
+      "SID": "1733",
+      "parameters": {
+        "GotoTag": "AngleWork"
+      }
+    },
+    "1371": {
+      "BlockType": "Goto",
+      "Name": "Goto19",
+      "SID": "1371",
+      "parameters": {
+        "GotoTag": "Kzi"
+      }
+    },
+    "1372": {
+      "BlockType": "Goto",
+      "Name": "Goto2",
+      "SID": "1372",
+      "parameters": {
+        "GotoTag": "Voltages"
+      }
+    },
+    "1787": {
+      "BlockType": "Goto",
+      "Name": "Goto20",
+      "SID": "1787",
+      "parameters": {
+        "GotoTag": "vRef"
+      }
+    },
+    "1789": {
+      "BlockType": "Goto",
+      "Name": "Goto21",
+      "SID": "1789",
+      "parameters": {
+        "GotoTag": "vAngle"
+      }
+    },
+    "1798": {
+      "BlockType": "Goto",
+      "Name": "Goto22",
+      "SID": "1798",
+      "parameters": {
+        "GotoTag": "VDCwork"
+      }
+    },
+    "1812": {
+      "BlockType": "Goto",
+      "Name": "Goto23",
+      "SID": "1812",
+      "parameters": {
+        "GotoTag": "IqLim"
+      }
+    },
+    "1909": {
+      "BlockType": "Goto",
+      "Name": "Goto24",
+      "SID": "1909",
+      "parameters": {
+        "GotoTag": "Vdc"
+      }
+    },
+    "1910": {
+      "BlockType": "Goto",
+      "Name": "Goto26",
+      "SID": "1910",
+      "parameters": {
+        "GotoTag": "G1"
+      }
+    },
+    "1911": {
+      "BlockType": "Goto",
+      "Name": "Goto27",
+      "SID": "1911",
+      "parameters": {
+        "GotoTag": "G3"
+      }
+    },
+    "1912": {
+      "BlockType": "Goto",
+      "Name": "Goto28",
+      "SID": "1912",
+      "parameters": {
+        "GotoTag": "G5"
+      }
+    },
+    "1373": {
+      "BlockType": "Goto",
+      "Name": "Goto3",
+      "SID": "1373",
+      "parameters": {
+        "GotoTag": "angle_mech"
+      }
+    },
+    "1375": {
+      "BlockType": "Goto",
+      "Name": "Goto6",
+      "SID": "1375",
+      "parameters": {
+        "GotoTag": "angle_elec"
+      }
+    },
+    "1376": {
+      "BlockType": "Goto",
+      "Name": "Goto7",
+      "SID": "1376",
+      "parameters": {
+        "GotoTag": "speed"
+      }
+    },
+    "1377": {
+      "BlockType": "Goto",
+      "Name": "Goto8",
+      "SID": "1377",
+      "parameters": {
+        "GotoTag": "Torque"
+      }
+    },
+    "1378": {
+      "BlockType": "Goto",
+      "Name": "Goto9",
+      "SID": "1378",
+      "parameters": {
+        "GotoTag": "IqReq"
+      }
+    },
+    "1694": {
+      "BlockType": "SubSystem",
+      "Name": "HallSensors",
+      "SID": "1694",
+      "parameters": {}
+    },
+    "1561": {
+      "BlockType": "Reference",
+      "Name": "Ideal Angular\nVelocity Source",
+      "SID": "1561",
+      "parameters": {
+        "SourceBlock": "fl_lib/Mechanical/Mechanical Sources/Ideal Angular\nVelocity Source"
+      }
+    },
+    "1379": {
+      "BlockType": "Reference",
+      "Name": "Ideal Rotational\nMotion Sensor",
+      "SID": "1379",
+      "parameters": {
+        "SourceBlock": "fl_lib/Mechanical/Mechanical Sensors/Ideal Rotational\nMotion Sensor"
+      }
+    },
+    "1380": {
+      "BlockType": "Reference",
+      "Name": "Ideal Torque Sensor",
+      "SID": "1380",
+      "parameters": {
+        "SourceBlock": "fl_lib/Mechanical/Mechanical Sensors/Ideal Torque Sensor"
+      }
+    },
+    "1718": {
+      "BlockType": "Integrator",
+      "Name": "Integrator",
+      "SID": "1718",
+      "parameters": {}
+    },
+    "1921": {
+      "BlockType": "SubSystem",
+      "Name": "MATLAB Function",
+      "SID": "1921",
+      "parameters": {}
+    },
+    "1715": {
+      "BlockType": "Reference",
+      "Name": "Mean",
+      "SID": "1715",
+      "parameters": {
+        "SourceBlock": "spsMeanLib/Mean"
+      }
+    },
+    "1384": {
+      "BlockType": "Reference",
+      "Name": "Mechanical\nRotational Reference",
+      "SID": "1384",
+      "parameters": {
+        "SourceBlock": "fl_lib/Mechanical/Rotational Elements/Mechanical\nRotational Reference"
+      }
+    },
+    "1385": {
+      "BlockType": "Reference",
+      "Name": "Mechanical\nRotational Reference2",
+      "SID": "1385",
+      "parameters": {
+        "SourceBlock": "fl_lib/Mechanical/Rotational Elements/Mechanical\nRotational Reference"
+      }
+    },
+    "1386": {
+      "BlockType": "Reference",
+      "Name": "Mechanical\nRotational Reference3",
+      "SID": "1386",
+      "parameters": {
+        "SourceBlock": "fl_lib/Mechanical/Rotational Elements/Mechanical\nRotational Reference"
+      }
+    },
+    "1388": {
+      "BlockType": "Mux",
+      "Name": "Mux",
+      "SID": "1388",
+      "parameters": {
+        "Inputs": "3"
+      }
+    },
+    "1841": {
+      "BlockType": "Mux",
+      "Name": "Mux4",
+      "SID": "1841",
+      "parameters": {
+        "Inputs": "3"
+      }
+    },
+    "1764": {
+      "BlockType": "Mux",
+      "Name": "Mux5",
+      "SID": "1764",
+      "parameters": {
+        "Inputs": "3"
+      }
+    },
+    "1858": {
+      "BlockType": "Mux",
+      "Name": "Mux6",
+      "SID": "1858",
+      "parameters": {
+        "Inputs": "2"
+      }
+    },
+    "1859": {
+      "BlockType": "Mux",
+      "Name": "Mux7",
+      "SID": "1859",
+      "parameters": {
+        "Inputs": "2"
+      }
+    },
+    "1390": {
+      "BlockType": "Reference",
+      "Name": "PID Controller",
+      "SID": "1390",
+      "parameters": {
+        "SourceBlock": "slpidlib/PID Controller",
+        "Controller": "PI",
+        "TimeDomain": "Discrete-time",
+        "SampleTime": "1/80000",
+        "P": "0.075",
+        "I": "300",
+        "ExternalReset": "none",
+        "SatLimitsSource": "internal",
+        "UpperSaturationLimit": "0",
+        "LowerSaturationLimit": "-250",
+        "AntiWindupMode": "clamping"
+      }
+    },
+    "1392": {
+      "BlockType": "Reference",
+      "Name": "PMSM",
+      "SID": "1392",
+      "parameters": {
+        "SourceBlock": "ee_lib/Electromechanical/Permanent Magnet/PMSM"
+      }
+    },
+    "1393": {
+      "BlockType": "Reference",
+      "Name": "PS-Simulink\nConverter1",
+      "SID": "1393",
+      "parameters": {
+        "SourceBlock": "nesl_utility/PS-Simulink\nConverter"
+      }
+    },
+    "1394": {
+      "BlockType": "Reference",
+      "Name": "PS-Simulink\nConverter2",
+      "SID": "1394",
+      "parameters": {
+        "SourceBlock": "nesl_utility/PS-Simulink\nConverter"
+      }
+    },
+    "1395": {
+      "BlockType": "Reference",
+      "Name": "PS-Simulink\nConverter3",
+      "SID": "1395",
+      "parameters": {
+        "SourceBlock": "nesl_utility/PS-Simulink\nConverter"
+      }
+    },
+    "1527": {
+      "BlockType": "Reference",
+      "Name": "Park Transform",
+      "SID": "1527",
+      "parameters": {
+        "SourceBlock": "mcbeeMathTransformLib/Clarke to Park\nAngle Transform"
+      }
+    },
+    "1714": {
+      "BlockType": "Reference",
+      "Name": "Park Transform1",
+      "SID": "1714",
+      "parameters": {
+        "SourceBlock": "mcbeeMathTransformLib/Clarke to Park\nAngle Transform"
+      }
+    },
+    "1913": {
+      "BlockType": "Product",
+      "Name": "Product",
+      "SID": "1913",
+      "parameters": {}
+    },
+    "1914": {
+      "BlockType": "Product",
+      "Name": "Product1",
+      "SID": "1914",
+      "parameters": {}
+    },
+    "1915": {
+      "BlockType": "Product",
+      "Name": "Product2",
+      "SID": "1915",
+      "parameters": {}
+    },
+    "1562": {
+      "BlockType": "Reference",
+      "Name": "Ramp",
+      "SID": "1562",
+      "parameters": {
+        "SourceBlock": "simulink/Sources/Ramp"
+      }
+    },
+    "1706": {
+      "BlockType": "Reference",
+      "Name": "Ramp2",
+      "SID": "1706",
+      "parameters": {
+        "SourceBlock": "simulink/Sources/Ramp"
+      }
+    },
+    "1453": {
+      "BlockType": "SubSystem",
+      "Name": "SVPWM1",
+      "SID": "1453",
+      "parameters": {}
+    },
+    "1396": {
+      "BlockType": "Saturate",
+      "Name": "Saturation",
+      "SID": "1396",
+      "parameters": {
+        "UpperLimit": "inf",
+        "LowerLimit": "0"
+      }
+    },
+    "1834": {
+      "BlockType": "Reference",
+      "Name": "Saturation\nDynamic",
+      "SID": "1834",
+      "parameters": {
+        "SourceBlock": "simulink/Discontinuities/Saturation\nDynamic"
+      }
+    },
+    "1544": {
+      "BlockType": "Saturate",
+      "Name": "Saturation1",
+      "SID": "1544",
+      "parameters": {
+        "UpperLimit": "inf",
+        "LowerLimit": "0"
+      }
+    },
+    "1563": {
+      "BlockType": "Saturate",
+      "Name": "Saturation2",
+      "SID": "1563",
+      "parameters": {
+        "UpperLimit": "300",
+        "LowerLimit": "0"
+      }
+    },
+    "1569": {
+      "BlockType": "Saturate",
+      "Name": "Saturation3",
+      "SID": "1569",
+      "parameters": {
+        "UpperLimit": "inf",
+        "LowerLimit": "-300"
+      }
+    },
+    "1707": {
+      "BlockType": "Saturate",
+      "Name": "Saturation4",
+      "SID": "1707",
+      "parameters": {
+        "UpperLimit": "600",
+        "LowerLimit": "0"
+      }
+    },
+    "1819": {
+      "BlockType": "Saturate",
+      "Name": "Saturation5",
+      "SID": "1819",
+      "parameters": {
+        "UpperLimit": "inf",
+        "LowerLimit": "17"
+      }
+    },
+    "1824": {
+      "BlockType": "Scope",
+      "Name": "Scope",
+      "SID": "1824",
+      "parameters": {}
+    },
+    "1864": {
+      "BlockType": "Scope",
+      "Name": "Scope1",
+      "SID": "1864",
+      "parameters": {}
+    },
+    "1865": {
+      "BlockType": "Scope",
+      "Name": "Scope2",
+      "SID": "1865",
+      "parameters": {}
+    },
+    "1885": {
+      "BlockType": "Scope",
+      "Name": "Scope3",
+      "SID": "1885",
+      "parameters": {}
+    },
+    "1916": {
+      "BlockType": "Scope",
+      "Name": "Scope4",
+      "SID": "1916",
+      "parameters": {}
+    },
+    "1923": {
+      "BlockType": "Scope",
+      "Name": "Scope5",
+      "SID": "1923",
+      "parameters": {}
+    },
+    "1402": {
+      "BlockType": "Scope",
+      "Name": "ScopeDemag",
+      "SID": "1402",
+      "parameters": {}
+    },
+    "1537": {
+      "BlockType": "Scope",
+      "Name": "ScopeIdIq",
+      "SID": "1537",
+      "parameters": {}
+    },
+    "1567": {
+      "BlockType": "Scope",
+      "Name": "ScopeIqref",
+      "SID": "1567",
+      "parameters": {}
+    },
+    "1398": {
+      "BlockType": "Scope",
+      "Name": "ScopeMain",
+      "SID": "1398",
+      "parameters": {}
+    },
+    "1405": {
+      "BlockType": "Reference",
+      "Name": "Simulink-PS\nConverter1",
+      "SID": "1405",
+      "parameters": {
+        "SourceBlock": "nesl_utility/Simulink-PS\nConverter"
+      }
+    },
+    "1917": {
+      "BlockType": "Reference",
+      "Name": "Simulink-PS\nConverter2",
+      "SID": "1917",
+      "parameters": {
+        "SourceBlock": "nesl_utility/Simulink-PS\nConverter"
+      }
+    },
+    "1918": {
+      "BlockType": "Reference",
+      "Name": "Simulink-PS\nConverter3",
+      "SID": "1918",
+      "parameters": {
+        "SourceBlock": "nesl_utility/Simulink-PS\nConverter"
+      }
+    },
+    "1919": {
+      "BlockType": "Reference",
+      "Name": "Simulink-PS\nConverter4",
+      "SID": "1919",
+      "parameters": {
+        "SourceBlock": "nesl_utility/Simulink-PS\nConverter"
+      }
+    },
+    "1920": {
+      "BlockType": "Reference",
+      "Name": "Solver\nConfiguration",
+      "SID": "1920",
+      "parameters": {
+        "SourceBlock": "nesl_utility/Solver\nConfiguration"
+      }
+    },
+    "1572": {
+      "BlockType": "SubSystem",
+      "Name": "SpeedController",
+      "SID": "1572",
+      "parameters": {}
+    },
+    "1406": {
+      "BlockType": "Sqrt",
+      "Name": "Sqrt",
+      "SID": "1406",
+      "parameters": {}
+    },
+    "1929": {
+      "BlockType": "Sqrt",
+      "Name": "Sqrt1",
+      "SID": "1929",
+      "parameters": {}
+    },
+    "1407": {
+      "BlockType": "Math",
+      "Name": "Square",
+      "SID": "1407",
+      "parameters": {
+        "Operator": "square"
+      }
+    },
+    "1408": {
+      "BlockType": "Math",
+      "Name": "Square1",
+      "SID": "1408",
+      "parameters": {
+        "Operator": "square"
+      }
+    },
+    "1928": {
+      "BlockType": "Math",
+      "Name": "Square2",
+      "SID": "1928",
+      "parameters": {
+        "Operator": "square"
+      }
+    },
+    "1930": {
+      "BlockType": "Math",
+      "Name": "Square3",
+      "SID": "1930",
+      "parameters": {
+        "Operator": "square"
+      }
+    },
+    "1566": {
+      "BlockType": "Step",
+      "Name": "Step",
+      "SID": "1566",
+      "parameters": {
+        "SampleTime": "0"
+      }
+    },
+    "1420": {
+      "BlockType": "SubSystem",
+      "Name": "Subsystem1",
+      "SID": "1420",
+      "parameters": {}
+    },
+    "1496": {
+      "BlockType": "SubSystem",
+      "Name": "Subsystem4",
+      "SID": "1496",
+      "parameters": {}
+    },
+    "1519": {
+      "BlockType": "Sum",
+      "Name": "Sum",
+      "SID": "1519",
+      "parameters": {
+        "Inputs": "-+|"
+      }
+    },
+    "1520": {
+      "BlockType": "Sum",
+      "Name": "Sum1",
+      "SID": "1520",
+      "parameters": {
+        "Inputs": "|+-"
+      }
+    },
+    "1541": {
+      "BlockType": "Sum",
+      "Name": "Sum2",
+      "SID": "1541",
+      "parameters": {
+        "Inputs": "-+|"
+      }
+    },
+    "1931": {
+      "BlockType": "Sum",
+      "Name": "Sum3",
+      "SID": "1931",
+      "parameters": {
+        "Inputs": "|+-"
+      }
+    },
+    "1546": {
+      "BlockType": "Sum",
+      "Name": "Sum4",
+      "SID": "1546",
+      "parameters": {}
+    },
+    "1570": {
+      "BlockType": "Sum",
+      "Name": "Sum5",
+      "SID": "1570",
+      "parameters": {
+        "Inputs": "++|"
+      }
+    },
+    "1564": {
+      "BlockType": "Switch",
+      "Name": "Switch",
+      "SID": "1564",
+      "parameters": {}
+    },
+    "1872": {
+      "BlockType": "Terminator",
+      "Name": "Terminator",
+      "SID": "1872",
+      "parameters": {}
+    },
+    "1924": {
+      "BlockType": "TransferFcn",
+      "Name": "Transfer Fcn",
+      "SID": "1924",
+      "parameters": {
+        "Denominator": "[FocDiscrTime*10 1]"
+      }
+    },
+    "1932": {
+      "BlockType": "TransferFcn",
+      "Name": "Transfer Fcn1",
+      "SID": "1932",
+      "parameters": {
+        "Denominator": "[FocDiscrTime*10 1]"
+      }
+    },
+    "1821": {
+      "BlockType": "UnitDelay",
+      "Name": "Unit Delay",
+      "SID": "1821",
+      "parameters": {
+        "SampleTime": "-1"
+      }
+    },
+    "1523": {
+      "BlockType": "UnitDelay",
+      "Name": "Unit Delay2",
+      "SID": "1523",
+      "parameters": {
+        "SampleTime": "FocDiscrTime/2"
+      }
+    },
+    "1542": {
+      "BlockType": "Constant",
+      "Name": "UqLim",
+      "SID": "1542",
+      "parameters": {
+        "Value": "170"
+      }
+    }
+  },
+  "edges": [
+    {
+      "source": "1561#lconn:1",
+      "target": "1380#rconn:1"
+    },
+    {
+      "source": "1380#lconn:1",
+      "target": "1379#lconn:1"
+    },
+    {
+      "source": "1561#rconn:1",
+      "target": "1405#rconn:1"
+    },
+    {
+      "source": "1561#rconn:2",
+      "target": "1386#lconn:1"
+    },
+    {
+      "source": "1392#lconn:3",
+      "target": "1496#rconn:3"
+    },
+    {
+      "source": "1329#lconn:1",
+      "target": "1496#lconn:2"
+    },
+    {
+      "source": "1395#lconn:1",
+      "target": "1380#rconn:2"
+    },
+    {
+      "source": "1393#lconn:1",
+      "target": "1379#rconn:3"
+    },
+    {
+      "source": "1392#lconn:2",
+      "target": "1496#rconn:2"
+    },
+    {
+      "source": "1328#lconn:1",
+      "target": "1496#lconn:3"
+    },
+    {
+      "source": "1392#rconn:2",
+      "target": "1384#lconn:1"
+    },
+    {
+      "source": "1394#lconn:1",
+      "target": "1379#rconn:2"
+    },
+    {
+      "source": "1330#lconn:1",
+      "target": "1496#lconn:1"
+    },
+    {
+      "source": "1392#lconn:1",
+      "target": "1496#rconn:1"
+    },
+    {
+      "source": "1379#rconn:1",
+      "target": "1385#lconn:1"
+    },
+    {
+      "source": "1355#out:1",
+      "target": "1420#in:2"
+    },
+    {
+      "source": "1496#out:1",
+      "target": "1372#in:1"
+    },
+    {
+      "source": "1335#out:1",
+      "target": "1398#in:1"
+    },
+    {
+      "source": "1365#out:1",
+      "target": "1335#in:1"
+    },
+    {
+      "source": "1331#out:1",
+      "target": "1407#in:1"
+    },
+    {
+      "source": "1358#out:1",
+      "target": "1570#in:2"
+    },
+    {
+      "source": "1358#out:1",
+      "target": "1564#in:1"
+    },
+    {
+      "source": "1406#out:1",
+      "target": "1812#in:1"
+    },
+    {
+      "source": "1395#out:1",
+      "target": "1377#in:1"
+    },
+    {
+      "source": "1388#out:1",
+      "target": "1398#in:2"
+    },
+    {
+      "source": "1345#out:1",
+      "target": "1388#in:1"
+    },
+    {
+      "source": "1396#out:1",
+      "target": "1406#in:1"
+    },
+    {
+      "source": "1520#out:1",
+      "target": "1396#in:1"
+    },
+    {
+      "source": "1364#out:1",
+      "target": "1398#in:6"
+    },
+    {
+      "source": "1353#out:1",
+      "target": "1398#in:5"
+    },
+    {
+      "source": "1359#out:1",
+      "target": "1420#in:1"
+    },
+    {
+      "source": "1394#out:1",
+      "target": "1376#in:1"
+    },
+    {
+      "source": "1407#out:1",
+      "target": "1520#in:1"
+    },
+    {
+      "source": "1546#out:1",
+      "target": "1701#in:1"
+    },
+    {
+      "source": "1546#out:1",
+      "target": "1402#in:2"
+    },
+    {
+      "source": "1408#out:1",
+      "target": "1520#in:2"
+    },
+    {
+      "source": "1357#out:1",
+      "target": "1388#in:3"
+    },
+    {
+      "source": "1345#out:2",
+      "target": "1388#in:2"
+    },
+    {
+      "source": "1360#out:1",
+      "target": "1345#in:1"
+    },
+    {
+      "source": "1362#out:1",
+      "target": "1420#in:4"
+    },
+    {
+      "source": "1496#out:2",
+      "target": "1370#in:1"
+    },
+    {
+      "source": "1354#out:1",
+      "target": "1420#in:3"
+    },
+    {
+      "source": "1369#out:1",
+      "target": "1375#in:1"
+    },
+    {
+      "source": "1393#out:1",
+      "target": "1369#in:1"
+    },
+    {
+      "source": "1393#out:1",
+      "target": "1373#in:1"
+    },
+    {
+      "source": "1700#out:1",
+      "target": "1821#in:1"
+    },
+    {
+      "source": "1562#out:1",
+      "target": "1563#in:1"
+    },
+    {
+      "source": "1541#out:1",
+      "target": "1544#in:1"
+    },
+    {
+      "source": "1541#out:1",
+      "target": "1824#in:2"
+    },
+    {
+      "source": "1526#out:1",
+      "target": "1525#in:1"
+    },
+    {
+      "source": "1525#out:1",
+      "target": "1527#in:1"
+    },
+    {
+      "source": "1528#out:1",
+      "target": "1527#in:2"
+    },
+    {
+      "source": "1527#out:1",
+      "target": "1537#in:1"
+    },
+    {
+      "source": "1711#out:1",
+      "target": "1537#in:3"
+    },
+    {
+      "source": "1538#out:1",
+      "target": "1539#in:1"
+    },
+    {
+      "source": "1817#out:1",
+      "target": "1541#in:2"
+    },
+    {
+      "source": "1544#out:1",
+      "target": "1543#in:1"
+    },
+    {
+      "source": "1563#out:1",
+      "target": "1405#in:1"
+    },
+    {
+      "source": "1569#out:1",
+      "target": "1715#in:1"
+    },
+    {
+      "source": "1566#out:1",
+      "target": "1564#in:2"
+    },
+    {
+      "source": "1566#out:1",
+      "target": "1722#in:1"
+    },
+    {
+      "source": "1719#out:1",
+      "target": "1570#in:1"
+    },
+    {
+      "source": "1570#out:1",
+      "target": "1569#in:1"
+    },
+    {
+      "source": "1706#out:1",
+      "target": "1707#in:1"
+    },
+    {
+      "source": "1363#out:1",
+      "target": "1572#in:2"
+    },
+    {
+      "source": "1572#out:1",
+      "target": "1378#in:1"
+    },
+    {
+      "source": "1420#out:4",
+      "target": "1699#in:1"
+    },
+    {
+      "source": "1702#out:1",
+      "target": "1420#in:5"
+    },
+    {
+      "source": "1705#out:1",
+      "target": "1420#in:6"
+    },
+    {
+      "source": "1707#out:1",
+      "target": "1572#in:1"
+    },
+    {
+      "source": "1420#out:5",
+      "target": "1709#in:1"
+    },
+    {
+      "source": "1420#out:6",
+      "target": "1708#in:1"
+    },
+    {
+      "source": "1714#out:1",
+      "target": "1537#in:2"
+    },
+    {
+      "source": "1734#out:1",
+      "target": "1714#in:2"
+    },
+    {
+      "source": "1712#out:1",
+      "target": "1714#in:1"
+    },
+    {
+      "source": "1710#out:1",
+      "target": "1712#in:1"
+    },
+    {
+      "source": "1715#out:1",
+      "target": "1564#in:3"
+    },
+    {
+      "source": "1718#out:1",
+      "target": "1719#in:1"
+    },
+    {
+      "source": "1722#out:1",
+      "target": "1718#in:1"
+    },
+    {
+      "source": "1420#out:3",
+      "target": "1723#in:1"
+    },
+    {
+      "source": "1724#out:1",
+      "target": "1841#in:1"
+    },
+    {
+      "source": "1725#out:1",
+      "target": "1841#in:2"
+    },
+    {
+      "source": "1420#out:7",
+      "target": "1733#in:1"
+    },
+    {
+      "source": "1764#out:1",
+      "target": "1864#in:2"
+    },
+    {
+      "source": "1764#out:1",
+      "target": "1523#in:1"
+    },
+    {
+      "source": "1523#out:1",
+      "target": "1371#in:1"
+    },
+    {
+      "source": "1420#out:2",
+      "target": "1789#in:1"
+    },
+    {
+      "source": "1420#out:8",
+      "target": "1798#in:1"
+    },
+    {
+      "source": "1420#out:1",
+      "target": "1787#in:1"
+    },
+    {
+      "source": "1788#out:1",
+      "target": "1865#in:1"
+    },
+    {
+      "source": "1788#out:1",
+      "target": "1453#in:1"
+    },
+    {
+      "source": "1791#out:1",
+      "target": "1864#in:1"
+    },
+    {
+      "source": "1791#out:1",
+      "target": "1453#in:4"
+    },
+    {
+      "source": "1790#out:1",
+      "target": "1453#in:2"
+    },
+    {
+      "source": "1799#out:1",
+      "target": "1453#in:3"
+    },
+    {
+      "source": "1453#out:1",
+      "target": "1764#in:1"
+    },
+    {
+      "source": "1453#out:2",
+      "target": "1764#in:2"
+    },
+    {
+      "source": "1453#out:3",
+      "target": "1764#in:3"
+    },
+    {
+      "source": "1813#out:1",
+      "target": "1572#in:3"
+    },
+    {
+      "source": "1816#out:1",
+      "target": "1402#in:1"
+    },
+    {
+      "source": "1539#out:1",
+      "target": "1818#in:1"
+    },
+    {
+      "source": "1818#out:1",
+      "target": "1819#in:1"
+    },
+    {
+      "source": "1548#out:1",
+      "target": "1541#in:1"
+    },
+    {
+      "source": "1548#out:1",
+      "target": "1824#in:1"
+    },
+    {
+      "source": "1819#out:1",
+      "target": "1548#in:2"
+    },
+    {
+      "source": "1519#out:1",
+      "target": "1390#in:1"
+    },
+    {
+      "source": "1390#out:1",
+      "target": "1402#in:4"
+    },
+    {
+      "source": "1390#out:1",
+      "target": "1546#in:1"
+    },
+    {
+      "source": "1545#out:1",
+      "target": "1402#in:3"
+    },
+    {
+      "source": "1545#out:1",
+      "target": "1546#in:2"
+    },
+    {
+      "source": "1543#out:1",
+      "target": "1545#in:1"
+    },
+    {
+      "source": "1834#out:1",
+      "target": "1567#in:4"
+    },
+    {
+      "source": "1834#out:1",
+      "target": "1704#in:1"
+    },
+    {
+      "source": "1564#out:1",
+      "target": "1834#in:2"
+    },
+    {
+      "source": "1564#out:1",
+      "target": "1567#in:3"
+    },
+    {
+      "source": "1835#out:1",
+      "target": "1567#in:1"
+    },
+    {
+      "source": "1835#out:1",
+      "target": "1834#in:1"
+    },
+    {
+      "source": "1835#out:1",
+      "target": "1836#in:1"
+    },
+    {
+      "source": "1836#out:1",
+      "target": "1567#in:2"
+    },
+    {
+      "source": "1836#out:1",
+      "target": "1834#in:3"
+    },
+    {
+      "source": "1841#out:1",
+      "target": "1398#in:3"
+    },
+    {
+      "source": "1843#out:1",
+      "target": "1694#in:1"
+    },
+    {
+      "source": "1846#out:1",
+      "target": "1859#in:2"
+    },
+    {
+      "source": "1821#out:1",
+      "target": "1519#in:1"
+    },
+    {
+      "source": "1857#out:1",
+      "target": "1858#in:2"
+    },
+    {
+      "source": "1856#out:1",
+      "target": "1858#in:1"
+    },
+    {
+      "source": "1858#out:1",
+      "target": "1859#in:1"
+    },
+    {
+      "source": "1859#out:1",
+      "target": "1398#in:4"
+    },
+    {
+      "source": "1453#out:4",
+      "target": "1865#in:2"
+    },
+    {
+      "source": "1870#out:1",
+      "target": "1871#in:1"
+    },
+    {
+      "source": "1871#out:1",
+      "target": "1924#in:1"
+    },
+    {
+      "source": "1871#out:2",
+      "target": "1872#in:1"
+    },
+    {
+      "source": "1874#out:1",
+      "target": "1841#in:3"
+    },
+    {
+      "source": "1929#out:1",
+      "target": "1885#in:1"
+    },
+    {
+      "source": "1929#out:1",
+      "target": "1519#in:2"
+    },
+    {
+      "source": "1929#out:1",
+      "target": "1548#in:1"
+    },
+    {
+      "source": "1920#rconn:1",
+      "target": "1900#lconn:1"
+    },
+    {
+      "source": "1920#rconn:1",
+      "target": "1897#rconn:2"
+    },
+    {
+      "source": "1918#rconn:1",
+      "target": "1897#rconn:1"
+    },
+    {
+      "source": "1893#lconn:1",
+      "target": "1897#lconn:1"
+    },
+    {
+      "source": "1917#rconn:1",
+      "target": "1896#rconn:1"
+    },
+    {
+      "source": "1894#lconn:1",
+      "target": "1896#lconn:1"
+    },
+    {
+      "source": "1892#lconn:1",
+      "target": "1898#lconn:1"
+    },
+    {
+      "source": "1919#rconn:1",
+      "target": "1898#rconn:1"
+    },
+    {
+      "source": "1908#out:1",
+      "target": "1912#in:1"
+    },
+    {
+      "source": "1908#out:1",
+      "target": "1916#in:3"
+    },
+    {
+      "source": "1907#out:1",
+      "target": "1911#in:1"
+    },
+    {
+      "source": "1907#out:1",
+      "target": "1916#in:2"
+    },
+    {
+      "source": "1906#out:1",
+      "target": "1910#in:1"
+    },
+    {
+      "source": "1906#out:1",
+      "target": "1916#in:1"
+    },
+    {
+      "source": "1901#out:1",
+      "target": "1913#in:1"
+    },
+    {
+      "source": "1901#out:1",
+      "target": "1914#in:1"
+    },
+    {
+      "source": "1901#out:1",
+      "target": "1915#in:1"
+    },
+    {
+      "source": "1915#out:1",
+      "target": "1908#in:1"
+    },
+    {
+      "source": "1914#out:1",
+      "target": "1907#in:1"
+    },
+    {
+      "source": "1913#out:1",
+      "target": "1906#in:1"
+    },
+    {
+      "source": "1891#out:1",
+      "target": "1915#in:2"
+    },
+    {
+      "source": "1890#out:1",
+      "target": "1914#in:2"
+    },
+    {
+      "source": "1889#out:1",
+      "target": "1913#in:2"
+    },
+    {
+      "source": "1895#out:1",
+      "target": "1909#in:1"
+    },
+    {
+      "source": "1904#out:1",
+      "target": "1918#in:1"
+    },
+    {
+      "source": "1905#out:1",
+      "target": "1919#in:1"
+    },
+    {
+      "source": "1903#out:1",
+      "target": "1917#in:1"
+    },
+    {
+      "source": "1899#out:3",
+      "target": "1891#in:1"
+    },
+    {
+      "source": "1899#out:2",
+      "target": "1890#in:1"
+    },
+    {
+      "source": "1899#out:1",
+      "target": "1889#in:1"
+    },
+    {
+      "source": "1902#out:1",
+      "target": "1899#in:1"
+    },
+    {
+      "source": "1922#out:1",
+      "target": "1921#in:1"
+    },
+    {
+      "source": "1921#out:1",
+      "target": "1923#in:1"
+    },
+    {
+      "source": "1811#out:1",
+      "target": "1408#in:1"
+    },
+    {
+      "source": "1927#out:1",
+      "target": "1928#in:1"
+    },
+    {
+      "source": "1928#out:1",
+      "target": "1931#in:1"
+    },
+    {
+      "source": "1930#out:1",
+      "target": "1931#in:2"
+    },
+    {
+      "source": "1925#out:1",
+      "target": "1932#in:1"
+    },
+    {
+      "source": "1931#out:1",
+      "target": "1929#in:1"
+    },
+    {
+      "source": "1932#out:1",
+      "target": "1930#in:1"
+    }
+  ]
+}

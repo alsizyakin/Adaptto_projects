@@ -1,0 +1,65 @@
+{
+  "helperSha256": "e04c5f33af36adc46e910c9252cd8d1b38ec3c868c65b6aa5471825f44fe4003",
+  "cases": [
+    {
+      "case": "sg2900_hold_nom",
+      "sample": {
+        "time": 16.06125,
+        "Idref": -129.7027709809561,
+        "Iqref": -105.0,
+        "speed": 303.687289847008,
+        "Id": -325.02548032074895,
+        "Iq": -258.64309660951716,
+        "Iq_request": -105.0,
+        "Ud": 251.49377725900098,
+        "Uq": 0.03162277660168389,
+        "Uq_limit": 0.03162277660168379,
+        "Ud_raw": 630.1493774734124,
+        "Uq_raw": 287.94245121318835,
+        "Uss_ref": 230.63251976668892,
+        "Pmech": -130.60641486097984,
+        "Pcommand": -53.53534678564844,
+        "Psi_used": 0.10258076807597581,
+        "Lq_used": 0.0003086979581668894
+      },
+      "Ufw": 241.3324125212636,
+      "Ud_target": 101.7780218666289,
+      "Uq_target": 218.82085731997614,
+      "candidateErrorUsingUnfilteredUq": 218.78923454337445,
+      "candidateFluxRateBeforeProjection": 2.266471712788446,
+      "candidateIdRateBeforeProjection": 7311.199073511117,
+      "IdrefMinusId": 195.32270933979285,
+      "limitation": "This is a static calculation on recorded F06 data using FINAL UNFILTERED Uq, not the F07 Uq_f input or a closed-loop F07 test. Positive correction increases Idref while the d regulator is already saturated positively."
+    },
+    {
+      "case": "sg2900_hold_user",
+      "sample": {
+        "time": 6.061166666666667,
+        "Idref": -128.0049125347497,
+        "Iqref": 0.0,
+        "speed": 303.6872898470079,
+        "Id": -340.58152491667164,
+        "Iq": -221.32997289774016,
+        "Iq_request": 0.0,
+        "Ud": 251.49377725900098,
+        "Uq": 0.031622776601683,
+        "Uq_limit": 0.03162277660168379,
+        "Ud_raw": 666.1423244505838,
+        "Uq_raw": 416.5045257471446,
+        "Uss_ref": 237.10807959151225,
+        "Pmech": -140.2220032419989,
+        "Pcommand": 0.0,
+        "Psi_used": 0.10929233263815527,
+        "Lq_used": 0.00036698276402143495
+      },
+      "Ufw": 241.3324125212636,
+      "Ud_target": -6.811630498333433,
+      "Uq_target": 241.23626390592173,
+      "candidateErrorUsingUnfilteredUq": 241.20464112932004,
+      "candidateFluxRateBeforeProjection": 2.4986763962763154,
+      "candidateIdRateBeforeProjection": 8060.246439601017,
+      "IdrefMinusId": 212.57661238192193,
+      "limitation": "This is a static calculation on recorded F06 data using FINAL UNFILTERED Uq, not the F07 Uq_f input or a closed-loop F07 test. Positive correction increases Idref while the d regulator is already saturated positively."
+    }
+  ]
+}

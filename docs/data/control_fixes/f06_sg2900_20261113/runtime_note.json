@@ -1,0 +1,11 @@
+{
+  "nominalBatchExitCode": 0,
+  "nominalBatchMessage": "CDefaultTerminationHandler waitpid: No child processes; all three cases completed and verified; process exit 0",
+  "userParametersBatchExitCode": 143,
+  "userParametersBatchStage": "Final simulation completed and complete MAT saved, interruption during verification",
+  "recoveryVerificationExitCode": 0,
+  "resimulationRequired": false,
+  "cause": "Not established",
+  "finalAnalysisExitCode": 0,
+  "setupAttempt": "Initial launch could not read cases.json after preparation assertion; no simulation started. Scenario validation corrected, setup log retained."
+}

@@ -1,0 +1,4 @@
+FW fw_trim: method=Discrete, function period=FocDiscrTime, subsystem period=-1, integration step=8.33333333e-05 s, Kpsi=2.5
+Saved plant deltaLd=0.05, code matches=1, delay Idref=4.16666667e-05 s
+sg2900_startgen_user: complete=1, finite=1, native logs, Iref 420.000000 A, Imax 739.541963 A, FW ratio=1
+Recovered verification: sg2900_startgen_user, Imax 739.541963491 A, no resimulation

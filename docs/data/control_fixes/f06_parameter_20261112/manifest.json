@@ -1,0 +1,31 @@
+{
+  "stage": "F06 persistent state, FocDiscrTime as Parameter Data; drive simulation pending",
+  "verified_utc": "2026-11-12T19:39:29.218373+00:00",
+  "parameters": {
+    "Kpsi_Wb_per_s": 2.5,
+    "FocDiscrTime_s": 8.333333333333333e-05,
+    "FocDiscrTime_scope": "Parameter",
+    "FocDiscrTime_tunable": false,
+    "block_sample_time": "FocDiscrTime",
+    "signal_inputs": 6
+  },
+  "files": {
+    "tools/fw_limiter/fw_trim_persistent.m": "f20e5632ac7c6012dd5555990ee3ab44fd5f738449c9fde36df0749f9e4df255",
+    "tools/fw_limiter/test_fw_trim_persistent.m": "622582dfed3c0326fc4c2d3df947ed3987d03d009a8e8bbf05d242bfb0053d75",
+    "tools/fw_limiter/fw_trim_projected.m": "5ba3d6e77f80e880b3b18ef33fdd0e9d34886c216e4aef6e50b69d40484542fe",
+    "ideal_source_drive_Idff_aug_param.slx": "b4a938647d12a4e7695ca3e9cee42bd70964739419f6c0c66a922da2bdf6a824",
+    "ideal_source_drive_Idff_aug_param_woFreeze.slx": "99b07becd6dc212e55a8df2cf89b0837411ddc42671c9fb67e78d33621cd8dc8"
+  },
+  "checks": {
+    "matlab_sequence_samples": 6000,
+    "simulink_samples_per_run": 1201,
+    "normal_runs": 2,
+    "fast_restart_runs": 2,
+    "persistent_instances": 2,
+    "max_equivalence_error": 0,
+    "parameter_resolution_and_port_count": "passed"
+  },
+  "component_results": "tmp/control_f06_parameter_20261112",
+  "working_drive_models_modified_by_assistant": false,
+  "limits": "Isolated component only. User changed working woFreeze since the previous stage; no inspection or drive validation of that change in this step."
+}

@@ -1,0 +1,13 @@
+F06 SG2900 verification 2026-11-13T13:48:59.611933+03:00
+SHA256 1895d6502311498c93f831b02794d1ea081b0092d15f70014eb0889ef192151e
+Six cases completed, fully verified. All six fail both performance screens.
+No controller logic edits or tuning. Original user F06 SHA256 unchanged.
+sg2900_hold_nom: max rpm=2900.000000000; Imax=605.286571824 A; Irefmax=418.776126374 A; settled d/q=203.133462283/153.643096610 A; FW residual=0; native period=8.33333333332e-05 s; torque residual/peak=7.5106667e-06
+sg2900_hold_user: max rpm=2900.000000000; Imax=599.428257421 A; Irefmax=418.374407042 A; settled d/q=228.002953054/221.329972898 A; FW residual=0; native period=8.33333333332e-05 s; torque residual/peak=8.9706169e-06
+sg2900_cycles_nom: max rpm=2900.000000000; Imax=759.769688469 A; Irefmax=419.999999672 A; settled d/q=240.978570247/212.989667165 A; FW residual=0; native period=8.33333333332e-05 s; torque residual/peak=7.51174399e-06
+sg2900_cycles_user: max rpm=2900.000000000; Imax=750.996098543 A; Irefmax=419.999999672 A; settled d/q=235.285303443/170.780977704 A; FW residual=0; native period=8.33333333332e-05 s; torque residual/peak=8.53923234e-06
+sg2900_startgen_nom: max rpm=2900.000000000; Imax=609.091334522 A; Irefmax=419.999999672 A; settled d/q=169.956005620/321.069277205 A; FW residual=0; native period=8.33333333332e-05 s; torque residual/peak=7.71026789e-06
+sg2900_startgen_user: max rpm=2900.000000000; Imax=739.541963491 A; Irefmax=419.999999672 A; settled d/q=322.703187384/319.915181058 A; FW residual=0; native period=8.33333333332e-05 s; torque residual/peak=8.34588931e-06
+User batch interrupted after last complete MAT; verification recovered with exit 0. No resimulation.
+MATLAB nominal batch exit 0; user batch exit 143; recovery verification exit 0; final Python analysis exit 0.
+Raw MAT and caches retained; no cleanup.

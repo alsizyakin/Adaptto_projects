@@ -1,0 +1,432 @@
+{
+  "sourceSha256": "0a32fc0a1dde0e5156344281cc7b03d3729d539390c4617af1d9c3112b8d791d",
+  "source": "/home/alexey/Git/Matlab/Adaptto/tmp/control_fix_f01_20261112/source_model.slx",
+  "matlabVersion": "25.1.0.2943329 (R2025a)",
+  "created": "2026-11-12 12:17:12 +0300",
+  "note": "Raw errors: no feasibility or transition-window gating; not final drive acceptance.",
+  "nom": {
+    "currentLimit": 420,
+    "measuredLimit": 441,
+    "errorThreshold": 100,
+    "durationThreshold": 0.02,
+    "nonfinite": [],
+    "finite": true,
+    "completed": true,
+    "fullResolution": true,
+    "coverage": true,
+    "jointReferenceLog": true,
+    "maxReferenceCurrent": 419.99999684048817,
+    "maxMeasuredCurrent": 421.2114136478451,
+    "referenceWithinLimit": true,
+    "measuredWithinLimit": true,
+    "referenceExcess": [],
+    "tracking_d": {
+      "maxAbsoluteError": 29.290661121667426,
+      "events": [],
+      "prolongedCount": 0,
+      "activeAtEnd": false,
+      "settledTail": 25,
+      "recoveryObserved": true
+    },
+    "tracking_q": {
+      "maxAbsoluteError": 419.99999684048817,
+      "events": {
+        "start": 0,
+        "stop": 0.0005,
+        "duration": 0.0005,
+        "open": false,
+        "prolonged": false
+      },
+      "prolongedCount": 0,
+      "activeAtEnd": false,
+      "settledTail": 24.9995,
+      "recoveryObserved": true
+    },
+    "dutyWithinLimit": true,
+    "minDuty": 0.005000000000000143,
+    "maxDuty": 0.9949999999999999,
+    "actualDeltas": {
+      "deltaLd": 0,
+      "deltaLq": 0,
+      "deltaPsi": 0,
+      "deltaRs": 0
+    },
+    "speedProfile": {
+      "block": "1-D Lookup Table1",
+      "time": [
+        0,
+        0.2,
+        0.4,
+        4,
+        4.2,
+        8,
+        8.2,
+        9
+      ],
+      "speed": [
+        0,
+        0,
+        204,
+        204,
+        408,
+        408,
+        204,
+        204
+      ],
+      "maxMeasuredSpeed": 407.99999999999466,
+      "finalLoggedTime": 25,
+      "finalMeasuredSpeed": 204.00000000000284
+    },
+    "sourceSha256": "0a32fc0a1dde0e5156344281cc7b03d3729d539390c4617af1d9c3112b8d791d",
+    "modelSha256": "f1bf8547579a960677f74c23093185695bbb9b309860c9e25f3078f0ed585502",
+    "parameters": {
+      "Is_max": 420,
+      "FocDiscrTime": 8.333333333333333e-05,
+      "Ld": 0.00031,
+      "Lq": 0.000305,
+      "Psi": 0.1024,
+      "Rs": 0.02,
+      "PolePairs": 11,
+      "VDC": 440,
+      "mMaxPWM": 0.99,
+      "mMaxCurrent": 0.99,
+      "mFW": 0.95,
+      "deltaLd": 0,
+      "deltaLq": 0,
+      "deltaPsi": 0,
+      "deltaRs": 0
+    },
+    "overrides": {
+      "deltaLd": 0,
+      "deltaLq": 0,
+      "deltaPsi": 0,
+      "deltaRs": 0
+    },
+    "elapsed": 160.603837,
+    "finalTime": 25,
+    "signalCount": 48,
+    "matSha256": "321cda045d12d171d9ede35cef02c1a5b38d5fb18b3cbc83d4a0d549bfae99b3"
+  },
+  "ldp20": {
+    "currentLimit": 420,
+    "measuredLimit": 441,
+    "errorThreshold": 100,
+    "durationThreshold": 0.02,
+    "nonfinite": [],
+    "finite": true,
+    "completed": true,
+    "fullResolution": true,
+    "coverage": true,
+    "jointReferenceLog": true,
+    "maxReferenceCurrent": 419.99999684048817,
+    "maxMeasuredCurrent": 515.1843823142689,
+    "referenceWithinLimit": true,
+    "measuredWithinLimit": false,
+    "referenceExcess": [],
+    "tracking_d": {
+      "maxAbsoluteError": 323.4812343962398,
+      "events": [
+        {
+          "start": 4.150666666666667,
+          "stop": 4.151666666666666,
+          "duration": 0.0009999999999994458,
+          "open": false,
+          "prolonged": false
+        },
+        {
+          "start": 4.152333333333333,
+          "stop": 4.153333333333333,
+          "duration": 0.001000000000000334,
+          "open": false,
+          "prolonged": false
+        },
+        {
+          "start": 4.1539166666666665,
+          "stop": 4.155,
+          "duration": 0.0010833333333337691,
+          "open": false,
+          "prolonged": false
+        },
+        {
+          "start": 4.1554166666666665,
+          "stop": 4.156583333333333,
+          "duration": 0.0011666666666663161,
+          "open": false,
+          "prolonged": false
+        },
+        {
+          "start": 4.157,
+          "stop": 4.158166666666666,
+          "duration": 0.0011666666666663161,
+          "open": false,
+          "prolonged": false
+        },
+        {
+          "start": 4.1585833333333335,
+          "stop": 4.15975,
+          "duration": 0.0011666666666663161,
+          "open": false,
+          "prolonged": false
+        },
+        {
+          "start": 4.160083333333334,
+          "stop": 4.161416666666667,
+          "duration": 0.0013333333333331865,
+          "open": false,
+          "prolonged": false
+        },
+        {
+          "start": 4.161583333333334,
+          "stop": 4.262583333333334,
+          "duration": 0.10099999999999998,
+          "open": false,
+          "prolonged": true
+        },
+        {
+          "start": 4.524583333333333,
+          "stop": 4.57175,
+          "duration": 0.04716666666666658,
+          "open": false,
+          "prolonged": true
+        },
+        {
+          "start": 5.11525,
+          "stop": 5.5785,
+          "duration": 0.4632500000000004,
+          "open": false,
+          "prolonged": true
+        },
+        {
+          "start": 6.11375,
+          "stop": 6.581166666666666,
+          "duration": 0.4674166666666668,
+          "open": false,
+          "prolonged": true
+        },
+        {
+          "start": 7.113083333333333,
+          "stop": 7.582416666666666,
+          "duration": 0.46933333333333316,
+          "open": false,
+          "prolonged": true
+        },
+        {
+          "start": 8.0905,
+          "stop": 8.666,
+          "duration": 0.5754999999999999,
+          "open": false,
+          "prolonged": true
+        },
+        {
+          "start": 9.035916666666667,
+          "stop": 9.666,
+          "duration": 0.6300833333333333,
+          "open": false,
+          "prolonged": true
+        },
+        {
+          "start": 10.035833333333333,
+          "stop": 10.666083333333333,
+          "duration": 0.6302500000000002,
+          "open": false,
+          "prolonged": true
+        },
+        {
+          "start": 11.035833333333333,
+          "stop": 11.666083333333333,
+          "duration": 0.6302500000000002,
+          "open": false,
+          "prolonged": true
+        },
+        {
+          "start": 12.035833333333333,
+          "stop": 12.666083333333333,
+          "duration": 0.6302500000000002,
+          "open": false,
+          "prolonged": true
+        },
+        {
+          "start": 13.035833333333333,
+          "stop": 13.666083333333333,
+          "duration": 0.6302500000000002,
+          "open": false,
+          "prolonged": true
+        },
+        {
+          "start": 14.035833333333333,
+          "stop": 14.666083333333333,
+          "duration": 0.6302500000000002,
+          "open": false,
+          "prolonged": true
+        },
+        {
+          "start": 15.035833333333333,
+          "stop": 15.666083333333333,
+          "duration": 0.6302500000000002,
+          "open": false,
+          "prolonged": true
+        },
+        {
+          "start": 16.035833333333333,
+          "stop": 16.666083333333333,
+          "duration": 0.6302500000000002,
+          "open": false,
+          "prolonged": true
+        },
+        {
+          "start": 17.035833333333333,
+          "stop": 17.666083333333333,
+          "duration": 0.6302500000000002,
+          "open": false,
+          "prolonged": true
+        },
+        {
+          "start": 18.035833333333333,
+          "stop": 18.666083333333333,
+          "duration": 0.6302500000000002,
+          "open": false,
+          "prolonged": true
+        },
+        {
+          "start": 19.035833333333333,
+          "stop": 19.666083333333333,
+          "duration": 0.6302500000000002,
+          "open": false,
+          "prolonged": true
+        },
+        {
+          "start": 20.035833333333333,
+          "stop": 20.666083333333333,
+          "duration": 0.6302500000000002,
+          "open": false,
+          "prolonged": true
+        },
+        {
+          "start": 21.035833333333333,
+          "stop": 21.666083333333333,
+          "duration": 0.6302500000000002,
+          "open": false,
+          "prolonged": true
+        },
+        {
+          "start": 22.035833333333333,
+          "stop": 22.666083333333333,
+          "duration": 0.6302500000000002,
+          "open": false,
+          "prolonged": true
+        },
+        {
+          "start": 23.035833333333333,
+          "stop": 23.666083333333333,
+          "duration": 0.6302500000000002,
+          "open": false,
+          "prolonged": true
+        },
+        {
+          "start": 24.035833333333333,
+          "stop": 24.666083333333333,
+          "duration": 0.6302500000000002,
+          "open": false,
+          "prolonged": true
+        }
+      ],
+      "prolongedCount": 22,
+      "activeAtEnd": false,
+      "settledTail": 0.3339166666666671,
+      "recoveryObserved": true
+    },
+    "tracking_q": {
+      "maxAbsoluteError": 721.6768037170256,
+      "events": [
+        {
+          "start": 0,
+          "stop": 0.0005,
+          "duration": 0.0005,
+          "open": false,
+          "prolonged": false
+        },
+        {
+          "start": 4.14725,
+          "stop": 25,
+          "duration": 20.85275,
+          "open": true,
+          "prolonged": true
+        }
+      ],
+      "prolongedCount": 1,
+      "activeAtEnd": true,
+      "settledTail": 0,
+      "recoveryObserved": false
+    },
+    "dutyWithinLimit": true,
+    "minDuty": 0.005000000000000143,
+    "maxDuty": 0.9949999999999999,
+    "actualDeltas": {
+      "deltaLd": 0.2,
+      "deltaLq": 0,
+      "deltaPsi": 0,
+      "deltaRs": 0
+    },
+    "speedProfile": {
+      "block": "1-D Lookup Table1",
+      "time": [
+        0,
+        0.2,
+        0.4,
+        4,
+        4.2,
+        8,
+        8.2,
+        9
+      ],
+      "speed": [
+        0,
+        0,
+        204,
+        204,
+        408,
+        408,
+        204,
+        204
+      ],
+      "maxMeasuredSpeed": 407.9999999999949,
+      "finalLoggedTime": 25,
+      "finalMeasuredSpeed": 204.00000000000284
+    },
+    "sourceSha256": "0a32fc0a1dde0e5156344281cc7b03d3729d539390c4617af1d9c3112b8d791d",
+    "modelSha256": "e69c97edcef2eca85c0c6d041b13c674e4c9f7019990c1f27186b231db8fffc4",
+    "parameters": {
+      "Is_max": 420,
+      "FocDiscrTime": 8.333333333333333e-05,
+      "Ld": 0.00031,
+      "Lq": 0.000305,
+      "Psi": 0.1024,
+      "Rs": 0.02,
+      "PolePairs": 11,
+      "VDC": 440,
+      "mMaxPWM": 0.99,
+      "mMaxCurrent": 0.99,
+      "mFW": 0.95,
+      "deltaLd": 0.2,
+      "deltaLq": 0,
+      "deltaPsi": 0,
+      "deltaRs": 0
+    },
+    "overrides": {
+      "deltaLd": 0.2,
+      "deltaLq": 0,
+      "deltaPsi": 0,
+      "deltaRs": 0
+    },
+    "elapsed": 130.168024,
+    "finalTime": 25,
+    "signalCount": 48,
+    "matSha256": "eefdf2ad90a27fd3c105f6d676f1f21abfdee4fd92e01eb7d134539cff7efb61"
+  },
+  "verification": "test_fwl_assess; both complete logs reassessed; source/model hashes; saved delta parameters; limited-voltage identities",
+  "verificationLog": "verification_20261112_122333.log",
+  "verifiedAt": "2026-11-12 12:23:44 +0300",
+  "userSourceSha256": "0a32fc0a1dde0e5156344281cc7b03d3729d539390c4617af1d9c3112b8d791d",
+  "profileSelection": "saved",
+  "archivedSource": "docs/data/control_fixes/f01_20261112/saved/baseline_source.slx"
+}

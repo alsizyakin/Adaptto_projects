@@ -1,0 +1,157 @@
+--- reference/metadata/coreProperties.xml
++++ noff/metadata/coreProperties.xml
+@@ -4,7 +4,7 @@
+   <dcterms:created xsi:type="dcterms:W3CDTF">2023-11-02T06:59:08Z</dcterms:created>
+   <dc:creator>alexey</dc:creator>
+   <cp:lastModifiedBy>alexey</cp:lastModifiedBy>
+-  <dcterms:modified xsi:type="dcterms:W3CDTF">2026-11-13T09:15:49Z</dcterms:modified>
+-  <cp:revision>4.199</cp:revision>
++  <dcterms:modified xsi:type="dcterms:W3CDTF">2026-11-13T11:21:34Z</dcterms:modified>
++  <cp:revision>4.200</cp:revision>
+   <cp:version>R2025a</cp:version>
+ </cp:coreProperties>
+--- reference/simulink/blockdiagram.xml
++++ noff/simulink/blockdiagram.xml
+@@ -12,7 +12,7 @@
+     <ConfigManagerSettings>
+       <P Name="ModifiedByFormat">%&lt;Auto&gt;</P>
+       <P Name="ModifiedDateFormat">%&lt;Auto&gt;</P>
+-      <P Name="ModelVersionFormat">%&lt;AutoIncrement:4.199&gt;</P>
++      <P Name="ModelVersionFormat">%&lt;AutoIncrement:4.200&gt;</P>
+     </ConfigManagerSettings>
+     <SimulationSettings>
+       <P Name="SimulationMode">rapid-accelerator</P>
+--- reference/simulink/stateflow/chart_144.xml
++++ noff/simulink/stateflow/chart_144.xml
+@@ -5,8 +5,6 @@
+   <P Name="viewLimits">[0 156.75 0 153.75]</P>
+   <P Name="screen">[1 1 1280 1024 1.041666666666667]</P>
+   <P Name="viewObj">144</P>
+-  <P Name="visible">1</P>
+-  <subviewS/>
+   <P Name="ssIdHighWaterMark">15</P>
+   <P Name="decomposition">CLUSTER_CHART</P>
+   <P Name="type">EML_CHART</P>
+--- reference/simulink/stateflow/chart_160.xml
++++ noff/simulink/stateflow/chart_160.xml
+@@ -5,8 +5,6 @@
+   <P Name="viewLimits">[0 156.75 0 153.75]</P>
+   <P Name="screen">[1 1 1280 1024 1.041666666666667]</P>
+   <P Name="viewObj">160</P>
+-  <P Name="visible">1</P>
+-  <subviewS/>
+   <P Name="ssIdHighWaterMark">5</P>
+   <P Name="decomposition">CLUSTER_CHART</P>
+   <P Name="type">EML_CHART</P>
+--- reference/simulink/stateflow/chart_79.xml
++++ noff/simulink/stateflow/chart_79.xml
+@@ -5,8 +5,6 @@
+   <P Name="viewLimits">[0 156.75 0 153.75]</P>
+   <P Name="screen">[1 1 1280 1024 1.041666666666667]</P>
+   <P Name="viewObj">79</P>
+-  <P Name="visible">1</P>
+-  <subviewS/>
+   <P Name="ssIdHighWaterMark">6</P>
+   <P Name="decomposition">CLUSTER_CHART</P>
+   <P Name="type">EML_CHART</P>
+--- reference/simulink/systems/system_1925.xml
++++ noff/simulink/systems/system_1925.xml
+@@ -1,7 +1,6 @@
+ <?xml version="1.0" encoding="utf-8"?>
+ <System>
+   <P Name="Location">[0, -1, 959, 1143]</P>
+-  <P Name="Open">on</P>
+   <P Name="ZoomFactor">10</P>
+   <Block BlockType="Inport" Name="currents" SID="1926">
+     <P Name="Position">[-320, 408, -290, 422]</P>
+--- reference/simulink/systems/system_root.xml
++++ noff/simulink/systems/system_root.xml
+@@ -1,10 +1,9 @@
+ <?xml version="1.0" encoding="utf-8"?>
+ <System>
+   <P Name="Location">[0, -1, 1920, 1143]</P>
+-  <P Name="Open">on</P>
+   <P Name="ZoomFactor">40</P>
+   <P Name="ReportName">simulink-default.rpt</P>
+-  <P Name="SIDHighWatermark">2666</P>
++  <P Name="SIDHighWatermark">2667</P>
+   <Block BlockType="Lookup_n-D" Name="1-D Lookup&#xA;Table" SID="2044">
+     <PortCounts in="1" out="1"/>
+     <P Name="Position">[-520, 293, -455, 357]</P>
+@@ -530,6 +529,11 @@
+       <P Name="ClassName">reference</P>
+       <P Name="SchemaVersion">1</P>
+     </InstanceData>
++  </Block>
++  <Block BlockType="Gain" Name="Experiment_FF_gain" SID="2667">
++    <P Name="Position">[2350, 1130, 2410, 1160]</P>
++    <P Name="ZOrder">100000</P>
++    <P Name="Gain">0</P>
+   </Block>
+   <Block BlockType="From" Name="From" SID="1700">
+     <P Name="Position">[-340, 1966, -300, 1994]</P>
+@@ -5577,7 +5581,6 @@
+   <Line>
+     <P Name="ZOrder">16583</P>
+     <P Name="Src">2656#out:1</P>
+-    <P Name="Points">[5, 0]</P>
+     <P Name="Dst">2565#in:1</P>
+   </Line>
+   <Line>
+@@ -5616,21 +5619,6 @@
+     <P Name="Src">2661#out:1</P>
+     <P Name="Points">[43, 0; 0, -70]</P>
+     <P Name="Dst">2397#in:1</P>
+-  </Line>
+-  <Line>
+-    <P Name="ZOrder">16608</P>
+-    <P Name="Src">2319#out:1</P>
+-    <P Name="Points">[230, 0]</P>
+-    <Branch>
+-      <P Name="ZOrder">16621</P>
+-      <P Name="Points">[106, 0; 0, 83; 584, 0]</P>
+-      <P Name="Dst">2318#in:2</P>
+-    </Branch>
+-    <Branch>
+-      <P Name="ZOrder">16620</P>
+-      <P Name="Points">[0, -130]</P>
+-      <P Name="Dst">2662#in:1</P>
+-    </Branch>
+   </Line>
+   <Line>
+     <P Name="ZOrder">16616</P>
+@@ -5658,6 +5646,24 @@
+     <P Name="ZOrder">16627</P>
+     <P Name="Src">2662#out:3</P>
+     <P Name="Dst">2665#in:1</P>
++  </Line>
++  <Line>
++    <P Name="ZOrder">16929</P>
++    <P Name="Src">2319#out:1</P>
++    <P Name="Dst">2667#in:1</P>
++  </Line>
++  <Line>
++    <P Name="ZOrder">16931</P>
++    <P Name="Src">2667#out:1</P>
++    <P Name="Points">[0, 0]</P>
++    <Branch>
++      <P Name="ZOrder">16930</P>
++      <P Name="Dst">2318#in:2</P>
++    </Branch>
++    <Branch>
++      <P Name="ZOrder">16932</P>
++      <P Name="Dst">2662#in:1</P>
++    </Branch>
+   </Line>
+   <Annotation SID="2647">
+     <P Name="Name">Надо отключить оценку при омегах мех ниже 50</P>
+--- reference/simulink/windowsInfo.xml
++++ noff/simulink/windowsInfo.xml
+@@ -822,6 +822,6 @@
+       <Array PropName="PersistedApps" Type="Cell" Dimension="0*1"/>
+       <P Name="WindowUuid" Class="char">fae48301-35f7-4a3f-bfe3-4d6060918227</P>
+     </Object>
+-    <P Name="BDUuid" Class="char">f912c159-6fe0-402e-960c-92e942255acd</P>
++    <P Name="BDUuid" Class="char">bf8b30d6-9a60-454e-a750-b023895a9808</P>
+   </Object>
+ </WindowsInfo>

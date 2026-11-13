@@ -1,0 +1,16 @@
+FW fw_trim: method=Discrete, function period=FocDiscrTime, subsystem period=-1, integration step=8.33333333e-05 s, Kpsi=2.5
+Saved plant deltaLd=0.05, code matches=1, delay Idref=4.16666667e-05 s
+NOFF SOURCE READY: a659ad73c6900842f769adef4e45a95ee696bca25d79e3af9640b94603ef558e; original source unchanged
+FW fw_trim: method=Discrete, function period=FocDiscrTime, subsystem period=-1, integration step=8.33333333e-05 s, Kpsi=2.5
+Saved plant deltaLd=0, code matches=1, delay Idref=4.16666667e-05 s
+### Searching for referenced models in model 'aug_nff_sg2900_hold_nom'.
+### Total of 1 models to build.
+### Generating code for Physical Networks associated with solver block 'aug_nff_sg2900_hold_nom/Solver Configuration' ...
+done.
+### Building the rapid accelerator target for model: aug_nff_sg2900_hold_nom
+### Successfully built the rapid accelerator target for model: aug_nff_sg2900_hold_nom
+aug_nff_sg2900_hold_nom done in 135.8 s
+FW fw_trim: method=Discrete, function period=FocDiscrTime, subsystem period=-1, integration step=8.33333333e-05 s, Kpsi=2.5
+Saved plant deltaLd=0, code matches=1, delay Idref=4.16666667e-05 s
+nff_sg2900_hold_nom: complete=1, finite=1, native logs, Iref 390.349230 A, Imax 596.392698 A, FW ratio=1
+RELEASE450 nff_sg2900_hold_nom: Imax=596.392698 A, q prolonged=7, complete=1

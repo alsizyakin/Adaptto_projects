@@ -1,0 +1,123 @@
+{
+  "source": "/home/alexey/Git/Matlab/Adaptto/tmp/f06_sg2900_20261113/sg2900_startgen_nom/baseline_source.slx",
+  "sha256": "6880e126dfaa7fec36680d4dfaf830585beaa4413c0dabf4c8b7b9807ca5efa3",
+  "parameters": {
+    "Is_max": 420,
+    "FocDiscrTime": 8.3333333333333331E-5,
+    "Ld": 0.00031,
+    "Lq": 0.000305,
+    "Psi": 0.1024,
+    "Rs": 0.02,
+    "PolePairs": 11,
+    "VDC": 440,
+    "mMaxPWM": 0.99,
+    "mMaxCurrent": 0.99,
+    "mFW": 0.95,
+    "deltaLd": 0,
+    "deltaLq": 0,
+    "deltaPsi": 0,
+    "deltaRs": 0
+  },
+  "fwBlock": "fw_trim",
+  "updateMethod": "Discrete",
+  "sampleTimeExpression": "FocDiscrTime",
+  "configuredFunctionSampleTime": 8.3333333333333331E-5,
+  "subsystemSampleTimeExpression": "-1",
+  "subsystemSampleTime": -1,
+  "directFeedthrough": true,
+  "legacyPIDCommented": "on",
+  "idReferenceDelay": 4.1666666666666665E-5,
+  "timeDataScope": "Parameter",
+  "timeDataTunable": true,
+  "codeMatchesReferenceIgnoringComments": true,
+  "inputs": {
+    "psi_ff": {
+      "block": "From58",
+      "port": 1
+    },
+    "eU": {
+      "block": "Sum11",
+      "port": 1
+    },
+    "Ufw": {
+      "block": "From65",
+      "port": 1
+    },
+    "psi_min": {
+      "block": "Gain11",
+      "port": 1
+    },
+    "psi_max": {
+      "block": "Constant15",
+      "port": 1,
+      "value": 0
+    },
+    "Kpsi": {
+      "block": "Constant17",
+      "port": 1,
+      "value": 2.5
+    }
+  },
+  "dLimitGain": 1,
+  "qBudgetGain": 0.95,
+  "speedProfile": {
+    "block": "1-D Lookup Table5",
+    "time": [
+      0,
+      0.15,
+      0.65,
+      1.25,
+      2.25,
+      5,
+      5.4,
+      7,
+      7.5,
+      9,
+      9.4,
+      10,
+      10.5,
+      11,
+      11.3,
+      12,
+      12.6,
+      14,
+      14.3,
+      16,
+      16.6,
+      18,
+      18.5,
+      21,
+      22,
+      25
+    ],
+    "speed": [
+      0,
+      0,
+      60,
+      120,
+      303.68728984701329,
+      303.68728984701329,
+      180,
+      180,
+      303.68728984701329,
+      303.68728984701329,
+      60,
+      60,
+      0,
+      0,
+      60,
+      60,
+      303.68728984701329,
+      303.68728984701329,
+      200,
+      200,
+      303.68728984701329,
+      303.68728984701329,
+      120,
+      120,
+      0,
+      0
+    ]
+  },
+  "stopTime": 25
+}

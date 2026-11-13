@@ -1,0 +1,13 @@
+{
+  "model": "ideal_source_drive_Idff_aug_param_F06.slx",
+  "sha256": "632394ce2cd9ca77674a271e7eff35ae4fcc3d05987c97c826bb7583c866c05b",
+  "analysis": "static equations and archived simulation logs; no new model simulation",
+  "workspaceMatchesFrozenB": true,
+  "referenceModel": "docs/data/control_fixes/f06_components_20261113/component_source_ff_restored.slx",
+  "fwCodeMembers": [
+    "simulink/stateflow/chart_144.xml"
+  ],
+  "Kpsi": 2.5,
+  "voltageFilterTime": "FocDiscrTime*10",
+  "note": "Saved F06 has changed since C01. Only current FW code, inputs and workspace are used here; previous transient logs retain their own source hashes."
+}

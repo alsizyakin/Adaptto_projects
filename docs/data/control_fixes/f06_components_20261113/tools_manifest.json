@@ -1,0 +1,17 @@
+{
+  "audit_f06_components.m": "513356adb7ed49ef8f53fd260d3818acc91d0573dea328d1d00be509130a4f31",
+  "components_analysis.py": "c568d85b161588451b49b804fc826b785349a4aef158b244e0550b663758cbf6",
+  "run_aug.m": "4bac215bf05ce17b2fb116aa9664c2da6634c9e641c3b9fad5178fdf5fc914a2",
+  "inspect_f06_model.m": "c78bee6f1c53e5e51db4c27b94d707cb04aff9ccb625646227f96a349cbba2d5",
+  "run_release450_case.m": "e7f677680d67042265f144a0dd164c95bb3c48ed8cc413d860c3e1a9c0b1c369",
+  "run_release450_suite.m": "64d01bd5ee321e38540e8f136426213cce61affa1f7c469d8abd9d4c8e28a816",
+  "verify_f06_case.m": "339537883d2ab3cc2d278013dcdf3666223c4f454e491a9974e98dcf9ad3c989",
+  "fw_trim_persistent.m": "f20e5632ac7c6012dd5555990ee3ab44fd5f738449c9fde36df0749f9e4df255",
+  "starter2900_analysis.py": "458a4126e867a6bf51efb4428be04e7156b9dfdb808575c39c6e8b19fa6aa678",
+  "f02_figures.py": "82e660b2c170ad4439323d1210855a23f86d507b9464c2bac251dffaaf274a3e",
+  "baseline_comparison.py": "d78edff12cdc87a51cec82d2bc3f777eeae8c907360e6fa6a05615fef4c4c44c",
+  "fwl_dirs.m": "a9538768e079b8a1098aa27e06675d5fcec11b6a716d0fb3e34e9aeeb6aa728a",
+  "fwl_sha256.m": "2f880fc89e9674701080213063d29e431f102a746b4197d027bc002ba49fad1c",
+  "fwl_assess.m": "3a81d2315fb374585c94bef3ff91ef400c41943639a03fd3c5072b23e84d2ffb",
+  "fwl_episodes.m": "da1592069c0275c436cde783e7ca08a95acd09e9d2f8495fa7771ff74fa77110"
+}

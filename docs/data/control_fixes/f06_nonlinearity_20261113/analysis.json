@@ -1,0 +1,265 @@
+{
+  "parametersNominal": {
+    "Is_max": 420,
+    "FocDiscrTime": 8.333333333333333e-05,
+    "Ld": 0.00031,
+    "Lq": 0.000305,
+    "Psi": 0.1024,
+    "Rs": 0.02,
+    "PolePairs": 11,
+    "VDC": 440,
+    "mMaxPWM": 0.99,
+    "mMaxCurrent": 0.99,
+    "mFW": 0.95,
+    "piBandwidth": 6000,
+    "deltaLd": 0.05,
+    "deltaLq": 0.2,
+    "deltaPsi": 0.1,
+    "deltaRs": 0
+  },
+  "Kpsi": 2.5,
+  "Ufw": 241.3324125212636,
+  "Umax": 251.493777259001,
+  "normalizedErrorMinimumAfterVoltageLimit": -0.042105263157894736,
+  "maximumMoreNegativeIdRateAperS": 339.5585738539898,
+  "maximumRestorationIdRateAperS": 8064.5161290322585,
+  "minimumTimeFor100AMoreNegativeWithFixedFF": 0.29450000000000004,
+  "conditionsForRates": "Constant FF and limits, valid fixed Vdc, post-limit feedback after its transient; projection can only reduce the integral step.",
+  "finiteDifferenceMaxErrorVPerA": 1.3136358667509285e-09,
+  "fixedIqEquilibria": [
+    {
+      "Iq": 100.0,
+      "minimumVoltageId": -330.22789511036575,
+      "minimumVoltage": 107.27505314147189,
+      "targetAchievableAtFixedIq": true,
+      "equilibria": [
+        {
+          "Id": -541.5062745622531,
+          "currentMagnitude": 550.6623696878971,
+          "within420A": false,
+          "voltageSlopeVPerA": -0.9165509937530493
+        },
+        {
+          "Id": -118.94951565847833,
+          "currentMagnitude": 155.39944425700685,
+          "within420A": true,
+          "voltageSlopeVPerA": 0.916550993753049
+        }
+      ]
+    },
+    {
+      "Iq": 200.0,
+      "minimumVoltageId": -330.2594158725186,
+      "minimumVoltage": 207.9449168535821,
+      "targetAchievableAtFixedIq": true,
+      "equilibria": [
+        {
+          "Id": -449.95842619134623,
+          "currentMagnitude": 492.4048997528286,
+          "within420A": false,
+          "voltageSlopeVPerA": -0.5192686878023001
+        },
+        {
+          "Id": -210.560405553691,
+          "currentMagnitude": 290.40606809592464,
+          "within420A": true,
+          "voltageSlopeVPerA": 0.5192686878023
+        }
+      ]
+    },
+    {
+      "Iq": 230.0,
+      "minimumVoltageId": -330.2688721011645,
+      "minimumVoltage": 238.14587596721518,
+      "targetAchievableAtFixedIq": true,
+      "equilibria": [
+        {
+          "Id": -368.47080264506735,
+          "currentMagnitude": 434.36244359048834,
+          "within420A": false,
+          "voltageSlopeVPerA": -0.1657245644070864
+        },
+        {
+          "Id": -292.06694155726166,
+          "currentMagnitude": 371.7567731065742,
+          "within420A": true,
+          "voltageSlopeVPerA": 0.16572456440708622
+        }
+      ]
+    },
+    {
+      "Iq": 232.0,
+      "minimumVoltageId": -330.26950251640756,
+      "minimumVoltage": 240.15927324145736,
+      "targetAchievableAtFixedIq": true,
+      "equilibria": [
+        {
+          "Id": -353.4974357667462,
+          "currentMagnitude": 422.8290873315894,
+          "within420A": false,
+          "voltageSlopeVPerA": -0.10076556512151555
+        },
+        {
+          "Id": -307.0415692660689,
+          "currentMagnitude": 384.83571203485025,
+          "within420A": true,
+          "voltageSlopeVPerA": 0.10076556512151533
+        }
+      ]
+    },
+    {
+      "Iq": 233.0,
+      "minimumVoltageId": -330.2698177240291,
+      "minimumVoltage": 241.1659718785785,
+      "targetAchievableAtFixedIq": true,
+      "equilibria": [
+        {
+          "Id": -339.0281014235278,
+          "currentMagnitude": 411.37459031257856,
+          "within420A": true,
+          "voltageSlopeVPerA": -0.037994486937906205
+        },
+        {
+          "Id": -321.5115340245304,
+          "currentMagnitude": 397.06254735344504,
+          "within420A": true,
+          "voltageSlopeVPerA": 0.03799448693790567
+        }
+      ]
+    },
+    {
+      "Iq": 234.0,
+      "minimumVoltageId": -330.27013293165066,
+      "minimumVoltage": 242.1726705156996,
+      "targetAchievableAtFixedIq": false,
+      "equilibria": []
+    },
+    {
+      "Iq": 240.0,
+      "minimumVoltageId": -330.2720241773798,
+      "minimumVoltage": 248.21286233842622,
+      "targetAchievableAtFixedIq": false,
+      "equilibria": []
+    }
+  ],
+  "idealLocalDynamicsRsZero": [
+    {
+      "wm": 204.0,
+      "fluxDirectionCosine": 1.0,
+      "gainPerWb": 9.298378019580287,
+      "localDecayRatePerSecond": 23.245945048950716,
+      "idealLocalTimeConstantSeconds": 0.04301825535138389
+    },
+    {
+      "wm": 204.0,
+      "fluxDirectionCosine": 0.5,
+      "gainPerWb": 4.649189009790144,
+      "localDecayRatePerSecond": 11.622972524475358,
+      "idealLocalTimeConstantSeconds": 0.08603651070276779
+    },
+    {
+      "wm": 204.0,
+      "fluxDirectionCosine": 0.1,
+      "gainPerWb": 0.9298378019580288,
+      "localDecayRatePerSecond": 2.324594504895072,
+      "idealLocalTimeConstantSeconds": 0.4301825535138389
+    },
+    {
+      "wm": 204.0,
+      "fluxDirectionCosine": 0.0,
+      "gainPerWb": 0.0,
+      "localDecayRatePerSecond": 0.0,
+      "idealLocalTimeConstantSeconds": null
+    },
+    {
+      "wm": 204.0,
+      "fluxDirectionCosine": -0.1,
+      "gainPerWb": -0.9298378019580288,
+      "localDecayRatePerSecond": -2.324594504895072,
+      "idealLocalTimeConstantSeconds": null
+    },
+    {
+      "wm": 300.0,
+      "fluxDirectionCosine": 1.0,
+      "gainPerWb": 13.674085322912187,
+      "localDecayRatePerSecond": 34.18521330728047,
+      "idealLocalTimeConstantSeconds": 0.02925241363894104
+    },
+    {
+      "wm": 300.0,
+      "fluxDirectionCosine": 0.5,
+      "gainPerWb": 6.837042661456094,
+      "localDecayRatePerSecond": 17.092606653640235,
+      "idealLocalTimeConstantSeconds": 0.05850482727788208
+    },
+    {
+      "wm": 300.0,
+      "fluxDirectionCosine": 0.1,
+      "gainPerWb": 1.3674085322912188,
+      "localDecayRatePerSecond": 3.418521330728047,
+      "idealLocalTimeConstantSeconds": 0.29252413638941044
+    },
+    {
+      "wm": 300.0,
+      "fluxDirectionCosine": 0.0,
+      "gainPerWb": 0.0,
+      "localDecayRatePerSecond": 0.0,
+      "idealLocalTimeConstantSeconds": null
+    },
+    {
+      "wm": 300.0,
+      "fluxDirectionCosine": -0.1,
+      "gainPerWb": -1.3674085322912188,
+      "localDecayRatePerSecond": -3.418521330728047,
+      "idealLocalTimeConstantSeconds": null
+    },
+    {
+      "wm": 738.0,
+      "fluxDirectionCosine": 1.0,
+      "gainPerWb": 33.63824989436398,
+      "localDecayRatePerSecond": 84.09562473590995,
+      "idealLocalTimeConstantSeconds": 0.011891225056480098
+    },
+    {
+      "wm": 738.0,
+      "fluxDirectionCosine": 0.5,
+      "gainPerWb": 16.81912494718199,
+      "localDecayRatePerSecond": 42.047812367954975,
+      "idealLocalTimeConstantSeconds": 0.023782450112960197
+    },
+    {
+      "wm": 738.0,
+      "fluxDirectionCosine": 0.1,
+      "gainPerWb": 3.3638249894363983,
+      "localDecayRatePerSecond": 8.409562473590995,
+      "idealLocalTimeConstantSeconds": 0.118912250564801
+    },
+    {
+      "wm": 738.0,
+      "fluxDirectionCosine": 0.0,
+      "gainPerWb": 0.0,
+      "localDecayRatePerSecond": 0.0,
+      "idealLocalTimeConstantSeconds": null
+    },
+    {
+      "wm": 738.0,
+      "fluxDirectionCosine": -0.1,
+      "gainPerWb": -3.3638249894363983,
+      "localDecayRatePerSecond": -8.409562473590995,
+      "idealLocalTimeConstantSeconds": null
+    }
+  ],
+  "limitations": "No new Simulink run. Frozen-Iq static slopes do not identify the saturated coupled dynamic plant.",
+  "archivedTrace": {
+    "case": "chk_sg2900_cycles_user",
+    "matSha256": "c789fcbbcc1ec0b63f7e464787c6b90a2368b100ca3fcea7c7e2f7bea1604da1",
+    "sourceSnapshotSha256": "045d393ed405aae6769332ec8f0ed3321cee887f129bcc3a0fbe0596fd844899",
+    "window": [
+      9.3,
+      9.5
+    ],
+    "minimumNormalizedError": -0.04210526315789415,
+    "maximumNormalizedError": -0.04210526315789415,
+    "note": "Previous B autosave, not the current saved SLX. Observation of clipped feedback, not plant identification."
+  }
+}

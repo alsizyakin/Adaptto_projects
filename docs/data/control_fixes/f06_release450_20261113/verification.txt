@@ -1,0 +1,21 @@
+F06 release450 verification
+Verified at 2026-11-13T13:08:49.698318+03:00
+Source SHA256 1895d6502311498c93f831b02794d1ea081b0092d15f70014eb0889ef192151e
+All 11 cases complete, finite, full-resolution, joint current grid, controller recurrence verified.
+All selected Psi/Lq signals equal estimator outputs.
+Original user SLX SHA256 unchanged.
+Pass 3 / Fail 8; this is a simulation screen, not release acceptance.
+r450_saved: Iref=419.999996674 A; I=420.259782972 A; settled d/q=0.097993121/0.144035429 A; period=8.33333333332e-05 s; recurrence residual=0; pass=True
+r450_steps_nom: Iref=419.993950055 A; I=420.040009773 A; settled d/q=0.116726557/0.111920331 A; period=8.33333333332e-05 s; recurrence residual=0; pass=True
+r450_steps_user: Iref=419.992578125 A; I=421.381454354 A; settled d/q=0.103688735/0.239568280 A; period=8.33333333332e-05 s; recurrence residual=0; pass=True
+r450_hold_nom: Iref=402.716872731 A; I=500.299658108 A; settled d/q=143.759617980/131.659908075 A; period=8.33333333332e-05 s; recurrence residual=0; pass=False
+r450_hold_user: Iref=403.045386305 A; I=727.354645048 A; settled d/q=150.358280151/148.313618867 A; period=8.33333333332e-05 s; recurrence residual=0; pass=False
+r450_cycles_nom: Iref=419.999999672 A; I=759.794886013 A; settled d/q=240.828048671/212.996912544 A; period=8.33333333332e-05 s; recurrence residual=0; pass=False
+r450_cycles_user: Iref=419.999999672 A; I=750.959660613 A; settled d/q=235.671453944/170.774364112 A; period=8.33333333332e-05 s; recurrence residual=0; pass=False
+r450_hold_ldp20: Iref=387.364421910 A; I=472.367536539 A; settled d/q=275.118579324/341.652152977 A; period=8.33333333332e-05 s; recurrence residual=0; pass=False
+r450_hold_ldm20: Iref=432.541593839 A; I=570.420922013 A; settled d/q=144.733736780/66.633939245 A; period=8.33333333332e-05 s; recurrence residual=0; pass=False
+r450_cycles_ldp20: Iref=419.999999672 A; I=1449.343073490 A; settled d/q=240.197335921/332.495264977 A; period=8.33333333332e-05 s; recurrence residual=0; pass=False
+r450_cycles_ldm20: Iref=419.999999672 A; I=865.746735733 A; settled d/q=306.737717550/451.616229341 A; period=8.33333333332e-05 s; recurrence residual=0; pass=False
+Original cycles_nom MAT was truncated; process exit 143. Retained, excluded, rerun completed with exit 0.
+No controller tuning or source SLX modification. No cleanup performed.
+Raw data and build caches retained in tmp/f06_release450_20261113 (about 6.7 GiB at verification).

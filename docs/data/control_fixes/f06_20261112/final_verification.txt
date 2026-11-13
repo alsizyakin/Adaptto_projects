@@ -1,0 +1,8 @@
+docs/control_fix_log.md: links and code fences OK
+docs/control_backlog.md: links and code fences OK
+docs/field_weakening_f06.md: links and code fences OK
+docs/field_weakening_redesign.md: links and code fences OK
+tools/fw_limiter/README.md: links and code fences OK
+Python syntax OK
+Working F06 equals frozen user source: True
+Four figures visually reviewed; 25 s full-resolution logs and FW recurrence verified

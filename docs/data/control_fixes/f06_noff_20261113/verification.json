@@ -1,0 +1,24 @@
+{
+  "sixSimulationsCompleted": true,
+  "allInputsAndParameterPairsMatch": true,
+  "allNativeFullLogsFinite": true,
+  "actualFwPeriodSeconds": 8.333333333333333e-05,
+  "actualUsedFFEqualsZero": true,
+  "sumEqualsTrim": true,
+  "workingSavedF06MatchesFrozenSource": true,
+  "toolSnapshotsMatchManifest": true,
+  "pngIntegrityCount": 26,
+  "visuallyInspected": [
+    "nff_sg2900_hold_nom_transition.png",
+    "nff_sg2900_cycles_nom_startup.png",
+    "nff_sg2900_hold_nom_new_failure.png",
+    "nff_sg2900_startgen_user_transition.png",
+    "nff_sg2900_hold_nom_comparison.png"
+  ],
+  "localLinksExist": true,
+  "markdownFencesBalanced": true,
+  "gitDiffCheckPassed": true,
+  "historicalJuly28IdreqConstantZeroConfirmed": true,
+  "historicalModelsSimulated": false,
+  "note": "Validation completed successfully; all six FF-off control scenarios failed the stated performance criteria, which is the experiment result."
+}

@@ -1,0 +1,16 @@
+{
+  "simulationCases": 6,
+  "simulationDurationEachSeconds": 25,
+  "allMatlabCasesCompleted": true,
+  "analysisInitialAttempts": "Two strict speed-trajectory equality checks failed at 1e-8 and 1e-6 rad/s; identical commanded speed and q tables confirmed. Final tolerance 0.001 rad/s, maximum observed pair difference 6.24193e-5 rad/s. No current/tracking criterion was relaxed.",
+  "historyInspection": "Loaded extracted May and July model copies without simulating or saving. MATLAB warned about a same-name root model; logged loaded file is the extracted historical path. Git files were not checked out.",
+  "rawRuns": "tmp/f06_noff_20261113",
+  "referenceRawRuns": "tmp/f06_sg2900_20261113",
+  "rawMatCopiedToDocs": false,
+  "workingSavedF06Sha256": "1895d6502311498c93f831b02794d1ea081b0092d15f70014eb0889ef192151e",
+  "autosaveSha256AtCompletion": "79cebe82f7435189290e1d06d7d55d23c66f8025b1536bdf857b2234f3db0d82",
+  "workingHistoricModelSha256": "95236fd35f0475fc24c642a392475f3a7c2d40b41d023cd81d232a7eb8843e5c",
+  "pairedControlsDifferOnlyByUsedFF": true,
+  "autosaveSha256AtStart": "10f5218a82db3c8f92d7b8426c434bca4023db4d30d216e74549b68d652b8b77",
+  "autosaveNotUsedOrWrittenByAssistant": true
+}

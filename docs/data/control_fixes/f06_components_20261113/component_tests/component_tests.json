@@ -1,0 +1,167 @@
+{
+  "source": "/home/alexey/Git/Matlab/Adaptto/tmp/f06_components_20261113/component_source.slx",
+  "sha256": "37876d8a5c4952d56e0a0c50f951fab21df60f87c61dec7742d89a99248f2cd0",
+  "parameters": {
+    "Is_max": 420,
+    "FocDiscrTime": 8.3333333333333331E-5,
+    "Ld": 0.00031,
+    "Lq": 0.000305,
+    "Psi": 0.1024,
+    "Rs": 0.02,
+    "PolePairs": 11,
+    "VDC": 440,
+    "mMaxPWM": 0.99,
+    "mMaxCurrent": 0.99,
+    "mFW": 0.95,
+    "piBandwidth": 6000,
+    "deltaLd": 0.05,
+    "deltaLq": 0.2,
+    "deltaPsi": 0.1,
+    "deltaRs": 0
+  },
+  "functions": {
+    "lim": {
+      "updateMethod": "Inherited",
+      "functionPeriod": "-1",
+      "subsystemPeriod": "-1"
+    },
+    "Min_smooth_ab": {
+      "updateMethod": "Inherited",
+      "functionPeriod": "-1",
+      "subsystemPeriod": "-1"
+    },
+    "sat_signed1": {
+      "updateMethod": "Inherited",
+      "functionPeriod": "-1",
+      "subsystemPeriod": "FocDiscrTime*10"
+    },
+    "sat_signed2": {
+      "updateMethod": "Inherited",
+      "functionPeriod": "-1",
+      "subsystemPeriod": "FocDiscrTime*10"
+    },
+    "sat_signed3": {
+      "updateMethod": "Inherited",
+      "functionPeriod": "-1",
+      "subsystemPeriod": "FocDiscrTime*10"
+    },
+    "sat_signed5": {
+      "updateMethod": "Inherited",
+      "functionPeriod": "-1",
+      "subsystemPeriod": "FocDiscrTime*10"
+    },
+    "fw_trim": {
+      "updateMethod": "Discrete",
+      "functionPeriod": "FocDiscrTime",
+      "subsystemPeriod": "-1"
+    },
+    "SVPWM1": {
+      "updateMethod": "Inherited",
+      "functionPeriod": "-1",
+      "subsystemPeriod": "FocDiscrTime/2"
+    }
+  },
+  "symmetricLimiter": {
+    "cases": 130,
+    "passed": true,
+    "maxBoundExcess": 0,
+    "maxOddError": 0
+  },
+  "oldSmoothmin": {
+    "at0_0": -5,
+    "at1_1": -4,
+    "at0_10": -2.0710678118654755,
+    "at5_5": 0
+  },
+  "currentEnvelope": {
+    "Is_max": 420,
+    "idAtNominalPsi": -396.38709677419354,
+    "idAtPsiPlus10Percent": -436.02580645161294,
+    "idAtEstimatorUpperBound": -554.94193548387091,
+    "psiWhereIdExceedsCurrent": 0.10850000000000001
+  },
+  "estimatorAtZeroSpeedAndCurrents": {
+    "rawPsi": 0,
+    "clampedPsi": 0.06144,
+    "rawLq": 0,
+    "clampedLq": 3.05E-5,
+    "psiFilterSeconds": 1.6666666666666665,
+    "lqFilterSeconds": 0.016666666666666666
+  },
+  "pwm": {
+    "cases": 8652,
+    "passed": true,
+    "maximumVectorErrorV": 2.957087310546287E-13,
+    "maximumHoldError": 0,
+    "maximumPreClampDutyViolation": 0,
+    "scope": "Caller angle -pi..pi; constant valid Vdc; compensation flags 0; parameter mMaxPWM from source"
+  },
+  "qVoltageBudget": {
+    "Ud": [
+      0,
+      251.493777259001,
+      -251.493777259001,
+      252.493777259001,
+      0
+    ],
+    "Vdc": [
+      440,
+      440,
+      440,
+      440,
+      0
+    ],
+    "UqLimit": [
+      251.49377725900098,
+      0.031622776601683791,
+      0.031622776601683791,
+      0.031622776601683791,
+      0.031622776601683791
+    ],
+    "atDSaturation": 0.031622776601683791,
+    "atZeroVdc": 0.031622776601683791,
+    "squaredVoltageExcessAtDSaturation": 0.000999999996565748
+  },
+  "currentPI": {
+    "axis3": {
+      "SampleTime": "FocDiscrTime",
+      "IntegratorMethod": "Forward Euler",
+      "P": "piBandwidth*Ld",
+      "I": "piBandwidth*Rs",
+      "ExternalReset": "none",
+      "IgnoreLimit": "off",
+      "TrackingMode": "off",
+      "LimitOutput": "on",
+      "SatLimitsSource": "external",
+      "UpperSaturationLimit": "0",
+      "LowerSaturationLimit": "0",
+      "LimitIntegrator": "off",
+      "UpperIntegratorSaturationLimit": "inf",
+      "LowerIntegratorSaturationLimit": "-inf",
+      "SaturateOnIntegerOverflow": "off",
+      "SaturationOutDataTypeStr": "Inherit: Same as input",
+      "SaturationOutMin": "[]",
+      "SaturationOutMax": "[]"
+    },
+    "axis4": {
+      "SampleTime": "FocDiscrTime",
+      "IntegratorMethod": "Forward Euler",
+      "P": "piBandwidth*Lq",
+      "I": "piBandwidth*Rs",
+      "ExternalReset": "none",
+      "IgnoreLimit": "off",
+      "TrackingMode": "off",
+      "LimitOutput": "on",
+      "SatLimitsSource": "external",
+      "UpperSaturationLimit": "24",
+      "LowerSaturationLimit": "-15",
+      "LimitIntegrator": "off",
+      "UpperIntegratorSaturationLimit": "inf",
+      "LowerIntegratorSaturationLimit": "-inf",
+      "SaturateOnIntegerOverflow": "off",
+      "SaturationOutDataTypeStr": "Inherit: Same as input",
+      "SaturationOutMin": "[]",
+      "SaturationOutMax": "[]"
+    }
+  }
+}

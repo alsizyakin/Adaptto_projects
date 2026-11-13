@@ -1,0 +1,16 @@
+{
+  "userSourceSha256": "32216a42fe10e43f93c93998c82db437619960b00a7e56ed42f610efb5b9835b",
+  "beforeSourceSha256": "b4a938647d12a4e7695ca3e9cee42bd70964739419f6c0c66a922da2bdf6a824",
+  "changes": [
+    "Computed NOT output disconnected from freeze Goto; Constant16 value 0 drives freeze tag",
+    "Outer I regulator limits increased from +/-50*Ld to +/-500*Ld; external reset either retained"
+  ],
+  "unchanged": [
+    "modelWorkspace.mxarray",
+    "configSet0.xml",
+    "Stateflow code",
+    "VectorBase controller parameters"
+  ],
+  "interpretation": "freeze=0 disables integration; this is FF with disabled trim input, not continuous unrestricted trim",
+  "workingMainSourceSha256": "b4a938647d12a4e7695ca3e9cee42bd70964739419f6c0c66a922da2bdf6a824"
+}

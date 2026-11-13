@@ -1,0 +1,6 @@
+### Searching for referenced models in model 'aug_f06_ldp20'.
+### Total of 1 models to build.
+aug_f06_ldp20 done in 106.2 s
+FW fw_trim: method=Inherited, function period=-1, subsystem period=FocDiscrTime*10, integration step=8.33333333e-05 s, Kpsi=2.5
+Saved plant deltaLd=0.2, code matches=1, delay Idref=4.16666667e-05 s
+f06_ldp20: complete=1, finite=1, native logs, Iref 419.999997 A, Imax 956.399744 A, FW ratio=10

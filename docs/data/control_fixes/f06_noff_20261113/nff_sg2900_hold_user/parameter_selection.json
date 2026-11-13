@@ -1,0 +1,16 @@
+{
+  "ManualSwitch": {
+    "setting": "1",
+    "inputs": [
+      "Low-Pass Filter\n(Discrete or Continuous)7",
+      "Constant6"
+    ]
+  },
+  "ManualSwitch2": {
+    "setting": "1",
+    "inputs": [
+      "Low-Pass Filter\n(Discrete or Continuous)9",
+      "Constant12"
+    ]
+  }
+}

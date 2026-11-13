@@ -1,0 +1,13 @@
+FW fw_trim: method=Discrete, function period=FocDiscrTime, subsystem period=-1, integration step=8.33333333e-05 s, Kpsi=2.5
+Saved plant deltaLd=0, code matches=1, delay Idref=4.16666667e-05 s
+### Searching for referenced models in model 'aug_cmp_sg2900_hold_nom'.
+### Total of 1 models to build.
+### Generating code for Physical Networks associated with solver block 'aug_cmp_sg2900_hold_nom/Solver Configuration' ...
+done.
+### Building the rapid accelerator target for model: aug_cmp_sg2900_hold_nom
+### Successfully built the rapid accelerator target for model: aug_cmp_sg2900_hold_nom
+aug_cmp_sg2900_hold_nom done in 124.1 s
+FW fw_trim: method=Discrete, function period=FocDiscrTime, subsystem period=-1, integration step=8.33333333e-05 s, Kpsi=2.5
+Saved plant deltaLd=0, code matches=1, delay Idref=4.16666667e-05 s
+cmp_sg2900_hold_nom: complete=1, finite=1, native logs, Iref 391.393635 A, Imax 595.928085 A, FW ratio=1
+RELEASE450 cmp_sg2900_hold_nom: Imax=595.928085 A, q prolonged=3, complete=1

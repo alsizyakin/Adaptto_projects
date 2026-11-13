@@ -1,0 +1,19 @@
+test_fwl_assess: all regression cases passed
+nom: complete=1 finite=1 coverage=1 fullRate=1 signals=53 dutyOK=1
+  Iref=419.999997 A, I=421.188306 A, q prolonged=0, q open=0, recovery q=1
+ldp20: complete=1 finite=1 coverage=1 fullRate=1 signals=53 dutyOK=1
+  Iref=419.999997 A, I=649.269300 A, q prolonged=1, q open=1, recovery q=0
+run             max|I|   minIq     minT   PsiEst  PsiTrue    T@738  Tth0.95   ovm%  raw |Iq-Iqreq| > 100 A, >20 ms (OPEN includes shorter tails)
+nom                421     -42      -72   0.1026   0.1024      NaN    157.1   0.00  -
+  finite=1 completed=1 coverage=1 fullRate=1 Iref<=Imax=1 I<=1.05*Imax=1 recovery(d/q)=1/1
+psim10         (no result)
+psip10         (no result)
+lqp20          (no result)
+lqm20          (no result)
+ldp20              649    -567     -818   0.0861   0.1024      NaN    132.2   0.00  1.14-25.00 OPEN
+  finite=1 completed=1 coverage=1 fullRate=1 Iref<=Imax=1 I<=1.05*Imax=0 recovery(d/q)=1/0
+ldm20          (no result)
+rsp50          (no result)
+ldp20_trim150  (no result)
+ldp20_vs090    (no result)
+Verification passed. Current and raw tracking violations remain baseline findings.

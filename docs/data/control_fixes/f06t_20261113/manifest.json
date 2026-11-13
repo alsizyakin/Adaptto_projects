@@ -1,0 +1,54 @@
+{
+  "stage": "F06-T",
+  "userSourceSha256": "9648727af96157b30a60cee65b718e27ba488b3de519e1a88a38d0a495e39f48",
+  "cases": {
+    "saved_ldp20": {
+      "tag": "f06t_ldp20",
+      "sourceSha256": "9648727af96157b30a60cee65b718e27ba488b3de519e1a88a38d0a495e39f48",
+      "modelSha256": "2ab2d1b6e4b644f64688378bda0687f485b66700ce2c4370859415938953eeb9",
+      "matSha256": "6861aee1db17011b64d8f03295be0e0e1c9865af4855e6ecbfb58f581cadaa74",
+      "finalTime": 25,
+      "elapsed": 137.884555,
+      "signalCount": 63,
+      "rawMatPath": "/home/alexey/Git/Matlab/Adaptto/tmp/control_f06t_20261113/saved_ldp20/aug_f06t_ldp20.mat"
+    },
+    "saved_nom": {
+      "tag": "f06t_nom",
+      "sourceSha256": "9648727af96157b30a60cee65b718e27ba488b3de519e1a88a38d0a495e39f48",
+      "modelSha256": "250c0b235a93aa12d567b474fdcabc111a5b6bd0dd1069751e8e92d09f49251e",
+      "matSha256": "b696902792c71d7bba419641d287d6ea690c5cd8584347469ce8c37c31710b34",
+      "finalTime": 25,
+      "elapsed": 142.258082,
+      "signalCount": 63,
+      "rawMatPath": "/home/alexey/Git/Matlab/Adaptto/tmp/control_f06t_20261113/saved_nom/aug_f06t_nom.mat"
+    },
+    "hold204_nom": {
+      "tag": "f06t_hold_nom",
+      "sourceSha256": "27afed6c7fa7349476b3adccb8e34b68a41af4996fc17ffbbc88b02b1dd1a1fa",
+      "modelSha256": "e303175c7ba432258de3ad93205b42309e7ce63b70935e37c8d8fab1a7261332",
+      "matSha256": "94c08521b2e35d7b70ada6aa4dfd02a6ad49d1729992139425e3409c7005b733",
+      "finalTime": 25,
+      "elapsed": 129.380828,
+      "signalCount": 63,
+      "rawMatPath": "/home/alexey/Git/Matlab/Adaptto/tmp/control_f06t_20261113/hold204_nom/aug_f06t_hold_nom.mat"
+    },
+    "hold204_ldp20": {
+      "tag": "f06t_hold_ldp20",
+      "sourceSha256": "daa4814c22aafe86911f49773735e6f3a5e78229ed7b1a7fd931d67d50536450",
+      "modelSha256": "250944ce4916243a7775d23f5b1fa3b24ed0d2e3ac185d42b9e3b6a0192884f9",
+      "matSha256": "7581abbc708c955b43e275f32f0a0a013566b7210efb2f792262f7ff854ee81e",
+      "finalTime": 25,
+      "elapsed": 131.274206,
+      "signalCount": 63,
+      "rawMatPath": "/home/alexey/Git/Matlab/Adaptto/tmp/control_f06t_20261113/hold204_ldp20/aug_f06t_hold_ldp20.mat"
+    }
+  },
+  "toolsSha256": {
+    "run_f06_check.m": "26458040b1a88bcd8a705dff885ce8994282c89b5cae608364be99e10b8639cd",
+    "run_aug.m": "02b0c4df9f5fd0f69977721cfd64b0413e3a9b96e873e7d618d3f3bda7a41b27",
+    "verify_f06_case.m": "dae8931a54e17b26cd9310336091708737a577a1c3524964cdc38f925cfc640f",
+    "f06t_analysis.py": "cd93c667a6888cb2647fb2a1951ab7788c16c7d2786dc243373d219db6781d48",
+    "fw_voltage_error_q.m": "e04c5f33af36adc46e910c9252cd8d1b38ec3c868c65b6aa5471825f44fe4003",
+    "test_fw_voltage_error_q.m": "e845cfe6d8e62e7054dcf57baf7508c9fa4ad82a4b5f9c6b14071faba8096e19"
+  }
+}

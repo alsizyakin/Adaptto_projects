@@ -1,0 +1,617 @@
+[
+  {
+    "file": "docs/data/control_fixes/f06_noff_20261113/ablation.json",
+    "sha256": "695445d649e383dc35915a443ab46f7ff8ca52e21f6c059319e23582bc9559a8",
+    "bytes": 682
+  },
+  {
+    "file": "docs/data/control_fixes/f06_noff_20261113/ablation_inspection/fw_trim.m",
+    "sha256": "51ec02b29f73ebcbedce7f24f022f5d21e52ed347938d39ae7f63e2968a8f93e",
+    "bytes": 1076
+  },
+  {
+    "file": "docs/data/control_fixes/f06_noff_20261113/ablation_inspection/inspection.json",
+    "sha256": "b4c308b98284987c0dad0acaee8c8b79290fbd68d3454bb2d670823578e965b2",
+    "bytes": 1904
+  },
+  {
+    "file": "docs/data/control_fixes/f06_noff_20261113/ablation_package_diff.txt",
+    "sha256": "4451d070f43155c9f6620ba965789ecca507c1ee95180499c41b784177770ee3",
+    "bytes": 5479
+  },
+  {
+    "file": "docs/data/control_fixes/f06_noff_20261113/ablation_package_parts.json",
+    "sha256": "02e2593042cb9d7b2e4761edf8c268e15677035be72f76be04d751ad83064cdf",
+    "bytes": 391
+  },
+  {
+    "file": "docs/data/control_fixes/f06_noff_20261113/ablation_xml_diff.json",
+    "sha256": "43f10747bc90ff290daf2553001202364722ae8e75c55604051f1d0d651b0b11",
+    "bytes": 477
+  },
+  {
+    "file": "docs/data/control_fixes/f06_noff_20261113/analysis/mechanism_probe.json",
+    "sha256": "b528ce239baca14543b2edaa438abd8fdc56f6b53333938bf7034ec27c2cf7cb",
+    "bytes": 31292
+  },
+  {
+    "file": "docs/data/control_fixes/f06_noff_20261113/analysis/nff_sg2900_cycles_nom.json",
+    "sha256": "ff1fbdeb803042266a0e960a0f7d36cdfffbad3b9d2273cb5365d6278a10363f",
+    "bytes": 17086
+  },
+  {
+    "file": "docs/data/control_fixes/f06_noff_20261113/analysis/nff_sg2900_cycles_user.json",
+    "sha256": "dcfd1db5fcb507b8131cc4297d9f01f30ece9326d09386b2922223488f42aa6e",
+    "bytes": 17045
+  },
+  {
+    "file": "docs/data/control_fixes/f06_noff_20261113/analysis/nff_sg2900_hold_nom.json",
+    "sha256": "cb0e7cb1de6d4f659455b0273a14ed9ab12489ffb678c3545c7a627d0ca39328",
+    "bytes": 12730
+  },
+  {
+    "file": "docs/data/control_fixes/f06_noff_20261113/analysis/nff_sg2900_hold_user.json",
+    "sha256": "99af17a115d2e8cfadee1a9ca53c3e785dd48e8c4eaeb7625361e27863125844",
+    "bytes": 13039
+  },
+  {
+    "file": "docs/data/control_fixes/f06_noff_20261113/analysis/nff_sg2900_startgen_nom.json",
+    "sha256": "a8d8afab1674f0c12cc47bc368bb076b9bf08d930323f31516f70ea0d41bcde0",
+    "bytes": 15533
+  },
+  {
+    "file": "docs/data/control_fixes/f06_noff_20261113/analysis/nff_sg2900_startgen_user.json",
+    "sha256": "4bd20077341e844a25b5f7a0b305e30868372c9faca37962ac61ca8438e7c408",
+    "bytes": 15506
+  },
+  {
+    "file": "docs/data/control_fixes/f06_noff_20261113/analysis/summary.json",
+    "sha256": "803ed1426b031159bd18e32b1ddc91838166487889d252a44a6349ad2c6faf26",
+    "bytes": 107244
+  },
+  {
+    "file": "docs/data/control_fixes/f06_noff_20261113/analysis.log",
+    "sha256": "e359abac978e3485a482b4c7fe65eb6d53adbcd6f11477be8b3db250c72b28e7",
+    "bytes": 1854
+  },
+  {
+    "file": "docs/data/control_fixes/f06_noff_20261113/analysis_final.log",
+    "sha256": "13cd94f177d8c14d66e30dff4be1f07d9f9ac674ef8d7eab98b93c5063b0e370",
+    "bytes": 215
+  },
+  {
+    "file": "docs/data/control_fixes/f06_noff_20261113/analysis_v2.log",
+    "sha256": "fc7cf03f38c7a6679aa6ab1b4388f99ea2dbf8e2b7abf3889db64f6e74020701",
+    "bytes": 2343
+  },
+  {
+    "file": "docs/data/control_fixes/f06_noff_20261113/analysis_v3.log",
+    "sha256": "37e8c6c152c4b238db8cd2c0d74c66d8d215bdfc0dff800e9fd0afcd451cd5ad",
+    "bytes": 1056
+  },
+  {
+    "file": "docs/data/control_fixes/f06_noff_20261113/case1.log",
+    "sha256": "1e2593197397432a238e320dc872a03618a94056bf8257cdcf8834580538261b",
+    "bytes": 1308
+  },
+  {
+    "file": "docs/data/control_fixes/f06_noff_20261113/case2.log",
+    "sha256": "8d136cbbb9cb287a142f9b5dcbb63752049bf79127256caa6303cfd8b679f1f6",
+    "bytes": 1015
+  },
+  {
+    "file": "docs/data/control_fixes/f06_noff_20261113/case3.log",
+    "sha256": "b64e3965fb4011622972ab5593f98fec92c9be5bf47464c76afebb6513f46100",
+    "bytes": 1016
+  },
+  {
+    "file": "docs/data/control_fixes/f06_noff_20261113/case4.log",
+    "sha256": "45421eec4cb574e20791ea6123532e712777ea07888a3d79905db9b3db631bf5",
+    "bytes": 1029
+  },
+  {
+    "file": "docs/data/control_fixes/f06_noff_20261113/case5.log",
+    "sha256": "b661993c18b5069d889e4820495cb566bc0fc529720ea05a43f5ea50678ec37e",
+    "bytes": 1030
+  },
+  {
+    "file": "docs/data/control_fixes/f06_noff_20261113/case6.log",
+    "sha256": "b9dc90aee461244dca8206e7bd6d591422ab616dea5d204c96a00c1f54d65d26",
+    "bytes": 1043
+  },
+  {
+    "file": "docs/data/control_fixes/f06_noff_20261113/cases.json",
+    "sha256": "2e7039a9da24614a0e4bc3faf67783775e70ed6507b5a1f9ee254fd2532dce5c",
+    "bytes": 12030
+  },
+  {
+    "file": "docs/data/control_fixes/f06_noff_20261113/history/6123a28/ideal_source_Motor_DVS.slx",
+    "sha256": "1a4d77047a498997b7500118245ec5112ea457710123ab4c05b5cf117870efc3",
+    "bytes": 139967
+  },
+  {
+    "file": "docs/data/control_fixes/f06_noff_20261113/history/6123a28/ideal_source_Motor_DVS.slx.topology.json",
+    "sha256": "8789203eccb516be2d39efb498dcbbcbb00e7c8727dba8499a8878f9892d57e7",
+    "bytes": 39974
+  },
+  {
+    "file": "docs/data/control_fixes/f06_noff_20261113/history/68a95c2/ideal_source_drive.slx",
+    "sha256": "cd1a6ab866791544fb32ff87be702d69b98affc90171542b5166b5eb28e22638",
+    "bytes": 148071
+  },
+  {
+    "file": "docs/data/control_fixes/f06_noff_20261113/history/68a95c2/ideal_source_drive.slx.topology.json",
+    "sha256": "c545f8a7e20b038238bb228d813e3bbb17aba660debb06803fd4a8268dbef263",
+    "bytes": 46452
+  },
+  {
+    "file": "docs/data/control_fixes/f06_noff_20261113/history/68a95c2/svpwm_inv_ideal_switch_drive.slx",
+    "sha256": "c19f690855b746c508c12ed72f38a9291344dd2fd3cf9bcd20d8ce85405b978a",
+    "bytes": 165255
+  },
+  {
+    "file": "docs/data/control_fixes/f06_noff_20261113/history/68a95c2/svpwm_inv_ideal_switch_drive.slx.topology.json",
+    "sha256": "9e73774201943dfeaab1ccdf6f18c44caedfce363d7074278140d32a49daef5d",
+    "bytes": 55069
+  },
+  {
+    "file": "docs/data/control_fixes/f06_noff_20261113/history/78ed0b5/ideal_source_Motor_DVS_newest_param.slx",
+    "sha256": "cf24a533cc4d5d11309c3926b94b0e6660c39423aedc9a6fbbf1bd6003d9c115",
+    "bytes": 147214
+  },
+  {
+    "file": "docs/data/control_fixes/f06_noff_20261113/history/78ed0b5/ideal_source_Motor_DVS_newest_param.slx.topology.json",
+    "sha256": "5980c30be1334d57a35143b840a5f297143495f91ca96672ba8b04ba5ccfe8e4",
+    "bytes": 46067
+  },
+  {
+    "file": "docs/data/control_fixes/f06_noff_20261113/history/9b84355/ideal_source_Motor_DVS_newest_param.slx",
+    "sha256": "af5bc8619fcff457cf12c86ea11afba1866ac095cb31fea374871f8bbb5bd92b",
+    "bytes": 148639
+  },
+  {
+    "file": "docs/data/control_fixes/f06_noff_20261113/history/9b84355/ideal_source_Motor_DVS_newest_param.slx.topology.json",
+    "sha256": "5980c30be1334d57a35143b840a5f297143495f91ca96672ba8b04ba5ccfe8e4",
+    "bytes": 46067
+  },
+  {
+    "file": "docs/data/control_fixes/f06_noff_20261113/history/acd6832/ideal_source_drive.slx",
+    "sha256": "95236fd35f0475fc24c642a392475f3a7c2d40b41d023cd81d232a7eb8843e5c",
+    "bytes": 148065
+  },
+  {
+    "file": "docs/data/control_fixes/f06_noff_20261113/history/cd3e1e5/ideal_source_Motor_DVS_newest_param.slx",
+    "sha256": "cf24a533cc4d5d11309c3926b94b0e6660c39423aedc9a6fbbf1bd6003d9c115",
+    "bytes": 147214
+  },
+  {
+    "file": "docs/data/control_fixes/f06_noff_20261113/history/cd3e1e5/ideal_source_Motor_DVS_newest_param.slx.topology.json",
+    "sha256": "5980c30be1334d57a35143b840a5f297143495f91ca96672ba8b04ba5ccfe8e4",
+    "bytes": 46067
+  },
+  {
+    "file": "docs/data/control_fixes/f06_noff_20261113/history/july23_vectorbase.json",
+    "sha256": "7511ddb791416c4100560b101a14f89f1c38ba11eead1c3434309185912131f4",
+    "bytes": 17875
+  },
+  {
+    "file": "docs/data/control_fixes/f06_noff_20261113/history/manifest.json",
+    "sha256": "0e61d445ad67710cc25755fc986753e2804ce77883ad7ada476647c92b63041a",
+    "bytes": 3270
+  },
+  {
+    "file": "docs/data/control_fixes/f06_noff_20261113/history/probe.log",
+    "sha256": "df3719c3a3d8ccb1a46b3ce826599f43b8ea243d70c8e44336d8dccd9c4fa729",
+    "bytes": 1909
+  },
+  {
+    "file": "docs/data/control_fixes/f06_noff_20261113/history/probe_history.m",
+    "sha256": "20f5de6326d6f3e752c017d8db4e00d31dbd7fca2590c4527a7a490b71629bd8",
+    "bytes": 1352
+  },
+  {
+    "file": "docs/data/control_fixes/f06_noff_20261113/history/runtime_inspection.json",
+    "sha256": "235240f3f875d7a93e69b47879ccd176795e06f80482cdf156928808244a8621",
+    "bytes": 1885
+  },
+  {
+    "file": "docs/data/control_fixes/f06_noff_20261113/history/workspace_parameters.json",
+    "sha256": "b74a01ff304aceeac1ce2b6ec99a4a5e518a4a7e03e2e9678c2b850463c6cbed",
+    "bytes": 836
+  },
+  {
+    "file": "docs/data/control_fixes/f06_noff_20261113/mechanism_probe.log",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "bytes": 0
+  },
+  {
+    "file": "docs/data/control_fixes/f06_noff_20261113/nff_sg2900_cycles_nom/fw_trim.m",
+    "sha256": "51ec02b29f73ebcbedce7f24f022f5d21e52ed347938d39ae7f63e2968a8f93e",
+    "bytes": 1076
+  },
+  {
+    "file": "docs/data/control_fixes/f06_noff_20261113/nff_sg2900_cycles_nom/inspection.json",
+    "sha256": "86d2a4d6d7b21e20bfa55a1425430c05c399f779269641f87e0da77639ba22a5",
+    "bytes": 2431
+  },
+  {
+    "file": "docs/data/control_fixes/f06_noff_20261113/nff_sg2900_cycles_nom/parameter_selection.json",
+    "sha256": "16ab5e9f48f7c1b0a7f473e9257dd6c37c999393a7ee4ae3492c6c5025edce0e",
+    "bytes": 279
+  },
+  {
+    "file": "docs/data/control_fixes/f06_noff_20261113/nff_sg2900_cycles_nom/scenario.json",
+    "sha256": "268a481a3c79a213c3a64a09644d47415d4cc0546c01eb16bab438a32c830d11",
+    "bytes": 1311
+  },
+  {
+    "file": "docs/data/control_fixes/f06_noff_20261113/nff_sg2900_cycles_nom/summary.json",
+    "sha256": "30b1c1a6558f50ed78bb92b6cd01bf955999cf8299036dbf34d7405a645b7e32",
+    "bytes": 13996
+  },
+  {
+    "file": "docs/data/control_fixes/f06_noff_20261113/nff_sg2900_cycles_user/fw_trim.m",
+    "sha256": "51ec02b29f73ebcbedce7f24f022f5d21e52ed347938d39ae7f63e2968a8f93e",
+    "bytes": 1076
+  },
+  {
+    "file": "docs/data/control_fixes/f06_noff_20261113/nff_sg2900_cycles_user/inspection.json",
+    "sha256": "ef56651565a59373fe8a6f8d094c3723477428e946871f063e1c03becc785429",
+    "bytes": 2439
+  },
+  {
+    "file": "docs/data/control_fixes/f06_noff_20261113/nff_sg2900_cycles_user/parameter_selection.json",
+    "sha256": "16ab5e9f48f7c1b0a7f473e9257dd6c37c999393a7ee4ae3492c6c5025edce0e",
+    "bytes": 279
+  },
+  {
+    "file": "docs/data/control_fixes/f06_noff_20261113/nff_sg2900_cycles_user/scenario.json",
+    "sha256": "d90a9646e9c345ffe06580239ba10f956d684c802aac84b038be65553c2882e1",
+    "bytes": 1320
+  },
+  {
+    "file": "docs/data/control_fixes/f06_noff_20261113/nff_sg2900_cycles_user/summary.json",
+    "sha256": "7ee95e7c3b365df7402b1a33ebead3a64c1b74793b00c4533badd4271dc213ab",
+    "bytes": 14365
+  },
+  {
+    "file": "docs/data/control_fixes/f06_noff_20261113/nff_sg2900_hold_nom/fw_trim.m",
+    "sha256": "51ec02b29f73ebcbedce7f24f022f5d21e52ed347938d39ae7f63e2968a8f93e",
+    "bytes": 1076
+  },
+  {
+    "file": "docs/data/control_fixes/f06_noff_20261113/nff_sg2900_hold_nom/inspection.json",
+    "sha256": "49679d767d39d4dff8ec1800ee5e97ffca3a59da1b0e2d9d4d7d2066e2923c16",
+    "bytes": 1698
+  },
+  {
+    "file": "docs/data/control_fixes/f06_noff_20261113/nff_sg2900_hold_nom/parameter_selection.json",
+    "sha256": "16ab5e9f48f7c1b0a7f473e9257dd6c37c999393a7ee4ae3492c6c5025edce0e",
+    "bytes": 279
+  },
+  {
+    "file": "docs/data/control_fixes/f06_noff_20261113/nff_sg2900_hold_nom/scenario.json",
+    "sha256": "b77692509ccf22b2d9b0a5836e3ae978c7238ca7c3719eaa7888d49eaf560b40",
+    "bytes": 1333
+  },
+  {
+    "file": "docs/data/control_fixes/f06_noff_20261113/nff_sg2900_hold_nom/summary.json",
+    "sha256": "792e3be46c6a30cd6897f33b49bce2fcf2a0638fd0678de0e93d1706f0792010",
+    "bytes": 11009
+  },
+  {
+    "file": "docs/data/control_fixes/f06_noff_20261113/nff_sg2900_hold_user/fw_trim.m",
+    "sha256": "51ec02b29f73ebcbedce7f24f022f5d21e52ed347938d39ae7f63e2968a8f93e",
+    "bytes": 1076
+  },
+  {
+    "file": "docs/data/control_fixes/f06_noff_20261113/nff_sg2900_hold_user/inspection.json",
+    "sha256": "5bd17e9dd24ddf35881600e27bc83ef5460651358e27d046231623486d5547df",
+    "bytes": 1706
+  },
+  {
+    "file": "docs/data/control_fixes/f06_noff_20261113/nff_sg2900_hold_user/parameter_selection.json",
+    "sha256": "16ab5e9f48f7c1b0a7f473e9257dd6c37c999393a7ee4ae3492c6c5025edce0e",
+    "bytes": 279
+  },
+  {
+    "file": "docs/data/control_fixes/f06_noff_20261113/nff_sg2900_hold_user/scenario.json",
+    "sha256": "f026954a51c22771e98dc544382ec0e484c7a85d296f346c55a08568ef497e21",
+    "bytes": 1342
+  },
+  {
+    "file": "docs/data/control_fixes/f06_noff_20261113/nff_sg2900_hold_user/summary.json",
+    "sha256": "c2ccca6e5cb865e5a36198bbc76258bf8bb71189a604b58fb7707369c48d6082",
+    "bytes": 14713
+  },
+  {
+    "file": "docs/data/control_fixes/f06_noff_20261113/nff_sg2900_startgen_nom/fw_trim.m",
+    "sha256": "51ec02b29f73ebcbedce7f24f022f5d21e52ed347938d39ae7f63e2968a8f93e",
+    "bytes": 1076
+  },
+  {
+    "file": "docs/data/control_fixes/f06_noff_20261113/nff_sg2900_startgen_nom/inspection.json",
+    "sha256": "5d3eb55356dbb7dae88863c3e71f5aced5cc16d68fa8394d86a9559b8c29fc69",
+    "bytes": 2240
+  },
+  {
+    "file": "docs/data/control_fixes/f06_noff_20261113/nff_sg2900_startgen_nom/parameter_selection.json",
+    "sha256": "16ab5e9f48f7c1b0a7f473e9257dd6c37c999393a7ee4ae3492c6c5025edce0e",
+    "bytes": 279
+  },
+  {
+    "file": "docs/data/control_fixes/f06_noff_20261113/nff_sg2900_startgen_nom/scenario.json",
+    "sha256": "5aa2000bc3c08137b4d8dded209294107858665c37035af98f11452311fb198c",
+    "bytes": 2411
+  },
+  {
+    "file": "docs/data/control_fixes/f06_noff_20261113/nff_sg2900_startgen_nom/summary.json",
+    "sha256": "f405e5d2ab5cc67648cf65cf32d4fa63c6ce1be3153a3217ff4b9bc0a3380f55",
+    "bytes": 18772
+  },
+  {
+    "file": "docs/data/control_fixes/f06_noff_20261113/nff_sg2900_startgen_user/fw_trim.m",
+    "sha256": "51ec02b29f73ebcbedce7f24f022f5d21e52ed347938d39ae7f63e2968a8f93e",
+    "bytes": 1076
+  },
+  {
+    "file": "docs/data/control_fixes/f06_noff_20261113/nff_sg2900_startgen_user/inspection.json",
+    "sha256": "adb5ba6e4d59bfb5f2cd27a85170976681424fb80a8437c481986aff2854b85d",
+    "bytes": 2248
+  },
+  {
+    "file": "docs/data/control_fixes/f06_noff_20261113/nff_sg2900_startgen_user/parameter_selection.json",
+    "sha256": "16ab5e9f48f7c1b0a7f473e9257dd6c37c999393a7ee4ae3492c6c5025edce0e",
+    "bytes": 279
+  },
+  {
+    "file": "docs/data/control_fixes/f06_noff_20261113/nff_sg2900_startgen_user/scenario.json",
+    "sha256": "6818afd1883ab498b569b16aeb3d569753d086143c2c1c02da92eb01986b30f4",
+    "bytes": 2420
+  },
+  {
+    "file": "docs/data/control_fixes/f06_noff_20261113/nff_sg2900_startgen_user/summary.json",
+    "sha256": "ea35b65b9a365e70d5cbaa5d6758aca9eb96fbe789905428473f4c7a05dadbbb",
+    "bytes": 26308
+  },
+  {
+    "file": "docs/data/control_fixes/f06_noff_20261113/noff_source.slx",
+    "sha256": "a659ad73c6900842f769adef4e45a95ee696bca25d79e3af9640b94603ef558e",
+    "bytes": 174602
+  },
+  {
+    "file": "docs/data/control_fixes/f06_noff_20261113/reference_source.slx",
+    "sha256": "1895d6502311498c93f831b02794d1ea081b0092d15f70014eb0889ef192151e",
+    "bytes": 180557
+  },
+  {
+    "file": "docs/data/control_fixes/f06_noff_20261113/runtime_note.json",
+    "sha256": "77465fd1d180b10b2158da730a4877e0fb5674b96bb890a074dfcdc07a3d83f7",
+    "bytes": 1208
+  },
+  {
+    "file": "docs/data/control_fixes/f06_noff_20261113/source_manifest.json",
+    "sha256": "13ac8995192898c7d740d088ae0ad9c8c5c3d143a8044d9bda97901f732135b2",
+    "bytes": 522
+  },
+  {
+    "file": "docs/data/control_fixes/f06_noff_20261113/tools_manifest.json",
+    "sha256": "09ddbb31184807ea67d3a092444b56213077419f8a45da73f3f04415981573bf",
+    "bytes": 2245
+  },
+  {
+    "file": "docs/data/control_fixes/f06_noff_20261113/tools_snapshot/baseline_comparison.py",
+    "sha256": "d78edff12cdc87a51cec82d2bc3f777eeae8c907360e6fa6a05615fef4c4c44c",
+    "bytes": 5965
+  },
+  {
+    "file": "docs/data/control_fixes/f06_noff_20261113/tools_snapshot/f02_figures.py",
+    "sha256": "82e660b2c170ad4439323d1210855a23f86d507b9464c2bac251dffaaf274a3e",
+    "bytes": 12051
+  },
+  {
+    "file": "docs/data/control_fixes/f06_noff_20261113/tools_snapshot/fw_trim_persistent.m",
+    "sha256": "f20e5632ac7c6012dd5555990ee3ab44fd5f738449c9fde36df0749f9e4df255",
+    "bytes": 1298
+  },
+  {
+    "file": "docs/data/control_fixes/f06_noff_20261113/tools_snapshot/fwl_assess.m",
+    "sha256": "3a81d2315fb374585c94bef3ff91ef400c41943639a03fd3c5072b23e84d2ffb",
+    "bytes": 4426
+  },
+  {
+    "file": "docs/data/control_fixes/f06_noff_20261113/tools_snapshot/fwl_dirs.m",
+    "sha256": "a9538768e079b8a1098aa27e06675d5fcec11b6a716d0fb3e34e9aeeb6aa728a",
+    "bytes": 734
+  },
+  {
+    "file": "docs/data/control_fixes/f06_noff_20261113/tools_snapshot/fwl_episodes.m",
+    "sha256": "da1592069c0275c436cde783e7ca08a95acd09e9d2f8495fa7771ff74fa77110",
+    "bytes": 911
+  },
+  {
+    "file": "docs/data/control_fixes/f06_noff_20261113/tools_snapshot/fwl_sha256.m",
+    "sha256": "2f880fc89e9674701080213063d29e431f102a746b4197d027bc002ba49fad1c",
+    "bytes": 388
+  },
+  {
+    "file": "docs/data/control_fixes/f06_noff_20261113/tools_snapshot/inspect_f06_model.m",
+    "sha256": "9f52f60803114f9c2768abc8c06f399e85c7fbf0b89adc350531f4f7a2d27d7f",
+    "bytes": 3795
+  },
+  {
+    "file": "docs/data/control_fixes/f06_noff_20261113/tools_snapshot/noff_comparison.py",
+    "sha256": "2d5f9f956d94a59a3fb14a8dbb253532a2715d042515021a4efb609f568e289d",
+    "bytes": 7901
+  },
+  {
+    "file": "docs/data/control_fixes/f06_noff_20261113/tools_snapshot/noff_mechanism_probe.py",
+    "sha256": "2e7d8365ec418a84a129ae3de3b4931d42453659c5498f6c6c6cc1fcdb182482",
+    "bytes": 2693
+  },
+  {
+    "file": "docs/data/control_fixes/f06_noff_20261113/tools_snapshot/prepare_noff_f06.m",
+    "sha256": "82df18441eb864001a8eedabbb3024ed53f810fb19cf8df0fada0d063078e322",
+    "bytes": 2680
+  },
+  {
+    "file": "docs/data/control_fixes/f06_noff_20261113/tools_snapshot/run_aug.m",
+    "sha256": "02b0c4df9f5fd0f69977721cfd64b0413e3a9b96e873e7d618d3f3bda7a41b27",
+    "bytes": 11211
+  },
+  {
+    "file": "docs/data/control_fixes/f06_noff_20261113/tools_snapshot/run_release450_case.m",
+    "sha256": "48e9b14cd60de3a64fc270f1a3beca10b948ca386827cdb96a4eafe6c7c1d002",
+    "bytes": 2797
+  },
+  {
+    "file": "docs/data/control_fixes/f06_noff_20261113/tools_snapshot/run_release450_suite.m",
+    "sha256": "64d01bd5ee321e38540e8f136426213cce61affa1f7c469d8abd9d4c8e28a816",
+    "bytes": 760
+  },
+  {
+    "file": "docs/data/control_fixes/f06_noff_20261113/tools_snapshot/starter2900_analysis.py",
+    "sha256": "458a4126e867a6bf51efb4428be04e7156b9dfdb808575c39c6e8b19fa6aa678",
+    "bytes": 11598
+  },
+  {
+    "file": "docs/data/control_fixes/f06_noff_20261113/tools_snapshot/verify_f06_case.m",
+    "sha256": "339537883d2ab3cc2d278013dcdf3666223c4f454e491a9974e98dcf9ad3c989",
+    "bytes": 3038
+  },
+  {
+    "file": "docs/data/control_fixes/f06_noff_20261113/verification.json",
+    "sha256": "552a1a240c53a96701f963deb84827a6bdc32d3957407f88133acd47bf785d61",
+    "bytes": 916
+  },
+  {
+    "file": "docs/img/control_fixes/f06_noff_20261113/nff_sg2900_cycles_nom.png",
+    "sha256": "1c8413d5d43f50d6c86b5c944e5eb7b0beab80a82ae0fd0aaa6a4a9296ddeb33",
+    "bytes": 479432
+  },
+  {
+    "file": "docs/img/control_fixes/f06_noff_20261113/nff_sg2900_cycles_nom_comparison.png",
+    "sha256": "45693686ee7685c24350dce2f4c48f1d73432fc796e667c1265b0b5d177071ad",
+    "bytes": 634277
+  },
+  {
+    "file": "docs/img/control_fixes/f06_noff_20261113/nff_sg2900_cycles_nom_peak.png",
+    "sha256": "7cef09a2d114513360e5fbeee36a2b27ef15e27f6b8016e95540e1f89c6da399",
+    "bytes": 237047
+  },
+  {
+    "file": "docs/img/control_fixes/f06_noff_20261113/nff_sg2900_cycles_nom_startup.png",
+    "sha256": "311109439bac2aba414e5cffc7e02bfeea8e6671a21d8c6499a9389f9d65a7d2",
+    "bytes": 312954
+  },
+  {
+    "file": "docs/img/control_fixes/f06_noff_20261113/nff_sg2900_cycles_nom_transition.png",
+    "sha256": "4e7a2d8318fcc7437c9d775aa50eb37f3d2810bc4726f22e2e0d6b61ec9e8d55",
+    "bytes": 325369
+  },
+  {
+    "file": "docs/img/control_fixes/f06_noff_20261113/nff_sg2900_cycles_user.png",
+    "sha256": "3af0ff44197c4664403fbdc0b55b7ea29ed86bc3b2252ea8b095bedcbb41891b",
+    "bytes": 472606
+  },
+  {
+    "file": "docs/img/control_fixes/f06_noff_20261113/nff_sg2900_cycles_user_comparison.png",
+    "sha256": "70243a716f42854a420495533f6538deace6c653b6032099261b5f4cb2bd26f0",
+    "bytes": 638744
+  },
+  {
+    "file": "docs/img/control_fixes/f06_noff_20261113/nff_sg2900_cycles_user_peak.png",
+    "sha256": "93e838d519c1f1177cce62216fe906f55ae3d1b5372b808f7b913946183aaefd",
+    "bytes": 235613
+  },
+  {
+    "file": "docs/img/control_fixes/f06_noff_20261113/nff_sg2900_cycles_user_transition.png",
+    "sha256": "0789227b27b90813e66435ddb4b8676046b58e257f05edb1101b54cb2d906e3d",
+    "bytes": 331240
+  },
+  {
+    "file": "docs/img/control_fixes/f06_noff_20261113/nff_sg2900_hold_nom.png",
+    "sha256": "ab13ba4f917c0f5025d948d8270cfd068a108c374c2280f428bad5e0a4a0eea9",
+    "bytes": 287950
+  },
+  {
+    "file": "docs/img/control_fixes/f06_noff_20261113/nff_sg2900_hold_nom_comparison.png",
+    "sha256": "a3f235269651d155e7207dc8981098d2174ffca041144a68cf015592462a3e70",
+    "bytes": 366836
+  },
+  {
+    "file": "docs/img/control_fixes/f06_noff_20261113/nff_sg2900_hold_nom_new_failure.png",
+    "sha256": "225b683825b6c897196070bcb4bd69336a7d85060660e65cba4d59a7758f7b90",
+    "bytes": 281990
+  },
+  {
+    "file": "docs/img/control_fixes/f06_noff_20261113/nff_sg2900_hold_nom_peak.png",
+    "sha256": "9fa20d7b2adfa9bba1c09e08d0a513993be7bfccce4657c940c6c5a1a2c0305f",
+    "bytes": 226153
+  },
+  {
+    "file": "docs/img/control_fixes/f06_noff_20261113/nff_sg2900_hold_nom_transition.png",
+    "sha256": "79a43bd08f41ec4967adfe1dc46cd95c18a3c7bc09b040fc6fe818c0d11cbdfd",
+    "bytes": 294192
+  },
+  {
+    "file": "docs/img/control_fixes/f06_noff_20261113/nff_sg2900_hold_user.png",
+    "sha256": "d389e7aecfa72273893f71403260383d48eeb6b7cd42061172f7515480805150",
+    "bytes": 287476
+  },
+  {
+    "file": "docs/img/control_fixes/f06_noff_20261113/nff_sg2900_hold_user_comparison.png",
+    "sha256": "196c6b80325a525464294c6503865465215330d7cf194662a5f25f6505d36cbd",
+    "bytes": 421670
+  },
+  {
+    "file": "docs/img/control_fixes/f06_noff_20261113/nff_sg2900_hold_user_peak.png",
+    "sha256": "417405e59a32f045fd26bde415d8429acc7a665b2ac028ef6091e2d5d8645f22",
+    "bytes": 225962
+  },
+  {
+    "file": "docs/img/control_fixes/f06_noff_20261113/nff_sg2900_hold_user_transition.png",
+    "sha256": "6d8b0760662b44d2a3c3d6bd4e00d9c84526b63f54c93542020434548255e29c",
+    "bytes": 302476
+  },
+  {
+    "file": "docs/img/control_fixes/f06_noff_20261113/nff_sg2900_startgen_nom.png",
+    "sha256": "5ed4e5c4890d3687b060ebb2ed51f6d9a0603a18511e9cd1680fd0d517d64f48",
+    "bytes": 311146
+  },
+  {
+    "file": "docs/img/control_fixes/f06_noff_20261113/nff_sg2900_startgen_nom_comparison.png",
+    "sha256": "291d438c557e02d4cb835447e8387bbed974b9c2ab8dfd4b3e549ea2d45eecd2",
+    "bytes": 383828
+  },
+  {
+    "file": "docs/img/control_fixes/f06_noff_20261113/nff_sg2900_startgen_nom_peak.png",
+    "sha256": "103530b19bf65ec68af891c663170a953ee932f210717dbbe5a627be5de6e95a",
+    "bytes": 218670
+  },
+  {
+    "file": "docs/img/control_fixes/f06_noff_20261113/nff_sg2900_startgen_nom_transition.png",
+    "sha256": "bdb51f177b63f5578126b10de9616953b709c14cfe18f7a4c5c3a2cf666a7ba3",
+    "bytes": 294909
+  },
+  {
+    "file": "docs/img/control_fixes/f06_noff_20261113/nff_sg2900_startgen_user.png",
+    "sha256": "abe0bdac92fbb337758fa567cd5f4f1d8e5a7b9fee1bfd28f9581cc3b3aca253",
+    "bytes": 306272
+  },
+  {
+    "file": "docs/img/control_fixes/f06_noff_20261113/nff_sg2900_startgen_user_comparison.png",
+    "sha256": "36becf6afe45c3a88a95bc063919ff4a069129ff1a90dae4d98e30273068dcef",
+    "bytes": 402487
+  },
+  {
+    "file": "docs/img/control_fixes/f06_noff_20261113/nff_sg2900_startgen_user_peak.png",
+    "sha256": "647a7736d54cbe338395bc87dbe97a4177480af7516c9808793ba02abddc648a",
+    "bytes": 217493
+  },
+  {
+    "file": "docs/img/control_fixes/f06_noff_20261113/nff_sg2900_startgen_user_transition.png",
+    "sha256": "18886ca3ee0e55a8980d9888dd711c8b8abe3dce63571f0bf49233ef793eca2c",
+    "bytes": 287085
+  }
+]

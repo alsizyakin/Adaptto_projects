@@ -1,0 +1,5 @@
+PASS: 12 positive-branch equilibria; restoring direction for +/-1 A, both speed signs, Ld +/-20%.
+Recorded latch sample at 6.4 s: candidate eU = 220.359474 V, Uq_target = 220.327852 V.
+PASS: infeasible q budget is flagged; zero speed is finite without division by speed.
+NOT TESTED: closed-loop transients, current-controller saturation recovery, full-drive stability.
+malloc(): smallbin double linked list corrupted

@@ -1,0 +1,9 @@
+r450_saved Imax 420.26 settled q/d 0.1440354289189827 0.09799312116604142 regression True quality True
+r450_steps_nom Imax 420.04 settled q/d 0.1119203313356536 0.11672655715386782 regression True quality True
+r450_steps_user Imax 421.381 settled q/d 0.2395682802987693 0.10368873467746198 regression True quality True
+r450_hold_nom Imax 500.3 settled q/d 131.65990807451357 143.75961797965792 regression False quality False
+r450_hold_user Imax 727.355 settled q/d 148.3136188667662 150.3582801505869 regression False quality False
+r450_cycles_user Imax 750.96 settled q/d 170.7743641119984 235.6714539440863 regression False quality False
+r450_hold_ldp20 Imax 472.368 settled q/d 341.6521529765364 275.118579323686 regression False quality False
+r450_hold_ldm20 Imax 570.421 settled q/d 66.633939245053 144.73373678006368 regression False quality False
+r450_cycles_ldp20 Imax 1449.343 settled q/d 332.4952649771104 240.19733592121386 regression False quality False

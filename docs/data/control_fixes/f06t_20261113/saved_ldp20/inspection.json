@@ -1,0 +1,105 @@
+{
+  "source": "/home/alexey/Git/Matlab/Adaptto/tmp/control_f06t_20261113/saved_ldp20/baseline_source.slx",
+  "sha256": "9648727af96157b30a60cee65b718e27ba488b3de519e1a88a38d0a495e39f48",
+  "parameters": {
+    "Is_max": 420,
+    "FocDiscrTime": 8.3333333333333331E-5,
+    "Ld": 0.00031,
+    "Lq": 0.000305,
+    "Psi": 0.1024,
+    "Rs": 0.02,
+    "PolePairs": 11,
+    "VDC": 440,
+    "mMaxPWM": 0.99,
+    "mMaxCurrent": 0.99,
+    "mFW": 0.95,
+    "deltaLd": 0.2,
+    "deltaLq": 0,
+    "deltaPsi": 0,
+    "deltaRs": 0
+  },
+  "fwBlock": "fw_trim",
+  "updateMethod": "Discrete",
+  "sampleTimeExpression": "FocDiscrTime",
+  "configuredFunctionSampleTime": 8.3333333333333331E-5,
+  "subsystemSampleTimeExpression": "-1",
+  "subsystemSampleTime": -1,
+  "directFeedthrough": true,
+  "legacyPIDCommented": "on",
+  "idReferenceDelay": 4.1666666666666665E-5,
+  "timeDataScope": "Parameter",
+  "timeDataTunable": true,
+  "codeMatchesReferenceIgnoringComments": true,
+  "inputs": {
+    "psi_ff": {
+      "block": "From58",
+      "port": 1
+    },
+    "eU": {
+      "block": "Sum11",
+      "port": 1
+    },
+    "Ufw": {
+      "block": "From65",
+      "port": 1
+    },
+    "psi_min": {
+      "block": "Gain11",
+      "port": 1
+    },
+    "psi_max": {
+      "block": "Constant15",
+      "port": 1,
+      "value": 0
+    },
+    "Kpsi": {
+      "block": "Constant17",
+      "port": 1,
+      "value": 2.5
+    }
+  },
+  "dLimitGain": 1,
+  "qBudgetGain": 0.95,
+  "speedProfile": {
+    "block": "1-D Lookup Table2",
+    "time": [
+      0,
+      0.3,
+      1,
+      1.3,
+      2,
+      2.3,
+      3,
+      3.3,
+      4,
+      4.3,
+      5,
+      5.3,
+      6,
+      6.3,
+      7,
+      14,
+      24
+    ],
+    "speed": [
+      0,
+      104,
+      104,
+      208,
+      208,
+      312,
+      312,
+      416,
+      416,
+      520,
+      520,
+      624,
+      624,
+      738,
+      738,
+      156,
+      21
+    ]
+  },
+  "stopTime": 25
+}

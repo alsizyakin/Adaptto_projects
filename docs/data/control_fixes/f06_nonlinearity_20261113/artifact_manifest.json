@@ -1,0 +1,14 @@
+{
+  "parameters.json": "053b9bddf572b9106ec7fe155f0744982e2f5d2fe6c4fe96179cb15fe4f87a78",
+  "source_model_at_analysis.slx": "632394ce2cd9ca77674a271e7eff35ae4fcc3d05987c97c826bb7583c866c05b",
+  "baseline_comparison.py": "d78edff12cdc87a51cec82d2bc3f777eeae8c907360e6fa6a05615fef4c4c44c",
+  "f02_figures.py": "82e660b2c170ad4439323d1210855a23f86d507b9464c2bac251dffaaf274a3e",
+  "source_manifest.json": "3007a4a9878da64b92d6cff3bbcf6822596b9c61c20e95f7871db9674d297fa8",
+  "analysis.log": "45697f8c051c0e99562bace0c801fda378acf6f4ca8f640afc2f9d310587b400",
+  "fw_trim_from_saved_model.m": "51ec02b29f73ebcbedce7f24f022f5d21e52ed347938d39ae7f63e2968a8f93e",
+  "analysis.json": "4a6fe35764d986f254d3cdfc2637cf75bd5577bfee873c0aa2ce04affc96bdcd",
+  "fw_trim_nonlinearity.py": "ff68d76219b1fdc3870aa2d5052d395382eb50aaa880cf1b9c65b555723b958f",
+  "docs/img/control_fixes/f06_nonlinearity_20261113/static_sensitivity.png": "ae0a349a0bef94e90a8079c612069948d454d4b02b4919fbd9a5dccbe5dfbbc2",
+  "docs/img/control_fixes/f06_nonlinearity_20261113/clipped_feedback.png": "0e29984c1770ea8cb3c0e32a307488bbde58f6e4bec614b416eb008ef87684b9",
+  "verification.json": "8cc2f66c54855d04e8de1595a2843088fb57924ac47cc4df9d7dfbeb07442cfd"
+}

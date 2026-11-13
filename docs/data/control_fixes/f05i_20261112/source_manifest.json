@@ -1,0 +1,19 @@
+{
+  "sourceOrigin": "ideal_source_drive_Idff_aug_param_woFreeze.slx.autosave",
+  "sourceSha256": "8654386d860ca2ce3d96e2477e428a27a94b7850b2d57cc9bc5dd7b0e1016fa0",
+  "beforeSourceSha256": "32216a42fe10e43f93c93998c82db437619960b00a7e56ed42f610efb5b9835b",
+  "workingWoFreezeSha256AfterInspection": "6c8ac5f0ca8cdb88fcce1ea34436d1b86f15cb57e92027b6321e1fec51495199",
+  "workingMainSha256": "b4a938647d12a4e7695ca3e9cee42bd70964739419f6c0c66a922da2bdf6a824",
+  "nonScopeBlockChanges": [
+    {
+      "file": "simulink/systems/system_root.xml",
+      "block": "Constant16",
+      "before": "<Block BlockType=\"Constant\" Name=\"Constant16\" SID=\"2661\">\n    <P Name=\"Position\">[1070, 2375, 1100, 2405]</P>\n    <P Name=\"ZOrder\">100000</P>\n    <P Name=\"Value\">0</P>\n  </Block>\n  ",
+      "after": "<Block BlockType=\"Constant\" Name=\"Constant16\" SID=\"2661\">\n    <P Name=\"Position\">[1070, 2375, 1100, 2405]</P>\n    <P Name=\"ZOrder\">100000</P>\n  </Block>\n  "
+    }
+  ],
+  "unchangedConnections": true,
+  "unchangedWorkspace": true,
+  "unchangedStateflow": true,
+  "note": "Initial saved SLX had gate=0; autosave gate=1 frozen. User saved SLX during inspection. MATLAB confirms gate=1, gain 0.3*50, controller I, reset either; trim +/-500*Ld retained."
+}

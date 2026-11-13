@@ -1,0 +1,42 @@
+[
+  {
+    "file": "68a95c2_ideal_source_drive.slx",
+    "parameters": {
+      "FocDiscrTime": 0.0001,
+      "Is_max": 450.0,
+      "Ld": 0.00031,
+      "Lq": 0.000305,
+      "PolePairs": 11.0,
+      "Psi": 0.09569,
+      "Rs": 0.02,
+      "VDC": 400.0,
+      "piBandwidth": 5000.0
+    }
+  },
+  {
+    "file": "acd6832_ideal_source_drive.slx",
+    "parameters": {
+      "FocDiscrTime": 0.0001,
+      "Is_max": 450.0,
+      "Ld": 0.00031,
+      "Lq": 0.000305,
+      "PolePairs": 11.0,
+      "Psi": 0.09569,
+      "Rs": 0.02,
+      "VDC": 200.0,
+      "piBandwidth": 5000.0
+    }
+  },
+  {
+    "file": "6123a28_ideal_source_Motor_DVS.slx",
+    "parameters": {
+      "FocDiscrTime": 5e-05,
+      "Ld": 4.9e-05,
+      "Lq": 4.9e-05,
+      "PolePairs": 24.0,
+      "Psi": 0.037685,
+      "Rs": 0.0013,
+      "piBandwidth": 10000.0
+    }
+  }
+]

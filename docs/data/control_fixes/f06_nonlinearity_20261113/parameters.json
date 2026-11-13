@@ -1,0 +1,18 @@
+{
+  "Is_max": 420,
+  "FocDiscrTime": 8.333333333333333e-05,
+  "Ld": 0.00031,
+  "Lq": 0.000305,
+  "Psi": 0.1024,
+  "Rs": 0.02,
+  "PolePairs": 11,
+  "VDC": 440,
+  "mMaxPWM": 0.99,
+  "mMaxCurrent": 0.99,
+  "mFW": 0.95,
+  "piBandwidth": 6000,
+  "deltaLd": 0.05,
+  "deltaLq": 0.2,
+  "deltaPsi": 0.1,
+  "deltaRs": 0
+}

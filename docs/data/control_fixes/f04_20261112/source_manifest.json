@@ -1,0 +1,91 @@
+{
+  "userSourceSha256": "53a833c43c1e6dcfb1448112a1472301c0d16c9bb97e8584363849f92d2a0134",
+  "beforeSourceSha256": "17f6a14ccbb0c814d38cb1c01a889c73365b5fb65824205ad9bd595ca77c138c",
+  "removedEdges": [
+    [
+      "simulink/systems/system_1925.xml",
+      "1944#out:1",
+      "1963#in:1"
+    ],
+    [
+      "simulink/systems/system_root.xml",
+      "1889#out:1",
+      "2457#in:1"
+    ],
+    [
+      "simulink/systems/system_root.xml",
+      "2358#out:1",
+      "2361#in:2"
+    ],
+    [
+      "simulink/systems/system_root.xml",
+      "2358#out:1",
+      "2379#in:1"
+    ],
+    [
+      "simulink/systems/system_root.xml",
+      "2457#out:1",
+      "1892#in:1"
+    ],
+    [
+      "simulink/systems/system_root.xml",
+      "2495#out:1",
+      "2357#in:1"
+    ]
+  ],
+  "addedEdges": [
+    [
+      "simulink/systems/system_1925.xml",
+      "1944#out:1",
+      "2660#in:1"
+    ],
+    [
+      "simulink/systems/system_1925.xml",
+      "2660#out:1",
+      "1963#in:1"
+    ],
+    [
+      "simulink/systems/system_root.xml",
+      "1700#out:1",
+      "2357#in:1"
+    ],
+    [
+      "simulink/systems/system_root.xml",
+      "1889#out:1",
+      "1892#in:1"
+    ],
+    [
+      "simulink/systems/system_root.xml",
+      "2358#out:1",
+      "2457#in:1"
+    ],
+    [
+      "simulink/systems/system_root.xml",
+      "2457#out:1",
+      "2361#in:2"
+    ],
+    [
+      "simulink/systems/system_root.xml",
+      "2457#out:1",
+      "2379#in:1"
+    ]
+  ],
+  "unchangedData": {
+    "simulink/modelWorkspace.mxarray": true,
+    "simulink/configSet0.xml": true,
+    "simulink/stateflow/chart_116.xml": true,
+    "simulink/stateflow/chart_123.xml": true,
+    "simulink/stateflow/chart_130.xml": true,
+    "simulink/stateflow/chart_137.xml": true,
+    "simulink/stateflow/chart_144.xml": true,
+    "simulink/stateflow/chart_151.xml": true,
+    "simulink/stateflow/chart_79.xml": true,
+    "simulink/stateflow/chart_87.xml": true,
+    "simulink/stateflow/chart_97.xml": true
+  },
+  "changes": [
+    "Existing LPF1 moved after Sqrt1; Sqrt1 now receives unfiltered Ud/Uq squares",
+    "LPF6 output to Sum9 preserved",
+    "VectorBase/Gain1 inserted only in d-limit branch; saved gain 1, user-reported trial 0.98 not reproduced"
+  ]
+}
